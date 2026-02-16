@@ -1,0 +1,1036 @@
+{
+  "translation": {
+    "mesutOzdag": {
+      "title": "Assistant Professor & AI Researcher",
+      "name": "Mesut Ozdag, Ph.D.",
+      "desc": "Assistant Professor of CS, FinTech & Digital Forensics | AI Developer",
+      "contact": "İletişim",
+      "socialMedia": "Sosyal Medya",
+      "about": {
+        "1": "Dr. Mesut Özdağ, Central Florida Üniversitesi'nde Bilgisayar Bilimleri, FinTech (Finansal Teknolojiler) ve Adli Bilişim alanlarında Doktor Öğretim Üyesi olarak görev yapmaktadır. Ayrıca Bilgisayar Bilimleri Yüksek Lisans, Bilgisayar Bilimleri Doktora ve FinTech Yüksek Lisans programlarının Kurumsal Etkinlik (IE) Değerlendirme Koordinatörüdür. Araştırmaları; yapay zeka geliştirme, derin öğrenme, tıbbi görüntü analizi ve sinir ağlarına yönelik çekişmeli (adversarial) saldırılar üzerine odaklanmaktadır.",
+        "2": "Hem akademi hem de endüstride kapsamlı bir deneyime sahip olan Dr. Özdağ; Siemens Healthineers, Roche Molecular Systems ve Flywheel Inc. gibi saygın kuruluşlarda çalışmıştır. Tıbbi görüntü analizi alanındaki önde gelen dergilerde bilimsel hakem olarak görev yapmakta olup, çekişmeli makine öğrenimi ve tıbbi görüntüleme üzerine çok sayıda makale yayımlamıştır.",
+        "title": "Hakkında"
+      },
+      "education": {
+        "title": "Eğitim",
+        "expertise": "Uzmanlaşma:"
+      },
+      "experience": {
+        "title": "Profesyonel Deneyim"
+      },
+      "specialtiesAndCertificates": {
+        "title": "Uzmanlık Alanları & Sertifikalar",
+        "specialties": "Teknik Yetenekler",
+        "certificates": "Profesyonel Sertifikalar"
+      },
+      "publications": {
+        "title": "Yayınlar & Konuşmalar"
+      }
+    },
+    "buttons": {
+      "save": "Kaydet",
+      "cancel": "İptal"
+    },
+    "ui": {
+      "footer": {
+        "eNewsletter": {
+          "title": "Yeni Kurslardan Haberdar Olun",
+          "description": "E-bültenimize abone olun ve özel fırsatlardan yararlanın",
+          "placeholder": "E-posta adresiniz",
+          "subscribe": "Abone Ol"
+        },
+        "description": "Python, Makine Öğrenme ve Bilgisayar Bilimleri eğitimleri ile kariyerinizi bir üst seviyeye taşıyın. Profesyonel içerik, sürekli destek.",
+        "titles": {
+          "courses": {
+            "title": "Kurslar",
+            "allCourses": "Tüm Kurslar"
+          },
+          "links": {
+            "title": "Hızlı Linkler",
+            "home": "Ana Sayfa",
+            "about": "Hakkımızda",
+            "courses": "Fiyatlandırma",
+            "updates": "Duyurular & Güncellemeler",
+            "contact": "İletişim"
+          },
+          "support": {
+            "title": "Destek",
+            "faq": "SSS",
+            "help": "Yardım Merkezi",
+            "terms": "Kullanım Şartları",
+            "privacy": "Gizlilik Politikası",
+            "reportBug": "Hata Bildir"
+          }
+        },
+        "rights": "Mesut Özdag Edu. All Rights Reserved."
+      },
+      "nav": {
+        "home": "Ana Sayfa",
+        "courses": "Kurslar",
+        "about": "Hakkımızda",
+        "contact": "İletişim",
+        "packages": "Paketler",
+        "signin": "Giriş Yap",
+        "signup": "Kayıt Ol",
+        "profile": "Profilim",
+        "myProfile": "Profilimi Görüntüle"
+      },
+      "input": {
+        "min_char": "Minimum 20 karakter (Şu an: {{count}})",
+        "char": "karakter"
+      },
+      "cokkieBanner": {
+        "message": "Çerezleri, gerekli site işlevselliğini sağlamak, mümkün olan en iyi kullanıcı deneyimini sağlamak ve gelecekteki iletişimleri uyarlamak için kullanıyoruz. Bu web sitesini kullanarak çerezlerin kullanımını kabul etmiş olursunuz.",
+        "privacyPolicy": "Gizlilik Politikası",
+        "accept": "Çerezleri Kabul Et"
+      },
+      "up": "Yukarı Çık"
+    },
+    "error": {
+      "subTitle": "Öğrenmeye Devam Et!",
+      "pageNotFound": "Bu sayfa mevcut değil",
+      "pageNotFoundDesc": "Bu sayfa mevcut değil veya kaldırıldı! Ana sayfaya dönmenizi öneririz.",
+      "boundary": {
+        "title": "⚠️ Beklenmeyen Bir Hata Oluştu",
+        "showDetails": "Teknik detayları göster",
+        "reload": "🔄 Sayfayı Yenile",
+        "goHome": "🏠 Ana Sayfaya Dön",
+        "warn": "Sorun devam ederse lütfen yönetici ile iletişime geçin"
+      }
+    },
+    "auth": {
+      "loginSussess": "Başarıyla giriş yapıldı!",
+      "registerSuccess": "Kayıt başarılı! Şimdi giriş yapabilirsiniz.",
+      "invalidCredentials": "Giriş bilgileri hatalı!",
+      "loginFailed": "Giriş başarısız!",
+      "registerFailed": "Kayıt başarısız!",
+      "purchaseFailed": "Satın alma başarısız!"
+    },
+    "home": {
+      "hero": {
+        "new": "Yeni: Tüm kurslar artık Türkçe altyazılı!",
+        "title": {
+          "line1": "Geleceğini",
+          "line2": "Kodla"
+        },
+        "description": "Python, Makine Öğrenme ve Bilgisayar Bilimleri eğitimleriyle kariyerini bir üst seviyeye taşı. Profesyonel eğitmen, HD videolar ve pratik projelerle öğren.",
+        "browseCourses": "Kurslara Göz At",
+        "watchDemo": "Demo İzle"
+      },
+      "courses": {
+        "popular": "Popüler Kurslar",
+        "title": "Kariyerinizi İlerletecek Eğitimler",
+        "description": "Sektör liderleri tarafından hazırlanan, uygulamalı ve güncel içeriklerle dolu kurslarımız"
+      },
+      "stats": {
+        "careerGrowth": "Kariyer Gelişimi",
+        "activeStudents": "Aktif Öğrenci",
+        "contentHours": "Saat İçerik",
+        "averageRating": "Ortalama Puan",
+        "satisfaction": "Memnuniyet"
+      },
+      "cards": {
+        "why_choose": "Neden Biz?",
+        "why_choose_desc": "Öğrenme Deneyimini Yeniden Tanımlıyoruz",
+        "card1_title": "HD Video Dersler",
+        "card1_desc": "Profesyonel çekilmiş, İngilizce içerik ve Türkçe altyazı ile tüm dersler erişiminize açık.",
+        "card2_title": "Kapsamlı İçerik",
+        "card2_desc": "Her konuda detaylı anlatım, kod örnekleri ve alıştırmalar.",
+        "card3_title": "Sertifika",
+        "card3_desc": "Kurs tamamlayanlara dijital sertifika.",
+        "card4_title": "Ömür Boyu Erişim",
+        "card4_desc": "Satın aldığınız kurslara sınırsız ve ömür boyu erişim.",
+        "card5_title": "Topluluk Desteği",
+        "card5_desc": "Öğrenci topluluğu ve Discord grubu ile sürekli destek.",
+        "card6_title": "Güncel İçerik",
+        "card6_desc": "Sürekli güncellenen içeriklerle sektörün gerisinde kalmazsınız."
+      },
+      "prices": {
+        "subTitle": "Fiyatlandırma",
+        "title": "Size Uygun Planı Seçin",
+        "description": "Tüm kurslara erişim sağlayan uygun fiyatlı üyelik seçeneklerimizle öğrenmeye başlayın.",
+        "single_course": "Tek Kurs",
+        "single_course_desc": "Dilediğiniz bir kursa erişim",
+        "monthly": "Aylık Üyelik",
+        "month": "ay",
+        "monthly_desc": "Tüm içeriğe aylık erişim",
+        "buy": "Satın Al",
+        "features": {
+          "one_access": "1 Kursa Tam Erişim",
+          "full_access": "Tüm kurslara erişim",
+          "video_lessons": "Video Dersler",
+          "new_content": "Her ay yeni içerik",
+          "downloadable_resources": "İndirilebilir kaynaklar",
+          "certificate": "Sertifika",
+          "cancellation": "İstediğiniz zaman iptal"
+        }
+      },
+      "comments": {
+        "subTitle": "Öğrenci Yorumları",
+        "title": "2000+ Memnun Öğrenci",
+        "desc": "Kariyerini değiştiren öğrencilerimizden bazıları"
+      },
+      "footer": {
+        "title": {
+          "line1": "Kariyerinizi Bugün",
+          "line2": "Dönüştürmeye Başlayın"
+        },
+        "desc": "Binlerce öğrencimize katılın ve teknoloji kariyerinizi bir sonraki seviyeye taşıyın. İlk dersinizi ücretsiz deneyin!",
+        "browse_courses": "Kurslara Başla",
+        "view_prices": "Fiyatları Gör",
+        "safe_payment": "Güvenli Ödeme",
+        "refund": "7 Gün İade Garantisi"
+      },
+      "dialog": {
+        "watchDemo": "Demo İzle"
+      }
+    },
+    "about": {
+      "hero": {
+        "subTitle": "Hakkında",
+        "title": "Kodlama Eğitiminde Yeni Bir Yaklaşım",
+        "description": "Online eğitim platformumuz, pratik odaklı Python, Makine Öğrenme ve Discrete Math dersleriyle öğrencilerin kariyerlerini dönüştürmeyi hedefliyor.",
+        "goToCourses": "Kurslara Git",
+        "watchDemo": "Tanıtım Videosu",
+        "stats": {
+          "activeStudents": "Aktif Öğrenci",
+          "completedVideos": "Tamamlanan Ders",
+          "completedCourses": "Kurs Tamamlama",
+          "averageRating": "Başarı Oranı"
+        }
+      },
+      "mission": {
+        "subTitle": "Bizim Hikayemiz",
+        "title": "Misyonumuz",
+        "description": {
+          "1": "Kodlama ve veri bilimi eğitimini herkes için erişilebilir, anlaşılır ve uygulanabilir hale getirmek. Öğrencilerimizin sadece kod yazmayı değil, problem çözmeyi ve algoritmik düşünmeyi öğrenmelerini sağlıyoruz.",
+          "2": "Her ders, gerçek dünya projelerine dayanıyor. Öğrencilerimiz, öğrendiklerini hemen uygulayarak pekiştiriyor ve portföylerini güçlendiriyor."
+        },
+        "features": {
+          "1": "Uygulamalı ve proje odaklı eğitim",
+          "2": "Kendi hızınızda öğrenme imkanı",
+          "3": "Profesyonel eğitmenlerden canlı destek",
+          "4": "Sertifika ve kariyer rehberliği",
+          "5": "Gerçek dünya projeleri portföyü",
+          "6": "Sınırsız erişim ve tekrar izleme"
+        },
+        "teamImage": {
+          "title": "Profesyonel Eğitim",
+          "description": "Gerçek dünya projeleriyle öğrenin"
+        }
+      },
+      "teamSection": {
+        "subTitle": "Bizimle Tanışın",
+        "title": "Ekibimiz",
+        "description": "Deneyimli ve tutkulu ekibimiz, en iyi eğitim deneyimini sunmak için çalışıyor.",
+        "roleDesc": {
+          "founder": "Platformun kurucusu ve vizyoneri. Makine öğrenmesi ve yapay zeka alanında uzman, eğitim teknolojilerini herkes için erişilebilir kılmak için çalışıyor.",
+          "frontendDeveloper": "Responsive ve erişilebilir web uygulamaları geliştiriyor. Modern JavaScript framework'leri ile etkileşimli kullanıcı arayüzleri tasarlıyor.",
+          "uiDesigner": "Kullanıcı deneyimini ön planda tutarak sezgisel tasarımlar oluşturuyor. Ürün kalitesini test ederek kusursuz bir deneyim sunuyor.",
+          "marketingSpecialist": "Eğitim içeriklerini profesyonel şekilde düzenleyerek, platformun görünürlüğünü artırmak için yaratıcı pazarlama stratejileri geliştiriyor.",
+          "videoEditor": "Eğitim videolarını profesyonel kalitede düzenleyerek öğrenme deneyimini zenginleştiriyor."
+        }
+      },
+      "values": {
+        "1": {
+          "title": "Kalite & Mükemmellik",
+          "desc": "Her ders içeriğini titizlikle hazırlıyor, güncel teknolojileri takip ediyor ve sürekli iyileştiriyoruz."
+        },
+        "2": {
+          "title": "Topluluk & İşbirliği",
+          "desc": "Öğrencilerimiz birbirinden öğreniyor, projelerini paylaşıyor ve birlikte büyüyor."
+        },
+        "3": {
+          "title": "Sürekli Gelişim",
+          "desc": "Sadece kodlamayı öğretmiyoruz, kariyerinizi ilerletmeniz için mentorluk sağlıyoruz."
+        },
+        "4": {
+          "title": "İnovasyon & Yaratıcılık",
+          "desc": "Eğitim metodolojilerimizi sürekli yeniliyor, en etkili öğrenme tekniklerini uyguluyoruz."
+        },
+        "5": {
+          "title": "İnovasyon & Yaratıcılık",
+          "desc": "Eğitim metodolojilerimizi sürekli yeniliyor, en etkili öğrenme tekniklerini uyguluyoruz."
+        },
+        "6": {
+          "title": "İnovasyon & Yaratıcılık",
+          "desc": "Eğitim metodolojilerimizi sürekli yeniliyor, en etkili öğrenme tekniklerini uyguluyoruz."
+        },
+        "subTitle": "Temel Prensiplerimiz",
+        "title": "Değerlerimiz",
+        "description": "Eğitim felsefemizi şekillendiren ve her kararımızda bize rehberlik eden temel değerlerimiz"
+      }
+    },
+    "courses": {
+      "desc_not_found": "Kurs açıklaması bulunmamaktadır.",
+      "time": "saat",
+      "lesson": "ders",
+      "rating": "değerlendirme",
+      "one_time_purchase": "tek seferlik",
+      "go_to_course": "Kursa Git",
+      "levels": {
+        "beginner": "Başlangıç",
+        "beginner_intermediate": "Başlangıç - Orta",
+        "intermediate": "Orta",
+        "intermediate_advanced": "Orta - İleri",
+        "advanced": "İleri",
+        "expert": "Uzman"
+      },
+      "toast": {
+        "quizCompleted": "Quiz tamamlandı! Sertifikanız hazır.",
+        "certificateCreated": "Sertifika oluşturuldu.",
+        "certificateFailed": "Sertifika oluşturulamadı.",
+        "ratingSubmitted": "Değerlendirmeniz kaydedildi. Teşekkürler!",
+        "ratingFailed": "Değerlendirme gönderilemedi."
+      }
+    },
+    "support": {
+      "title": "Size Nasıl Yardımcı Olabiliriz?",
+      "description": "Dokümantasyonlar, rehberler ve destek kaynaklarına göz atın",
+      "search_placeholder": "Aradığınız konuyu yazın...",
+      "article": "makale",
+      "blogs": {
+        "title": "Bloglar",
+        "description": "Destek ekibimizle anında iletişime geçin",
+        "chat_button": "Sohbet Başlat"
+      },
+      "request": {
+        "title": "Destek Talebi Oluştur",
+        "description": "Teknik sorunlarınız için destek talebi açın",
+        "request_button": "Talep Aç"
+      },
+      "alreadyNeedHelp": "Hala Yardıma İhtiyacınız Var mı?",
+      "stillNeedHelpDesc": "Destek ekibimiz size yardımcı olmak için burada",
+      "liveSupport": "Canlı Destek",
+      "openRequest": "Destek Talebi Aç"
+    },
+    "supportDetail": {
+      "back_to_all": "Tüm Yazılar",
+      "searchPlaceholder": "Bu kategoride ara....",
+      "views": "görüntüleme",
+      "benefit": "% yararlı",
+      "benefitDesc": "% yararlı buldu",
+      "benefitQuestion": "Bu makale yardımcı oldu mu?",
+      "benefitMessage": "Geri bildiriminiz bu makaleyi geliştirmemize yardımcı olur",
+      "benefitYes": "Evet, yardımcı oldu",
+      "benefitNo": "Hayır, yardımcı olmadı",
+      "popular": "En Popüler Makaleler",
+      "lastUpdate": "Son Güncelleme:",
+      "readTime": "okuma",
+      "share": "Paylaş",
+      "save": "Kaydet",
+      "comment": "Yorum Yap"
+    },
+    "faq": {
+      "subTitle": "Sıkça Sorulan Sorular",
+      "title": "Size Nasıl Yardımcı Olabiliriz?",
+      "description": "En sık sorulan soruların cevaplarını burada bulabilirsiniz. Aradığınızı bulamazsanız, destek ekibimizle iletişime geçin.",
+      "inputPlaceholder": "Soru veya anahtar kelime ara...",
+      "categories": {
+        "title": "Kategoriler",
+        "all": "Tümü",
+        "allCategories": "Tüm kategorilerde",
+        "beginner": "Başlangıç",
+        "account": "Hesap",
+        "courses": "Kurslar",
+        "payment": "Ödeme",
+        "certificates": "Sertifikalar",
+        "technical": "Teknik"
+      },
+      "contact": {
+        "title": "Hızlı İletişim",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "liveSupport": "Canlı Destek",
+        "liveSupportDesc": "7/24 anında yanıt"
+      },
+      "foundedQuestions": "{{count}} soru bulundu"
+    },
+    "updates": {
+      "title": "Haberler ve Güncellemeler",
+      "description": "Platform duyuruları, yeni kurslar, güncellemeler ve eğitim içerikli blog yazıları.",
+      "announces": "Duyurular",
+      "noAnnounces": "Henüz duyuru bulunmamaktadır.",
+      "importantAnnounce": "Önemli",
+      "readMore": "Devamını Oku",
+      "blogPosts": "Blog Yazıları",
+      "noBlogs": "Henüz blog yazısı bulunmamaktadır.",
+      "readTime": "{{time}} dk okuma",
+      "announceTypes": {
+        "UPDATE": "Güncelleme",
+        "ANNOUNCEMENT": "Duyuru",
+        "DISCOUNT": "İndirim",
+        "EVENT": "Etkinlik"
+      },
+      "blogTypes": {
+        "TUTORIAL": "Eğitim",
+        "ARTICLE": "Makale",
+        "NEWS": "Haber",
+        "INTERVIEW": "Röportaj"
+      },
+      "allUpdates": "Tüm Duyurular",
+      "allBlogs": "Tüm Yazılar",
+      "unknown": "Bilinmeyen",
+      "likes": "{{count}} beğeni",
+      "comments": "{{count}} yorum",
+      "views": "{{count}} görüntüleme",
+      "tags": "Etiketler:",
+      "like": "Beğen",
+      "liked": "Beğenildi",
+      "comment": "Yorum Yap",
+      "share": "Paylaş",
+      "quickLinks": "Hızlı Linkler",
+      "relatedAnnounces": "Son Duyurular",
+      "haveQuestion": {
+        "title": "Bir Sorunuz mu Var?",
+        "desc": "Bu duyuru hakkında sorularınız için bizimle iletişime geçin",
+        "contactUs": "İletişime Geç"
+      },
+      "commentDialog": {
+        "reply": "Yanıtla",
+        "comment": "Yorum Yap",
+        "replyPlaceholder": "Yanıtınızı buraya yazın...",
+        "commentPlaceholder": "Yorumunuzu buraya yazın...",
+        "cancel": "İptal",
+        "submit": "Gönder",
+        "submitting": "Gönderiliyor..."
+      }
+    },
+    "reportBug": {
+      "subTitle": "Hata Bildir",
+      "title": "Bir Sorun mu Buldunuz?",
+      "description": "Karşılaştığınız teknik sorunları bildirerek platformu geliştirmemize yardımcı olun",
+      "card": {
+        "title": "Hata Raporu",
+        "description": "Lütfen sorunu detaylı olarak açıklayın",
+        "type": "Hata Türü",
+        "labels": {
+          "option1": "Sistem Açığı",
+          "option2": "Kurs İçeriği Hatası"
+        },
+        "page": "Sorunun Yaşandığı Sayfa/Kurs",
+        "pagePlaceholder": "Örn: Python Temelleri - Ders 5",
+        "descriptionLabel": "Sorun Açıklaması",
+        "descriptionPlaceholder": "Sorunun nasıl oluştuğunu ve ne yaptığınızda karşılaştığınızı detaylı anlatın...",
+        "screenshot": "Ekran Görüntüsü (İsteğe Bağlı)",
+        "warning": "Teknik ekibimiz raporunuzu 24 saat içinde inceleyecek ve size geri dönüş yapacaktır.",
+        "submit": "Hatayı Bildir",
+        "submitting": "Gönderiliyor..."
+      }
+    },
+    "contact": {
+      "subTitle": "İletişim",
+      "title": "Size Nasıl Yardımcı Olabiliriz?",
+      "description": "Sorularınız, önerileriniz veya işbirliği teklifleriniz için bizimle iletişime geçin. Ekibimiz size yardımcı olmak için burada.",
+      "details": {
+        "title": "İletişim Bilgileri",
+        "email": "E-posta",
+        "emailTime": "Hafta içi 09:00 - 18:00",
+        "phone": "Telefon",
+        "address": "Adres",
+        "workingHours": "Çalışma Saatleri",
+        "workingDates": "Pazartesi - Cuma",
+        "workingTimes": "09:00 - 18:00"
+      },
+      "socialMedia": {
+        "title": "Sosyal Medya",
+        "description": "Bizi takip edin ve güncel kalın"
+      },
+      "faq": {
+        "1": {
+          "question": "Ne kadar sürede cevap alabilirim?",
+          "answer": "Genellikle 24 saat içinde geri dönüş yapıyoruz."
+        },
+        "2": {
+          "question": "Teknik destek için hangi yolu kullanmalıyım?",
+          "answer": "Acil teknik sorunlar için {{contactInfo.emailSupport}} adresini kullanabilirsiniz."
+        },
+        "3": {
+          "question": "Toplu eğitim talebi için kimle görüşmeliyim?",
+          "answer": "İşbirliği kategorisinden bize ulaşabilir veya iletisim@pythonakademi.com adresine mail gönderebilirsiniz."
+        },
+        "title": "Sıkça Sorulan Sorular"
+      },
+      "form": {
+        "title": "Bize Ulaşın",
+        "description": "Formu doldurun, en kısa sürede size geri dönelim",
+        "categories": {
+          "1": {
+            "label": "Genel Soru",
+            "description": "Platform hakkında genel bilgi almak için"
+          },
+          "2": {
+            "label": "Teknik Destek",
+            "description": "Teknik sorunlarınız için yardım"
+          },
+          "3": {
+            "label": "Kurslar",
+            "description": "Kurs içeriği ve programa dair sorular"
+          },
+          "4": {
+            "label": "İşbirliği",
+            "description": "İş ortaklığı ve işbirliği teklifleri"
+          },
+          "title": "İletişim Kategorisi"
+        },
+        "name": "Ad Soyad",
+        "namePlaceholder": "Adınız ve soyadınız",
+        "email": "E-posta",
+        "emailPlaceholder": "ornek@email.com",
+        "subject": "Konu",
+        "subjectPlaceholder": "Mesajınızın konusu",
+        "message": "Mesajınız",
+        "messagePlaceholder": "Mesajınızı buraya yazın...",
+        "submit": "Mesaj Gönder",
+        "submitting": "Gönderiliyor...",
+        "consent": "Formu göndererek",
+        "privacyPolicy": "Gizlilik Politikamızı",
+        "and": "ve",
+        "termsOfService": "Kullanım Şartlarımızı",
+        "acceptedTerms": "kabul etmiş olursunuz."
+      },
+      "supportCenter": {
+        "title": "Destek Merkezi",
+        "description": "Dokümantasyon ve rehberlere göz atın",
+        "button": "Destek Merkezine Git"
+      },
+      "updates": {
+        "title": "Güncellemeler",
+        "description": "En son haberler ve duyurular için",
+        "button": "Güncellemeleri Gör"
+      }
+    },
+    "profile": {
+      "tabs": {
+        "general": "Genel Bakış",
+        "courses": "Kurslarım",
+        "certificates": "Sertifikalar",
+        "linkedAccounts": "Hesaplar",
+        "paymentDetails": "Ödeme Bilgileri"
+      },
+      "buttons": {
+        "settings": "Ayarlar",
+        "logout": "Çıkış",
+        "changePlan": "Planı Değiştir",
+        "continueCourse": "Kursa Devam Et",
+        "notActive": "(Yayında Değil)",
+        "certificate": "Sertifika"
+      },
+      "info": {
+        "memberSince": "Üye Oldu:",
+        "free": "Ücretsiz",
+        "admin": "Admin"
+      },
+      "activity": {
+        "title": "Son Aktiviteler",
+        "description": "Kurs ilerlemeniz ve başarılarınız",
+        "lastAccess": "Son erişim:",
+        "unknownCourse": "Bilinmeyen Kurs",
+        "unknown": "Bilinmiyor"
+      },
+      "subscription": {
+        "title": "Abonelik Bilgileri",
+        "plan": "Premium Yıllık Plan",
+        "renewalDate": "Yenileme tarihi: 15 Ocak 2025",
+        "active": "Aktif"
+      },
+      "courses": {
+        "lessonsCompleted": "{{completed}}/{{total}} ders tamamlandı",
+        "completed": "Tamamlandı",
+        "inProgress": "Devam Ediyor",
+        "progress": "İlerleme",
+        "noCourses": "Henüz satın alınmış kursunuz bulunmamaktadır.",
+        "continueCourse": "Kursa Devam Et",
+        "notLive": "Yayında Değil"
+      },
+      "certificates": {
+        "dateEarned": "Veriliş Tarihi:",
+        "certificateNumber": "Sertifika No:",
+        "previewing": "Yükleniyor...",
+        "view": "Görüntüle",
+        "download": "İndir",
+        "downloading": "İndiriliyor...",
+        "preview": "Sertifika Önizleme",
+        "noCertificates": "Henüz tamamlanmış kursunuz bulunmamaktadır. Sertifika almak için kurslarınızı tamamlayın."
+      },
+      "payment": {
+        "loading": "Ödeme bilgileriniz yükleniyr..."
+      },
+      "cards": {
+        "activeCourses": "Aktif Kurslar",
+        "ongoingCourses": "Devam eden kurs",
+        "completed": "Tamamlanan",
+        "certificateEarned": "Sertifika alındı",
+        "totalTime": "Toplam Süre",
+        "hoursWatched": "Saat video izlendi"
+      },
+      "settings": {
+        "title": "Profil Ayarları",
+        "profileInfo": "Profil Bilgileri",
+        "fullName": "İsim Soyisim",
+        "fullNamePlaceholder": "Adınız ve Soyadınız",
+        "phone": "Telefon Numarası",
+        "phonePlaceholder": "+905551234567",
+        "profilePhoto": "Profil Fotoğrafı",
+        "uploadPhoto": "Fotoğraf Yükle",
+        "dragAndDrop": "veya sürükleyip bırakın",
+        "maxSize": "PNG, JPG, GIF, WEBP (max. 5MB)",
+        "upload": "Yükle",
+        "uploading": "Yükleniyor...",
+        "remove": "Sil",
+        "photoSelected": "Fotoğraf Seçildi",
+        "dontForgetSave": "Değişiklikleri kaydetmeyi unutmayın",
+        "change": "Değiştir",
+        "delete": "Sil",
+        "deleting": "Siliniyor...",
+        "orAddByURL": "Veya URL ile ekle",
+        "urlPlaceholder": "https://example.com/photo.jpg",
+        "changePassword": "Şifre Değiştir",
+        "currentPassword": "Mevcut Şifre",
+        "currentPasswordPlaceholder": "Mevcut şifrenizi girin",
+        "newPassword": "Yeni Şifre",
+        "newPasswordPlaceholder": "Yeni şifrenizi girin",
+        "confirmPassword": "Yeni Şifre (Tekrar)",
+        "confirmPasswordPlaceholder": "Yeni şifrenizi tekrar girin",
+        "passwordHint": "* Şifre değiştirmek istemiyorsanız bu alanları boş bırakın",
+        "appearanceSettings": "Görünüm Ayarları",
+        "darkTheme": "Koyu Tema",
+        "darkThemeActive": "Koyu tema aktif",
+        "lightThemeActive": "Açık tema aktif",
+        "cancel": "İptal",
+        "save": "Değişiklikleri Kaydet",
+        "saving": "Kaydediliyor...",
+        "fileSizeError": "Dosya boyutu 5MB'dan küçük olmalıdır",
+        "fileTypeError": "Sadece resim dosyaları yüklenebilir (jpeg, jpg, png, webp)",
+        "uploadSuccess": "Fotoğraf yüklendi. Kaydetmek için 'Değişiklikleri Kaydet' butonuna tıklayın.",
+        "uploadError": "Fotoğraf yüklenirken bir hata oluştu"
+      },
+      "logout": {
+        "title": "Profil Çıkışı",
+        "message": "Profilinizden çıkış yapmayı onaylıyormusunuz?",
+        "cancel": "İptal",
+        "confirm": "Onaylıyorum"
+      },
+      "validation": {
+        "validPhoneNumber": "Geçerli bir telefon numarası giriniz",
+        "passwordMinLength": "Şifre en az 6 karakter olmalıdır",
+        "currentPasswordRequired": "Mevcut şifrenizi girmelisiniz",
+        "passwordsNotMatch": "Şifreler eşleşmiyor"
+      },
+      "messages": {
+        "passwordUpdated": "Şifreniz başarıyla güncellendi.",
+        "passwordUpdateError": "Şifre güncellenirken bir hata oluştu.",
+        "profileUpdated": "Profil ayarlarınız başarıyla güncellendi.",
+        "profileUpdateError": "Profil ayarları güncellenirken bir hata oluştu."
+      },
+      "linkedAccounts": {
+        "title": "Bağlı Hesaplar",
+        "description": "Hızlı giriş için sosyal medya hesaplarınızı bağlayın",
+        "linked": "Bağlı",
+        "unlink": "Bağlantıyı Kaldır",
+        "link": "Bağla",
+        "loginFirst": "Lütfen önce giriş yapın",
+        "confirmUnlink": "hesabınızın bağlantısını kaldırmak istediğinizden emin misiniz?",
+        "unlinkSuccess": "Hesap bağlantısı kaldırıldı",
+        "unlinkError": "Hesap bağı kaldırılamadı",
+        "error": "Bir hata oluştu"
+      }
+    },
+    "admin": {
+      "notAccess": "Bu sayfaya erişmek için admin yetkisi gerekli!",
+      "cards": {
+        "totalStudents": "Toplam Öğrenci",
+        "thisMonth": "bu ay",
+        "activeCourses": "Aktif Kurslar",
+        "activeCoursesDesc": "yayında",
+        "totalRevenue": "Toplam Gelir",
+        "averageRating": "Ortalama Puan",
+        "allCourses": "Tüm Kurslar",
+        "revenueAndStudentTrend": "Gelir ve Öğrenci Trendi",
+        "lastSixMonthsPerformance": "Son 6 ayın performansı",
+        "courseDistribution": "Kurs Dağılımı",
+        "courseDistributionDesc": "Kategorilere göre öğrenci sayısı"
+      },
+      "tabs": {
+        "courses": {
+          "title": "Kurslar",
+          "desc": "Tüm kursları yönetin",
+          "button": "Kurs Yönetimi",
+          "createCourse": "Yeni Kurs",
+          "searchPlaceholder": "Kurs ara...",
+          "table": {
+            "1": "Kurs",
+            "2": "Kategori",
+            "3": "Öğrenci",
+            "4": "Gelir",
+            "5": "Puan",
+            "6": "Durum",
+            "7": "İşlemler",
+            "update": "Güncelleme: {{date}}",
+            "status": {
+              "active": "Yayında",
+              "inactive": "Pasif",
+              "draft": "Taslak"
+            },
+            "view": "Kursu İncele",
+            "editCourse": "Kursu Düzenle",
+            "deleteCourse": "Kursu Sil"
+          }
+        },
+        "users": {
+          "title": "Son Kayıt Olan Kullanıcılar",
+          "desc": "Platform üyeleri ve abonelikleri",
+          "button": "Kullanıcı Yönetimi",
+          "searchPlaceholder": "Üye ara...",
+          "searchButton": "Ara",
+          "table": {
+            "1": "Kullanıcı",
+            "2": "Plan",
+            "3": "Katılım Tarihi",
+            "4": "Harcama",
+            "5": "İşlemler"
+          }
+        },
+        "analytics": {
+          "1": {
+            "title": "En Popüler Kurslar",
+            "desc": "Öğrenci sayısına göre",
+            "charts": {
+              "student": "Öğrenci Sayısı"
+            }
+          },
+          "2": {
+            "title": "En Çok Gelir Getiren Kurslar",
+            "desc": "Toplam gelir (₺)",
+            "charts": {
+              "revenue": "Gelir"
+            }
+          },
+          "button": "Analitik Görüntüle"
+        }
+      },
+      "header": {
+        "title": "Admin Dashboard",
+        "description": "Platform yönetimi ve istatistikler",
+        "crateCourse": "Yeni Kurs",
+        "reports": "Rapor İndir"
+      },
+      "report": {
+        "title": "Rapor İndir",
+        "selectPeriod": "Rapor Dönemi Seçin",
+        "periods": {
+          "daily": "Günlük",
+          "weekly": "Haftalık",
+          "monthly": "Aylık",
+          "yearly": "Yıllık"
+        },
+        "content": {
+          "title": "📊 Rapor İçeriği:",
+          "platformStats": "Platform istatistikleri",
+          "courseList": "Kurs listesi ve detayları",
+          "userInfo": "Kullanıcı bilgileri",
+          "popularCourses": "En popüler kurslar"
+        },
+        "buttons": {
+          "cancel": "İptal",
+          "download": "PDF İndir",
+          "generating": "Oluşturuluyor..."
+        },
+        "messages": {
+          "success": "Rapor başarıyla indirildi",
+          "error": "Rapor oluşturulurken bir hata oluştu"
+        },
+        "pdf": {
+          "report": "Rapor",
+          "platformStats": "Platform İstatistikleri",
+          "totalStudents": "Toplam Öğrenci",
+          "totalHours": "Toplam Kurs Saati",
+          "completedVideos": "Tamamlanan Video",
+          "completedCourses": "Tamamlanan Kurs",
+          "averageRating": "Ortalama Puan",
+          "totalRevenue": "Toplam Gelir",
+          "revenueGrowth": "Gelir Artışı",
+          "studentGrowth": "Öğrenci Artışı",
+          "courses": "Kurslar",
+          "totalActiveCourses": "Toplam Aktif Kurs",
+          "students": "öğrenci",
+          "rating": "puan",
+          "users": "Kullanıcılar",
+          "totalUsers": "Toplam Kullanıcı",
+          "activeUsers": "Aktif Kullanıcı",
+          "admin": "Admin",
+          "popularCourses": "En Popüler Kurslar",
+          "page": "Sayfa",
+          "platformReport": "Platform Raporu"
+        }
+      },
+      "dialog": {
+        "create": {
+          "titles": {
+            "dialog": "Yeni Kurs Oluştur",
+            "title": "Yeni Kurs Bilgileri",
+            "desc": "Oluşturmak istediğiniz kursun bilgilerini girin"
+          },
+          "toast": {
+            "success": "Yeni kurs başarıyla oluşturuldu",
+            "error": "Kurs oluşturulurken bir hata oluştu"
+          },
+          "input": {
+            "name": {
+              "label": "Kurs Adı",
+              "placeholder": "Örn: Python ile Programlamaya Giriş"
+            },
+            "category": {
+              "label": "Kategori"
+            },
+            "level": {
+              "label": "Seviye"
+            },
+            "price": {
+              "label": "Fiyat"
+            },
+            "status": {
+              "label": "Durum"
+            },
+            "certificateTemplate": {
+              "label": "Sertifika Tipi"
+            },
+            "teacher": {
+              "label": "Eğitimi Veren"
+            },
+            "detail": {
+              "label": "Açıklama",
+              "placeholder": "Kurs hakkında kısa bir açıklama yazın..."
+            },
+            "noVideo": "Henüz video eklenmemiş. \"Video Ekle\" butonuna tıklayın."
+          },
+          "warn": {
+            "1": "💡 İpucu:",
+            "2": "Kursu oluşturduktan sonra video ekleyebilir, bölümler oluşturabilir ve içerik düzenleyebilirsiniz."
+          },
+          "buttons": {
+            "cancel": "İptal",
+            "create": "Kursu Oluştur",
+            "creating": "Kurs Oluşturuluyor..."
+          }
+        },
+        "detail": {
+          "title": "Kurs Detayları",
+          "lastUpdate": "Son Güncelleme: {{date}}",
+          "status": {
+            "active": "🟢 Yayında",
+            "inactive": "🔴 Pasif",
+            "draft": "📝 Taslak"
+          },
+          "totalStudents": "Toplam Öğrenci",
+          "rating": "Ortalama Puan",
+          "totalRevenue": "Toplam Gelir",
+          "category": "Kategori",
+          "level": "Seviye",
+          "totalVideo": "Toplam Video",
+          "video": "Video",
+          "noVideo": "Video Bulunmuyor (0)",
+          "duration": "Toplam Süre",
+          "noDuration": "Süre Hesaplanamıyor",
+          "price": "Fiyat",
+          "updateDate": "Güncelleme Tarihi",
+          "close": "Kapat",
+          "edit": "Düzenle"
+        },
+        "edit": {
+          "title": "Kurs Düzenle",
+          "desc": {
+            "1": "Kurs Bilgilerini Güncelle",
+            "2": "Aşağıdaki alanları düzenleyerek kursu güncelleyebilirsiniz"
+          },
+          "input": {
+            "name": {
+              "label": "Kurs Adı",
+              "placeholder": "Kurs başlığını girin"
+            },
+            "category": {
+              "label": "Kategori"
+            },
+            "level": {
+              "label": "Seviye"
+            },
+            "price": {
+              "label": "Fiyat"
+            },
+            "status": {
+              "label": "Durum"
+            },
+            "certificateTemplate": {
+              "label": "Sertifika Tipi"
+            },
+            "teacher": {
+              "label": "Eğitimi Veren"
+            },
+            "duration": {
+              "label": "Toplam Süre",
+              "placeholder": "10 Saat 30 Dakika"
+            },
+            "lesson": {
+              "label": "Ders Sayısı (Otomatik Hesaplanıyor)"
+            },
+            "courseImage": {
+              "label": "Kurs Görseli",
+              "loading": "Yükleniyor...",
+              "upload": "Görsel Yükle"
+            },
+            "detail": {
+              "label": "Açıklama",
+              "placeholder": "Kurs hakkında kısa bir açıklama yazın..."
+            },
+            "source": {
+              "label": "Kurs Kaynakları (PDF, DOC, ZIP vb.)",
+              "button": "Kaynak Ekle",
+              "placeholder": "Kaynak başlığı",
+              "other": "Diğer",
+              "sizePlaceholder": "Boyut (örn: 2.5 MB)",
+              "urlPlaceholder": "URL (opsiyonel)"
+            },
+            "quiz": {
+              "label": "Quiz Soruları",
+              "button": "Soru Ekle",
+              "question": "Soru",
+              "option": "Seçenek",
+              "correctAnswerHint": "Doğru cevabı işaretlemek için yanındaki radyo butonunu seçin"
+            },
+            "sections": {
+              "label": "Kurs Bölümleri ve Videolar",
+              "add": "Bölüm Ekle",
+              "sectionTitle": "Bölüm ${index} Başlığı",
+              "zIndex": "Sıra",
+              "addVideo": "Video Ekle",
+              "video": {
+                "titlePlaceholder": "Video Başlığı",
+                "durationPlaceholder": "Süre (00:00)",
+                "urlPlaceholder": "Video URL'si"
+              }
+            },
+            "codeSnippet": {
+              "label": "Kod Örnekleri",
+              "button": "+ Kod Ekle",
+              "placeHolder": "Kod Başlığı",
+              "codePlaceHolder": "Kod..."
+            },
+            "notes": {
+              "label": "Video Notları",
+              "button": "+ Not Ekle",
+              "delete": "Notları Kaldır",
+              "placeHolder": "Not Başlığı",
+              "notesPlaceHolder": "Not içeriği (JSON formatında content array'i girin)...",
+              "notesJsonError": "Geçersiz JSON formatı. Değişiklikler kaydedilmedi.",
+              "jsonHint": "JSON formatında content array girin"
+            },
+            "noVideo": "Henüz video eklenmemiş. \"Video Ekle\" butonuna tıklayın."
+          },
+          "toast": {
+            "imageUploadSuccess": "Görsel başarıyla yüklendi",
+            "imageUploadError": "Görsel yüklenirken bir hata oluştu",
+            "fileUploadSuccess": "Dosya başarıyla yüklendi",
+            "fileUploadError": "Dosya yüklenirken bir hata oluştu",
+            "editedCourse": "${courseName} başarıyla güncellendi",
+            "editError": "Kurs güncellenirken bir hata oluştu"
+          },
+          "buttons": {
+            "cancel": "İptal",
+            "reset": "Sıfırla",
+            "save": "Değişiklikleri Kaydet",
+            "saving": "Değişiklikler Kaydediliyor..."
+          }
+        },
+        "delete": {
+          "title": "Kursu Sil",
+          "toast": {
+            "success": "${courseName} başarıyla silindi",
+            "error": "Kurs silinirken bir hata oluştu"
+          },
+          "confirmation": "Kursu Silmek İstediğinize Emin Misiniz?",
+          "description": "Bu işlem geri alınamaz ve tüm kurs verileri kalıcı olarak silinecektir.",
+          "students": "öğrenci",
+          "rating": "puan",
+          "warn": {
+            "1": "⚠️ Uyarı:",
+            "2": "Bu kursa kayıtlı {{studentCount}} öğrenci bulunmaktadır. Kurs silindiğinde öğrencilerin erişimi kaybolacaktır."
+          },
+          "buttons": {
+            "cancel": "İptal",
+            "delete": "Kursu Sil",
+            "deleting": "Kurs Siliniyor..."
+          }
+        },
+        "userDetail": {
+          "title": "Kullanıcı Detayları",
+          "status": {
+            "active": "Aktif",
+            "inactive": "İnaktif"
+          },
+          "register": "Kayıt :",
+          "registeredCourses": "Kayıtlı Kurs",
+          "certificate": "Sertifika",
+          "completedVideo": "Tamamlanan Video",
+          "registeredCoursesList": "Kayıtlı Kurslar",
+          "unknown": "Bilinmiyor",
+          "unknownCourse": "Bilinmeyen Kurs",
+          "certificates": "Sertifikalar",
+          "buttons": {
+            "close": "Kapat",
+            "edit": "Düzenle"
+          }
+        },
+        "userEdit": {
+          "title": "Kullanıcı Düzenle",
+          "infoCard": {
+            "title": "Kullanıcı Bilgileri",
+            "name": "Ad Soyad",
+            "email": "E-posta",
+            "phone": "Telefon",
+            "status": {
+              "title": "Durum",
+              "active": "Aktif",
+              "inactive": "İnaktif"
+            }
+          },
+          "courseCard": {
+            "title": "Kurs Ekle",
+            "defaultOption": "Kurs Seçin...",
+            "noCourses": "Eklenebilecek kurs bulunmuyor",
+            "add": "Ekle",
+            "userCoursesTitle": "Kullanıcının Kursları ({count})",
+            "notAddedCourse": "Henüz kayıtlı kurs yok"
+          },
+          "warn": {
+            "1": "Tehlikeli Alan",
+            "2": "Hesabı deaktif etmek, kullanıcının giriş yapmasını engelleyecektir.",
+            "3": "Hesabı tekrar aktif etmek, kullanıcının giriş yapabilmesini sağlayacaktır.",
+            "button": {
+              "deactivate": "Hesabı Deaktif Et",
+              "activate": "Hesabı Aktif Et"
+            }
+          },
+          "toast": {
+            "selectCourse": "Lütfen bir kurs seçin",
+            "courseAdded": "Kurs başarıyla eklendi",
+            "errorAdd": "Kurs eklenirken hata oluştu",
+            "courseRemoved": "Kurs başarıyla kaldırıldı",
+            "errorRemove": "Kurs kaldırılırken hata oluştu",
+            "accountDeactivated": "Hesap başarıyla deaktif edildi",
+            "accountActivated": "Hesap başarıyla aktif edildi",
+            "error": "İşlem sırasında hata oluştu"
+          },
+          "close": "Kapat"
+        }
+      }
+    },
+    "time": {
+      "secondsAgo": "saniye önce",
+      "minutesAgo": "dakika önce",
+      "hoursAgo": "saat önce",
+      "daysAgo": "gün önce",
+      "monthsAgo": "ay önce",
+      "yearsAgo": "yıl önce"
+    }
+  }
+}

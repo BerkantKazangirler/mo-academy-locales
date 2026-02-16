@@ -1,0 +1,1036 @@
+{
+  "translation": {
+    "mesutOzdag": {
+      "title": "Profesor Asistente e Investigador de IA",
+      "name": "Dr. Mesut Ozdag",
+      "desc": "Profesor Asistente de Ciencias de la Computación, FinTech y Análisis Forense Digital | Desarrollador de IA",
+      "contact": "Contacto",
+      "socialMedia": "Redes Sociales",
+      "about": {
+        "1": "El Dr. Mesut Ozdag es Profesor Asistente de Ciencias de la Computación, FinTech y Análisis Forense Digital en la Universidad de Central Florida. También es el Coordinador de Evaluación IE para los programas de Maestría y Doctorado en CS y Maestría en FinTech. Su investigación se centra en el desarrollo de IA, aprendizaje profundo, análisis de imágenes médicas y ataques adversarios en redes neuronales.",
+        "2": "Con amplia experiencia tanto en la academia como en la industria, el Dr. Ozdag ha trabajado en organizaciones prestigiosas como Siemens Healthineers, Roche Molecular Systems y Flywheel Inc. Se desempeña como revisor científico para las principales revistas en análisis de imágenes médicas y ha publicado numerosos artículos sobre aprendizaje automático adversario e imágenes médicas.",
+        "title": "Sobre mí"
+      },
+      "education": {
+        "title": "Educación",
+        "expertise": "Experiencia:"
+      },
+      "experience": {
+        "title": "Experiencia Profesional"
+      },
+      "specialtiesAndCertificates": {
+        "title": "Especialidades y Certificados",
+        "specialties": "Habilidades Técnicas",
+        "certificates": "Certificados Profesionales"
+      },
+      "publications": {
+        "title": "Publicaciones y Charlas"
+      }
+    },
+    "buttons": {
+      "save": "Guardar",
+      "cancel": "Cancelar"
+    },
+    "ui": {
+      "footer": {
+        "eNewsletter": {
+          "title": "Recibe Notificaciones de Nuevos Cursos",
+          "description": "Suscríbete a nuestro boletín y aprovecha ofertas especiales",
+          "placeholder": "Tu dirección de correo",
+          "subscribe": "Suscribirse"
+        },
+        "description": "Lleva tu carrera al siguiente nivel con formación en Python, Aprendizaje Automático y Ciencias de la Computación. Contenido profesional, soporte continuo.",
+        "titles": {
+          "courses": {
+            "title": "Cursos",
+            "allCourses": "Todos los Cursos"
+          },
+          "links": {
+            "title": "Enlaces Rápidos",
+            "home": "Inicio",
+            "about": "Nosotros",
+            "courses": "Precios",
+            "updates": "Anuncios",
+            "contact": "Contacto"
+          },
+          "support": {
+            "title": "Soporte",
+            "faq": "Preguntas Frecuentes",
+            "help": "Centro de Ayuda",
+            "terms": "Términos de Uso",
+            "privacy": "Privacidad",
+            "reportBug": "Reportar Error"
+          }
+        },
+        "rights": "Mesut Ozdag Edu. Todos los derechos reservados."
+      },
+      "nav": {
+        "home": "Inicio",
+        "courses": "Cursos",
+        "about": "Nosotros",
+        "contact": "Contacto",
+        "packages": "Paquetes",
+        "signin": "Iniciar Sesión",
+        "signup": "Registrarse",
+        "profile": "Mi Perfil",
+        "myProfile": "Ver Perfil"
+      },
+      "input": {
+        "min_char": "Mínimo 20 caracteres (Actual: {{count}})",
+        "char": "caracteres"
+      },
+      "cokkieBanner": {
+        "message": "Utilizamos cookies para garantizar la funcionalidad del sitio, ofrecer la mejor experiencia de usuario y adaptar las comunicaciones futuras. Al usar este sitio web, aceptas el uso de cookies.",
+        "privacyPolicy": "Política de Privacidad",
+        "accept": "Aceptar Cookies"
+      },
+      "up": "Subir"
+    },
+    "error": {
+      "subTitle": "¡Sigue Aprendiendo!",
+      "pageNotFound": "Esta página no existe",
+      "pageNotFoundDesc": "¡Esta página no existe o ha sido eliminada! Recomendamos volver a la página de inicio.",
+      "boundary": {
+        "title": "⚠️ Ocurrió un Error Inesperado",
+        "showDetails": "Ver detalles técnicos",
+        "reload": "🔄 Recargar Página",
+        "goHome": "🏠 Volver al Inicio",
+        "warn": "Si el problema persiste, contacta al administrador"
+      }
+    },
+    "auth": {
+      "loginSussess": "¡Inicio de sesión exitoso!",
+      "registerSuccess": "¡Registro exitoso! Ahora puedes iniciar sesión.",
+      "invalidCredentials": "¡Credenciales inválidas!",
+      "loginFailed": "¡Fallo al iniciar sesión!",
+      "registerFailed": "¡Fallo en el registro!",
+      "purchaseFailed": "¡Compra fallida!"
+    },
+    "home": {
+      "hero": {
+        "new": "Nuevo: ¡Todos los cursos ahora con subtítulos!",
+        "title": {
+          "line1": "Codifica Tu",
+          "line2": "Futuro"
+        },
+        "description": "Avanza en tu carrera con formación en Python, Machine Learning y Ciencias de la Computación. Aprende con instructor profesional, videos HD y proyectos prácticos.",
+        "browseCourses": "Explorar Cursos",
+        "watchDemo": "Ver Demo"
+      },
+      "courses": {
+        "popular": "Cursos Populares",
+        "title": "Formación para Avanzar en tu Carrera",
+        "description": "Nuestros cursos están preparados por líderes de la industria, llenos de contenido práctico y actualizado"
+      },
+      "stats": {
+        "careerGrowth": "Crecimiento Profesional",
+        "activeStudents": "Estudiantes Activos",
+        "contentHours": "Horas de Contenido",
+        "averageRating": "Calificación Promedio",
+        "satisfaction": "Satisfacción"
+      },
+      "cards": {
+        "why_choose": "¿Por qué Nosotros?",
+        "why_choose_desc": "Redefinimos la Experiencia de Aprendizaje",
+        "card1_title": "Lecciones en Video HD",
+        "card1_desc": "Contenido filmado profesionalmente, totalmente accesible para ti.",
+        "card2_title": "Contenido Completo",
+        "card2_desc": "Explicaciones detalladas, ejemplos de código y ejercicios para cada tema.",
+        "card3_title": "Certificado",
+        "card3_desc": "Certificado digital para quienes completen el curso.",
+        "card4_title": "Acceso de Por Vida",
+        "card4_desc": "Acceso ilimitado y de por vida a los cursos comprados.",
+        "card5_title": "Soporte de la Comunidad",
+        "card5_desc": "Apoyo continuo a través de la comunidad de estudiantes y grupo de Discord.",
+        "card6_title": "Contenido Actualizado",
+        "card6_desc": "No te quedarás atrás en la industria con contenido constantemente actualizado."
+      },
+      "prices": {
+        "subTitle": "Precios",
+        "title": "Elige el Plan para Ti",
+        "description": "Comienza a aprender con nuestras opciones de membresía asequibles que dan acceso a todos los cursos.",
+        "single_course": "Curso Único",
+        "single_course_desc": "Acceso a un solo curso de tu elección",
+        "monthly": "Membresía Mensual",
+        "month": "mes",
+        "monthly_desc": "Acceso mensual a todo el contenido",
+        "buy": "Comprar Ahora",
+        "features": {
+          "one_access": "Acceso Total a 1 Curso",
+          "full_access": "Acceso a todos los cursos",
+          "video_lessons": "Lecciones en Video",
+          "new_content": "Nuevo contenido cada mes",
+          "downloadable_resources": "Recursos descargables",
+          "certificate": "Certificado",
+          "cancellation": "Cancela cuando quieras"
+        }
+      },
+      "comments": {
+        "subTitle": "Reseñas de Estudiantes",
+        "title": "2000+ Estudiantes Felices",
+        "desc": "Algunos de nuestros estudiantes que cambiaron sus carreras"
+      },
+      "footer": {
+        "title": {
+          "line1": "Comienza a Transformar",
+          "line2": "Tu Carrera Hoy"
+        },
+        "desc": "Únete a miles de estudiantes. ¡Prueba tu primera lección gratis!",
+        "browse_courses": "Iniciar Cursos",
+        "view_prices": "Ver Precios",
+        "safe_payment": "Pago Seguro",
+        "refund": "Garantía de Devolución de 7 Días"
+      },
+      "dialog": {
+        "watchDemo": "Ver Demo"
+      }
+    },
+    "about": {
+      "hero": {
+        "subTitle": "Nosotros",
+        "title": "Un Nuevo Enfoque en la Educación de Código",
+        "description": "Nuestra plataforma tiene como objetivo transformar las carreras de los estudiantes con cursos prácticos de Python, Machine Learning y Matemáticas Discretas.",
+        "goToCourses": "Ir a Cursos",
+        "watchDemo": "Video de Introducción",
+        "stats": {
+          "activeStudents": "Estudiantes Activos",
+          "completedVideos": "Lecciones Completadas",
+          "completedCourses": "Cursos Completados",
+          "averageRating": "Tasa de Éxito"
+        }
+      },
+      "mission": {
+        "subTitle": "Nuestra Historia",
+        "title": "Nuestra Misión",
+        "description": {
+          "1": "Hacer que la educación en programación y ciencia de datos sea accesible y comprensible. Nuestros estudiantes aprenden a resolver problemas, no solo a escribir código.",
+          "2": "Cada lección se basa en proyectos reales. Los estudiantes aplican lo aprendido inmediatamente."
+        },
+        "features": {
+          "1": "Formación práctica y basada en proyectos",
+          "2": "Aprende a tu propio ritmo",
+          "3": "Soporte en vivo de instructores",
+          "4": "Certificado y orientación profesional",
+          "5": "Portafolio de proyectos reales",
+          "6": "Acceso ilimitado"
+        },
+        "teamImage": {
+          "title": "Formación Profesional",
+          "description": "Aprende con proyectos reales"
+        }
+      },
+      "teamSection": {
+        "subTitle": "Conócenos",
+        "title": "Nuestro Equipo",
+        "description": "Nuestro equipo experimentado trabaja para brindar la mejor experiencia de aprendizaje.",
+        "roleDesc": {
+          "founder": "Fundador y visionario. Experto en ML e IA.",
+          "frontendDeveloper": "Desarrolla aplicaciones web responsivas.",
+          "uiDesigner": "Crea diseños intuitivos enfocados en la experiencia del usuario.",
+          "marketingSpecialist": "Desarrolla estrategias de marketing creativas.",
+          "videoEditor": "Edita videos educativos con calidad profesional."
+        }
+      },
+      "values": {
+        "1": {
+          "title": "Calidad y Excelencia",
+          "desc": "Preparamos meticulosamente cada contenido y mejoramos constantemente."
+        },
+        "2": {
+          "title": "Comunidad",
+          "desc": "Nuestros estudiantes aprenden unos de otros y crecen juntos."
+        },
+        "3": {
+          "title": "Mejora Continua",
+          "desc": "Ofrecemos mentoría para avanzar en tu carrera."
+        },
+        "4": {
+          "title": "Innovación",
+          "desc": "Aplicamos las técnicas de aprendizaje más efectivas."
+        },
+        "5": {
+          "title": "Innovación",
+          "desc": "Aplicamos las técnicas de aprendizaje más efectivas."
+        },
+        "6": {
+          "title": "Innovación",
+          "desc": "Aplicamos las técnicas de aprendizaje más efectivas."
+        },
+        "subTitle": "Principios Básicos",
+        "title": "Nuestros Valores",
+        "description": "Valores fundamentales que guían nuestra filosofía"
+      }
+    },
+    "courses": {
+      "desc_not_found": "No hay descripción del curso disponible.",
+      "time": "horas",
+      "lesson": "lecciones",
+      "rating": "calificación",
+      "one_time_purchase": "pago único",
+      "go_to_course": "Ir al Curso",
+      "levels": {
+        "beginner": "Principiante",
+        "beginner_intermediate": "Principiante - Intermedio",
+        "intermediate": "Intermedio",
+        "intermediate_advanced": "Intermedio - Avanzado",
+        "advanced": "Avanzado",
+        "expert": "Experto"
+      },
+      "toast": {
+        "quizCompleted": "¡Quiz completado! Tu certificado está listo.",
+        "certificateCreated": "Certificado creado.",
+        "certificateFailed": "No se pudo crear el certificado.",
+        "ratingSubmitted": "Calificación guardada. ¡Gracias!",
+        "ratingFailed": "No se pudo enviar la calificación."
+      }
+    },
+    "support": {
+      "title": "¿Cómo podemos ayudarte?",
+      "description": "Explora documentación y guías",
+      "search_placeholder": "Escribe el tema...",
+      "article": "artículo",
+      "blogs": {
+        "title": "Blogs",
+        "description": "Contacta a nuestro equipo de soporte",
+        "chat_button": "Iniciar Chat"
+      },
+      "request": {
+        "title": "Crear Solicitud de Soporte",
+        "description": "Abre un ticket para problemas técnicos",
+        "request_button": "Abrir Ticket"
+      },
+      "alreadyNeedHelp": "¿Aún necesitas ayuda?",
+      "stillNeedHelpDesc": "Nuestro equipo está aquí para ayudar",
+      "liveSupport": "Soporte en Vivo",
+      "openRequest": "Abrir Solicitud"
+    },
+    "supportDetail": {
+      "back_to_all": "Todos los Artículos",
+      "searchPlaceholder": "Buscar en esta categoría...",
+      "views": "vistas",
+      "benefit": "% útil",
+      "benefitDesc": "% lo encontraron útil",
+      "benefitQuestion": "¿Fue útil este artículo?",
+      "benefitMessage": "Tu opinión nos ayuda a mejorar",
+      "benefitYes": "Sí, fue útil",
+      "benefitNo": "No, no ayudó",
+      "popular": "Artículos Populares",
+      "lastUpdate": "Última Actualización:",
+      "readTime": "lectura",
+      "share": "Compartir",
+      "save": "Guardar",
+      "comment": "Comentar"
+    },
+    "faq": {
+      "subTitle": "Preguntas Frecuentes",
+      "title": "¿Cómo podemos ayudarte?",
+      "description": "Encuentra respuestas aquí. Si no, contáctanos.",
+      "inputPlaceholder": "Buscar pregunta o palabra clave...",
+      "categories": {
+        "title": "Categorías",
+        "all": "Todas",
+        "allCategories": "Todas las categorías",
+        "beginner": "Principiante",
+        "account": "Cuenta",
+        "courses": "Cursos",
+        "payment": "Pago",
+        "certificates": "Certificados",
+        "technical": "Técnico"
+      },
+      "contact": {
+        "title": "Contacto Rápido",
+        "email": "Email",
+        "phone": "Teléfono",
+        "liveSupport": "Soporte en Vivo",
+        "liveSupportDesc": "Respuesta 24/7"
+      },
+      "foundedQuestions": "{{count}} preguntas encontradas"
+    },
+    "updates": {
+      "title": "Noticias y Actualizaciones",
+      "description": "Anuncios de la plataforma, nuevos cursos y blogs.",
+      "announces": "Anuncios",
+      "noAnnounces": "No hay anuncios aún.",
+      "importantAnnounce": "Importante",
+      "readMore": "Leer Más",
+      "blogPosts": "Entradas de Blog",
+      "noBlogs": "No hay entradas de blog aún.",
+      "readTime": "{{time}} min lectura",
+      "announceTypes": {
+        "UPDATE": "Actualización",
+        "ANNOUNCEMENT": "Anuncio",
+        "DISCOUNT": "Descuento",
+        "EVENT": "Evento"
+      },
+      "blogTypes": {
+        "TUTORIAL": "Tutorial",
+        "ARTICLE": "Artículo",
+        "NEWS": "Noticias",
+        "INTERVIEW": "Entrevista"
+      },
+      "allUpdates": "Todos los Anuncios",
+      "allBlogs": "Todas las Entradas",
+      "unknown": "Desconocido",
+      "likes": "{{count}} me gusta",
+      "comments": "{{count}} comentarios",
+      "views": "{{count}} vistas",
+      "tags": "Etiquetas:",
+      "like": "Me Gusta",
+      "liked": "Te Gusta",
+      "comment": "Comentar",
+      "share": "Compartir",
+      "quickLinks": "Enlaces Rápidos",
+      "relatedAnnounces": "Anuncios Recientes",
+      "haveQuestion": {
+        "title": "¿Tienes una pregunta?",
+        "desc": "Contáctanos sobre este anuncio",
+        "contactUs": "Contactar"
+      },
+      "commentDialog": {
+        "reply": "Responder",
+        "comment": "Comentar",
+        "replyPlaceholder": "Escribe tu respuesta...",
+        "commentPlaceholder": "Escribe tu comentario...",
+        "cancel": "Cancelar",
+        "submit": "Enviar",
+        "submitting": "Enviando..."
+      }
+    },
+    "reportBug": {
+      "subTitle": "Reportar Error",
+      "title": "¿Encontraste un Problema?",
+      "description": "Ayúdanos a mejorar la plataforma reportando problemas",
+      "card": {
+        "title": "Reporte de Error",
+        "description": "Explica el problema en detalle",
+        "type": "Tipo de Error",
+        "labels": {
+          "option1": "Vulnerabilidad del Sistema",
+          "option2": "Error de Contenido"
+        },
+        "page": "Página/Curso",
+        "pagePlaceholder": "Ej: Python Básico - Lección 5",
+        "descriptionLabel": "Descripción",
+        "descriptionPlaceholder": "Detalla cómo ocurrió el problema...",
+        "screenshot": "Captura de Pantalla (Opcional)",
+        "warning": "Nuestro equipo técnico revisará esto en 24 horas.",
+        "submit": "Enviar Reporte",
+        "submitting": "Enviando..."
+      }
+    },
+    "contact": {
+      "subTitle": "Contacto",
+      "title": "¿Cómo podemos ayudarte?",
+      "description": "Contáctanos para preguntas o propuestas.",
+      "details": {
+        "title": "Información de Contacto",
+        "email": "Email",
+        "emailTime": "Días hábiles 09:00 - 18:00",
+        "phone": "Teléfono",
+        "address": "Dirección",
+        "workingHours": "Horario Laboral",
+        "workingDates": "Lunes - Viernes",
+        "workingTimes": "09:00 - 18:00"
+      },
+      "socialMedia": {
+        "title": "Redes Sociales",
+        "description": "Síguenos"
+      },
+      "faq": {
+        "1": {
+          "question": "¿Cuánto tardan en responder?",
+          "answer": "Generalmente en 24 horas."
+        },
+        "2": {
+          "question": "¿Qué canal uso para soporte técnico?",
+          "answer": "Usa {{contactInfo.emailSupport}} para urgencias."
+        },
+        "3": {
+          "question": "¿Solicitudes de capacitación masiva?",
+          "answer": "Contáctanos vía Colaboración."
+        },
+        "title": "Preguntas Frecuentes"
+      },
+      "form": {
+        "title": "Contáctanos",
+        "description": "Llena el formulario",
+        "categories": {
+          "1": {
+            "label": "Consulta General",
+            "description": "Información general"
+          },
+          "2": {
+            "label": "Soporte Técnico",
+            "description": "Ayuda técnica"
+          },
+          "3": {
+            "label": "Cursos",
+            "description": "Preguntas sobre contenido"
+          },
+          "4": {
+            "label": "Colaboración",
+            "description": "Ofertas de asociación"
+          },
+          "title": "Categoría"
+        },
+        "name": "Nombre Completo",
+        "namePlaceholder": "Tu nombre",
+        "email": "Email",
+        "emailPlaceholder": "ejemplo@email.com",
+        "subject": "Asunto",
+        "subjectPlaceholder": "Asunto del mensaje",
+        "message": "Tu Mensaje",
+        "messagePlaceholder": "Escribe aquí...",
+        "submit": "Enviar Mensaje",
+        "submitting": "Enviando...",
+        "consent": "Al enviar aceptas nuestra",
+        "privacyPolicy": "Política de Privacidad",
+        "and": "y",
+        "termsOfService": "Términos de Servicio",
+        "acceptedTerms": "."
+      },
+      "supportCenter": {
+        "title": "Centro de Soporte",
+        "description": "Ver documentación",
+        "button": "Ir al Centro de Soporte"
+      },
+      "updates": {
+        "title": "Actualizaciones",
+        "description": "Últimas noticias",
+        "button": "Ver Actualizaciones"
+      }
+    },
+    "profile": {
+      "tabs": {
+        "general": "Resumen",
+        "courses": "Mis Cursos",
+        "certificates": "Certificados",
+        "linkedAccounts": "Cuentas",
+        "paymentDetails": "Detalles de Pago"
+      },
+      "buttons": {
+        "settings": "Configuración",
+        "logout": "Cerrar Sesión",
+        "changePlan": "Cambiar Plan",
+        "continueCourse": "Continuar Curso",
+        "notActive": "(No en vivo)",
+        "certificate": "Certificado"
+      },
+      "info": {
+        "memberSince": "Miembro desde:",
+        "free": "Gratis",
+        "admin": "Admin"
+      },
+      "activity": {
+        "title": "Actividad Reciente",
+        "description": "Tu progreso",
+        "lastAccess": "Último acceso:",
+        "unknownCourse": "Curso Desconocido",
+        "unknown": "Desconocido"
+      },
+      "subscription": {
+        "title": "Info de Suscripción",
+        "plan": "Plan Anual Premium",
+        "renewalDate": "Renovación: 15 Enero 2025",
+        "active": "Activo"
+      },
+      "courses": {
+        "lessonsCompleted": "{{completed}}/{{total}} lecciones completadas",
+        "completed": "Completado",
+        "inProgress": "En Progreso",
+        "progress": "Progreso",
+        "noCourses": "Aún no has comprado cursos.",
+        "continueCourse": "Continuar Curso",
+        "notLive": "No en vivo"
+      },
+      "certificates": {
+        "dateEarned": "Fecha:",
+        "certificateNumber": "Nº Certificado:",
+        "previewing": "Cargando...",
+        "view": "Ver",
+        "download": "Descargar",
+        "downloading": "Descargando...",
+        "preview": "Vista Previa",
+        "noCertificates": "Aún no tienes certificados."
+      },
+      "payment": {
+        "loading": "Cargando detalles de pago..."
+      },
+      "cards": {
+        "activeCourses": "Cursos Activos",
+        "ongoingCourses": "Cursos en curso",
+        "completed": "Completados",
+        "certificateEarned": "Certificados",
+        "totalTime": "Tiempo Total",
+        "hoursWatched": "Horas vistas"
+      },
+      "settings": {
+        "title": "Configuración de Perfil",
+        "profileInfo": "Información de Perfil",
+        "fullName": "Nombre Completo",
+        "fullNamePlaceholder": "Nombre y Apellido",
+        "phone": "Teléfono",
+        "phonePlaceholder": "+15551234567",
+        "profilePhoto": "Foto de Perfil",
+        "uploadPhoto": "Subir Foto",
+        "dragAndDrop": "o arrastrar y soltar",
+        "maxSize": "PNG, JPG, GIF, WEBP (máx. 5MB)",
+        "upload": "Subir",
+        "uploading": "Subiendo...",
+        "remove": "Eliminar",
+        "photoSelected": "Foto Seleccionada",
+        "dontForgetSave": "No olvides guardar cambios",
+        "change": "Cambiar",
+        "delete": "Borrar",
+        "deleting": "Borrando...",
+        "orAddByURL": "O por URL",
+        "urlPlaceholder": "https://ejemplo.com/foto.jpg",
+        "changePassword": "Cambiar Contraseña",
+        "currentPassword": "Contraseña Actual",
+        "currentPasswordPlaceholder": "Ingresa tu contraseña actual",
+        "newPassword": "Nueva Contraseña",
+        "newPasswordPlaceholder": "Ingresa tu nueva contraseña",
+        "confirmPassword": "Confirmar Contraseña",
+        "confirmPasswordPlaceholder": "Repite tu nueva contraseña",
+        "passwordHint": "* Deja vacío si no quieres cambiar la contraseña",
+        "appearanceSettings": "Apariencia",
+        "darkTheme": "Tema Oscuro",
+        "darkThemeActive": "Tema oscuro activo",
+        "lightThemeActive": "Tema claro activo",
+        "cancel": "Cancelar",
+        "save": "Guardar Cambios",
+        "saving": "Guardando...",
+        "fileSizeError": "El archivo debe ser menor a 5MB",
+        "fileTypeError": "Solo se permiten imágenes",
+        "uploadSuccess": "Foto subida. Clic en Guardar.",
+        "uploadError": "Error al subir foto"
+      },
+      "logout": {
+        "title": "Cerrar Sesión",
+        "message": "¿Seguro que quieres cerrar sesión?",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      },
+      "validation": {
+        "validPhoneNumber": "Ingresa un teléfono válido",
+        "passwordMinLength": "Mínimo 6 caracteres",
+        "currentPasswordRequired": "Debes ingresar tu contraseña actual",
+        "passwordsNotMatch": "Las contraseñas no coinciden"
+      },
+      "messages": {
+        "passwordUpdated": "Contraseña actualizada.",
+        "passwordUpdateError": "Error al actualizar contraseña.",
+        "profileUpdated": "Perfil actualizado.",
+        "profileUpdateError": "Error al actualizar perfil."
+      },
+      "linkedAccounts": {
+        "title": "Cuentas Vinculadas",
+        "description": "Conecta redes sociales",
+        "linked": "Vinculado",
+        "unlink": "Desvincular",
+        "link": "Vincular",
+        "loginFirst": "Inicia sesión primero",
+        "confirmUnlink": "¿Seguro que quieres desvincular?",
+        "unlinkSuccess": "Cuenta desvinculada",
+        "unlinkError": "No se pudo desvincular",
+        "error": "Ocurrió un error"
+      }
+    },
+    "admin": {
+      "notAccess": "¡Requiere admin!",
+      "cards": {
+        "totalStudents": "Estudiantes Totales",
+        "thisMonth": "este mes",
+        "activeCourses": "Cursos Activos",
+        "activeCoursesDesc": "en vivo",
+        "totalRevenue": "Ingresos Totales",
+        "averageRating": "Calificación Promedio",
+        "allCourses": "Todos los Cursos",
+        "revenueAndStudentTrend": "Tendencia de Ingresos y Estudiantes",
+        "lastSixMonthsPerformance": "Rendimiento últimos 6 meses",
+        "courseDistribution": "Distribución de Cursos",
+        "courseDistributionDesc": "Estudiantes por categoría"
+      },
+      "tabs": {
+        "courses": {
+          "title": "Cursos",
+          "desc": "Gestionar cursos",
+          "button": "Gestión de Cursos",
+          "createCourse": "Nuevo Curso",
+          "searchPlaceholder": "Buscar curso...",
+          "table": {
+            "1": "Curso",
+            "2": "Categoría",
+            "3": "Estudiantes",
+            "4": "Ingresos",
+            "5": "Calif.",
+            "6": "Estado",
+            "7": "Acciones",
+            "update": "Act.: {{date}}",
+            "status": {
+              "active": "En Vivo",
+              "inactive": "Inactivo",
+              "draft": "Borrador"
+            },
+            "view": "Ver",
+            "editCourse": "Editar",
+            "deleteCourse": "Borrar"
+          }
+        },
+        "users": {
+          "title": "Usuarios Nuevos",
+          "desc": "Miembros de la plataforma",
+          "button": "Gestión de Usuarios",
+          "searchPlaceholder": "Buscar...",
+          "searchButton": "Buscar",
+          "table": {
+            "1": "Usuario",
+            "2": "Plan",
+            "3": "Fecha",
+            "4": "Gasto",
+            "5": "Acciones"
+          }
+        },
+        "analytics": {
+          "1": {
+            "title": "Cursos Más Populares",
+            "desc": "Por número de estudiantes",
+            "charts": {
+              "student": "Estudiantes"
+            }
+          },
+          "2": {
+            "title": "Cursos con Mayores Ingresos",
+            "desc": "Ingreso total (₺)",
+            "charts": {
+              "revenue": "Ingresos"
+            }
+          },
+          "button": "Ver Analíticas"
+        }
+      },
+      "header": {
+        "title": "Panel de Admin",
+        "description": "Gestión de plataforma",
+        "crateCourse": "Nuevo Curso",
+        "reports": "Descargar Informe"
+      },
+      "report": {
+        "title": "Descargar Informe",
+        "selectPeriod": "Seleccionar Periodo",
+        "periods": {
+          "daily": "Diario",
+          "weekly": "Semanal",
+          "monthly": "Mensual",
+          "yearly": "Anual"
+        },
+        "content": {
+          "title": "📊 Contenido:",
+          "platformStats": "Estadísticas",
+          "courseList": "Lista de cursos",
+          "userInfo": "Info de usuarios",
+          "popularCourses": "Cursos populares"
+        },
+        "buttons": {
+          "cancel": "Cancelar",
+          "download": "Descargar PDF",
+          "generating": "Generando..."
+        },
+        "messages": {
+          "success": "Informe descargado",
+          "error": "Error al generar"
+        },
+        "pdf": {
+          "report": "Informe",
+          "platformStats": "Estadísticas",
+          "totalStudents": "Estudiantes Totales",
+          "totalHours": "Horas Totales",
+          "completedVideos": "Videos Completados",
+          "completedCourses": "Cursos Completados",
+          "averageRating": "Promedio Calif.",
+          "totalRevenue": "Ingresos Totales",
+          "revenueGrowth": "Crecimiento Ingresos",
+          "studentGrowth": "Crecimiento Estudiantes",
+          "courses": "Cursos",
+          "totalActiveCourses": "Cursos Activos",
+          "students": "estudiantes",
+          "rating": "calif.",
+          "users": "Usuarios",
+          "totalUsers": "Usuarios Totales",
+          "activeUsers": "Usuarios Activos",
+          "admin": "Admin",
+          "popularCourses": "Cursos Populares",
+          "page": "Página",
+          "platformReport": "Informe de Plataforma"
+        }
+      },
+      "dialog": {
+        "create": {
+          "titles": {
+            "dialog": "Crear Nuevo Curso",
+            "title": "Info del Curso",
+            "desc": "Ingresa la información"
+          },
+          "toast": {
+            "success": "Curso creado",
+            "error": "Error al crear"
+          },
+          "input": {
+            "name": {
+              "label": "Nombre del Curso",
+              "placeholder": "Ej: Intro a Python"
+            },
+            "category": {
+              "label": "Categoría"
+            },
+            "level": {
+              "label": "Nivel"
+            },
+            "price": {
+              "label": "Precio"
+            },
+            "status": {
+              "label": "Estado"
+            },
+            "certificateTemplate": {
+              "label": "Tipo Certificado"
+            },
+            "teacher": {
+              "label": "Instructor"
+            },
+            "detail": {
+              "label": "Descripción",
+              "placeholder": "Descripción corta..."
+            },
+            "noVideo": "Sin video. Clic en \"Añadir Video\"."
+          },
+          "warn": {
+            "1": "💡 Tip:",
+            "2": "Puedes añadir videos y secciones después."
+          },
+          "buttons": {
+            "cancel": "Cancelar",
+            "create": "Crear Curso",
+            "creating": "Creando..."
+          }
+        },
+        "detail": {
+          "title": "Detalles del Curso",
+          "lastUpdate": "Última Act.: {{date}}",
+          "status": {
+            "active": "🟢 Vivo",
+            "inactive": "🔴 Inactivo",
+            "draft": "📝 Borrador"
+          },
+          "totalStudents": "Estudiantes",
+          "rating": "Calif. Promedio",
+          "totalRevenue": "Ingresos",
+          "category": "Categoría",
+          "level": "Nivel",
+          "totalVideo": "Videos Totales",
+          "video": "Video",
+          "noVideo": "Sin Videos (0)",
+          "duration": "Duración",
+          "noDuration": "No calculable",
+          "price": "Precio",
+          "updateDate": "Fecha Act.",
+          "close": "Cerrar",
+          "edit": "Editar"
+        },
+        "edit": {
+          "title": "Editar Curso",
+          "desc": {
+            "1": "Actualizar Info",
+            "2": "Edita los campos abajo"
+          },
+          "input": {
+            "name": {
+              "label": "Nombre",
+              "placeholder": "Título"
+            },
+            "category": {
+              "label": "Categoría"
+            },
+            "level": {
+              "label": "Nivel"
+            },
+            "price": {
+              "label": "Precio"
+            },
+            "status": {
+              "label": "Estado"
+            },
+            "certificateTemplate": {
+              "label": "Tipo Certificado"
+            },
+            "teacher": {
+              "label": "Instructor"
+            },
+            "duration": {
+              "label": "Duración Total",
+              "placeholder": "10 Horas"
+            },
+            "lesson": {
+              "label": "Lecciones (Auto)"
+            },
+            "courseImage": {
+              "label": "Imagen Curso",
+              "loading": "Cargando...",
+              "upload": "Subir"
+            },
+            "detail": {
+              "label": "Descripción",
+              "placeholder": "Descripción..."
+            },
+            "source": {
+              "label": "Recursos (PDF, ZIP)",
+              "button": "Añadir",
+              "placeholder": "Título",
+              "other": "Otro",
+              "sizePlaceholder": "Tamaño",
+              "urlPlaceholder": "URL"
+            },
+            "quiz": {
+              "label": "Preguntas Quiz",
+              "button": "Añadir Pregunta",
+              "question": "Pregunta",
+              "option": "Opción",
+              "correctAnswerHint": "Marca la respuesta correcta"
+            },
+            "sections": {
+              "label": "Secciones y Videos",
+              "add": "Añadir Sección",
+              "sectionTitle": "Título Sección ${index}",
+              "zIndex": "Orden",
+              "addVideo": "Añadir Video",
+              "video": {
+                "titlePlaceholder": "Título Video",
+                "durationPlaceholder": "Duración (00:00)",
+                "urlPlaceholder": "URL Video"
+              }
+            },
+            "codeSnippet": {
+              "label": "Fragmentos de Código",
+              "button": "+ Código",
+              "placeHolder": "Título",
+              "codePlaceHolder": "Código..."
+            },
+            "notes": {
+              "label": "Notas",
+              "button": "+ Nota",
+              "delete": "Borrar",
+              "placeHolder": "Título",
+              "notesPlaceHolder": "Contenido JSON...",
+              "notesJsonError": "JSON inválido.",
+              "jsonHint": "Formato JSON array"
+            },
+            "noVideo": "Sin video. Clic en \"Añadir Video\"."
+          },
+          "toast": {
+            "imageUploadSuccess": "Imagen subida",
+            "imageUploadError": "Error al subir imagen",
+            "fileUploadSuccess": "Archivo subido",
+            "fileUploadError": "Error al subir archivo",
+            "editedCourse": "${courseName} actualizado",
+            "editError": "Error al actualizar"
+          },
+          "buttons": {
+            "cancel": "Cancelar",
+            "reset": "Resetear",
+            "save": "Guardar",
+            "saving": "Guardando..."
+          }
+        },
+        "delete": {
+          "title": "Borrar Curso",
+          "toast": {
+            "success": "${courseName} borrado",
+            "error": "Error al borrar"
+          },
+          "confirmation": "¿Seguro que quieres borrar?",
+          "description": "Esto es permanente.",
+          "students": "estudiantes",
+          "rating": "calif.",
+          "warn": {
+            "1": "⚠️ Advertencia:",
+            "2": "Hay {{studentCount}} estudiantes inscritos."
+          },
+          "buttons": {
+            "cancel": "Cancelar",
+            "delete": "Borrar",
+            "deleting": "Borrando..."
+          }
+        },
+        "userDetail": {
+          "title": "Detalles Usuario",
+          "status": {
+            "active": "Activo",
+            "inactive": "Inactivo"
+          },
+          "register": "Registro:",
+          "registeredCourses": "Curso Inscrito",
+          "certificate": "Certificado",
+          "completedVideo": "Video Completado",
+          "registeredCoursesList": "Cursos",
+          "unknown": "Desconocido",
+          "unknownCourse": "Curso Desconocido",
+          "certificates": "Certificados",
+          "buttons": {
+            "close": "Cerrar",
+            "edit": "Editar"
+          }
+        },
+        "userEdit": {
+          "title": "Editar Usuario",
+          "infoCard": {
+            "title": "Info",
+            "name": "Nombre",
+            "email": "Email",
+            "phone": "Teléfono",
+            "status": {
+              "title": "Estado",
+              "active": "Activo",
+              "inactive": "Inactivo"
+            }
+          },
+          "courseCard": {
+            "title": "Añadir Curso",
+            "defaultOption": "Elige Curso...",
+            "noCourses": "No hay cursos disponibles",
+            "add": "Añadir",
+            "userCoursesTitle": "Cursos de Usuario ({count})",
+            "notAddedCourse": "Sin cursos"
+          },
+          "warn": {
+            "1": "Zona de Peligro",
+            "2": "Desactivar impide el acceso.",
+            "3": "Activar permite el acceso.",
+            "button": {
+              "deactivate": "Desactivar Cuenta",
+              "activate": "Activar Cuenta"
+            }
+          },
+          "toast": {
+            "selectCourse": "Elige un curso",
+            "courseAdded": "Curso añadido",
+            "errorAdd": "Error al añadir",
+            "courseRemoved": "Curso eliminado",
+            "errorRemove": "Error al eliminar",
+            "accountDeactivated": "Cuenta desactivada",
+            "accountActivated": "Cuenta activada",
+            "error": "Error en operación"
+          },
+          "close": "Cerrar"
+        }
+      }
+    },
+    "time": {
+      "secondsAgo": "hace segundos",
+      "minutesAgo": "hace minutos",
+      "hoursAgo": "hace horas",
+      "daysAgo": "hace días",
+      "monthsAgo": "hace meses",
+      "yearsAgo": "hace años"
+    }
+  }
+}

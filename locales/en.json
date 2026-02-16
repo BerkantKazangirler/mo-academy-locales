@@ -1,0 +1,1036 @@
+{
+  "translation": {
+    "mesutOzdag": {
+      "title": "Assistant Professor & AI Researcher",
+      "name": "Mesut Ozdag, Ph.D.",
+      "desc": "Assistant Professor of CS, FinTech & Digital Forensics | AI Developer",
+      "contact": "Contact",
+      "socialMedia": "Social Media",
+      "about": {
+        "1": "Dr. Mesut Ozdag is an Assistant Professor of Computer Science, FinTech, and Digital Forensics at the University of Central Florida. He is also the IE Assessment Coordinator for CS MS, CS Ph.D. & FinTech MS programs. His research focuses on AI development, deep learning, medical image analysis, and adversarial attacks on neural networks.",
+        "2": "With extensive experience in both academia and industry, Dr. Ozdag has worked at prestigious organizations including Siemens Healthineers, Roche Molecular Systems, and Flywheel Inc. He serves as a scientific reviewer for top journals in medical image analysis and has published numerous papers on adversarial machine learning and medical imaging.",
+        "title": "About"
+      },
+      "education": {
+        "title": "Education",
+        "expertise": "Expertise:"
+      },
+      "experience": {
+        "title": "Professional Experience"
+      },
+      "specialtiesAndCertificates": {
+        "title": "Specialties & Certificates",
+        "specialties": "Technical Skills",
+        "certificates": "Professional Certificates"
+      },
+      "publications": {
+        "title": "Publications & Talks"
+      }
+    },
+    "buttons": {
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "ui": {
+      "footer": {
+        "eNewsletter": {
+          "title": "Get Notified About New Courses",
+          "description": "Subscribe to our newsletter and benefit from special offers",
+          "placeholder": "Your email address",
+          "subscribe": "Subscribe"
+        },
+        "description": "Take your career to the next level with Python, Machine Learning, and Computer Science training. Professional content, continuous support.",
+        "titles": {
+          "courses": {
+            "title": "Courses",
+            "allCourses": "All Courses"
+          },
+          "links": {
+            "title": "Quick Links",
+            "home": "Home",
+            "about": "About Us",
+            "courses": "Pricing",
+            "updates": "Announcements & Updates",
+            "contact": "Contact"
+          },
+          "support": {
+            "title": "Support",
+            "faq": "FAQ",
+            "help": "Help Center",
+            "terms": "Terms of Service",
+            "privacy": "Privacy Policy",
+            "reportBug": "Report a Bug"
+          }
+        },
+        "rights": "Mesut Ozdag Edu. All Rights Reserved."
+      },
+      "nav": {
+        "home": "Home",
+        "courses": "Courses",
+        "about": "About Us",
+        "contact": "Contact",
+        "packages": "Packages",
+        "signin": "Sign In",
+        "signup": "Sign Up",
+        "profile": "My Profile",
+        "myProfile": "View My Profile"
+      },
+      "input": {
+        "min_char": "Minimum 20 characters (Current: {{count}})",
+        "char": "characters"
+      },
+      "cokkieBanner": {
+        "message": "We use cookies to ensure necessary site functionality, provide the best possible user experience, and tailor future communications. By using this website, you agree to the use of cookies.",
+        "privacyPolicy": "Privacy Policy",
+        "accept": "Accept Cookies"
+      },
+      "up": "Scroll Up"
+    },
+    "error": {
+      "subTitle": "Keep Learning!",
+      "pageNotFound": "This page does not exist",
+      "pageNotFoundDesc": "This page does not exist or has been removed! We recommend returning to the homepage.",
+      "boundary": {
+        "title": "⚠️ An Unexpected Error Occurred",
+        "showDetails": "Show technical details",
+        "reload": "🔄 Reload Page",
+        "goHome": "🏠 Return Home",
+        "warn": "If the problem persists, please contact the administrator"
+      }
+    },
+    "auth": {
+      "loginSussess": "Login successful!",
+      "registerSuccess": "Registration successful! You can now log in.",
+      "invalidCredentials": "Invalid credentials!",
+      "loginFailed": "Login failed!",
+      "registerFailed": "Registration failed!",
+      "purchaseFailed": "Purchase failed!"
+    },
+    "home": {
+      "hero": {
+        "new": "New: All courses now have subtitles!",
+        "title": {
+          "line1": "Code Your",
+          "line2": "Future"
+        },
+        "description": "Take your career to the next level with Python, Machine Learning, and Computer Science training. Learn with a professional instructor, HD videos, and practical projects.",
+        "browseCourses": "Browse Courses",
+        "watchDemo": "Watch Demo"
+      },
+      "courses": {
+        "popular": "Popular Courses",
+        "title": "Training to Advance Your Career",
+        "description": "Our courses are prepared by industry leaders, full of practical and up-to-date content"
+      },
+      "stats": {
+        "careerGrowth": "Career Growth",
+        "activeStudents": "Active Students",
+        "contentHours": "Hours of Content",
+        "averageRating": "Average Rating",
+        "satisfaction": "Satisfaction"
+      },
+      "cards": {
+        "why_choose": "Why Us?",
+        "why_choose_desc": "We Are Redefining the Learning Experience",
+        "card1_title": "HD Video Lessons",
+        "card1_desc": "Professionally filmed English content with subtitles, all accessible to you.",
+        "card2_title": "Comprehensive Content",
+        "card2_desc": "Detailed explanations, code examples, and exercises for every topic.",
+        "card3_title": "Certificate",
+        "card3_desc": "Digital certificate for those who complete the course.",
+        "card4_title": "Lifetime Access",
+        "card4_desc": "Unlimited and lifetime access to purchased courses.",
+        "card5_title": "Community Support",
+        "card5_desc": "Continuous support via the student community and Discord group.",
+        "card6_title": "Up-to-Date Content",
+        "card6_desc": "You won't fall behind the industry with constantly updated content."
+      },
+      "prices": {
+        "subTitle": "Pricing",
+        "title": "Choose the Plan That Suits You",
+        "description": "Start learning with our affordable membership options providing access to all courses.",
+        "single_course": "Single Course",
+        "single_course_desc": "Access to a single course of your choice",
+        "monthly": "Monthly Membership",
+        "month": "month",
+        "monthly_desc": "Monthly access to all content",
+        "buy": "Buy Now",
+        "features": {
+          "one_access": "Full Access to 1 Course",
+          "full_access": "Access to all courses",
+          "video_lessons": "Video Lessons",
+          "new_content": "New content every month",
+          "downloadable_resources": "Downloadable resources",
+          "certificate": "Certificate",
+          "cancellation": "Cancel anytime"
+        }
+      },
+      "comments": {
+        "subTitle": "Student Reviews",
+        "title": "2000+ Happy Students",
+        "desc": "Some of our students who changed their careers"
+      },
+      "footer": {
+        "title": {
+          "line1": "Start Transforming",
+          "line2": "Your Career Today"
+        },
+        "desc": "Join thousands of students and take your tech career to the next level. Try your first lesson for free!",
+        "browse_courses": "Start Courses",
+        "view_prices": "View Pricing",
+        "safe_payment": "Secure Payment",
+        "refund": "7-Day Money-Back Guarantee"
+      },
+      "dialog": {
+        "watchDemo": "Watch Demo"
+      }
+    },
+    "about": {
+      "hero": {
+        "subTitle": "About",
+        "title": "A New Approach to Coding Education",
+        "description": "Our online education platform aims to transform students' careers with practice-focused Python, Machine Learning, and Discrete Math lessons.",
+        "goToCourses": "Go to Courses",
+        "watchDemo": "Intro Video",
+        "stats": {
+          "activeStudents": "Active Students",
+          "completedVideos": "Lessons Completed",
+          "completedCourses": "Course Completions",
+          "averageRating": "Success Rate"
+        }
+      },
+      "mission": {
+        "subTitle": "Our Story",
+        "title": "Our Mission",
+        "description": {
+          "1": "To make coding and data science education accessible, understandable, and applicable for everyone. We ensure our students learn not just to write code, but to solve problems and think algorithmically.",
+          "2": "Every lesson is based on real-world projects. Our students reinforce what they learn by applying it immediately and strengthening their portfolios."
+        },
+        "features": {
+          "1": "Hands-on and project-focused training",
+          "2": "Learn at your own pace",
+          "3": "Live support from professional instructors",
+          "4": "Certificate and career guidance",
+          "5": "Real-world project portfolio",
+          "6": "Unlimited access and re-watch capability"
+        },
+        "teamImage": {
+          "title": "Professional Training",
+          "description": "Learn with real-world projects"
+        }
+      },
+      "teamSection": {
+        "subTitle": "Meet Us",
+        "title": "Our Team",
+        "description": "Our experienced and passionate team is working to provide the best learning experience.",
+        "roleDesc": {
+          "founder": "Founder and visionary of the platform. Expert in machine learning and AI, working to make educational technologies accessible to everyone.",
+          "frontendDeveloper": "Develops responsive and accessible web applications. Designs interactive user interfaces with modern JavaScript frameworks.",
+          "uiDesigner": "Creates intuitive designs prioritizing user experience. Tests product quality to ensure a seamless experience.",
+          "marketingSpecialist": "Organizes educational content professionally and develops creative marketing strategies to increase platform visibility.",
+          "videoEditor": "Edits educational videos to professional quality, enriching the learning experience."
+        }
+      },
+      "values": {
+        "1": {
+          "title": "Quality & Excellence",
+          "desc": "We meticulously prepare every lesson content, follow current technologies, and continuously improve."
+        },
+        "2": {
+          "title": "Community & Collaboration",
+          "desc": "Our students learn from each other, share their projects, and grow together."
+        },
+        "3": {
+          "title": "Continuous Improvement",
+          "desc": "We don't just teach coding; we provide mentorship to advance your career."
+        },
+        "4": {
+          "title": "Innovation & Creativity",
+          "desc": "We constantly renew our educational methodologies and apply the most effective learning techniques."
+        },
+        "5": {
+          "title": "Innovation & Creativity",
+          "desc": "We constantly renew our educational methodologies and apply the most effective learning techniques."
+        },
+        "6": {
+          "title": "Innovation & Creativity",
+          "desc": "We constantly renew our educational methodologies and apply the most effective learning techniques."
+        },
+        "subTitle": "Our Core Principles",
+        "title": "Our Values",
+        "description": "Our core values that shape our educational philosophy and guide us in every decision"
+      }
+    },
+    "courses": {
+      "desc_not_found": "No course description available.",
+      "time": "hours",
+      "lesson": "lessons",
+      "rating": "rating",
+      "one_time_purchase": "one-time",
+      "go_to_course": "Go to Course",
+      "levels": {
+        "beginner": "Beginner",
+        "beginner_intermediate": "Beginner - Intermediate",
+        "intermediate": "Intermediate",
+        "intermediate_advanced": "Intermediate - Advanced",
+        "advanced": "Advanced",
+        "expert": "Expert"
+      },
+      "toast": {
+        "quizCompleted": "Quiz completed! Your certificate is ready.",
+        "certificateCreated": "Certificate created.",
+        "certificateFailed": "Certificate could not be created.",
+        "ratingSubmitted": "Your rating has been saved. Thank you!",
+        "ratingFailed": "Rating could not be submitted."
+      }
+    },
+    "support": {
+      "title": "How Can We Help You?",
+      "description": "Browse documentation, guides, and support resources",
+      "search_placeholder": "Type the topic you are looking for...",
+      "article": "article",
+      "blogs": {
+        "title": "Blogs",
+        "description": "Contact our support team instantly",
+        "chat_button": "Start Chat"
+      },
+      "request": {
+        "title": "Create Support Request",
+        "description": "Open a support ticket for your technical issues",
+        "request_button": "Open Ticket"
+      },
+      "alreadyNeedHelp": "Still Need Help?",
+      "stillNeedHelpDesc": "Our support team is here to help you",
+      "liveSupport": "Live Support",
+      "openRequest": "Open Support Ticket"
+    },
+    "supportDetail": {
+      "back_to_all": "All Articles",
+      "searchPlaceholder": "Search in this category...",
+      "views": "views",
+      "benefit": "% helpful",
+      "benefitDesc": "% found this helpful",
+      "benefitQuestion": "Was this article helpful?",
+      "benefitMessage": "Your feedback helps us improve this article",
+      "benefitYes": "Yes, it helped",
+      "benefitNo": "No, it didn't help",
+      "popular": "Most Popular Articles",
+      "lastUpdate": "Last Update:",
+      "readTime": "read",
+      "share": "Share",
+      "save": "Save",
+      "comment": "Comment"
+    },
+    "faq": {
+      "subTitle": "Frequently Asked Questions",
+      "title": "How Can We Help You?",
+      "description": "Find answers to the most frequently asked questions here. If you can't find what you're looking for, contact our support team.",
+      "inputPlaceholder": "Search for a question or keyword...",
+      "categories": {
+        "title": "Categories",
+        "all": "All",
+        "allCategories": "All categories",
+        "beginner": "Beginner",
+        "account": "Account",
+        "courses": "Courses",
+        "payment": "Payment",
+        "certificates": "Certificates",
+        "technical": "Technical"
+      },
+      "contact": {
+        "title": "Quick Contact",
+        "email": "Email",
+        "phone": "Phone",
+        "liveSupport": "Live Support",
+        "liveSupportDesc": "24/7 instant response"
+      },
+      "foundedQuestions": "{{count}} questions found"
+    },
+    "updates": {
+      "title": "News and Updates",
+      "description": "Platform announcements, new courses, updates, and educational blog posts.",
+      "announces": "Announcements",
+      "noAnnounces": "No announcements yet.",
+      "importantAnnounce": "Important",
+      "readMore": "Read More",
+      "blogPosts": "Blog Posts",
+      "noBlogs": "No blog posts yet.",
+      "readTime": "{{time}} min read",
+      "announceTypes": {
+        "UPDATE": "Update",
+        "ANNOUNCEMENT": "Announcement",
+        "DISCOUNT": "Discount",
+        "EVENT": "Event"
+      },
+      "blogTypes": {
+        "TUTORIAL": "Tutorial",
+        "ARTICLE": "Article",
+        "NEWS": "News",
+        "INTERVIEW": "Interview"
+      },
+      "allUpdates": "All Announcements",
+      "allBlogs": "All Posts",
+      "unknown": "Unknown",
+      "likes": "{{count}} likes",
+      "comments": "{{count}} comments",
+      "views": "{{count}} views",
+      "tags": "Tags:",
+      "like": "Like",
+      "liked": "Liked",
+      "comment": "Comment",
+      "share": "Share",
+      "quickLinks": "Quick Links",
+      "relatedAnnounces": "Recent Announcements",
+      "haveQuestion": {
+        "title": "Have a Question?",
+        "desc": "Contact us for questions about this announcement",
+        "contactUs": "Contact Us"
+      },
+      "commentDialog": {
+        "reply": "Reply",
+        "comment": "Comment",
+        "replyPlaceholder": "Write your reply here...",
+        "commentPlaceholder": "Write your comment here...",
+        "cancel": "Cancel",
+        "submit": "Submit",
+        "submitting": "Submitting..."
+      }
+    },
+    "reportBug": {
+      "subTitle": "Report a Bug",
+      "title": "Found an Issue?",
+      "description": "Help us improve the platform by reporting technical issues you encounter",
+      "card": {
+        "title": "Bug Report",
+        "description": "Please explain the issue in detail",
+        "type": "Bug Type",
+        "labels": {
+          "option1": "System Vulnerability",
+          "option2": "Course Content Error"
+        },
+        "page": "Page/Course where the issue occurred",
+        "pagePlaceholder": "Ex: Python Basics - Lesson 5",
+        "descriptionLabel": "Issue Description",
+        "descriptionPlaceholder": "Explain in detail how the issue occurred and what you were doing when you encountered it...",
+        "screenshot": "Screenshot (Optional)",
+        "warning": "Our technical team will review your report within 24 hours and get back to you.",
+        "submit": "Report Bug",
+        "submitting": "Sending..."
+      }
+    },
+    "contact": {
+      "subTitle": "Contact",
+      "title": "How Can We Help You?",
+      "description": "Contact us for your questions, suggestions, or collaboration offers. Our team is here to help you.",
+      "details": {
+        "title": "Contact Information",
+        "email": "Email",
+        "emailTime": "Weekdays 09:00 - 18:00",
+        "phone": "Phone",
+        "address": "Address",
+        "workingHours": "Working Hours",
+        "workingDates": "Monday - Friday",
+        "workingTimes": "09:00 - 18:00"
+      },
+      "socialMedia": {
+        "title": "Social Media",
+        "description": "Follow us and stay updated"
+      },
+      "faq": {
+        "1": {
+          "question": "How long does it take to get a response?",
+          "answer": "We usually respond within 24 hours."
+        },
+        "2": {
+          "question": "Which channel should I use for technical support?",
+          "answer": "You can use {{contactInfo.emailSupport}} for urgent technical issues."
+        },
+        "3": {
+          "question": "Who should I talk to for bulk training requests?",
+          "answer": "You can reach us via the collaboration category or send an email to iletisim@pythonakademi.com."
+        },
+        "title": "Frequently Asked Questions"
+      },
+      "form": {
+        "title": "Contact Us",
+        "description": "Fill out the form and we will get back to you as soon as possible",
+        "categories": {
+          "1": {
+            "label": "General Inquiry",
+            "description": "To get general information about the platform"
+          },
+          "2": {
+            "label": "Technical Support",
+            "description": "Help for your technical issues"
+          },
+          "3": {
+            "label": "Courses",
+            "description": "Questions about course content and curriculum"
+          },
+          "4": {
+            "label": "Collaboration",
+            "description": "Partnership and collaboration offers"
+          },
+          "title": "Contact Category"
+        },
+        "name": "Full Name",
+        "namePlaceholder": "Your name and surname",
+        "email": "Email",
+        "emailPlaceholder": "example@email.com",
+        "subject": "Subject",
+        "subjectPlaceholder": "Subject of your message",
+        "message": "Your Message",
+        "messagePlaceholder": "Write your message here...",
+        "submit": "Send Message",
+        "submitting": "Sending...",
+        "consent": "By sending the form, you agree to our",
+        "privacyPolicy": "Privacy Policy",
+        "and": "and",
+        "termsOfService": "Terms of Service",
+        "acceptedTerms": "."
+      },
+      "supportCenter": {
+        "title": "Support Center",
+        "description": "Browse documentation and guides",
+        "button": "Go to Support Center"
+      },
+      "updates": {
+        "title": "Updates",
+        "description": "For the latest news and announcements",
+        "button": "See Updates"
+      }
+    },
+    "profile": {
+      "tabs": {
+        "general": "Overview",
+        "courses": "My Courses",
+        "certificates": "Certificates",
+        "linkedAccounts": "Accounts",
+        "paymentDetails": "Payment Details"
+      },
+      "buttons": {
+        "settings": "Settings",
+        "logout": "Log Out",
+        "changePlan": "Change Plan",
+        "continueCourse": "Continue Course",
+        "notActive": "(Not Live)",
+        "certificate": "Certificate"
+      },
+      "info": {
+        "memberSince": "Member Since:",
+        "free": "Free",
+        "admin": "Admin"
+      },
+      "activity": {
+        "title": "Recent Activity",
+        "description": "Your course progress and achievements",
+        "lastAccess": "Last access:",
+        "unknownCourse": "Unknown Course",
+        "unknown": "Unknown"
+      },
+      "subscription": {
+        "title": "Subscription Information",
+        "plan": "Premium Annual Plan",
+        "renewalDate": "Renewal date: January 15, 2025",
+        "active": "Active"
+      },
+      "courses": {
+        "lessonsCompleted": "{{completed}}/{{total}} lessons completed",
+        "completed": "Completed",
+        "inProgress": "In Progress",
+        "progress": "Progress",
+        "noCourses": "You haven't purchased any courses yet.",
+        "continueCourse": "Continue Course",
+        "notLive": "Not Live"
+      },
+      "certificates": {
+        "dateEarned": "Date Earned:",
+        "certificateNumber": "Certificate No:",
+        "previewing": "Loading...",
+        "view": "View",
+        "download": "Download",
+        "downloading": "Downloading...",
+        "preview": "Certificate Preview",
+        "noCertificates": "You haven't completed any courses yet. Complete your courses to earn certificates."
+      },
+      "payment": {
+        "loading": "Loading payment details..."
+      },
+      "cards": {
+        "activeCourses": "Active Courses",
+        "ongoingCourses": "Ongoing course",
+        "completed": "Completed",
+        "certificateEarned": "Certificate earned",
+        "totalTime": "Total Time",
+        "hoursWatched": "Hours of video watched"
+      },
+      "settings": {
+        "title": "Profile Settings",
+        "profileInfo": "Profile Information",
+        "fullName": "Full Name",
+        "fullNamePlaceholder": "Your First and Last Name",
+        "phone": "Phone Number",
+        "phonePlaceholder": "+15551234567",
+        "profilePhoto": "Profile Photo",
+        "uploadPhoto": "Upload Photo",
+        "dragAndDrop": "or drag and drop",
+        "maxSize": "PNG, JPG, GIF, WEBP (max. 5MB)",
+        "upload": "Upload",
+        "uploading": "Uploading...",
+        "remove": "Remove",
+        "photoSelected": "Photo Selected",
+        "dontForgetSave": "Don't forget to save changes",
+        "change": "Change",
+        "delete": "Delete",
+        "deleting": "Deleting...",
+        "orAddByURL": "Or add via URL",
+        "urlPlaceholder": "https://example.com/photo.jpg",
+        "changePassword": "Change Password",
+        "currentPassword": "Current Password",
+        "currentPasswordPlaceholder": "Enter your current password",
+        "newPassword": "New Password",
+        "newPasswordPlaceholder": "Enter your new password",
+        "confirmPassword": "New Password (Again)",
+        "confirmPasswordPlaceholder": "Re-enter your new password",
+        "passwordHint": "* Leave these fields blank if you do not want to change your password",
+        "appearanceSettings": "Appearance Settings",
+        "darkTheme": "Dark Theme",
+        "darkThemeActive": "Dark theme active",
+        "lightThemeActive": "Light theme active",
+        "cancel": "Cancel",
+        "save": "Save Changes",
+        "saving": "Saving...",
+        "fileSizeError": "File size must be less than 5MB",
+        "fileTypeError": "Only image files can be uploaded (jpeg, jpg, png, webp)",
+        "uploadSuccess": "Photo uploaded. Click 'Save Changes' to apply.",
+        "uploadError": "An error occurred while uploading the photo"
+      },
+      "logout": {
+        "title": "Log Out",
+        "message": "Are you sure you want to log out of your profile?",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "validation": {
+        "validPhoneNumber": "Please enter a valid phone number",
+        "passwordMinLength": "Password must be at least 6 characters",
+        "currentPasswordRequired": "You must enter your current password",
+        "passwordsNotMatch": "Passwords do not match"
+      },
+      "messages": {
+        "passwordUpdated": "Your password has been successfully updated.",
+        "passwordUpdateError": "An error occurred while updating the password.",
+        "profileUpdated": "Your profile settings have been successfully updated.",
+        "profileUpdateError": "An error occurred while updating profile settings."
+      },
+      "linkedAccounts": {
+        "title": "Linked Accounts",
+        "description": "Link your social media accounts for quick login",
+        "linked": "Linked",
+        "unlink": "Unlink",
+        "link": "Link",
+        "loginFirst": "Please log in first",
+        "confirmUnlink": "Are you sure you want to unlink your account?",
+        "unlinkSuccess": "Account unlinked",
+        "unlinkError": "Could not unlink account",
+        "error": "An error occurred"
+      }
+    },
+    "admin": {
+      "notAccess": "Admin privileges required to access this page!",
+      "cards": {
+        "totalStudents": "Total Students",
+        "thisMonth": "this month",
+        "activeCourses": "Active Courses",
+        "activeCoursesDesc": "live",
+        "totalRevenue": "Total Revenue",
+        "averageRating": "Average Rating",
+        "allCourses": "All Courses",
+        "revenueAndStudentTrend": "Revenue and Student Trend",
+        "lastSixMonthsPerformance": "Performance of the last 6 months",
+        "courseDistribution": "Course Distribution",
+        "courseDistributionDesc": "Number of students by category"
+      },
+      "tabs": {
+        "courses": {
+          "title": "Courses",
+          "desc": "Manage all courses",
+          "button": "Course Management",
+          "createCourse": "New Course",
+          "searchPlaceholder": "Search course...",
+          "table": {
+            "1": "Course",
+            "2": "Category",
+            "3": "Student",
+            "4": "Revenue",
+            "5": "Rating",
+            "6": "Status",
+            "7": "Actions",
+            "update": "Updated: {{date}}",
+            "status": {
+              "active": "Live",
+              "inactive": "Inactive",
+              "draft": "Draft"
+            },
+            "view": "View Course",
+            "editCourse": "Edit Course",
+            "deleteCourse": "Delete Course"
+          }
+        },
+        "users": {
+          "title": "Recently Registered Users",
+          "desc": "Platform members and subscriptions",
+          "button": "User Management",
+          "searchPlaceholder": "Search member...",
+          "searchButton": "Search",
+          "table": {
+            "1": "User",
+            "2": "Plan",
+            "3": "Join Date",
+            "4": "Spend",
+            "5": "Actions"
+          }
+        },
+        "analytics": {
+          "1": {
+            "title": "Most Popular Courses",
+            "desc": "By number of students",
+            "charts": {
+              "student": "Number of Students"
+            }
+          },
+          "2": {
+            "title": "Top Revenue Generating Courses",
+            "desc": "Total revenue (₺)",
+            "charts": {
+              "revenue": "Revenue"
+            }
+          },
+          "button": "View Analytics"
+        }
+      },
+      "header": {
+        "title": "Admin Dashboard",
+        "description": "Platform management and statistics",
+        "crateCourse": "New Course",
+        "reports": "Download Report"
+      },
+      "report": {
+        "title": "Download Report",
+        "selectPeriod": "Select Report Period",
+        "periods": {
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "monthly": "Monthly",
+          "yearly": "Yearly"
+        },
+        "content": {
+          "title": "📊 Report Content:",
+          "platformStats": "Platform statistics",
+          "courseList": "Course list and details",
+          "userInfo": "User information",
+          "popularCourses": "Most popular courses"
+        },
+        "buttons": {
+          "cancel": "Cancel",
+          "download": "Download PDF",
+          "generating": "Generating..."
+        },
+        "messages": {
+          "success": "Report successfully downloaded",
+          "error": "An error occurred while generating the report"
+        },
+        "pdf": {
+          "report": "Report",
+          "platformStats": "Platform Statistics",
+          "totalStudents": "Total Students",
+          "totalHours": "Total Course Hours",
+          "completedVideos": "Completed Videos",
+          "completedCourses": "Completed Courses",
+          "averageRating": "Average Rating",
+          "totalRevenue": "Total Revenue",
+          "revenueGrowth": "Revenue Growth",
+          "studentGrowth": "Student Growth",
+          "courses": "Courses",
+          "totalActiveCourses": "Total Active Courses",
+          "students": "students",
+          "rating": "rating",
+          "users": "Users",
+          "totalUsers": "Total Users",
+          "activeUsers": "Active Users",
+          "admin": "Admin",
+          "popularCourses": "Most Popular Courses",
+          "page": "Page",
+          "platformReport": "Platform Report"
+        }
+      },
+      "dialog": {
+        "create": {
+          "titles": {
+            "dialog": "Create New Course",
+            "title": "New Course Information",
+            "desc": "Enter the information for the course you want to create"
+          },
+          "toast": {
+            "success": "New course successfully created",
+            "error": "An error occurred while creating the course"
+          },
+          "input": {
+            "name": {
+              "label": "Course Name",
+              "placeholder": "Ex: Introduction to Programming with Python"
+            },
+            "category": {
+              "label": "Category"
+            },
+            "level": {
+              "label": "Level"
+            },
+            "price": {
+              "label": "Price"
+            },
+            "status": {
+              "label": "Status"
+            },
+            "certificateTemplate": {
+              "label": "Certificate Type"
+            },
+            "teacher": {
+              "label": "Instructor"
+            },
+            "detail": {
+              "label": "Description",
+              "placeholder": "Write a short description about the course..."
+            },
+            "noVideo": "No video added yet. Click the \"Add Video\" button."
+          },
+          "warn": {
+            "1": "💡 Tip:",
+            "2": "After creating the course, you can add videos, create sections, and edit content."
+          },
+          "buttons": {
+            "cancel": "Cancel",
+            "create": "Create Course",
+            "creating": "Creating Course..."
+          }
+        },
+        "detail": {
+          "title": "Course Details",
+          "lastUpdate": "Last Update: {{date}}",
+          "status": {
+            "active": "🟢 Live",
+            "inactive": "🔴 Inactive",
+            "draft": "📝 Draft"
+          },
+          "totalStudents": "Total Students",
+          "rating": "Average Rating",
+          "totalRevenue": "Total Revenue",
+          "category": "Category",
+          "level": "Level",
+          "totalVideo": "Total Videos",
+          "video": "Video",
+          "noVideo": "No Videos (0)",
+          "duration": "Total Duration",
+          "noDuration": "Duration Cannot Be Calculated",
+          "price": "Price",
+          "updateDate": "Update Date",
+          "close": "Close",
+          "edit": "Edit"
+        },
+        "edit": {
+          "title": "Edit Course",
+          "desc": {
+            "1": "Update Course Information",
+            "2": "You can update the course by editing the fields below"
+          },
+          "input": {
+            "name": {
+              "label": "Course Name",
+              "placeholder": "Enter course title"
+            },
+            "category": {
+              "label": "Category"
+            },
+            "level": {
+              "label": "Level"
+            },
+            "price": {
+              "label": "Price"
+            },
+            "status": {
+              "label": "Status"
+            },
+            "certificateTemplate": {
+              "label": "Certificate Type"
+            },
+            "teacher": {
+              "label": "Instructor"
+            },
+            "duration": {
+              "label": "Total Duration",
+              "placeholder": "10 Hours 30 Minutes"
+            },
+            "lesson": {
+              "label": "Number of Lessons (Calculated Automatically)"
+            },
+            "courseImage": {
+              "label": "Course Image",
+              "loading": "Loading...",
+              "upload": "Upload Image"
+            },
+            "detail": {
+              "label": "Description",
+              "placeholder": "Write a short description about the course..."
+            },
+            "source": {
+              "label": "Course Resources (PDF, DOC, ZIP etc.)",
+              "button": "Add Resource",
+              "placeholder": "Resource title",
+              "other": "Other",
+              "sizePlaceholder": "Size (ex: 2.5 MB)",
+              "urlPlaceholder": "URL (optional)"
+            },
+            "quiz": {
+              "label": "Quiz Questions",
+              "button": "Add Question",
+              "question": "Question",
+              "option": "Option",
+              "correctAnswerHint": "Select the radio button next to it to mark the correct answer"
+            },
+            "sections": {
+              "label": "Course Sections and Videos",
+              "add": "Add Section",
+              "sectionTitle": "Section ${index} Title",
+              "zIndex": "Order",
+              "addVideo": "Add Video",
+              "video": {
+                "titlePlaceholder": "Video Title",
+                "durationPlaceholder": "Duration (00:00)",
+                "urlPlaceholder": "Video URL"
+              }
+            },
+            "codeSnippet": {
+              "label": "Code Snippets",
+              "button": "+ Add Code",
+              "placeHolder": "Code Title",
+              "codePlaceHolder": "Code..."
+            },
+            "notes": {
+              "label": "Video Notes",
+              "button": "+ Add Note",
+              "delete": "Remove Notes",
+              "placeHolder": "Note Title",
+              "notesPlaceHolder": "Note content (enter content array in JSON format)...",
+              "notesJsonError": "Invalid JSON format. Changes not saved.",
+              "jsonHint": "Enter content array in JSON format"
+            },
+            "noVideo": "No video added yet. Click the \"Add Video\" button."
+          },
+          "toast": {
+            "imageUploadSuccess": "Image successfully uploaded",
+            "imageUploadError": "An error occurred while uploading the image",
+            "fileUploadSuccess": "File successfully uploaded",
+            "fileUploadError": "An error occurred while uploading the file",
+            "editedCourse": "${courseName} successfully updated",
+            "editError": "An error occurred while updating the course"
+          },
+          "buttons": {
+            "cancel": "Cancel",
+            "reset": "Reset",
+            "save": "Save Changes",
+            "saving": "Saving Changes..."
+          }
+        },
+        "delete": {
+          "title": "Delete Course",
+          "toast": {
+            "success": "${courseName} successfully deleted",
+            "error": "An error occurred while deleting the course"
+          },
+          "confirmation": "Are You Sure You Want to Delete the Course?",
+          "description": "This action cannot be undone and all course data will be permanently deleted.",
+          "students": "students",
+          "rating": "rating",
+          "warn": {
+            "1": "⚠️ Warning:",
+            "2": "There are {{studentCount}} students enrolled in this course. If the course is deleted, students will lose access."
+          },
+          "buttons": {
+            "cancel": "Cancel",
+            "delete": "Delete Course",
+            "deleting": "Deleting Course..."
+          }
+        },
+        "userDetail": {
+          "title": "User Details",
+          "status": {
+            "active": "Active",
+            "inactive": "Inactive"
+          },
+          "register": "Registration :",
+          "registeredCourses": "Enrolled Course",
+          "certificate": "Certificate",
+          "completedVideo": "Completed Video",
+          "registeredCoursesList": "Enrolled Courses",
+          "unknown": "Unknown",
+          "unknownCourse": "Unknown Course",
+          "certificates": "Certificates",
+          "buttons": {
+            "close": "Close",
+            "edit": "Edit"
+          }
+        },
+        "userEdit": {
+          "title": "Edit User",
+          "infoCard": {
+            "title": "User Information",
+            "name": "Full Name",
+            "email": "Email",
+            "phone": "Phone",
+            "status": {
+              "title": "Status",
+              "active": "Active",
+              "inactive": "Inactive"
+            }
+          },
+          "courseCard": {
+            "title": "Add Course",
+            "defaultOption": "Select Course...",
+            "noCourses": "No courses available to add",
+            "add": "Add",
+            "userCoursesTitle": "User's Courses ({count})",
+            "notAddedCourse": "No enrolled courses yet"
+          },
+          "warn": {
+            "1": "Danger Zone",
+            "2": "Deactivating the account will prevent the user from logging in.",
+            "3": "Reactivating the account will allow the user to log in.",
+            "button": {
+              "deactivate": "Deactivate Account",
+              "activate": "Activate Account"
+            }
+          },
+          "toast": {
+            "selectCourse": "Please select a course",
+            "courseAdded": "Course successfully added",
+            "errorAdd": "Error occurred while adding course",
+            "courseRemoved": "Course successfully removed",
+            "errorRemove": "Error occurred while removing course",
+            "accountDeactivated": "Account successfully deactivated",
+            "accountActivated": "Account successfully activated",
+            "error": "Error occurred during operation"
+          },
+          "close": "Close"
+        }
+      }
+    },
+    "time": {
+      "secondsAgo": "seconds ago",
+      "minutesAgo": "minutes ago",
+      "hoursAgo": "hours ago",
+      "daysAgo": "days ago",
+      "monthsAgo": "months ago",
+      "yearsAgo": "years ago"
+    }
+  }
+}
