@@ -634,6 +634,13 @@
         "unlinkSuccess": "Compte délié",
         "unlinkError": "Impossible de délier",
         "error": "Une erreur est survenue"
+      },
+      "commentDialog": {
+        "replyPlaceholder": "Écrire une réponse",
+        "commentPlaceholder": "Écrire un commentaire",
+        "reply": "Répondre",
+        "comment": "Commenter",
+        "cancel": "Annuler"
       }
     },
     "admin": {

@@ -634,6 +634,13 @@
         "unlinkSuccess": "Konto getrennt",
         "unlinkError": "Konnte nicht getrennt werden",
         "error": "Ein Fehler ist aufgetreten"
+      },
+      "commentDialog": {
+        "replyPlaceholder": "Antwort schreiben",
+        "commentPlaceholder": "Kommentar schreiben",
+        "reply": "Antworten",
+        "comment": "Kommentieren",
+        "cancel": "Abbrechen"
       }
     },
     "admin": {

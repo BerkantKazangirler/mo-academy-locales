@@ -634,6 +634,13 @@
         "unlinkSuccess": "Hesap bağlantısı kaldırıldı",
         "unlinkError": "Hesap bağı kaldırılamadı",
         "error": "Bir hata oluştu"
+      },
+      "commentDialog": {
+        "replyPlaceholder": "Yanıt Yaz",
+        "commentPlaceholder": "Yorum Yap",
+        "reply": "Yanıtla",
+        "comment": "Yorum Yap",
+        "cancel": "İptal"
       }
     },
     "admin": {

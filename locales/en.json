@@ -634,6 +634,13 @@
         "unlinkSuccess": "Account unlinked",
         "unlinkError": "Could not unlink account",
         "error": "An error occurred"
+      },
+      "commentDialog": {
+        "replyPlaceholder": "Write Reply",
+        "commentPlaceholder": "Write Comment",
+        "reply": "Reply",
+        "comment": "Comment",
+        "cancel": "Cancel"
       }
     },
     "admin": {

@@ -634,6 +634,13 @@
         "unlinkSuccess": "Cuenta desvinculada",
         "unlinkError": "No se pudo desvincular",
         "error": "Ocurrió un error"
+      },
+      "commentDialog": {
+        "replyPlaceholder": "Escribir respuesta",
+        "commentPlaceholder": "Escribir comentario",
+        "reply": "Responder",
+        "comment": "Comentar",
+        "cancel": "Cancelar"
       }
     },
     "admin": {
