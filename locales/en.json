@@ -62,7 +62,7 @@
             "reportBug": "Report a Bug"
           }
         },
-        "rights": "Mesut Ozdag Academy. All Rights Reserved."
+        "rights": "Mesut Ozdağ Academy. All Rights Reserved."
       },
       "nav": {
         "home": "Home",
@@ -551,6 +551,26 @@
         "download": "Download",
         "downloading": "Downloading...",
         "preview": "Certificate Preview",
+        "downloadError": "Error downloading certificate.",
+        "viewError": "Error generating certificate preview.",
+        "earnCertificate": "Congratulations! Your certificate is ready.",
+        "congratulations": "You passed the quiz! Complete all videos for the certificate.",
+        "pastQuiz": "You passed the quiz and completed all course videos. Your certificate is ready!",
+        "tryAgain": "Quiz failed. Your score: {{score}}%",
+        "title": {
+          "1": "Quiz Completed!",
+          "2": "Course Quiz"
+        },
+        "question": "Question",
+        "back": "Previous",
+        "next": "Next",
+        "close": "Close",
+        "complete": "Complete",
+        "noQuestion": "No quiz questions available for this course.",
+        "passed": "Congratulations! Passed!",
+        "failed": "Failed",
+        "passedNoVideos": "You passed the quiz! Complete all course videos to get your certificate.",
+        "failedQuiz": "Unfortunately you failed the quiz. Passing score is at least 70%. You can try again.",
         "noCertificates": "You haven't completed any courses yet. Complete your courses to earn certificates."
       },
       "payment": {
@@ -951,7 +971,7 @@
         "delete": {
           "title": "Delete Course",
           "toast": {
-            "success": "${courseName} successfully deleted",
+            "success": "{{title}} successfully deleted",
             "error": "An error occurred while deleting the course"
           },
           "confirmation": "Are You Sure You Want to Delete the Course?",
@@ -987,6 +1007,11 @@
             "edit": "Edit"
           }
         },
+        "confirmDialog": {
+          "cancel": "Cancel",
+          "submiting": "Processing...",
+          "confirm": "Confirm"
+        },
         "userEdit": {
           "title": "Edit User",
           "infoCard": {
@@ -1005,7 +1030,7 @@
             "defaultOption": "Select Course...",
             "noCourses": "No courses available to add",
             "add": "Add",
-            "userCoursesTitle": "User's Courses ({count})",
+            "userCoursesTitle": "User's Courses ({{count}})",
             "notAddedCourse": "No enrolled courses yet"
           },
           "warn": {
@@ -1028,8 +1053,96 @@
             "error": "Error occurred during operation"
           },
           "close": "Close"
+        },
+        "addCourse": {
+          "title": "Add Course",
+          "message": "Are you sure you want to add this course to the user? The user will gain access to the course.",
+          "confirmText": "Add"
+        },
+        "removeCourse": {
+          "title": "Remove Course",
+          "message": "Are you sure you want to remove the course {{course}} from the user? This action cannot be undone and all of the user's progress records will be deleted.",
+          "confirmText": "Remove"
+        },
+        "deactivateUser": {
+          "title": {
+            "active": "Deactivate Account",
+            "inactive": "Activate Account"
+          },
+          "message": {
+            "active": "Are you sure you want to deactivate the account of user {{user}}? Deactivated accounts cannot log in and will see the message 'Your account is not active, please contact the admin team'.",
+            "inactive": "Are you sure you want to reactivate the account of user {{user}}? The user will be able to log in again."
+          },
+          "button": {
+            "active": "Deactivate",
+            "inactive": "Activate"
+          }
         }
       }
+    },
+    "login": {
+      "alreadyLogged": "You are already logged in, redirecting to your profile page.",
+      "signUp": {
+        "title": "Create an Account",
+        "subtitle": "Create a free account and start learning"
+      },
+      "signIn": {
+        "title": "Welcome Back",
+        "subTitle": "Log in to your account and continue learning"
+      },
+      "or": "Or",
+      "inputs": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "Your first and last name",
+          "message": "Please enter your first and last name",
+          "min": "Your name must contain at least 3 characters",
+          "max": "Your name can contain a maximum of 50 characters",
+          "regex": "Your name must consist of letters only"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "example@email.com",
+          "required": "Email address is required",
+          "message": "Please enter a valid email address"
+        },
+        "password": {
+          "label": "Password",
+          "required": "Password is required",
+          "min": "Your password must contain at least 6 characters",
+          "max": "Your password can contain a maximum of 50 characters",
+          "placeholder": "Choose a strong password (at least 6 characters)"
+        },
+        "terms": {
+          "label": "I accept the terms of use"
+        },
+        "buttons": {
+          "create": "Create Account",
+          "created": "Creating Account...",
+          "login": "Log In",
+          "logining": "Logging In...",
+          "rememberMe": "Remember me",
+          "forgotPassword": "Forgot Password",
+          "alreadyHaveAccount": "Already have an account?",
+          "notHaveAccount": "Don't have an account?",
+          "signIn": "Log In",
+          "signUp": "Sign Up"
+        }
+      }
+    },
+    "courseRating": {
+      "title": "Rate the Course",
+      "completed": "course completed!",
+      "shareExperience": "Share your experience with other students",
+      "ratings": {
+        "1": "Needs Improvement",
+        "2": "Not Bad",
+        "3": "Good 👌",
+        "4": "Very Good! 👍",
+        "5": "Excellent! ⭐"
+      },
+      "later": "Later",
+      "submit": "Submit"
     },
     "time": {
       "secondsAgo": "seconds ago",
@@ -1038,6 +1151,302 @@
       "daysAgo": "days ago",
       "monthsAgo": "months ago",
       "yearsAgo": "years ago"
+    },
+    "legal": {
+      "common": {
+        "pageTitle": "Legal Center",
+        "pageSubtitle": "Agreements and Policies"
+      },
+      "tabs": {
+        "salesAgreement": "Distance Selling Agreement",
+        "kvkk": "Data Protection (KVKK) Notice",
+        "refundPolicy": "Cancellation and Refund Policy",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfUse": "Terms of Use"
+      },
+      "distanceSellingAgreement": {
+        "title": "Distance Selling Agreement",
+        "subtitle": "",
+        "lastUpdated": "Last Updated: February 20, 2026",
+        "sections": [
+          {
+            "heading": "1. PARTIES",
+            "body": "SELLER:\nTitle: [Platform Name] Educational Technologies Inc.\nAddress: Teknopark Istanbul, Sanayi Mah. Teknoloji Bulvarı, Istanbul\nPhone: 0850 123 45 67\nEmail: support@platform.com\n\nBUYER:\nThe user who registers on the platform and purchases the service."
+          },
+          {
+            "heading": "2. SUBJECT",
+            "body": "The subject of this agreement is to determine the rights and obligations of the parties in accordance with the provisions of the Law No. 6502 on the Protection of Consumers and the Regulation on Distance Contracts regarding the sale and delivery of the product, the qualities and sales price of which are specified below, ordered electronically by the BUYER via the SELLER's website."
+          },
+          {
+            "heading": "3. PRODUCT AND SERVICES SUBJECT TO THE AGREEMENT",
+            "body": "The subject of this agreement consists of online educational videos, digital course materials, live class sessions, and certification programs. The basic characteristics of the service (type, duration, content) are available on the Seller's website.",
+            "list": [
+              "Online Video Courses (Python, Machine Learning, etc.)",
+              "Downloadable Source Codes and PDF Documents",
+              "Exam and Assessment Modules",
+              "Digital Certification Services"
+            ]
+          },
+          {
+            "heading": "4. GENERAL PROVISIONS",
+            "body": "4.1. The BUYER declares that they have read and are informed about the basic characteristics of the product subject to the agreement, the sales price, the payment method, and the preliminary information regarding delivery on the website, and has given the necessary confirmation in the electronic environment.\n\n4.2. Since the service subject to the agreement is digital content, it is made accessible to the BUYER immediately after payment approval. No physical delivery is made.\n\n4.3. The SELLER is responsible for delivering the product/service subject to the agreement completely and in accordance with the qualifications specified in the order.\n\n4.4. Payment transactions are carried out securely via Iyzico or Stripe infrastructure. Credit card information is not stored by the SELLER."
+          },
+          {
+            "heading": "5. RIGHT OF WITHDRAWAL AND EXCEPTIONS",
+            "body": "In accordance with Article 15 of the Distance Contracts Regulation, services performed instantly in the electronic environment or intangible goods delivered instantly to the consumer are among the exceptions to the right of withdrawal.\n\nHowever, within the scope of customer satisfaction, if less than 10% of the purchased course has been watched and 14 days have not passed since the purchase date, the BUYER's refund request may be evaluated by the SELLER. Details are specified on the \"Cancellation and Refund Policy\" page."
+          },
+          {
+            "heading": "6. COMPETENT COURT",
+            "body": "In the implementation of this agreement, Consumer Arbitration Committees and Consumer Courts in the place of residence of the BUYER or the SELLER are authorized up to the value declared by the Ministry of Trade of the Republic of Turkey."
+          }
+        ]
+      },
+      "kvkk": {
+        "title": "Data Protection (KVKK) Notice",
+        "subtitle": "Personal Data Protection Law No. 6698",
+        "lastUpdated": "",
+        "sections": [
+          {
+            "heading": "DATA CONTROLLER",
+            "body": "As [Platform Name] Educational Technologies, in our capacity as the data controller in accordance with the Personal Data Protection Law No. 6698 (\"KVKK\"), we may process, record, store, classify, update your personal data within the scope of the purposes explained below, and disclose/transfer them to 3rd parties limited to the purpose for which they are processed and/or in cases permitted by the legislation in accordance with the law and the rules of honesty."
+          },
+          {
+            "heading": "1. PURPOSE OF PROCESSING PERSONAL DATA",
+            "body": "Your personal data is processed for the following purposes:",
+            "list": [
+              "Carrying out membership transactions and creating an account.",
+              "Providing and tracking access to educational content.",
+              "Managing certification processes (ID verification, QR code generation, etc.).",
+              "Carrying out payment transactions securely (via Iyzico/Stripe).",
+              "Analyzing video viewing statistics (with Vimeo/Bunny.net integration) to improve the platform.",
+              "Conducting communication activities and providing support services.",
+              "Fulfilling legal obligations (invoicing, etc.)."
+            ]
+          },
+          {
+            "heading": "2. PROCESSED PERSONAL DATA",
+            "body": "",
+            "subSections": [
+              {
+                "label": "Identity Information:",
+                "text": "Name, surname, ID number (if required for certification)."
+              },
+              {
+                "label": "Contact Information:",
+                "text": "Email address, phone number."
+              },
+              {
+                "label": "Transaction Security Information:",
+                "text": "IP address, log records, device information."
+              },
+              {
+                "label": "Customer Transaction Information:",
+                "text": "Course progress status, exam grades, billing information."
+              }
+            ]
+          },
+          {
+            "heading": "3. TRANSFER OF PERSONAL DATA",
+            "body": "In line with the realization of the purposes stated above, your personal data may be transferred to our business partners (payment infrastructure providers, video hosting services), legally authorized public institutions, and private persons within the framework of the conditions specified in Articles 8 and 9 of the Law."
+          },
+          {
+            "heading": "4. RIGHTS OF THE PERSONAL DATA OWNER",
+            "body": "Pursuant to Article 11 of the KVKK, data owners have the following rights:",
+            "list": [
+              "To learn whether their personal data is processed,",
+              "To request information if it has been processed,",
+              "To learn the purpose of processing and whether they are used in accordance with their purpose,",
+              "To know the 3rd parties to whom it is transferred domestically or abroad,",
+              "To request correction if it is processed incompletely or incorrectly,",
+              "To request its deletion or destruction within the framework of the conditions stipulated in Article 7 of the KVKK."
+            ],
+            "highlight": {
+              "title": "APPLICATION METHOD:",
+              "text": "You can submit your requests regarding your rights under the KVKK to privacy@platform.com in accordance with the \"Communiqué on the Procedures and Principles of Application to the Data Controller\"."
+            }
+          }
+        ]
+      },
+      "refundPolicy": {
+        "title": "Cancellation and Refund Policy",
+        "subtitle": "Satisfaction Guarantee and Procedures",
+        "lastUpdated": "",
+        "sections": [
+          {
+            "heading": "1. REFUND POLICY SUMMARY",
+            "body": "We trust the quality of the training you purchase from our platform. However, if you are not satisfied for any reason, you can request a refund within the framework of certain conditions.",
+            "highlight": {
+              "title": "YOU HAVE A NO-QUESTIONS-ASKED REFUND RIGHT WITHIN 14 DAYS*",
+              "text": "*The following conditions must be met."
+            }
+          },
+          {
+            "heading": "2. REFUND CONDITIONS",
+            "body": "For your refund request to be approved, all of the following conditions must be met:",
+            "list": [
+              "14 days must not have passed since the purchase date.",
+              "More than 15% of the course content must not have been watched/completed.",
+              "The certificate belonging to the course content must not have been claimed/generated.",
+              "Downloadable source codes or special materials must not have been downloaded for abusive purposes (checked via system logs)."
+            ]
+          },
+          {
+            "heading": "3. REFUND PROCESS",
+            "body": "",
+            "subSections": [
+              {
+                "label": "Creating a Request:",
+                "text": "Request a refund from the \"My Orders\" section on your profile page or by sending an email to support@platform.com."
+              },
+              {
+                "label": "Evaluation:",
+                "text": "Our support team checks whether the above conditions are met (viewing rate, certificate status, etc.) via the system. This process usually takes 24-48 hours."
+              },
+              {
+                "label": "Approval and Refund:",
+                "text": "When your refund request is approved, the fee is refunded to the card/account you used for payment. It may take 3-7 business days for the amount to reflect in your account, depending on your bank."
+              },
+              {
+                "label": "Rejection Status:",
+                "text": "In cases where the conditions are not met, the refund is rejected and the reason is notified to you via email."
+              }
+            ]
+          },
+          {
+            "heading": "4. EXCEPTIONS",
+            "body": "Refunds cannot be made in the following cases:",
+            "list": [
+              "Trainings received for free or at a discount within the scope of a promotional code, gift voucher, or campaign (only the paid amount is refunded).",
+              "Corporate purchases and B2B agreements (subject to agreement terms).",
+              "Purchases made from third-party markets (App Store, Google Play) (the refund policy of the relevant market applies).",
+              "After the live training/webinar recording has been made and the event has taken place."
+            ]
+          },
+          {
+            "heading": "5. CONTACT",
+            "body": "For your questions regarding refund processes, you can reach us at support@platform.com."
+          }
+        ]
+      },
+      "privacyPolicy": {
+        "title": "Privacy Policy",
+        "subtitle": "",
+        "lastUpdated": "Last updated: January 15, 2025",
+        "sections": [
+          {
+            "heading": "1. Information Collected",
+            "body": "We collect the following information from you when you use our platform:",
+            "list": [
+              "Name, surname, and email address",
+              "Payment information (via secure payment providers)",
+              "Course progress and usage data",
+              "Device and browser information"
+            ]
+          },
+          {
+            "heading": "2. Use of Information",
+            "body": "We use the information we collect for the following purposes:",
+            "list": [
+              "To create and manage your account",
+              "To provide access to course contents",
+              "To process payments",
+              "To improve and personalize the platform",
+              "To notify you of important updates"
+            ]
+          },
+          {
+            "heading": "3. Information Security",
+            "body": "We use industry-standard security measures to protect your data. All sensitive information is stored encrypted."
+          },
+          {
+            "heading": "4. Sharing with Third Parties",
+            "body": "We do not sell your personal information to third parties. We may only share it in the following cases:",
+            "list": [
+              "Payment processors (Iyzico, Stripe)",
+              "Video hosting services (Vimeo, Bunny.net)",
+              "Legal obligations"
+            ]
+          },
+          {
+            "heading": "5. Cookies",
+            "body": "Our platform uses cookies to improve user experience. You can manage cookies from your browser settings."
+          },
+          {
+            "heading": "6. Your Rights",
+            "body": "You have the following rights under data protection laws:",
+            "list": [
+              "To request access to your personal data",
+              "To request correction of data",
+              "To request deletion of data",
+              "To object to data processing"
+            ]
+          },
+          {
+            "heading": "7. Contact",
+            "body": "For your questions about our privacy policy:\nEmail: privacy@platform.com"
+          }
+        ]
+      },
+      "termsOfUse": {
+        "title": "Terms of Use",
+        "subtitle": "",
+        "lastUpdated": "Last updated: February 20, 2026",
+        "sections": [
+          {
+            "heading": "1. INTRODUCTION AND ACCEPTANCE",
+            "body": "By using this platform (\"Site\", \"Application\"), you are deemed to have accepted the Terms of Use (\"Terms\") specified below. If you do not accept the Terms, please do not use the platform."
+          },
+          {
+            "heading": "2. ACCOUNT SECURITY AND MEMBERSHIP",
+            "body": "",
+            "list": [
+              "To become a member of the platform, you must be over 18 years old or have legal guardian permission.",
+              "You undertake that the information you provide during membership (Name, Surname, Email) is accurate and up-to-date.",
+              "You are entirely responsible for the security of your account password. All transactions made through your account are your responsibility.",
+              "You cannot transfer or share your account with third parties. The system may temporarily suspend your account if it detects suspicious logins from different IPs/devices at the same time."
+            ]
+          },
+          {
+            "heading": "3. INTELLECTUAL PROPERTY RIGHTS",
+            "body": "All content on the platform (videos, source codes, PDF documents, visuals, exam questions, etc.) belongs to [Platform Name] and is protected by international copyright laws.",
+            "list": [
+              "Contents may only be used for individual educational purposes.",
+              "Copying, reproducing, reselling, publicly broadcasting, or commercially using the contents is strictly prohibited.",
+              "Sample codes shared in lessons (Applied Python, Django projects, etc.) are for educational purposes; direct use of these codes in commercial projects is the user's responsibility."
+            ]
+          },
+          {
+            "heading": "4. PAYMENTS AND SUBSCRIPTIONS",
+            "body": "Some content may be paid. Payment for paid content is made via specified secure payment channels (Iyzico/Stripe).",
+            "list": [
+              "Prices are the amounts specified at the time of purchase and include all taxes (unless otherwise stated).",
+              "The right to access purchased content is lifetime or for the specified duration.",
+              "The platform reserves the right to change prices without prior notice."
+            ]
+          },
+          {
+            "heading": "5. USER CONDUCT",
+            "body": "While using the platform, you must avoid the following behaviors:",
+            "list": [
+              "Sharing illegal, threatening, insulting, or immoral content (in Forum/Community areas).",
+              "Making attempts that will damage the technical infrastructure of the platform and disrupt its operation (DDoS, script injection, etc.).",
+              "Collecting or using the personal data of other users without permission."
+            ]
+          },
+          {
+            "heading": "6. DISCLAIMER",
+            "body": "The platform shows utmost care regarding the accuracy and up-to-dateness of the educational content offered but does not provide a guarantee. The platform cannot be held responsible for direct or indirect damages (data loss, software errors, etc.) that may occur as a result of implementing the training. Software development inherently carries risks, and the user is responsible for the precautions they take in their own environment."
+          },
+          {
+            "heading": "7. MODIFICATIONS",
+            "body": "The platform reserves the right to update these Terms of Use at any time. Changes enter into force on the date they are published on the site."
+          },
+          {
+            "heading": "8. CONTACT",
+            "body": "For any questions and suggestions regarding the terms of use, you can contact us via legal@platform.com."
+          }
+        ]
+      }
     }
   }
 }

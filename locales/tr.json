@@ -284,6 +284,56 @@
         "ratingFailed": "Değerlendirme gönderilemedi."
       }
     },
+    "login": {
+      "alreadyLogged": "Zaten giriş yapmışsınız, profil sayfanıza yönlendiriliyorsunuz.",
+      "signUp": {
+        "title": "Hesap Oluşturun",
+        "subtitle": "Ücretsiz hesap oluşturun ve öğrenmeye başlayın"
+      },
+      "signIn": {
+        "title": "Hoş Geldiniz",
+        "subTitle": "Hesabınıza giriş yapın ve öğrenmeye devam edin"
+      },
+      "or": "Veya",
+      "inputs": {
+        "name": {
+          "label": "Ad Soyad",
+          "placeholder": "Adınız ve soyadınız",
+          "message": "Lütfen adınızı ve soyadınızı girin",
+          "min": "Adınız en az 3 karakter içermelidir",
+          "max": "Adınız en fazla 50 karakter içerebilir",
+          "regex": "Adınız sadece harflerden oluşmalıdır"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "ornek@email.com",
+          "required": "Email adresi zorunludur",
+          "message": "Lütfen geçerli bir email adresi girin"
+        },
+        "password": {
+          "label": "Şifre",
+          "required": "Şifre zorunludur",
+          "min": "Şifreniz en az 6 karakter içermelidir",
+          "max": "Şifreniz en fazla 50 karakter içerebilir",
+          "placeholder": "Güçlü bir şifre seçin (en az 6 karakter)"
+        },
+        "terms": {
+          "label": "Kullanım koşullarını kabul ediyorum"
+        },
+        "buttons": {
+          "create": "Hesap Oluştur",
+          "created": "Hesap Oluşturuluyor...",
+          "login": "Giriş Yap",
+          "logining": "Giriş Yapılıyor...",
+          "rememberMe": "Beni hatırla",
+          "forgotPassword": "Şifremi Unuttum",
+          "alreadyHaveAccount": "Zaten bir hesabınız var mı?",
+          "notHaveAccount": "Hesabınız yok mu?",
+          "signIn": "Giriş Yap",
+          "signUp": "Kayıt Ol"
+        }
+      }
+    },
     "support": {
       "title": "Size Nasıl Yardımcı Olabiliriz?",
       "description": "Dokümantasyonlar, rehberler ve destek kaynaklarına göz atın",
@@ -551,6 +601,26 @@
         "download": "İndir",
         "downloading": "İndiriliyor...",
         "preview": "Sertifika Önizleme",
+        "downloadError": "Sertifika indirilirken bir hata oluştu.",
+        "viewError": "Sertifika önizlemesi oluşturulurken bir hata oluştu.",
+        "earnCertificate": "Tebrikler! Sertifikanız hazır.",
+        "congratulations": "Quiz'i geçtiniz! Sertifika için tüm videoları tamamlayın.",
+        "pastQuiz": "Quiz'i başarıyla geçtiniz ve kursun tüm videolarını tamamladınız. Sertifikanız hazır!",
+        "tryAgain": "Quiz başarısız. Skorunuz: {{score}}%",
+        "title": {
+          "1": "Quiz Tamamlandı!",
+          "2": "Kurs Quiz'i"
+        },
+        "question": "Soru",
+        "back": "Önceki",
+        "next": "Sonraki",
+        "close": "Kapat",
+        "complete": "Tamamla",
+        "noQuestion": "Bu kurs için quiz soruları bulunmamaktadır.",
+        "passed": "Tebrikler! Başarılı!",
+        "failed": "Başarısız",
+        "passedNoVideos": "Quiz'i başarıyla geçtiniz! Sertifika almak için kursun tüm videolarını tamamlayın.",
+        "failedQuiz": "Maalesef quiz'i geçemediniz. Geçme notu en az %70'dir. Tekrar deneyebilirsiniz.",
         "noCertificates": "Henüz tamamlanmış kursunuz bulunmamaktadır. Sertifika almak için kurslarınızı tamamlayın."
       },
       "payment": {
@@ -907,7 +977,7 @@
             "sections": {
               "label": "Kurs Bölümleri ve Videolar",
               "add": "Bölüm Ekle",
-              "sectionTitle": "Bölüm ${index} Başlığı",
+              "sectionTitle": "Bölüm {{index}} Başlığı",
               "zIndex": "Sıra",
               "addVideo": "Video Ekle",
               "video": {
@@ -938,7 +1008,7 @@
             "imageUploadError": "Görsel yüklenirken bir hata oluştu",
             "fileUploadSuccess": "Dosya başarıyla yüklendi",
             "fileUploadError": "Dosya yüklenirken bir hata oluştu",
-            "editedCourse": "${courseName} başarıyla güncellendi",
+            "editedCourse": "{{courseName}} başarıyla güncellendi",
             "editError": "Kurs güncellenirken bir hata oluştu"
           },
           "buttons": {
@@ -951,7 +1021,7 @@
         "delete": {
           "title": "Kursu Sil",
           "toast": {
-            "success": "${courseName} başarıyla silindi",
+            "success": "{{title}} başarıyla silindi",
             "error": "Kurs silinirken bir hata oluştu"
           },
           "confirmation": "Kursu Silmek İstediğinize Emin Misiniz?",
@@ -987,6 +1057,11 @@
             "edit": "Düzenle"
           }
         },
+        "confirmDialog": {
+          "cancel": "İptal",
+          "submiting": "İşleniyor...",
+          "confirm": "Ekle"
+        },
         "userEdit": {
           "title": "Kullanıcı Düzenle",
           "infoCard": {
@@ -1005,7 +1080,7 @@
             "defaultOption": "Kurs Seçin...",
             "noCourses": "Eklenebilecek kurs bulunmuyor",
             "add": "Ekle",
-            "userCoursesTitle": "Kullanıcının Kursları ({count})",
+            "userCoursesTitle": "Kullanıcının Kursları ({{count}})",
             "notAddedCourse": "Henüz kayıtlı kurs yok"
           },
           "warn": {
@@ -1028,8 +1103,46 @@
             "error": "İşlem sırasında hata oluştu"
           },
           "close": "Kapat"
+        },
+        "addCourse": {
+          "title": "Kurs Ekle",
+          "message": "Bu kursu kullanıcıya eklemek istediğinizden emin misiniz? Kullanıcı kursa erişim kazanacaktır.",
+          "confirmText": "Ekle"
+        },
+        "removeCourse": {
+          "title": "Kurs Kaldır",
+          "message": "{{course}} kursunu kullanıcıdan kaldırmak istediğinizden emin misiniz? Bu işlem geri alınamaz ve kullanıcının tüm ilerleme kaydı silinecektir.",
+          "confirmText": "Kaldır"
+        },
+        "deactivateUser": {
+          "title": {
+            "active": "Hesabı Deaktif Et",
+            "inactive": "Hesabı Aktif Et"
+          },
+          "message": {
+            "active": "{{user}} kullanıcısının hesabını deaktif etmek istediğinizden emin misiniz? Deaktif edilen hesaplar giriş yapamaz ve \"Hesabınız aktif değil, yönetici ekibi ile iletişime geçin\" mesajı görür.",
+            "inactive": "{{user}} kullanıcısının hesabını tekrar aktif etmek istediğinizden emin misiniz? Kullanıcı tekrar giriş yapabilecektir."
+          },
+          "button": {
+            "active": "Deaktif Et",
+            "inactive": "Aktif Et"
+          }
         }
       }
+    },
+    "courseRating": {
+      "title": "Kursu Değerlendirin",
+      "completed": "kursunu tamamladınız!",
+      "shareExperience": "Deneyiminizi diğer öğrencilerle paylaşın",
+      "ratings": {
+        "1": "İyileştirilebilir",
+        "2": "Fena Değil",
+        "3": "İyi 👌",
+        "4": "Çok İyi! 👍",
+        "5": "Mükemmel! ⭐"
+      },
+      "later": "Daha Sonra",
+      "submit": "Gönder"
     },
     "time": {
       "secondsAgo": "saniye önce",
@@ -1038,6 +1151,302 @@
       "daysAgo": "gün önce",
       "monthsAgo": "ay önce",
       "yearsAgo": "yıl önce"
+    },
+    "legal": {
+      "common": {
+        "pageTitle": "Yasal Merkez",
+        "pageSubtitle": "Sözleşmeler ve Politikalar"
+      },
+      "tabs": {
+        "salesAgreement": "Mesafeli Satış Sözleşmesi",
+        "kvkk": "KVKK Aydınlatma Metni",
+        "refundPolicy": "İptal ve İade Koşulları",
+        "privacyPolicy": "Gizlilik Politikası",
+        "termsOfUse": "Kullanım Şartları"
+      },
+      "distanceSellingAgreement": {
+        "title": "Mesafeli Satış Sözleşmesi",
+        "subtitle": "",
+        "lastUpdated": "Son Güncelleme: 20 Şubat 2026",
+        "sections": [
+          {
+            "heading": "1. TARAFLAR",
+            "body": "SATICI:\nÜnvanı: [Platform Adı] Eğitim Teknolojileri A.Ş.\nAdres: Teknopark İstanbul, Sanayi Mah. Teknoloji Bulvarı, İstanbul\nTelefon: 0850 123 45 67\nE-posta: destek@platform.com\n\nALICI:\nPlatforma üye olan ve hizmet satın alan kullanıcı."
+          },
+          {
+            "heading": "2. KONU",
+            "body": "İşbu sözleşmenin konusu, ALICI'nın SATICI'ya ait internet sitesi üzerinden elektronik ortamda siparişini verdiği aşağıda nitelikleri ve satış fiyatı belirtilen ürünün satışı ve teslimi ile ilgili olarak 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği hükümleri gereğince tarafların hak ve yükümlülüklerinin saptanmasıdır."
+          },
+          {
+            "heading": "3. SÖZLEŞME KONUSU ÜRÜN VE HİZMETLER",
+            "body": "İşbu sözleşme konusu; online eğitim videoları, dijital ders materyalleri, canlı ders oturumları ve sertifika programlarından oluşmaktadır. Hizmetin temel özellikleri (türü, süresi, içeriği) Satıcı'ya ait internet sitesinde yer almaktadır.",
+            "list": [
+              "Online Video Eğitimleri (Python, Makine Öğrenmesi, vb.)",
+              "İndirilebilir Kaynak Kodları ve PDF Dokümanları",
+              "Sınav ve Değerlendirme Modülleri",
+              "Dijital Sertifika Hizmetleri"
+            ]
+          },
+          {
+            "heading": "4. GENEL HÜKÜMLER",
+            "body": "4.1. ALICI, internet sitesinde sözleşme konusu ürünün temel nitelikleri, satış fiyatı ve ödeme şekli ile teslimata ilişkin ön bilgileri okuyup bilgi sahibi olduğunu ve elektronik ortamda gerekli teyidi verdiğini beyan eder.\n\n4.2. Sözleşme konusu hizmet, dijital içerik olduğu için ödeme onayı alındıktan hemen sonra ALICI'nın erişimine açılır. Herhangi bir fiziksel teslimat yapılmamaktadır.\n\n4.3. SATICI, sözleşme konusu ürünün/hizmetin eksiksiz, siparişte belirtilen niteliklere uygun olarak teslim edilmesinden sorumludur.\n\n4.4. Ödeme işlemleri İyzico veya Stripe altyapısı üzerinden güvenli bir şekilde gerçekleştirilmektedir. Kredi kartı bilgileri SATICI tarafından saklanmamaktadır."
+          },
+          {
+            "heading": "5. CAYMA HAKKI VE İSTİSNALARI",
+            "body": "Mesafeli Sözleşmeler Yönetmeliği'nin 15. maddesi gereğince, elektronik ortamda anında ifa edilen hizmetler veya tüketiciye anında teslim edilen gayrimaddi mallar cayma hakkının istisnaları arasındadır.\n\nAncak müşteri memnuniyeti kapsamında, satın alınan eğitimin %10'undan azı izlenmişse ve satın alma tarihinden itibaren 14 gün geçmemişse, ALICI'nın iade talebi SATICI tarafından değerlendirilebilir. Detaylar \"İptal ve İade Koşulları\" sayfasında belirtilmiştir."
+          },
+          {
+            "heading": "6. YETKİLİ MAHKEME",
+            "body": "İşbu sözleşmenin uygulanmasında, T.C. Ticaret Bakanlığınca ilan edilen değere kadar Tüketici Hakem Heyetleri ile ALICI'nın veya SATICI'nın yerleşim yerindeki Tüketici Mahkemeleri yetkilidir."
+          }
+        ]
+      },
+      "kvkk": {
+        "title": "KVKK Aydınlatma Metni",
+        "subtitle": "6698 Sayılı Kişisel Verilerin Korunması Kanunu",
+        "lastUpdated": "",
+        "sections": [
+          {
+            "heading": "VERİ SORUMLUSU",
+            "body": "[Platform Adı] Eğitim Teknolojileri olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") uyarınca, veri sorumlusu sıfatıyla kişisel verilerinizi aşağıda açıklanan amaçlar kapsamında; hukuka ve dürüstlük kurallarına uygun bir şekilde işleyebilecek, kaydedebilecek, saklayabilecek, sınıflandırabilecek, güncelleyebilecek ve mevzuatın izin verdiği hallerde ve/veya işlendikleri amaçla sınırlı olarak 3. kişilere açıklayabilecek/devredebileceğiz."
+          },
+          {
+            "heading": "1. KİŞİSEL VERİLERİN İŞLENME AMACI",
+            "body": "Kişisel verileriniz aşağıdaki amaçlarla işlenmektedir:",
+            "list": [
+              "Üyelik işlemlerinin gerçekleştirilmesi ve hesabın oluşturulması.",
+              "Eğitim içeriklerine erişimin sağlanması ve takibinin yapılması.",
+              "Sertifikasyon süreçlerinin (ID doğrulama, QR kod üretimi, vb.) yönetilmesi.",
+              "Ödeme işlemlerinin güvenli bir şekilde gerçekleştirilmesi (İyzico/Stripe aracılığıyla).",
+              "Video izleme istatistiklerinin (Vimeo/Bunny.net entegrasyonu ile) analiz edilerek platformun geliştirilmesi.",
+              "İletişim faaliyetlerinin yürütülmesi ve destek hizmetlerinin sağlanması.",
+              "Hukuki yükümlülüklerin (fatura kesimi, vb.) yerine getirilmesi."
+            ]
+          },
+          {
+            "heading": "2. İŞLENEN KİŞİSEL VERİLER",
+            "body": "",
+            "subSections": [
+              {
+                "label": "Kimlik Bilgileri:",
+                "text": "Ad, soyad, T.C. kimlik numarası (sertifika için gerekliyse)."
+              },
+              {
+                "label": "İletişim Bilgileri:",
+                "text": "E-posta adresi, telefon numarası."
+              },
+              {
+                "label": "İşlem Güvenliği Bilgileri:",
+                "text": "IP adresi, log kayıtları, cihaz bilgileri."
+              },
+              {
+                "label": "Müşteri İşlem Bilgileri:",
+                "text": "Kurs ilerleme durumu, sınav notları, fatura bilgileri."
+              }
+            ]
+          },
+          {
+            "heading": "3. KİŞİSEL VERİLERİN AKTARIMI",
+            "body": "Kişisel verileriniz, yukarıda belirtilen amaçların gerçekleştirilmesi doğrultusunda; iş ortaklarımıza (ödeme altyapısı sağlayıcıları, video barındırma hizmetleri), kanunen yetkili kamu kurumlarına ve özel kişilere Kanun'un 8. ve 9. maddelerinde belirtilen şartlar çerçevesinde aktarılabilecektir."
+          },
+          {
+            "heading": "4. KİŞİSEL VERİ SAHİBİNİN HAKLARI",
+            "body": "KVKK'nın 11. maddesi uyarınca veri sahipleri şu haklara sahiptir:",
+            "list": [
+              "Kişisel verilerinin işlenip işlenmediğini öğrenme,",
+              "İşlenmişse buna ilişkin bilgi talep etme,",
+              "İşlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,",
+              "Yurt içinde veya yurt dışında aktarıldığı 3. kişileri bilme,",
+              "Eksik veya yanlış işlenmişse düzeltilmesini isteme,",
+              "KVKK'nın 7. maddesinde öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme."
+            ],
+            "highlight": {
+              "title": "BAŞVURU YÖNTEMİ:",
+              "text": "KVKK kapsamındaki haklarınıza ilişkin taleplerinizi \"Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ\" uyarınca kvkk@platform.com adresine iletebilirsiniz."
+            }
+          }
+        ]
+      },
+      "refundPolicy": {
+        "title": "İptal ve İade Koşulları",
+        "subtitle": "Memnuniyet Garantisi ve Prosedürler",
+        "lastUpdated": "",
+        "sections": [
+          {
+            "heading": "1. İADE POLİTİKASI ÖZETİ",
+            "body": "Platformumuzdan satın aldığınız eğitimlerin kalitesine güveniyoruz. Ancak herhangi bir nedenle memnun kalmamanız durumunda, belirli şartlar çerçevesinde iade talebinde bulunabilirsiniz.",
+            "highlight": {
+              "title": "14 GÜN İÇERİSİNDE SORGUSUZ SUALSİZ İADE HAKKINIZ SAKLIDIR*",
+              "text": "*Aşağıdaki koşulların sağlanması gereklidir."
+            }
+          },
+          {
+            "heading": "2. İADE KOŞULLARI",
+            "body": "İade talebinizin onaylanabilmesi için aşağıdaki şartların tümünün sağlanması gerekmektedir:",
+            "list": [
+              "Satın alma tarihinden itibaren 14 gün geçmemiş olması gerekmektedir.",
+              "Eğitim içeriğinin %15'inden fazlasının izlenmemiş/tamamlanmamış olması gerekmektedir.",
+              "Eğitim içeriğine ait sertifikanın alınmamış/üretilmemiş olması gerekmektedir.",
+              "İndirilebilir kaynak kodlarının veya özel materyallerin kötüye kullanım amacıyla indirilmemiş olması (sistem logları ile kontrol edilir)."
+            ]
+          },
+          {
+            "heading": "3. İADE SÜRECİ",
+            "body": "",
+            "subSections": [
+              {
+                "label": "Talep Oluşturma:",
+                "text": "Profil sayfanızdaki \"Siparişlerim\" bölümünden veya destek@platform.com adresine e-posta göndererek iade talebinde bulunun."
+              },
+              {
+                "label": "Değerlendirme:",
+                "text": "Destek ekibimiz, yukarıdaki koşulların sağlanıp sağlanmadığını (izleme oranı, sertifika durumu, vb.) sistem üzerinden kontrol eder. Bu işlem genellikle 24-48 saat sürer."
+              },
+              {
+                "label": "Onay ve İade:",
+                "text": "İade talebiniz onaylandığında, ödeme yaptığınız karta/hesaba ücret iadesi yapılır. Bankanıza bağlı olarak tutarın hesabınıza yansıması 3-7 iş günü sürebilir."
+              },
+              {
+                "label": "Red Durumu:",
+                "text": "Koşulların sağlanmadığı durumlarda, iade reddedilir ve gerekçesi size e-posta ile bildirilir."
+              }
+            ]
+          },
+          {
+            "heading": "4. İSTİSNALAR",
+            "body": "Aşağıdaki durumlarda iade yapılamaz:",
+            "list": [
+              "Promosyon kodu, hediye çeki veya kampanya kapsamında ücretsiz veya indirimli alınan eğitimler (sadece ödenen tutar iade edilir).",
+              "Kurumsal satın alımlar ve B2B anlaşmalar (sözleşme şartlarına tabidir).",
+              "Üçüncü taraf marketlerden (App Store, Google Play) yapılan satın alımlar (ilgili marketin iade politikası geçerlidir).",
+              "Canlı eğitim/webinar kaydı yapıldıktan sonra, etkinliğin gerçekleşmiş olması."
+            ]
+          },
+          {
+            "heading": "5. İLETİŞİM",
+            "body": "İade süreçleriyle ilgili sorularınız için destek@platform.com adresinden bize ulaşabilirsiniz."
+          }
+        ]
+      },
+      "privacyPolicy": {
+        "title": "Gizlilik Politikası",
+        "subtitle": "",
+        "lastUpdated": "Son güncelleme: 15 Ocak 2025",
+        "sections": [
+          {
+            "heading": "1. Toplanan Bilgiler",
+            "body": "Platformumuzu kullanırken sizden aşağıdaki bilgileri topluyoruz:",
+            "list": [
+              "Ad, soyad ve e-posta adresi",
+              "Ödeme bilgileri (güvenli ödeme sağlayıcıları üzerinden)",
+              "Kurs ilerleme ve kullanım verileri",
+              "Cihaz ve tarayıcı bilgileri"
+            ]
+          },
+          {
+            "heading": "2. Bilgilerin Kullanımı",
+            "body": "Topladığımız bilgileri şu amaçlarla kullanıyoruz:",
+            "list": [
+              "Hesabınızı oluşturmak ve yönetmek",
+              "Kurs içeriklerine erişim sağlamak",
+              "Ödemeleri işlemek",
+              "Platformu geliştirmek ve kişiselleştirmek",
+              "Size önemli güncellemeleri bildirmek"
+            ]
+          },
+          {
+            "heading": "3. Bilgi Güvenliği",
+            "body": "Verilerinizi korumak için endüstri standardı güvenlik önlemleri kullanıyoruz. Tüm hassas bilgiler şifrelenmiş olarak saklanır."
+          },
+          {
+            "heading": "4. Üçüncü Taraflarla Paylaşım",
+            "body": "Kişisel bilgilerinizi üçüncü taraflarla satmıyoruz. Yalnızca aşağıdaki durumlarda paylaşabiliriz:",
+            "list": [
+              "Ödeme işlemcileri (İyzico, Stripe)",
+              "Video hosting hizmetleri (Vimeo, Bunny.net)",
+              "Yasal zorunluluklar"
+            ]
+          },
+          {
+            "heading": "5. Çerezler",
+            "body": "Platformumuz kullanıcı deneyimini iyileştirmek için çerezler kullanır. Tarayıcı ayarlarınızdan çerezleri yönetebilirsiniz."
+          },
+          {
+            "heading": "6. Haklarınız",
+            "body": "KVKK kapsamında aşağıdaki haklara sahipsiniz:",
+            "list": [
+              "Kişisel verilerinize erişim talep etme",
+              "Verilerin düzeltilmesini isteme",
+              "Verilerin silinmesini talep etme",
+              "Veri işlemeye itiraz etme"
+            ]
+          },
+          {
+            "heading": "7. İletişim",
+            "body": "Gizlilik politikamız hakkında sorularınız için:\nE-posta: privacy@academy.com"
+          }
+        ]
+      },
+      "termsOfUse": {
+        "title": "Kullanım Şartları",
+        "subtitle": "",
+        "lastUpdated": "Son güncelleme: 20 Şubat 2026",
+        "sections": [
+          {
+            "heading": "1. GİRİŞ VE KABUL",
+            "body": "Bu platformu (\"Site\", \"Uygulama\") kullanarak, aşağıda belirtilen Kullanım Şartları'nı (\"Şartlar\") kabul etmiş sayılırsınız. Şartları kabul etmiyorsanız, lütfen platformu kullanmayınız."
+          },
+          {
+            "heading": "2. HESAP GÜVENLİĞİ VE ÜYELİK",
+            "body": "",
+            "list": [
+              "Platforma üye olmak için 18 yaşından büyük olmanız veya yasal veli iznine sahip olmanız gerekmektedir.",
+              "Üyelik sırasında sağladığınız bilgilerin (Ad, Soyad, E-posta) doğru ve güncel olduğunu taahhüt edersiniz.",
+              "Hesap şifrenizin güvenliğinden tamamen siz sorumlusunuz. Hesabınız üzerinden yapılan tüm işlemler sizin sorumluluğunuzdadır.",
+              "Hesabınızı üçüncü şahıslara devredemez veya paylaşamazsınız. Sistem, aynı anda farklı IP'lerden/cihazlardan yapılan şüpheli girişleri tespit ettiğinde hesabınızı geçici olarak askıya alabilir."
+            ]
+          },
+          {
+            "heading": "3. FİKRİ MÜLKİYET HAKLARI",
+            "body": "Platformda yer alan tüm içerikler (videolar, kaynak kodlar, PDF dokümanlar, görseller, sınav soruları, vb.) [Platform Adı]'na aittir ve uluslararası telif hakkı yasaları ile korunmaktadır.",
+            "list": [
+              "İçerikler yalnızca bireysel eğitim amacıyla kullanılabilir.",
+              "İçeriklerin kopyalanması, çoğaltılması, yeniden satılması, halka açık bir şekilde yayınlanması veya ticari amaçla kullanılması kesinlikle yasaktır.",
+              "Derslerde paylaşılan örnek kodlar (Applied Python, Django projeleri vb.) eğitim amaçlıdır; bu kodların ticari projelerde doğrudan kullanımı kullanıcının sorumluluğundadır."
+            ]
+          },
+          {
+            "heading": "4. ÖDEMELER VE ABONELİK",
+            "body": "Bazı içerikler ücretli olabilir. Ücretli içerikler için ödeme, belirtilen güvenli ödeme kanalları (İyzico/Stripe) üzerinden yapılır.",
+            "list": [
+              "Fiyatlar, satın alma anında belirtilen tutarlardır ve tüm vergileri içerir (aksi belirtilmedikçe).",
+              "Satın alınan içeriklere erişim hakkı ömür boyu veya belirtilen süre kadardır.",
+              "Platform, önceden haber vermeksizin fiyatlarda değişiklik yapma hakkını saklı tutar."
+            ]
+          },
+          {
+            "heading": "5. KULLANICI DAVRANIŞLARI",
+            "body": "Platformu kullanırken aşağıdaki davranışlardan kaçınmalısınız:",
+            "list": [
+              "Yasadışı, tehditkar, hakaret içeren veya genel ahlaka aykırı içerik paylaşmak (Forum/Topluluk alanlarında).",
+              "Platformun teknik altyapısına zarar verecek, işleyişini aksatacak (DDoS, script injection vb.) girişimlerde bulunmak.",
+              "Diğer kullanıcıların kişisel verilerini izinsiz toplamak veya kullanmak."
+            ]
+          },
+          {
+            "heading": "6. SORUMLULUK REDDİ",
+            "body": "Platform, sunulan eğitim içeriklerinin doğruluğu ve güncelliği konusunda azami özeni gösterir ancak garanti vermez. Eğitimlerin uygulanması sonucunda oluşabilecek doğrudan veya dolaylı zararlardan (veri kaybı, yazılım hataları vb.) platform sorumlu tutulamaz. Yazılım geliştirme doğası gereği riskler barındırır ve kullanıcı kendi ortamında aldığı önlemlerden sorumludur."
+          },
+          {
+            "heading": "7. DEĞİŞİKLİKLER",
+            "body": "Platform, işbu Kullanım Şartları'nı dilediği zaman güncelleme hakkını saklı tutar. Değişiklikler sitede yayınlandığı tarihte yürürlüğe girer."
+          },
+          {
+            "heading": "8. İLETİŞİM",
+            "body": "Kullanım şartları ile ilgili her türlü soru ve öneriniz için legal@platform.com adresi üzerinden iletişime geçebilirsiniz."
+          }
+        ]
+      }
     }
   }
 }
