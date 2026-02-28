@@ -49,7 +49,7 @@
             "title": "Hızlı Linkler",
             "home": "Ana Sayfa",
             "about": "Hakkımızda",
-            "courses": "Fiyatlandırma",
+            "certificate": "Sertifika Doğrula",
             "updates": "Duyurular & Güncellemeler",
             "contact": "İletişim"
           },
@@ -62,7 +62,14 @@
             "reportBug": "Hata Bildir"
           }
         },
-        "rights": "Mesut Özdag Academy. All Rights Reserved."
+        "rights": "Mesut Özdag Academy. All Rights Reserved.",
+        "status": {
+          "active": "Tüm Sistemler Çalışır Durumda",
+          "partial": "Kısmi Dışarıda Kalma",
+          "major": "Büyük Dışarıda Kalma",
+          "offline": "Çevrimdışı",
+          "loading": "Sistem yükleniyor..."
+        }
       },
       "nav": {
         "home": "Ana Sayfa",
@@ -70,6 +77,7 @@
         "about": "Hakkımızda",
         "contact": "İletişim",
         "packages": "Paketler",
+        "updates": "Duyurular",
         "signin": "Giriş Yap",
         "signup": "Kayıt Ol",
         "profile": "Profilim",
@@ -268,6 +276,45 @@
       "rating": "değerlendirme",
       "one_time_purchase": "tek seferlik",
       "go_to_course": "Kursa Git",
+      "backToList": "Kurslara geri dön",
+      "tabs": {
+        "all": "Tümü",
+        "math": "Matematik"
+      },
+      "hero": {
+        "professionalCourses": "{{count}} Profesyonel Kurs",
+        "title": {
+          "word1": "Kurs",
+          "word2": "Kataloğu"
+        },
+        "subtitle": "Kariyerinizi ilerletecek, profesyonel eğitmenler tarafından hazırlanmış kurslar",
+        "stats": {
+          "activeCourses": "Aktif Kurs",
+          "students": "Öğrenci",
+          "averageRating": "Ortalama Puan",
+          "hoursContent": "Saat İçerik"
+        }
+      },
+      "promotion": {
+        "badge": "Özel Fırsat",
+        "title": {
+          "line1": "Tüm Kurslara",
+          "line2": "Sınırsız Erişim"
+        },
+        "description": "Kurs paketi ile tüm mevcut ve gelecek kurslara ömür boyu erişim sağlayın. Tek ödeme, sınırsız öğrenme!",
+        "packageDetails": "Paket Detayları",
+        "viewPrices": "Fiyatları Gör",
+        "features": {
+          "allAccess": "Tüm Kurslara Erişim",
+          "prioritySupport": "Öncelikli Destek",
+          "certificates": "Sertifikalar Dahil"
+        }
+      },
+      "card": {
+        "startCourse": "Kursa Başla",
+        "buyPackage": "Paketi Satın Al",
+        "packageCoursesCount": "Bu Pakette {{count}} Kurs:"
+      },
       "levels": {
         "beginner": "Başlangıç",
         "beginner_intermediate": "Başlangıç - Orta",
@@ -281,7 +328,83 @@
         "certificateCreated": "Sertifika oluşturuldu.",
         "certificateFailed": "Sertifika oluşturulamadı.",
         "ratingSubmitted": "Değerlendirmeniz kaydedildi. Teşekkürler!",
-        "ratingFailed": "Değerlendirme gönderilemedi."
+        "ratingFailed": "Değerlendirme gönderilemedi.",
+        "loadingError": "Kurs yüklenemedi. Lütfen tekrar deneyin.",
+        "cartAdded": "Kurs sepete eklendi!",
+        "coupon": {
+          "applied": "%{{coupon}} indirim uygulandı!",
+          "invalidCoupon": "Geçersiz kupon kodu"
+        }
+      },
+      "detail": {
+        "featuresTitle": "Bu eğitim şunları içerir:",
+        "content": "{{duration}} video içeriği",
+        "lesson": "{{totalVideos}} ders",
+        "sections": "{{totalSections}} bölüm",
+        "downloadable": "{{content}} indirilebilir kaynak",
+        "responsive": "Mobil ve TV'den erişim",
+        "lifetime": "Ömür boyu tam erişim",
+        "certificate": "Bitirme sertifikasi sertifikası",
+        "breadcrumbs": {
+          "home": "Ana Sayfa",
+          "courses": "Kurslar"
+        },
+        "comments": {
+          "new": "Yeni",
+          "reviews": "({{reviews}} değerlendirme)",
+          "noReviews": "Henüz değerlendirme yok"
+        },
+        "students": "Kayıtlı Öğrenci",
+        "lastUpdate": "Son Güncelleme",
+        "description": "Kurs Açıklaması",
+        "contentTitle": "Kurs İçeriği",
+        "sourceTitle": "Kaynaklar",
+        "aboutInstructor": "Eğitmen Hakkında",
+        "instrucatorCategory": "{{category}} Eğitmeni",
+        "watchNow": "İzle",
+        "star": "{{star}} Puan",
+        "teacher": "Eğitmen:",
+        "student": "{{student}} Öğrenci",
+        "noContent": "Kurs içeriği henüz eklenmemiştir.",
+        "buttons": {
+          "goToCourse": "Kursa Git",
+          "buyNow": "Hemen Satın Al",
+          "addToCart": "Sepete Ekle",
+          "addedCart": "Sepette",
+          "share": "Paylaş",
+          "gift": "Hediye Et",
+          "coupon": "Kupon"
+        },
+        "shareDialog": {
+          "title": "Bu kursu paylaş",
+          "desc": "Arkadaşlarınla paylaşarak bilgiye erişmelerini sağla.",
+          "shareText": "Mesut Özdağ Academy'de {{courseTitle}} kursuna bak: {{link}}",
+          "copiedToClipboard": "Metin panoya kopyalandı!"
+        },
+        "giftDialog": {
+          "title": "Bu kursu hediye et",
+          "desc": "Sevdiklerinize bilgi hediye edin.",
+          "input": {
+            "1": {
+              "label": "Alıcının E-posta Adresi",
+              "placeholder": "ornek@email.com"
+            },
+            "2": {
+              "label": "Teslim Tarihi"
+            },
+            "3": {
+              "label": "Mesajınız (İsteğe Bağlı)",
+              "placeholder": "Mesajınızı buraya yazın..."
+            }
+          },
+          "recipientEmailRequired": "Alıcının e-posta adresini girin",
+          "proceedButton": "Ödemeye Geç"
+        },
+        "couponDialog": {
+          "title": "Kupon Kodu Uygula",
+          "inputPlaceholder": "Kupon kodunuzu buraya girin",
+          "applyButton": "Uygula"
+        }
       }
     },
     "login": {
@@ -332,6 +455,34 @@
           "signIn": "Giriş Yap",
           "signUp": "Kayıt Ol"
         }
+      }
+    },
+    "forgotPassword": {
+      "title": "Şifremi Unuttum",
+      "desc": "Email adresinizi girin, size şifre sıfırlama linki gönderelim.",
+      "submit": "Sıfırlama Linki Gönder",
+      "sending": "Gönderiliyor...",
+      "backToLogin": "Giriş sayfasına dön",
+      "error": "Mail gönderilemedi, lütfen tekrar deneyin",
+      "sent": {
+        "title": "Mail Gönderildi!",
+        "desc": "Adresine bir sıfırlama linki gönderdik:",
+        "note": "Spam klasörünü de kontrol etmeyi unutma. Link 1 saat geçerlidir."
+      }
+    },
+    "resetPassword": {
+      "title": "Şifre Sıfırla",
+      "desc": "Yeni şifrenizi belirleyin.",
+      "newPassword": "Yeni Şifre",
+      "confirmPassword": "Şifreyi Onayla",
+      "noMatch": "Şifreler eşleşmiyor",
+      "submit": "Şifreyi Sıfırla",
+      "resetting": "Sıfırlanıyor...",
+      "invalidToken": "Geçersiz veya süresi dolmuş link",
+      "error": "Şifre sıfırlanamadı",
+      "done": {
+        "title": "Şifre Sıfırlandı!",
+        "desc": "Şifreniz başarıyla güncellendi. Giriş sayfasına yönlendiriliyorsunuz..."
       }
     },
     "support": {
@@ -784,13 +935,247 @@
             }
           },
           "button": "Analitik Görüntüle"
+        },
+        "announcements": {
+          "button": "Duyurular",
+          "header": "Duyurular",
+          "headerDesc": "Platform duyurularını yönetin",
+          "newButton": "Yeni Duyuru",
+          "filterAll": "Tümü",
+          "emptyState": "Henüz duyuru yok",
+          "table": {
+            "title": "Başlık",
+            "type": "Tür",
+            "important": "Önemli",
+            "date": "Tarih",
+            "actions": "İşlemler"
+          },
+          "modal": {
+            "createTitle": "Yeni Duyuru Oluştur",
+            "editTitle": "Duyuru Düzenle",
+            "deleteTitle": "Duyuruyu Sil",
+            "deleteConfirm": "duyurusunu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+            "typeLabel": "Tür *",
+            "teacherLabel": "Eğitmen *",
+            "importantLabel": "Önemli olarak işaretle",
+            "titleLabel": "Başlık *",
+            "descLabel": "Açıklama *",
+            "excerptLabel": "Özet",
+            "imageLabel": "Görsel URL",
+            "contentLabel": "İçerik *"
+          },
+          "toast": {
+            "loadError": "Duyurular yüklenemedi.",
+            "fillRequired": "Lütfen zorunlu alanları doldurun.",
+            "created": "Duyuru oluşturuldu.",
+            "updated": "Duyuru güncellendi.",
+            "actionFailed": "İşlem başarısız.",
+            "deleted": "Duyuru silindi.",
+            "deleteFailed": "Silinemedi."
+          }
+        },
+        "blogs": {
+          "button": "Blog Yazıları",
+          "header": "Blog Yazıları",
+          "headerDesc": "Blog içeriklerini yönetin",
+          "newButton": "Yeni Yazı",
+          "filterAll": "Tümü",
+          "emptyState": "Henüz blog yazısı yok",
+          "table": {
+            "title": "Başlık",
+            "type": "Tür",
+            "stats": "İstatistik",
+            "date": "Tarih",
+            "actions": "İşlemler"
+          },
+          "modal": {
+            "createTitle": "Yeni Blog Yazısı",
+            "editTitle": "Blog Yazısını Düzenle",
+            "deleteTitle": "Blog Yazısını Sil",
+            "deleteConfirm": "yazısını silmek istediğinizden emin misiniz?",
+            "typeLabel": "Tür *",
+            "teacherLabel": "Eğitmen *",
+            "titleLabel": "Başlık *",
+            "descLabel": "Açıklama *",
+            "imageLabel": "Görsel URL *",
+            "readTimeLabel": "Okuma Süresi",
+            "tagsLabel": "Etiketler",
+            "tagsHint": "(virgülle ayırın)",
+            "contentLabel": "İçerik *"
+          },
+          "toast": {
+            "loadError": "Blog yazıları yüklenemedi.",
+            "fillRequired": "Lütfen zorunlu alanları doldurun.",
+            "created": "Blog yazısı oluşturuldu.",
+            "updated": "Blog yazısı güncellendi.",
+            "actionFailed": "İşlem başarısız.",
+            "deleted": "Blog yazısı silindi.",
+            "deleteFailed": "Silinemedi."
+          }
+        },
+        "support": {
+          "button": "Yardım Merkezi",
+          "header": "Yardım Merkezi",
+          "headerDesc": "Kategorileri ve makaleleri yönetin",
+          "newCategoryButton": "Yeni Kategori",
+          "newArticleButton": "Yeni Makale",
+          "emptyCats": "Henüz kategori yok",
+          "emptyArticles": "Bu kategoride makale yok",
+          "articlesLabel": "Makaleler",
+          "articleCountSuffix": "makale",
+          "viewCount": "görüntlenme",
+          "modal": {
+            "createCatTitle": "Yeni Kategori",
+            "editCatTitle": "Kategoriyi Düzenle",
+            "deleteCatTitle": "Kategoriyi Sil",
+            "deleteCatConfirm": "kategorisini ve tüm makalelerini silmek istediğinizden emin misiniz?",
+            "createArtTitle": "Yeni Makale",
+            "editArtTitle": "Makaleyi Düzenle",
+            "deleteArtTitle": "Makaleyi Sil",
+            "deleteArtConfirm": "makalesini silmek istediğinizden emin misiniz?",
+            "idLabel": "Kategori ID *",
+            "idHint": "(değiştirilemez)",
+            "iconLabel": "İkon Adı *",
+            "colorLabel": "Renk *",
+            "titleLabel": "Başlık *",
+            "descLabel": "Açıklama *",
+            "orderLabel": "Sıra",
+            "excerptLabel": "Özet *",
+            "readTimeLabel": "Okuma Süresi",
+            "contentLabel": "İçerik *"
+          },
+          "toast": {
+            "loadError": "Kategoriler yüklenemedi.",
+            "fillRequired": "Lütfen zorunlu alanları doldurun.",
+            "idRequired": "Kategori ID zorunludur.",
+            "catCreated": "Kategori oluşturuldu.",
+            "catUpdated": "Kategori güncellendi.",
+            "catDeleted": "Kategori silindi.",
+            "artCreated": "Makale oluşturuldu.",
+            "artUpdated": "Makale güncellendi.",
+            "artDeleted": "Makale silindi.",
+            "actionFailed": "İşlem başarısız.",
+            "deleteFailed": "Silinemedi."
+          }
+        },
+        "inbox": {
+          "button": "Mesajlar",
+          "header": "Mesajlar & Raporlar",
+          "headerDesc": "İletişim mesajları ve hata bildirimlerini yönetin",
+          "tabContact": "İletişim Mesajları",
+          "tabBugs": "Hata Bildirimleri",
+          "filterAll": "Tümü",
+          "noMessages": "Mesaj yok",
+          "noBugs": "Hata raporu yok",
+          "table": {
+            "sender": "Gönderen",
+            "subject": "Konu",
+            "category": "Kategori",
+            "status": "Durum",
+            "date": "Tarih",
+            "actions": "İşlemler",
+            "pageType": "Sayfa / Tür",
+            "description": "Açıklama",
+            "email": "E-posta"
+          },
+          "contactStatus": {
+            "unread": "Okunmadı",
+            "read": "Okundu",
+            "replied": "Yanıtlandı"
+          },
+          "bugStatus": {
+            "open": "Açık",
+            "inProgress": "İşlemde",
+            "resolved": "Çözüldü",
+            "closed": "Kapatıldı"
+          },
+          "categoryLabels": {
+            "general": "Genel",
+            "technical": "Teknik",
+            "courses": "Kurslar",
+            "partnership": "İşbirliği"
+          },
+          "bugTypeLabels": {
+            "option1": "Sistem Açığı",
+            "option2": "Kurs İçeriği Hatası"
+          },
+          "modal": {
+            "viewContact": "Mesaj Detayı",
+            "replyContact": "Mesajı Yanıtla",
+            "viewBug": "Hata Raporu Detayı",
+            "replyBug": "Hata Raporunu Yanıtla"
+          },
+          "notSpecified": "Belirtilmedi",
+          "closeButton": "Kapat",
+          "sending": "Gönderiliyor...",
+          "sendReply": "Yanıtı Gönder",
+          "replyLabel": "Yanıtınız *",
+          "replyPlaceholder": "Yanıtınızı yazın...",
+          "replyEmailNotice": "Yanıt gönderdikten sonra kullanıcıya e-posta bildirimi gönderilecektir.",
+          "viewContact": {
+            "messageLabel": "Mesaj",
+            "adminReplyLabel": "Admin Yanıtı"
+          },
+          "viewBug": {
+            "typeLabel": "Tür",
+            "pageLabel": "Sayfa",
+            "descLabel": "Açıklama"
+          },
+          "toast": {
+            "contactLoadError": "Mesajlar yüklenemedi.",
+            "bugLoadError": "Hata raporları yüklenemedi.",
+            "replyEmpty": "Yanıt metni boş bırakılamaz.",
+            "contactReplied": "Yanıt gönderildi ve kullanıcıya e-posta iletildi.",
+            "replySaved": "Yanıt kaydedildi.",
+            "replyFailed": "Yanıt gönderilemedi.",
+            "contactDeleted": "Mesaj silindi.",
+            "deleteFailed": "Silinemedi.",
+            "statusUpdated": "Durum güncellendi.",
+            "statusFailed": "Durum güncellenemedi.",
+            "bugDeleted": "Rapor silindi."
+          }
         }
+      },
+      "newsletter": {
+        "dialogTitle": "E-Bülten Gönder",
+        "targetLabel": "Hedef Kitle",
+        "targetAll": "Tüm Kullanıcılar",
+        "targetStudents": "Sadece Öğrenciler (Satın Alanlar)",
+        "targetFree": "Ücretsiz Üyeler",
+        "subjectLabel": "Mail Konusu",
+        "titleLabel": "Mail Başlığı",
+        "bodyLabel": "İçerik",
+        "ctaTextLabel": "Buton Metni",
+        "ctaUrlLabel": "Buton URL",
+        "optional": "(opsiyonel)",
+        "cancel": "İptal",
+        "send": "Gönder",
+        "sending": "Gönderiliyor...",
+        "toast": {
+          "validationError": "Konu, başlık ve içerik zorunludur",
+          "started": "E-bülten gönderimi başlatıldı",
+          "failed": "E-bülten gönderilemedi"
+        }
+      },
+      "common": {
+        "cancel": "İptal",
+        "save": "Kaydet",
+        "saving": "Kaydediliyor...",
+        "delete": "Sil",
+        "deleting": "Siliniyor...",
+        "edit": "Düzenle",
+        "view": "Görüntüle",
+        "reply": "Yanıtla",
+        "fillRequired": "Lütfen zorunlu alanları doldurun.",
+        "actionFailed": "İşlem başarısız.",
+        "deleteFailed": "Silinemedi."
       },
       "header": {
         "title": "Admin Dashboard",
         "description": "Platform yönetimi ve istatistikler",
         "crateCourse": "Yeni Kurs",
-        "reports": "Rapor İndir"
+        "reports": "Rapor İndir",
+        "newsletter": "E-Bülten"
       },
       "report": {
         "title": "Rapor İndir",
@@ -1189,7 +1574,7 @@
           },
           {
             "heading": "4. GENEL HÜKÜMLER",
-            "body": "4.1. ALICI, internet sitesinde sözleşme konusu ürünün temel nitelikleri, satış fiyatı ve ödeme şekli ile teslimata ilişkin ön bilgileri okuyup bilgi sahibi olduğunu ve elektronik ortamda gerekli teyidi verdiğini beyan eder.\n\n4.2. Sözleşme konusu hizmet, dijital içerik olduğu için ödeme onayı alındıktan hemen sonra ALICI'nın erişimine açılır. Herhangi bir fiziksel teslimat yapılmamaktadır.\n\n4.3. SATICI, sözleşme konusu ürünün/hizmetin eksiksiz, siparişte belirtilen niteliklere uygun olarak teslim edilmesinden sorumludur.\n\n4.4. Ödeme işlemleri İyzico veya Stripe altyapısı üzerinden güvenli bir şekilde gerçekleştirilmektedir. Kredi kartı bilgileri SATICI tarafından saklanmamaktadır."
+            "body": "4.1. ALICI, internet sitesinde sözleşme konusu ürünün temel nitelikleri, satış fiyatı ve ödeme şekli ile teslimata ilişkin ön bilgileri okuyup bilgi sahibi olduğunu ve elektronik ortamda gerekli teyidi verdiğini beyan eder.\n\n4.2. Sözleşme konusu hizmet, dijital içerik olduğu için ödeme onayı alındıktan hemen sonra ALICI'nın erişimine açılır. Herhangi bir fiziksel teslimat yapılmamaktadır.\n\n4.3. SATICI, sözleşme konusu ürünün/hizmetin eksiksiz, siparişte belirtilen niteliklere uygun olarak teslim edilmesinden sorumludur.\n\n4.4. Ödeme işlemleri İyzico veya Lemon Squeezy altyapısı üzerinden güvenli bir şekilde gerçekleştirilmektedir. Kredi kartı bilgileri SATICI tarafından saklanmamaktadır."
           },
           {
             "heading": "5. CAYMA HAKKI VE İSTİSNALARI",
@@ -1217,7 +1602,7 @@
               "Üyelik işlemlerinin gerçekleştirilmesi ve hesabın oluşturulması.",
               "Eğitim içeriklerine erişimin sağlanması ve takibinin yapılması.",
               "Sertifikasyon süreçlerinin (ID doğrulama, QR kod üretimi, vb.) yönetilmesi.",
-              "Ödeme işlemlerinin güvenli bir şekilde gerçekleştirilmesi (İyzico/Stripe aracılığıyla).",
+              "Ödeme işlemlerinin güvenli bir şekilde gerçekleştirilmesi (İyzico/Lemon Squeezy aracılığıyla).",
               "Video izleme istatistiklerinin (Vimeo/Bunny.net entegrasyonu ile) analiz edilerek platformun geliştirilmesi.",
               "İletişim faaliyetlerinin yürütülmesi ve destek hizmetlerinin sağlanması.",
               "Hukuki yükümlülüklerin (fatura kesimi, vb.) yerine getirilmesi."
@@ -1362,7 +1747,7 @@
             "heading": "4. Üçüncü Taraflarla Paylaşım",
             "body": "Kişisel bilgilerinizi üçüncü taraflarla satmıyoruz. Yalnızca aşağıdaki durumlarda paylaşabiliriz:",
             "list": [
-              "Ödeme işlemcileri (İyzico, Stripe)",
+              "Ödeme işlemcileri (İyzico, Lemon Squeezy)",
               "Video hosting hizmetleri (Vimeo, Bunny.net)",
               "Yasal zorunluluklar"
             ]
@@ -1417,7 +1802,7 @@
           },
           {
             "heading": "4. ÖDEMELER VE ABONELİK",
-            "body": "Bazı içerikler ücretli olabilir. Ücretli içerikler için ödeme, belirtilen güvenli ödeme kanalları (İyzico/Stripe) üzerinden yapılır.",
+            "body": "Bazı içerikler ücretli olabilir. Ücretli içerikler için ödeme, belirtilen güvenli ödeme kanalları (İyzico/Lemon Squeezy) üzerinden yapılır.",
             "list": [
               "Fiyatlar, satın alma anında belirtilen tutarlardır ve tüm vergileri içerir (aksi belirtilmedikçe).",
               "Satın alınan içeriklere erişim hakkı ömür boyu veya belirtilen süre kadardır.",
@@ -1446,6 +1831,136 @@
             "body": "Kullanım şartları ile ilgili her türlü soru ve öneriniz için legal@platform.com adresi üzerinden iletişime geçebilirsiniz."
           }
         ]
+      }
+    },
+    "cart": {
+      "title": {
+        "title": "Sepetim",
+        "desc": {
+          "1": "{{cartCount}} kurs sepetinizde",
+          "2": "Sepetiniz boş"
+        }
+      },
+      "empty": {
+        "title": "Sepetiniz Boş",
+        "desc": "Henüz sepetinize kurs eklemediniz. Kursları inceleyerek başlayabilirsiniz."
+      },
+      "buttons": {
+        "course": "Kursları İncele",
+        "remove": "Kaldır",
+        "checkout": "Satın Al",
+        "clean": "Sepeti Temizle",
+        "shopping": "Alışverişe Devam Et",
+        "firstCourse": "İlk Kursu Satın Al {{count}}",
+        "goToPayment": "Ödemeye Geç"
+      },
+      "summary": {
+        "title": "Sipariş Özeti",
+        "course": "{{count}} kurs",
+        "kdv": "KDV {{kdv}}%",
+        "total": "Toplam",
+        "warning": " Kurslar sırayla ödenir. İlk kurs ile başlayın."
+      }
+    },
+    "payment": {
+      "title": {
+        "1": "Ödeme",
+        "2": "Güvenli ödeme ile satın alımınızı tamamlayın",
+        "3": "İletişim Bilgileri",
+        "4": "Ödeme Yöntemi"
+      },
+      "cardType": {
+        "title": "Kredi/Banka Kartı",
+        "visa": "Visa",
+        "mastercard": "MasterCard",
+        "transfer": "Havale/EFT"
+      },
+      "savedCards": "Kayıtlı Kartlarım",
+      "savedCardLabel": "Kayıtlı kart",
+      "newCard": "Yeni Kart Ekle",
+      "processing": "İşleniyor...",
+      "complete": "Ödemeyi Tamamla",
+      "input": {
+        "name": {
+          "label": "Ad Soyad",
+          "placeholder": "Kart üzerindeki isim",
+          "null": "Ad Soyad bilgisi gereklidir"
+        },
+        "surname": {
+          "label": "Soyad",
+          "placeholder": "Kart üzerindeki soyisim",
+          "null": "Soyad bilgisi gereklidir"
+        },
+        "email": {
+          "label": "E-posta",
+          "placeholder": "E-posta adresinizi girin",
+          "null": "E-posta bilgisi gereklidir",
+          "invalid": "Geçersiz e-posta formatı"
+        },
+        "phone": {
+          "label": "Telefon",
+          "placeholder": "Telefon numaranızı girin",
+          "null": "Telefon bilgisi gereklidir",
+          "invalid": "Geçersiz telefon numarası formatı"
+        },
+        "cardNumber": {
+          "label": "Kart Numarası",
+          "placeholder": "1234 5678 9012 3456",
+          "null": "Kart numarası gereklidir",
+          "invalid": "Geçersiz kart numarası"
+        },
+        "lastDate": {
+          "label": "Son Kullanma Tarihi",
+          "placeholder": "AA/YY",
+          "null": "Son kullanma tarihi gereklidir",
+          "invalid": "Geçersiz son kullanma tarihi"
+        },
+        "cvv": {
+          "label": "CVV",
+          "placeholder": "123",
+          "null": "CVV gereklidir",
+          "max": "CVV en fazla 3 haneli olabilir",
+          "invalid": "Geçersiz CVV"
+        },
+        "cardName": {
+          "label": "Kart Sahibi Adı",
+          "placeholder": "Kart üzerindeki isim",
+          "null": "Kart sahibi adı gereklidir"
+        }
+      },
+      "summary": {
+        "title": "Sipariş Özeti",
+        "notSelected": "Seçilmedi",
+        "package": "Paket",
+        "oneTime": "Tek Seferlik",
+        "subtotal": "Ara Toplam",
+        "vat": "KDV (%20)",
+        "total": "Toplam",
+        "instantAccess": "Anında erişim",
+        "moneyBack": "30 gün para iade garantisi",
+        "support": "7/24 destek",
+        "securePayment": "Güvenli Ödeme"
+      },
+      "dialog": {
+        "title": "Ödeme Başarılı!",
+        "congrats": "Tebrikler!",
+        "message": "Ödemeniz başarıyla tamamlandı",
+        "courseAdded": "Kurs hesabınıza eklendi",
+        "startCourse": "Kursa Başla"
+      },
+      "toast": {
+        "notFound": "Ödeme bilgileri bulunamadı",
+        "success": "Ödeme başarıyla tamamlandı!",
+        "failed": "Ödeme işlemi başarısız oldu",
+        "error": "Bir hata oluştu, lütfen tekrar deneyin"
+      },
+      "footer": {
+        "ssl": "SSL Güvenliği ile korunmaktadır",
+        "pass": "256-bit şifreleme ile güvenli ödeme",
+        "privacy": "Gizlilik Politikası",
+        "userAgreement": "Kullanım Koşulları",
+        "and": "ve",
+        "agree": "'nı okudum ve kabul ediyorum."
       }
     }
   }

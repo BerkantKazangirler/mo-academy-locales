@@ -62,7 +62,14 @@
             "reportBug": "Signaler un Bug"
           }
         },
-        "rights": "Mesut Ozdağ Academy. Tous droits réservés."
+        "rights": "Mesut Ozdağ Academy. Tous droits réservés.",
+        "status": {
+          "active": "Tous les systèmes sont opérationnels",
+          "partial": "Interruption partielle",
+          "major": "Interruption majeure",
+          "offline": "Hors ligne",
+          "loading": "Chargement du système..."
+        }
       },
       "nav": {
         "home": "Accueil",
@@ -268,6 +275,10 @@
       "rating": "note",
       "one_time_purchase": "paiement unique",
       "go_to_course": "Aller au Cours",
+      "tabs": {
+        "all": "Tous",
+        "math": "Mathématiques"
+      },
       "levels": {
         "beginner": "Débutant",
         "beginner_intermediate": "Débutant - Intermédiaire",
@@ -282,6 +293,53 @@
         "certificateFailed": "Impossible de créer le certificat.",
         "ratingSubmitted": "Note enregistrée. Merci !",
         "ratingFailed": "Impossible d'envoyer la note."
+      },
+      "detail": {
+        "featuresTitle": "Cette formation comprend :",
+        "content": "{{duration}} de contenu vidéo",
+        "lesson": "{{totalVideos}} leçons",
+        "sections": "{{totalSections}} sections",
+        "downloadable": "{{content}} ressources téléchargeables",
+        "responsive": "Accès sur mobile et TV",
+        "lifetime": "Accès illimité à vie",
+        "certificate": "Certificat de fin de formation",
+        "breadcrumbs": {
+          "home": "Accueil",
+          "courses": "Cours"
+        },
+        "comments": {
+          "new": "Nouveau",
+          "reviews": "({{reviews}} avis)",
+          "noReviews": "Pas encore d'avis"
+        },
+        "buttons": {
+          "goToCourse": "Aller au cours",
+          "buyNow": "Acheter maintenant",
+          "addToCart": "Ajouter au panier",
+          "addedCart": "Dans le panier",
+          "share": "Partager",
+          "gift": "Offrir ce cours",
+          "coupon": "Coupon"
+        },
+        "giftDialog": {
+          "title": "Offrir ce cours",
+          "desc": "Offrez du savoir à vos proches.",
+          "input": {
+            "1": {
+              "label": "Email du destinataire",
+              "placeholder": "exemple@email.com"
+            },
+            "2": {
+              "label": "Date de livraison"
+            },
+            "3": {
+              "label": "Votre message (Optionnel)",
+              "placeholder": "Écrivez votre message ici..."
+            }
+          },
+          "recipientEmailRequired": "Entrez l'email du destinataire",
+          "proceedButton": "Passer au paiement"
+        }
       }
     },
     "support": {
@@ -734,6 +792,142 @@
             }
           },
           "button": "Voir Analytique"
+        },
+        "announcements": {
+          "button": "Annonces",
+          "header": "Annonces",
+          "headerDesc": "Gérer les annonces de la plateforme",
+          "newButton": "Nouvelle Annonce",
+          "filterAll": "Tous",
+          "emptyState": "Aucune annonce pour le moment",
+          "table": {
+            "title": "Titre",
+            "type": "Type",
+            "important": "Important",
+            "date": "Date",
+            "actions": "Actions"
+          },
+          "modal": {
+            "createTitle": "Créer une nouvelle annonce",
+            "editTitle": "Modifier l'annonce",
+            "deleteTitle": "Supprimer l'annonce",
+            "deleteConfirm": "Êtes-vous sûr de vouloir supprimer l'annonce '{{title}}' ? Cette action est irréversible.",
+            "typeLabel": "Type *",
+            "teacherLabel": "Instructeur *",
+            "importantLabel": "Marquer comme important",
+            "titleLabel": "Titre *",
+            "descLabel": "Description *",
+            "excerptLabel": "Extrait",
+            "imageLabel": "URL de l'image",
+            "contentLabel": "Contenu *"
+          },
+          "toast": {
+            "loadError": "Impossible de charger les annonces.",
+            "fillRequired": "Veuillez remplir les champs obligatoires.",
+            "created": "Annonce créée.",
+            "updated": "Annonce mise à jour.",
+            "actionFailed": "Opération échouée.",
+            "deleted": "Annonce supprimée.",
+            "deleteFailed": "Suppression impossible."
+          }
+        },
+        "inbox": {
+          "button": "Boîte de réception",
+          "header": "Messages & Rapports",
+          "headerDesc": "Gérer les messages de contact et les rapports de bogues",
+          "tabContact": "Messages de Contact",
+          "tabBugs": "Rapports de Bogues",
+          "filterAll": "Tous",
+          "noMessages": "Aucun message",
+          "noBugs": "Aucun rapport de bogue",
+          "table": {
+            "sender": "Expéditeur",
+            "subject": "Sujet",
+            "category": "Catégorie",
+            "status": "Statut",
+            "date": "Date",
+            "actions": "Actions",
+            "pageType": "Page / Type",
+            "description": "Description",
+            "email": "Email"
+          },
+          "contactStatus": {
+            "unread": "Non lu",
+            "read": "Lu",
+            "replied": "Répondu"
+          },
+          "bugStatus": {
+            "open": "Ouvert",
+            "inProgress": "En cours",
+            "resolved": "Résolu",
+            "closed": "Fermé"
+          },
+          "categoryLabels": {
+            "general": "Général",
+            "technical": "Technique",
+            "courses": "Cours",
+            "partnership": "Partenariat"
+          },
+          "bugTypeLabels": {
+            "option1": "Vulnérabilité système",
+            "option2": "Erreur de contenu"
+          },
+          "modal": {
+            "viewContact": "Détails du Message",
+            "replyContact": "Répondre au Message",
+            "viewBug": "Détails du Bogue",
+            "replyBug": "Répondre au Rapport de Bogue"
+          },
+          "notSpecified": "Non spécifié",
+          "closeButton": "Fermer",
+          "sending": "Envoi en cours...",
+          "sendReply": "Envoyer la Réponse",
+          "replyLabel": "Votre Réponse *",
+          "replyPlaceholder": "Écrivez votre réponse...",
+          "replyEmailNotice": "Après l'envoi, l'utilisateur recevra une notification par email.",
+          "viewContact": {
+            "messageLabel": "Message",
+            "adminReplyLabel": "Réponse Admin"
+          },
+          "viewBug": {
+            "typeLabel": "Type",
+            "pageLabel": "Page",
+            "descLabel": "Description"
+          },
+          "toast": {
+            "contactLoadError": "Erreur lors du chargement des messages.",
+            "bugLoadError": "Erreur lors du chargement des rapports.",
+            "replyEmpty": "Le texte de réponse ne peut pas être vide.",
+            "contactReplied": "Réponse envoyée.",
+            "replySaved": "Réponse enregistrée.",
+            "replyFailed": "Échec de l'envoi.",
+            "contactDeleted": "Message supprimé.",
+            "deleteFailed": "Échec de la suppression.",
+            "statusUpdated": "Statut mis à jour.",
+            "statusFailed": "Échec de la mise à jour du statut.",
+            "bugDeleted": "Rapport supprimé."
+          }
+        },
+        "newsletter": {
+          "dialogTitle": "Envoyer la Newsletter",
+          "targetLabel": "Public Cible",
+          "targetAll": "Tous les utilisateurs",
+          "targetStudents": "Étudiants uniquement (acheteurs)",
+          "targetFree": "Membres gratuits",
+          "subjectLabel": "Objet de l'Email",
+          "titleLabel": "Titre de l'Email",
+          "bodyLabel": "Contenu",
+          "ctaTextLabel": "Texte du Bouton",
+          "ctaUrlLabel": "URL du Bouton",
+          "optional": "(optionnel)",
+          "cancel": "Annuler",
+          "send": "Envoyer",
+          "sending": "Envoi en cours...",
+          "toast": {
+            "validationError": "L'objet, le titre et le contenu sont obligatoires",
+            "started": "Envoi de la newsletter commencé",
+            "failed": "Échec de l'envoi de la newsletter"
+          }
         }
       },
       "header": {
@@ -1189,7 +1383,7 @@
           },
           {
             "heading": "4. DISPOSITIONS GÉNÉRALES",
-            "body": "4.1. L'ACHETEUR déclare avoir lu et être informé des caractéristiques de base du produit objet du contrat, du prix de vente, du mode de paiement et des informations préliminaires concernant la livraison sur le site web, et a donné la confirmation nécessaire dans l'environnement électronique.\n\n4.2. Étant donné que le service objet du contrat est un contenu numérique, il est rendu accessible à l'ACHETEUR immédiatement après l'approbation du paiement. Aucune livraison physique n'est effectuée.\n\n4.3. Le VENDEUR est responsable de la livraison du produit/service objet du contrat de manière complète et conformément aux qualifications spécifiées dans la commande.\n\n4.4. Les transactions de paiement sont effectuées en toute sécurité via l'infrastructure Iyzico ou Stripe. Les informations de carte de crédit ne sont pas stockées par le VENDEUR."
+            "body": "4.1. L'ACHETEUR déclare avoir lu et être informé des caractéristiques de base du produit objet du contrat, du prix de vente, du mode de paiement et des informations préliminaires concernant la livraison sur le site web, et a donné la confirmation nécessaire dans l'environnement électronique.\n\n4.2. Étant donné que le service objet du contrat est un contenu numérique, il est rendu accessible à l'ACHETEUR immédiatement après l'approbation du paiement. Aucune livraison physique n'est effectuée.\n\n4.3. Le VENDEUR est responsable de la livraison du produit/service objet du contrat de manière complète et conformément aux qualifications spécifiées dans la commande.\n\n4.4. Les transactions de paiement sont effectuées en toute sécurité via l'infrastructure Iyzico ou Lemon Squeezy. Les informations de carte de crédit ne sont pas stockées par le VENDEUR."
           },
           {
             "heading": "5. DROIT DE RÉTRACTATION ET EXCEPTIONS",
@@ -1217,7 +1411,7 @@
               "Réalisation des transactions d'adhésion et création d'un compte.",
               "Fourniture et suivi de l'accès au contenu éducatif.",
               "Gestion des processus de certification (vérification d'identité, génération de code QR, etc.).",
-              "Exécution des transactions de paiement en toute sécurité (via Iyzico/Stripe).",
+              "Exécution des transactions de paiement en toute sécurité (via Iyzico/Lemon Squeezy).",
               "Analyse des statistiques de visionnage de vidéos (avec intégration Vimeo/Bunny.net) pour améliorer la plateforme.",
               "Mener des activités de communication et fournir des services d'assistance.",
               "Remplir les obligations légales (facturation, etc.)."
@@ -1362,7 +1556,7 @@
             "heading": "4. Partage avec des Tiers",
             "body": "Nous ne vendons pas vos informations personnelles à des tiers. Nous pouvons uniquement les partager dans les cas suivants :",
             "list": [
-              "Processeurs de paiement (Iyzico, Stripe)",
+              "Processeurs de paiement (Iyzico, Lemon Squeezy)",
               "Services d'hébergement vidéo (Vimeo, Bunny.net)",
               "Obligations légales"
             ]
@@ -1417,7 +1611,7 @@
           },
           {
             "heading": "4. PAIEMENTS ET ABONNEMENTS",
-            "body": "Certains contenus peuvent être payants. Le paiement des contenus payants s'effectue via des canaux de paiement sécurisés spécifiés (Iyzico/Stripe).",
+            "body": "Certains contenus peuvent être payants. Le paiement des contenus payants s'effectue via des canaux de paiement sécurisés spécifiés (Iyzico/Lemon Squeezy).",
             "list": [
               "Les prix sont les montants spécifiés au moment de l'achat et incluent toutes les taxes (sauf indication contraire).",
               "Le droit d'accéder au contenu acheté est à vie ou pour la durée spécifiée.",
@@ -1446,6 +1640,107 @@
             "body": "Pour toute question et suggestion concernant les conditions d'utilisation, vous pouvez nous contacter via legal@platform.com."
           }
         ]
+      }
+    },
+    "payment": {
+      "title": {
+        "1": "Paiement",
+        "2": "Finalisez votre achat avec un paiement sécurisé",
+        "3": "Informations de contact",
+        "4": "Méthode de paiement"
+      },
+      "cardType": {
+        "title": "Carte de crédit/débit",
+        "visa": "Visa",
+        "mastercard": "MasterCard",
+        "transfer": "Virement bancaire"
+      },
+      "savedCards": "Mes cartes enregistrées",
+      "savedCardLabel": "Carte enregistrée",
+      "newCard": "Ajouter une nouvelle carte",
+      "processing": "Traitement en cours...",
+      "complete": "Finaliser le paiement",
+      "input": {
+        "name": {
+          "label": "Nom complet",
+          "placeholder": "Nom sur la carte",
+          "null": "Le nom est requis"
+        },
+        "surname": {
+          "label": "Nom",
+          "placeholder": "Nom sur la carte",
+          "null": "Le nom est requis"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Entrez votre e-mail",
+          "null": "L'e-mail est requis",
+          "invalid": "Format d'e-mail invalide"
+        },
+        "phone": {
+          "label": "Téléphone",
+          "placeholder": "Entrez votre numéro",
+          "null": "Le téléphone est requis",
+          "invalid": "Format de téléphone invalide"
+        },
+        "cardNumber": {
+          "label": "Numéro de carte",
+          "placeholder": "1234 5678 9012 3456",
+          "null": "Numéro de carte requis",
+          "invalid": "Numéro de carte invalide"
+        },
+        "lastDate": {
+          "label": "Date d'expiration",
+          "placeholder": "MM/YY",
+          "null": "Date d'expiration requise",
+          "invalid": "Date invalide"
+        },
+        "cvv": {
+          "label": "CVV",
+          "placeholder": "123",
+          "null": "CVV requis",
+          "max": "CVV max 3 chiffres",
+          "invalid": "CVV invalide"
+        },
+        "cardName": {
+          "label": "Titulaire de la carte",
+          "placeholder": "Nom sur la carte",
+          "null": "Le titulaire est requis"
+        }
+      },
+      "summary": {
+        "title": "Résumé de la commande",
+        "notSelected": "Non sélectionné",
+        "package": "Forfait",
+        "oneTime": "Achat unique",
+        "subtotal": "Sous-total",
+        "vat": "TVA (20%)",
+        "total": "Total",
+        "instantAccess": "Accès instantané",
+        "moneyBack": "Garantie satisfait ou remboursé 30 jours",
+        "support": "Support 24h/24 7j/7",
+        "securePayment": "Paiement sécurisé"
+      },
+      "dialog": {
+        "title": "Paiement réussi !",
+        "congrats": "Félicitations !",
+        "message": "Votre paiement a été effectué avec succès",
+        "courseAdded": "Cours ajouté à votre compte",
+        "startCourse": "Commencer le cours"
+      },
+      "toast": {
+        "notFound": "Informations de paiement introuvables",
+        "success": "Paiement effectué avec succès !",
+        "failed": "Paiement échoué",
+        "error": "Une erreur s'est produite, veuillez réessayer"
+      },
+      "footer": {
+        "ssl": "Protégé par la sécurité SSL",
+        "pass": "Paiement sécurisé avec cryptage 256 bits",
+        "privacy": "Politique de confidentialité",
+        "userAgreement": "Conditions d'utilisation",
+        "and": "et",
+        "agree": " J'ai lu et j'accepte."
       }
     }
   }

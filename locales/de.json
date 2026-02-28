@@ -49,8 +49,8 @@
             "title": "Quick Links",
             "home": "Startseite",
             "about": "Über uns",
-            "courses": "Preise",
-            "updates": "Ankündigungen",
+            "certificate": "Zertifikat verifizieren",
+            "updates": "Ankündigungen & Updates",
             "contact": "Kontakt"
           },
           "support": {
@@ -62,7 +62,14 @@
             "reportBug": "Fehler melden"
           }
         },
-        "rights": "Mesut Ozdağ Academy. Alle Rechte vorbehalten."
+        "rights": "Mesut Ozdağ Academy. Alle Rechte vorbehalten.",
+        "status": {
+          "active": "Alle Systeme sind betriebsbereit",
+          "partial": "Teilweiser Ausfall",
+          "major": "Höherer Ausfall",
+          "offline": "Offline",
+          "loading": "Das System wird geladen..."
+        }
       },
       "nav": {
         "home": "Startseite",
@@ -237,7 +244,7 @@
           "desc": "Wir bereiten jeden Inhalt sorgfältig vor und verbessern uns ständig."
         },
         "2": {
-          "title": "Gemeinschaft",
+          "title": "Gemeinschaft & Zusammenarbeit",
           "desc": "Unsere Studenten lernen voneinander und wachsen zusammen."
         },
         "3": {
@@ -245,15 +252,15 @@
           "desc": "Wir bieten Mentoring für Ihren Karrierefortschritt."
         },
         "4": {
-          "title": "Innovation",
+          "title": "Innovation & Kreativität",
           "desc": "Wir wenden die effektivsten Lerntechniken an."
         },
         "5": {
-          "title": "Innovation",
+          "title": "Innovation & Kreativität",
           "desc": "Wir wenden die effektivsten Lerntechniken an."
         },
         "6": {
-          "title": "Innovation",
+          "title": "Innovation & Kreativität",
           "desc": "Wir wenden die effektivsten Lerntechniken an."
         },
         "subTitle": "Grundprinzipien",
@@ -268,6 +275,45 @@
       "rating": "Bewertung",
       "one_time_purchase": "Einmalig",
       "go_to_course": "Zum Kurs",
+      "backToList": "Zurück zur Kursliste",
+      "tabs": {
+        "all": "Alle",
+        "math": "Mathematik"
+      },
+      "hero": {
+        "professionalCourses": "{{count}} Professionelle Kurse",
+        "title": {
+          "word1": "Kurs-",
+          "word2": "Katalog"
+        },
+        "subtitle": "Kurse von professionellen Dozenten für Ihren Karrierefortschritt",
+        "stats": {
+          "activeCourses": "Aktive Kurse",
+          "students": "Studenten",
+          "averageRating": "Durchschnittsbewertung",
+          "hoursContent": "Stunden Inhalt"
+        }
+      },
+      "promotion": {
+        "badge": "Sonderangebot",
+        "title": {
+          "line1": "Unbegrenzter Zugriff",
+          "line2": "auf alle Kurse"
+        },
+        "description": "Erhalten Sie mit einem Kurspaket lebenslangen Zugriff auf alle bestehenden und zukünftigen Kurse. Einmal zahlen, unbegrenzt lernen!",
+        "packageDetails": "Paketdetails",
+        "viewPrices": "Preise ansehen",
+        "features": {
+          "allAccess": "Zugriff auf alle Kurse",
+          "prioritySupport": "Priorisierter Support",
+          "certificates": "Inklusive Zertifikate"
+        }
+      },
+      "card": {
+        "startCourse": "Kurs starten",
+        "buyPackage": "Paket kaufen",
+        "packageCoursesCount": "Dieses Paket enthält {{count}} Kurse:"
+      },
       "levels": {
         "beginner": "Anfänger",
         "beginner_intermediate": "Anfänger - Mittelstufe",
@@ -281,7 +327,161 @@
         "certificateCreated": "Zertifikat erstellt.",
         "certificateFailed": "Zertifikat konnte nicht erstellt werden.",
         "ratingSubmitted": "Bewertung gespeichert. Danke!",
-        "ratingFailed": "Bewertung fehlgeschlagen."
+        "ratingFailed": "Bewertung fehlgeschlagen.",
+        "loadingError": "Kurs konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+        "cartAdded": "Kurs zum Warenkorb hinzugefügt!",
+        "coupon": {
+          "applied": "{{coupon}}% Rabatt angewendet!",
+          "invalidCoupon": "Ungültiger Gutscheincode"
+        }
+      },
+      "detail": {
+        "featuresTitle": "Diese Ausbildung beinhaltet:",
+        "content": "{{duration}} Videoinhalt",
+        "lesson": "{{totalVideos}} Lektionen",
+        "sections": "{{totalSections}} Abschnitte",
+        "downloadable": "{{content}} herunterladbare Ressourcen",
+        "responsive": "Zugriff auf Handy und TV",
+        "lifetime": "Lebenslanger Zugriff",
+        "certificate": "Abschlusszertifikat",
+        "breadcrumbs": {
+          "home": "Startseite",
+          "courses": "Kurse"
+        },
+        "comments": {
+          "new": "Neu",
+          "reviews": "({{reviews}} Bewertungen)",
+          "noReviews": "Noch keine Bewertungen"
+        },
+        "students": "Eingeschriebene Studenten",
+        "lastUpdate": "Letztes Update",
+        "description": "Kursbeschreibung",
+        "contentTitle": "Kursinhalt",
+        "sourceTitle": "Ressourcen",
+        "aboutInstructor": "Über den Kursleiter",
+        "instrucatorCategory": "{{category}} Kursleiter",
+        "watchNow": "Jetzt ansehen",
+        "star": "{{star}} Bewertung",
+        "teacher": "Kursleiter:",
+        "student": "{{student}} Studenten",
+        "noContent": "Kursinhalt wurde noch nicht hinzugefügt.",
+        "buttons": {
+          "goToCourse": "Zum Kurs",
+          "buyNow": "Jetzt kaufen",
+          "addToCart": "In den Warenkorb",
+          "addedCart": "Im Warenkorb",
+          "share": "Teilen",
+          "gift": "Diesen Kurs verschenken",
+          "coupon": "Gutschein"
+        },
+        "shareDialog": {
+          "title": "Diesen Kurs teilen",
+          "desc": "Teilen Sie ihn mit Ihren Freunden.",
+          "shareText": "Schauen Sie sich {{courseTitle}} an der Mesut Özdağ Academy an: {{link}}",
+          "copiedToClipboard": "In die Zwischenablage kopiert!"
+        },
+        "giftDialog": {
+          "title": "Kurs verschenken",
+          "desc": "Verschenken Sie Wissen an Ihre Liebsten.",
+          "input": {
+            "1": {
+              "label": "E-Mail des Empfängers",
+              "placeholder": "beispiel@email.com"
+            },
+            "2": {
+              "label": "Lieferdatum"
+            },
+            "3": {
+              "label": "Ihre Nachricht (Optional)",
+              "placeholder": "Schreiben Sie hier Ihre Nachricht..."
+            }
+          },
+          "recipientEmailRequired": "E-Mail des Empfängers eingeben",
+          "proceedButton": "Zur Zahlung"
+        },
+        "couponDialog": {
+          "title": "Gutscheincode anwenden",
+          "inputPlaceholder": "Gutscheincode hier eingeben",
+          "applyButton": "Anwenden"
+        }
+      }
+    },
+    "login": {
+      "alreadyLogged": "Sie sind bereits angemeldet, Weiterleitung zur Profilseite.",
+      "signUp": {
+        "title": "Konto erstellen",
+        "subtitle": "Erstellen Sie ein kostenloses Konto und beginnen Sie zu lernen"
+      },
+      "signIn": {
+        "title": "Willkommen zurück",
+        "subTitle": "Melden Sie sich an und lernen Sie weiter"
+      },
+      "or": "Oder",
+      "inputs": {
+        "name": {
+          "label": "Vollständiger Name",
+          "placeholder": "Ihr Vor- und Nachname",
+          "message": "Bitte geben Sie Ihren Vor- und Nachnamen ein",
+          "min": "Ihr Name muss mindestens 3 Zeichen lang sein",
+          "max": "Ihr Name darf maximal 50 Zeichen lang sein",
+          "regex": "Ihr Name darf nur aus Buchstaben bestehen"
+        },
+        "email": {
+          "label": "E-Mail",
+          "placeholder": "beispiel@email.com",
+          "required": "E-Mail-Adresse ist erforderlich",
+          "message": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+        },
+        "password": {
+          "label": "Passwort",
+          "required": "Passwort ist erforderlich",
+          "min": "Ihr Passwort muss mindestens 6 Zeichen lang sein",
+          "max": "Ihr Passwort darf maximal 50 Zeichen lang sein",
+          "placeholder": "Wählen Sie ein sicheres Passwort (mindestens 6 Zeichen)"
+        },
+        "terms": {
+          "label": "Ich akzeptiere die Nutzungsbedingungen"
+        },
+        "buttons": {
+          "create": "Konto erstellen",
+          "created": "Konto wird erstellt...",
+          "login": "Anmelden",
+          "logining": "Anmeldung...",
+          "rememberMe": "Angemeldet bleiben",
+          "forgotPassword": "Passwort vergessen",
+          "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
+          "notHaveAccount": "Haben Sie noch kein Konto?",
+          "signIn": "Anmelden",
+          "signUp": "Registrieren"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Passwort vergessen",
+      "desc": "Geben Sie Ihre E-Mail ein, wir senden Ihnen einen Reset-Link.",
+      "submit": "Reset-Link senden",
+      "sending": "Wird gesendet...",
+      "backToLogin": "Zurück zur Anmeldung",
+      "error": "E-Mail konnte nicht gesendet werden",
+      "sent": {
+        "title": "E-Mail gesendet!",
+        "desc": "Wir haben einen Link gesendet an:",
+        "note": "Prüfen Sie auch den Spam-Ordner. Der Link ist 1 Stunde gültig."
+      }
+    },
+    "resetPassword": {
+      "title": "Passwort zurücksetzen",
+      "desc": "Legen Sie Ihr neues Passwort fest.",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "noMatch": "Passwörter stimmen nicht überein",
+      "submit": "Passwort zurücksetzen",
+      "resetting": "Wird zurückgesetzt...",
+      "invalidToken": "Ungültiger oder abgelaufener Link",
+      "error": "Passwort-Reset fehlgeschlagen",
+      "done": {
+        "title": "Passwort zurückgesetzt!",
+        "desc": "Erfolgreich aktualisiert. Weiterleitung zur Anmeldung..."
       }
     },
     "support": {
@@ -302,7 +502,7 @@
       "alreadyNeedHelp": "Brauchen Sie noch Hilfe?",
       "stillNeedHelpDesc": "Unser Support-Team ist für Sie da",
       "liveSupport": "Live-Support",
-      "openRequest": "Anfrage öffnen"
+      "openRequest": "Support-Anfrage öffnen"
     },
     "supportDetail": {
       "back_to_all": "Alle Artikel",
@@ -734,13 +934,247 @@
             }
           },
           "button": "Analytik anzeigen"
+        },
+        "announcements": {
+          "button": "Ankündigungen",
+          "header": "Ankündigungen",
+          "headerDesc": "Plattformankündigungen verwalten",
+          "newButton": "Neue Ankündigung",
+          "filterAll": "Alle",
+          "emptyState": "Noch keine Ankündigungen vorhanden",
+          "table": {
+            "title": "Titel",
+            "type": "Typ",
+            "important": "Wichtig",
+            "date": "Datum",
+            "actions": "Aktionen"
+          },
+          "modal": {
+            "createTitle": "Neue Ankündigung erstellen",
+            "editTitle": "Ankündigung bearbeiten",
+            "deleteTitle": "Ankündigung löschen",
+            "deleteConfirm": "Sind Sie sicher, dass Sie die Ankündigung '{{title}}' löschen möchten? Dies kann nicht rückgängig gemacht werden.",
+            "typeLabel": "Typ *",
+            "teacherLabel": "Kursleiter *",
+            "importantLabel": "Als wichtig markieren",
+            "titleLabel": "Titel *",
+            "descLabel": "Beschreibung *",
+            "excerptLabel": "Auszug",
+            "imageLabel": "Bild-URL",
+            "contentLabel": "Inhalt *"
+          },
+          "toast": {
+            "loadError": "Ankündigungen konnten nicht geladen werden.",
+            "fillRequired": "Bitte füllen Sie die Pflichtfelder aus.",
+            "created": "Ankündigung erstellt.",
+            "updated": "Ankündigung aktualisiert.",
+            "actionFailed": "Aktion fehlgeschlagen.",
+            "deleted": "Ankündigung gelöscht.",
+            "deleteFailed": "Löschen nicht möglich."
+          }
+        },
+        "blogs": {
+          "button": "Blog-Beiträge",
+          "header": "Blog-Beiträge",
+          "headerDesc": "Blog-Inhalte verwalten",
+          "newButton": "Neuer Beitrag",
+          "filterAll": "Alle",
+          "emptyState": "Noch keine Blog-Beiträge vorhanden",
+          "table": {
+            "title": "Titel",
+            "type": "Typ",
+            "stats": "Statistik",
+            "date": "Datum",
+            "actions": "Aktionen"
+          },
+          "modal": {
+            "createTitle": "Neuer Blog-Beitrag",
+            "editTitle": "Blog-Beitrag bearbeiten",
+            "deleteTitle": "Blog-Beitrag löschen",
+            "deleteConfirm": "Möchten Sie den Beitrag wirklich löschen?",
+            "typeLabel": "Typ *",
+            "teacherLabel": "Kursleiter *",
+            "titleLabel": "Titel *",
+            "descLabel": "Beschreibung *",
+            "imageLabel": "Bild-URL *",
+            "readTimeLabel": "Lesezeit",
+            "tagsLabel": "Tags",
+            "tagsHint": "(mit Komma trennen)",
+            "contentLabel": "Inhalt *"
+          },
+          "toast": {
+            "loadError": "Blog-Beiträge konnten nicht geladen werden.",
+            "fillRequired": "Bitte füllen Sie die Pflichtfelder aus.",
+            "created": "Blog-Beitrag erstellt.",
+            "updated": "Blog-Beitrag aktualisiert.",
+            "actionFailed": "Aktion fehlgeschlagen.",
+            "deleted": "Blog-Beitrag gelöscht.",
+            "deleteFailed": "Löschen nicht möglich."
+          }
+        },
+        "support": {
+          "button": "Hilfezentrum",
+          "header": "Hilfezentrum",
+          "headerDesc": "Kategorien und Artikel verwalten",
+          "newCategoryButton": "Neue Kategorie",
+          "newArticleButton": "Neuer Artikel",
+          "emptyCats": "Noch keine Kategorien vorhanden",
+          "emptyArticles": "Keine Artikel in dieser Kategorie",
+          "articlesLabel": "Artikel",
+          "articleCountSuffix": "Artikel",
+          "viewCount": "Ansichten",
+          "modal": {
+            "createCatTitle": "Neue Kategorie",
+            "editCatTitle": "Kategorie bearbeiten",
+            "deleteCatTitle": "Kategorie löschen",
+            "deleteCatConfirm": "Möchten Sie die Kategorie und alle enthaltenen Artikel wirklich löschen?",
+            "createArtTitle": "Neuer Artikel",
+            "editArtTitle": "Artikel bearbeiten",
+            "deleteArtTitle": "Artikel löschen",
+            "deleteArtConfirm": "Möchten Sie den Artikel wirklich löschen?",
+            "idLabel": "Kategorie-ID *",
+            "idHint": "(unveränderlich)",
+            "iconLabel": "Icon-Name *",
+            "colorLabel": "Farbe *",
+            "titleLabel": "Titel *",
+            "descLabel": "Beschreibung *",
+            "orderLabel": "Reihenfolge",
+            "excerptLabel": "Auszug *",
+            "readTimeLabel": "Lesezeit",
+            "contentLabel": "Inhalt *"
+          },
+          "toast": {
+            "loadError": "Kategorien konnten nicht geladen werden.",
+            "fillRequired": "Bitte füllen Sie die Pflichtfelder aus.",
+            "idRequired": "Kategorie-ID ist erforderlich.",
+            "catCreated": "Kategorie erstellt.",
+            "catUpdated": "Kategorie aktualisiert.",
+            "catDeleted": "Kategorie gelöscht.",
+            "artCreated": "Artikel erstellt.",
+            "artUpdated": "Artikel aktualisiert.",
+            "artDeleted": "Artikel gelöscht.",
+            "actionFailed": "Aktion fehlgeschlagen.",
+            "deleteFailed": "Löschen nicht möglich."
+          }
+        },
+        "inbox": {
+          "button": "Posteingang",
+          "header": "Nachrichten & Berichte",
+          "headerDesc": "Kontaktanfragen und Fehlermeldungen verwalten",
+          "tabContact": "Kontaktanfragen",
+          "tabBugs": "Fehlermeldungen",
+          "filterAll": "Alle",
+          "noMessages": "Keine Nachrichten vorhanden",
+          "noBugs": "Keine Fehlermeldungen vorhanden",
+          "table": {
+            "sender": "Absender",
+            "subject": "Betreff",
+            "category": "Kategorie",
+            "status": "Status",
+            "date": "Datum",
+            "actions": "Aktionen",
+            "pageType": "Seite / Typ",
+            "description": "Beschreibung",
+            "email": "E-Mail"
+          },
+          "contactStatus": {
+            "unread": "Ungelesen",
+            "read": "Gelesen",
+            "replied": "Beantwortet"
+          },
+          "bugStatus": {
+            "open": "Offen",
+            "inProgress": "In Bearbeitung",
+            "resolved": "Gelöst",
+            "closed": "Geschlossen"
+          },
+          "categoryLabels": {
+            "general": "Allgemein",
+            "technical": "Technisch",
+            "courses": "Kurse",
+            "partnership": "Kooperation"
+          },
+          "bugTypeLabels": {
+            "option1": "Sicherheitslücke",
+            "option2": "Inhaltsfehler"
+          },
+          "modal": {
+            "viewContact": "Nachrichtendetails",
+            "replyContact": "Antworten",
+            "viewBug": "Fehlerdetails",
+            "replyBug": "Auf Fehlerbericht antworten"
+          },
+          "notSpecified": "Nicht angegeben",
+          "closeButton": "Schließen",
+          "sending": "Wird gesendet...",
+          "sendReply": "Antwort senden",
+          "replyLabel": "Ihre Antwort *",
+          "replyPlaceholder": "Schreiben Sie Ihre Antwort...",
+          "replyEmailNotice": "Nach dem Absenden erhält der Nutzer eine E-Mail-Benachrichtigung.",
+          "viewContact": {
+            "messageLabel": "Nachricht",
+            "adminReplyLabel": "Admin-Antwort"
+          },
+          "viewBug": {
+            "typeLabel": "Typ",
+            "pageLabel": "Seite",
+            "descLabel": "Beschreibung"
+          },
+          "toast": {
+            "contactLoadError": "Nachrichten konnten nicht geladen werden.",
+            "bugLoadError": "Berichte konnten nicht geladen werden.",
+            "replyEmpty": "Antworttext darf nicht leer sein.",
+            "contactReplied": "Antwort gesendet.",
+            "replySaved": "Antwort gespeichert.",
+            "replyFailed": "Senden fehlgeschlagen.",
+            "contactDeleted": "Nachricht gelöscht.",
+            "deleteFailed": "Löschen fehlgeschlagen.",
+            "statusUpdated": "Status aktualisiert.",
+            "statusFailed": "Status konnte nicht aktualisiert werden.",
+            "bugDeleted": "Bericht gelöscht."
+          }
         }
+      },
+      "newsletter": {
+        "dialogTitle": "Newsletter versenden",
+        "targetLabel": "Zielgruppe",
+        "targetAll": "Alle Benutzer",
+        "targetStudents": "Nur Studenten (Käufer)",
+        "targetFree": "Kostenlose Mitglieder",
+        "subjectLabel": "E-Mail Betreff",
+        "titleLabel": "E-Mail Titel",
+        "bodyLabel": "Inhalt",
+        "ctaTextLabel": "Button-Text",
+        "ctaUrlLabel": "Button-URL",
+        "optional": "(optional)",
+        "cancel": "Abbrechen",
+        "send": "Senden",
+        "sending": "Wird gesendet...",
+        "toast": {
+          "validationError": "Betreff, Titel und Inhalt sind erforderlich",
+          "started": "Newsletter-Versand gestartet",
+          "failed": "Versand fehlgeschlagen"
+        }
+      },
+      "common": {
+        "cancel": "Abbrechen",
+        "save": "Speichern",
+        "saving": "Wird gespeichert...",
+        "delete": "Löschen",
+        "deleting": "Wird gelöscht...",
+        "edit": "Bearbeiten",
+        "view": "Ansehen",
+        "reply": "Antworten",
+        "fillRequired": "Bitte füllen Sie die Pflichtfelder aus.",
+        "actionFailed": "Aktion fehlgeschlagen.",
+        "deleteFailed": "Löschen nicht möglich."
       },
       "header": {
         "title": "Admin Dashboard",
-        "description": "Plattformverwaltung",
+        "description": "Plattformverwaltung und Statistiken",
         "crateCourse": "Neuer Kurs",
-        "reports": "Bericht herunterladen"
+        "reports": "Bericht herunterladen",
+        "newsletter": "Newsletter"
       },
       "report": {
         "title": "Bericht herunterladen",
@@ -927,7 +1361,7 @@
             "sections": {
               "label": "Abschnitte & Videos",
               "add": "Abschnitt hinzufügen",
-              "sectionTitle": "Abschnitt ${index} Titel",
+              "sectionTitle": "Abschnitt {{index}} Titel",
               "zIndex": "Reihenfolge",
               "addVideo": "Video hinzufügen",
               "video": {
@@ -958,7 +1392,7 @@
             "imageUploadError": "Fehler beim Bild-Upload",
             "fileUploadSuccess": "Datei hochgeladen",
             "fileUploadError": "Fehler beim Datei-Upload",
-            "editedCourse": "${courseName} aktualisiert",
+            "editedCourse": "{{courseName}} aktualisiert",
             "editError": "Fehler beim Aktualisieren"
           },
           "buttons": {
@@ -980,7 +1414,7 @@
           "rating": "Bewertung",
           "warn": {
             "1": "⚠️ Warnung:",
-            "2": "Es sind {{studentCount}} Studenten eingeschrieben."
+            "2": "Es sind {{studentCount}} Studenten eingeschrieben. Wenn der Kurs gelöscht wird, verlieren sie den Zugang."
           },
           "buttons": {
             "cancel": "Abbrechen",
@@ -1030,7 +1464,7 @@
             "defaultOption": "Kurs wählen...",
             "noCourses": "Keine Kurse verfügbar",
             "add": "Hinzufügen",
-            "userCoursesTitle": "Benutzerkurse ({count})",
+            "userCoursesTitle": "Benutzerkurse ({{count}})",
             "notAddedCourse": "Keine Kurse"
           },
           "warn": {
@@ -1094,6 +1528,35 @@
       "later": "Später",
       "submit": "Senden"
     },
+    "cart": {
+      "title": {
+        "title": "Mein Warenkorb",
+        "desc": {
+          "1": "{{cartCount}} Kurs(e) im Warenkorb",
+          "2": "Ihr Warenkorb ist leer"
+        }
+      },
+      "empty": {
+        "title": "Ihr Warenkorb ist leer",
+        "desc": "Sie haben noch keine Kurse hinzugefügt. Stöbern Sie in unseren Kursen!"
+      },
+      "buttons": {
+        "course": "Kurse durchsuchen",
+        "remove": "Entfernen",
+        "checkout": "Jetzt kaufen",
+        "clean": "Warenkorb leeren",
+        "shopping": "Weiter einkaufen",
+        "firstCourse": "Ersten Kurs kaufen {{count}}",
+        "goToPayment": "Zur Zahlung"
+      },
+      "summary": {
+        "title": "Bestellübersicht",
+        "course": "{{count}} Kurse",
+        "kdv": "MwSt. {{kdv}}%",
+        "total": "Gesamt",
+        "warning": " Kurse werden der Reihe nach bezahlt. Beginnen Sie mit dem ersten Kurs."
+      }
+    },
     "time": {
       "secondsAgo": "Sekunden her",
       "minutesAgo": "Minuten her",
@@ -1101,56 +1564,6 @@
       "daysAgo": "Tage her",
       "monthsAgo": "Monate her",
       "yearsAgo": "Jahre her"
-    },
-    "login": {
-      "alreadyLogged": "Sie sind bereits angemeldet, Weiterleitung zur Profilseite.",
-      "signUp": {
-        "title": "Konto erstellen",
-        "subtitle": "Erstellen Sie ein kostenloses Konto und beginnen Sie zu lernen"
-      },
-      "signIn": {
-        "title": "Willkommen zurück",
-        "subTitle": "Melden Sie sich an und lernen Sie weiter"
-      },
-      "or": "Oder",
-      "inputs": {
-        "name": {
-          "label": "Vollständiger Name",
-          "placeholder": "Ihr Vor- und Nachname",
-          "message": "Bitte geben Sie Ihren Vor- und Nachnamen ein",
-          "min": "Ihr Name muss mindestens 3 Zeichen lang sein",
-          "max": "Ihr Name darf maximal 50 Zeichen lang sein",
-          "regex": "Ihr Name darf nur aus Buchstaben bestehen"
-        },
-        "email": {
-          "label": "E-Mail",
-          "placeholder": "beispiel@email.com",
-          "required": "E-Mail-Adresse ist erforderlich",
-          "message": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
-        },
-        "password": {
-          "label": "Passwort",
-          "required": "Passwort ist erforderlich",
-          "min": "Ihr Passwort muss mindestens 6 Zeichen lang sein",
-          "max": "Ihr Passwort darf maximal 50 Zeichen lang sein",
-          "placeholder": "Wählen Sie ein sicheres Passwort (mindestens 6 Zeichen)"
-        },
-        "terms": {
-          "label": "Ich akzeptiere die Nutzungsbedingungen"
-        },
-        "buttons": {
-          "create": "Konto erstellen",
-          "created": "Konto wird erstellt...",
-          "login": "Anmelden",
-          "logining": "Anmeldung...",
-          "rememberMe": "Angemeldet bleiben",
-          "forgotPassword": "Passwort vergessen",
-          "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
-          "notHaveAccount": "Haben Sie noch kein Konto?",
-          "signIn": "Anmelden",
-          "signUp": "Registrieren"
-        }
-      }
     },
     "legal": {
       "common": {
@@ -1189,7 +1602,7 @@
           },
           {
             "heading": "4. ALLGEMEINE BESTIMMUNGEN",
-            "body": "4.1. Der KÄUFER erklärt, dass er die grundlegenden Merkmale des vertragsgegenständlichen Produkts, den Verkaufspreis, die Zahlungsmethode und die Vorabinformationen zur Lieferung auf der Website gelesen und sich darüber informiert hat und die erforderliche Bestätigung im elektronischen Umfeld gegeben hat.\n\n4.2. Da es sich bei der vertragsgegenständlichen Dienstleistung um digitale Inhalte handelt, wird sie dem KÄUFER unmittelbar nach der Zahlungsbestätigung zugänglich gemacht. Eine physische Lieferung findet nicht statt.\n\n4.3. Der VERKÄUFER ist verantwortlich für die vollständige und den in der Bestellung angegebenen Qualifikationen entsprechende Lieferung des vertragsgegenständlichen Produkts/der Dienstleistung.\n\n4.4. Zahlungstransaktionen werden sicher über die Iyzico- oder Stripe-Infrastruktur durchgeführt. Kreditkarteninformationen werden vom VERKÄUFER nicht gespeichert."
+            "body": "4.1. Der KÄUFER erklärt, dass er die grundlegenden Merkmale des vertragsgegenständlichen Produkts, den Verkaufspreis, die Zahlungsmethode und die Vorabinformationen zur Lieferung auf der Website gelesen und sich darüber informiert hat und die erforderliche Bestätigung im elektronischen Umfeld gegeben hat.\n\n4.2. Da es sich bei der vertragsgegenständlichen Dienstleistung um digitale Inhalte handelt, wird sie dem KÄUFER unmittelbar nach der Zahlungsbestätigung zugänglich gemacht. Eine physische Lieferung findet nicht statt.\n\n4.3. Der VERKÄUFER ist verantwortlich für die vollständige und den in der Bestellung angegebenen Qualifikationen entsprechende Lieferung des vertragsgegenständlichen Produkts/der Dienstleistung.\n\n4.4. Zahlungstransaktionen werden sicher über die Iyzico- oder Lemon Squeezy-Infrastruktur durchgeführt. Kreditkarteninformationen werden vom VERKÄUFER nicht gespeichert."
           },
           {
             "heading": "5. WIDERRUFSRECHT UND AUSNAHMEN",
@@ -1217,7 +1630,7 @@
               "Durchführung von Mitgliedschaftstransaktionen und Erstellung eines Kontos.",
               "Bereitstellung und Nachverfolgung des Zugangs zu Bildungsinhalten.",
               "Verwaltung von Zertifizierungsprozessen (ID-Verifizierung, QR-Code-Generierung usw.).",
-              "Sichere Durchführung von Zahlungstransaktionen (über Iyzico/Stripe).",
+              "Sichere Durchführung von Zahlungstransaktionen (über Iyzico/Lemon Squeezy).",
               "Analyse von Video-Viewing-Statistiken (mit Vimeo/Bunny.net-Integration) zur Verbesserung der Plattform.",
               "Durchführung von Kommunikationsaktivitäten und Bereitstellung von Support-Dienstleistungen.",
               "Erfüllung gesetzlicher Verpflichtungen (Rechnungsstellung usw.)."
@@ -1362,7 +1775,7 @@
             "heading": "4. Weitergabe an Dritte",
             "body": "Wir verkaufen Ihre persönlichen Daten nicht an Dritte. Wir können sie nur in folgenden Fällen weitergeben:",
             "list": [
-              "Zahlungsabwickler (Iyzico, Stripe)",
+              "Zahlungsabwickler (Iyzico, Lemon Squeezy)",
               "Video-Hosting-Dienste (Vimeo, Bunny.net)",
               "Gesetzliche Verpflichtungen"
             ]
@@ -1417,7 +1830,7 @@
           },
           {
             "heading": "4. ZAHLUNGEN UND ABONNEMENTS",
-            "body": "Einige Inhalte können kostenpflichtig sein. Die Zahlung für kostenpflichtige Inhalte erfolgt über die angegebenen sicheren Zahlungskanäle (Iyzico/Stripe).",
+            "body": "Einige Inhalte können kostenpflichtig sein. Die Zahlung für kostenpflichtige Inhalte erfolgt über die angegebenen sicheren Zahlungskanäle (Iyzico/Lemon Squeezy).",
             "list": [
               "Die Preise entsprechen den zum Zeitpunkt des Kaufs angegebenen Beträgen und enthalten alle Steuern (sofern nicht anders angegeben).",
               "Das Recht auf Zugriff auf gekaufte Inhalte gilt lebenslang oder für die angegebene Dauer.",
@@ -1446,6 +1859,107 @@
             "body": "Für Fragen und Vorschläge bezüglich der Nutzungsbedingungen können Sie uns über legal@platform.com kontaktieren."
           }
         ]
+      }
+    },
+    "payment": {
+      "title": {
+        "1": "Zahlung",
+        "2": "Vervollständigen Sie Ihren Kauf mit sicherer Zahlung",
+        "3": "Kontaktinformationen",
+        "4": "Zahlungsmethode"
+      },
+      "cardType": {
+        "title": "Kredit-/Debitkarte",
+        "visa": "Visa",
+        "mastercard": "MasterCard",
+        "transfer": "Banküberweisung"
+      },
+      "savedCards": "Meine gespeicherten Karten",
+      "savedCardLabel": "Gespeicherte Karte",
+      "newCard": "Neue Karte hinzufügen",
+      "processing": "Wird verarbeitet...",
+      "complete": "Zahlung abschließen",
+      "input": {
+        "name": {
+          "label": "Vollständiger Name",
+          "placeholder": "Name auf der Karte",
+          "null": "Name ist erforderlich"
+        },
+        "surname": {
+          "label": "Nachname",
+          "placeholder": "Nachname auf der Karte",
+          "null": "Nachname ist erforderlich"
+        },
+        "email": {
+          "label": "E-Mail",
+          "placeholder": "E-Mail eingeben",
+          "null": "E-Mail ist erforderlich",
+          "invalid": "Ungültiges E-Mail-Format"
+        },
+        "phone": {
+          "label": "Telefon",
+          "placeholder": "Telefonnummer eingeben",
+          "null": "Telefon ist erforderlich",
+          "invalid": "Ungültiges Telefonnummernformat"
+        },
+        "cardNumber": {
+          "label": "Kartennummer",
+          "placeholder": "1234 5678 9012 3456",
+          "null": "Kartennummer ist erforderlich",
+          "invalid": "Ungültige Kartennummer"
+        },
+        "lastDate": {
+          "label": "Ablaufdatum",
+          "placeholder": "MM/YY",
+          "null": "Ablaufdatum ist erforderlich",
+          "invalid": "Ungültiges Ablaufdatum"
+        },
+        "cvv": {
+          "label": "CVV",
+          "placeholder": "123",
+          "null": "CVV ist erforderlich",
+          "max": "CVV kann maximal 3-stellig sein",
+          "invalid": "Ungültiger CVV"
+        },
+        "cardName": {
+          "label": "Karteninhaber",
+          "placeholder": "Name auf der Karte",
+          "null": "Karteninhaber ist erforderlich"
+        }
+      },
+      "summary": {
+        "title": "Bestellzusammenfassung",
+        "notSelected": "Nicht ausgewählt",
+        "package": "Paket",
+        "oneTime": "Einmalig",
+        "subtotal": "Zwischensumme",
+        "vat": "MwSt. (20%)",
+        "total": "Gesamt",
+        "instantAccess": "Sofortiger Zugang",
+        "moneyBack": "30-Tage-Geld-zurück-Garantie",
+        "support": "24/7 Support",
+        "securePayment": "Sichere Zahlung"
+      },
+      "dialog": {
+        "title": "Zahlung erfolgreich!",
+        "congrats": "Glückwunsch!",
+        "message": "Ihre Zahlung wurde erfolgreich abgeschlossen",
+        "courseAdded": "Kurs Ihrem Konto hinzugefügt",
+        "startCourse": "Kurs starten"
+      },
+      "toast": {
+        "notFound": "Zahlungsinformationen nicht gefunden",
+        "success": "Zahlung erfolgreich abgeschlossen!",
+        "failed": "Zahlung fehlgeschlagen",
+        "error": "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut"
+      },
+      "footer": {
+        "ssl": "Durch SSL-Sicherheit geschützt",
+        "pass": "Sichere Zahlung mit 256-Bit-Verschlüsselung",
+        "privacy": "Datenschutzrichtlinie",
+        "userAgreement": "Nutzungsbedingungen",
+        "and": "und",
+        "agree": " Ich habe gelesen und stimme zu."
       }
     }
   }
