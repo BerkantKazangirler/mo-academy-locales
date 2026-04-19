@@ -1,0 +1,2344 @@
+{
+  "translation": {
+    "mesutOzdag": {
+      "title": "Professore Assistente e Ricercatore di IA",
+      "name": "Mesut Ozdag, Ph.D.",
+      "desc": "Professore Assistente di Informatica, FinTech e Informatica Forense | Sviluppatore di IA",
+      "contact": "Contatto",
+      "socialMedia": "Social media",
+      "about": {
+        "1": "Il Dr. Mesut Özdağ lavora come Professore Assistente presso l'Università della Florida Centrale nei dipartimenti di Informatica, FinTech e Informatica Forense. Inoltre, è il Coordinatore della Valutazione dell'Efficacia Istituzionale (IE) per i programmi di Master in Informatica, Dottorato in Informatica e Master in FinTech. Le sue ricerche si concentrano sullo sviluppo dell'intelligenza artificiale, apprendimento profondo, analisi di immagini mediche e attacchi avversari alle reti neurali.",
+        "2": "Con un'ampia esperienza sia nel mondo accademico che nell'industria, il Dr. Özdağ ha lavorato in organizzazioni prestigiose come Siemens Healthineers, Roche Molecular Systems e Flywheel Inc. È revisore scientifico per importanti riviste nel campo dell'analisi delle immagini mediche e ha pubblicato numerosi articoli sull'apprendimento automatico avversario e l'imaging medico.",
+        "title": "Informazioni"
+      },
+      "education": {
+        "title": "Formazione",
+        "expertise": "Specializzazione:"
+      },
+      "experience": {
+        "title": "Esperienza Professionale"
+      },
+      "specialtiesAndCertificates": {
+        "title": "Competenze & Certificazioni",
+        "specialties": "Competenze Tecniche",
+        "certificates": "Certificazioni Professionali"
+      },
+      "publications": {
+        "title": "Pubblicazioni & Conferenze"
+      }
+    },
+    "buttons": {
+      "save": "Salva",
+      "cancel": "Annulla"
+    },
+    "ui": {
+      "footer": {
+        "eNewsletter": {
+          "title": "Rimani aggiornato sui nuovi corsi",
+          "description": "Iscriviti alla nostra newsletter e approfitta di offerte esclusive",
+          "placeholder": "Il tuo indirizzo email",
+          "subscribe": "Iscriviti"
+        },
+        "description": "Avanza nella tua carriera con corsi di Python, Machine Learning e Informatica. Contenuti professionali e supporto continuo.",
+        "titles": {
+          "courses": {
+            "title": "Corsi",
+            "allCourses": "Tutti i Corsi"
+          },
+          "links": {
+            "title": "Link Rapidi",
+            "home": "Home",
+            "about": "Chi Siamo",
+            "certificate": "Verifica Certificato",
+            "updates": "Annunci & Aggiornamenti",
+            "contact": "Contatti"
+          },
+          "support": {
+            "title": "Supporto",
+            "faq": "FAQ",
+            "help": "Centro Assistenza",
+            "terms": "Termini di Utilizzo",
+            "privacy": "Informativa sulla Privacy",
+            "reportBug": "Segnala un Errore"
+          }
+        },
+        "rights": "Mesut Özdag Academy. Tutti i diritti riservati.",
+        "status": {
+          "active": "Tutti i sistemi sono operativi",
+          "partial": "Disponibilità Parziale",
+          "major": "Interruzione Maggiore",
+          "offline": "Offline",
+          "loading": "Caricamento del sistema..."
+        }
+      },
+      "nav": {
+        "home": "Home",
+        "courses": "Corsi",
+        "about": "Chi Siamo",
+        "contact": "Contatti",
+        "packages": "Pacchetti",
+        "updates": "Annunci",
+        "cart": "Carrello",
+        "signin": "Accedi",
+        "signup": "Registrati",
+        "profile": "Profilo",
+        "myProfile": "Visualizza Profilo"
+      },
+      "input": {
+        "min_char": "Minimo 20 caratteri (Attuale: {{count}})",
+        "char": "caratteri"
+      },
+      "cokkieBanner": {
+        "message": "Utilizziamo i cookie per garantire le funzionalità essenziali del sito, offrire la migliore esperienza utente possibile e personalizzare le comunicazioni future. Utilizzando questo sito accetti l'uso dei cookie.",
+        "privacyPolicy": "Informativa sulla Privacy",
+        "accept": "Accetta i Cookie"
+      },
+      "up": "Torna Su"
+    },
+    "error": {
+      "subTitle": "Continua a Imparare!",
+      "pageNotFound": "Questa pagina non esiste",
+      "pageNotFoundDesc": "Questa pagina non esiste o è stata rimossa. Ti consigliamo di tornare alla pagina iniziale.",
+      "boundary": {
+        "title": "⚠️ Si è verificato un errore imprevisto",
+        "showDetails": "Mostra dettagli tecnici",
+        "reload": "🔄 Ricarica la Pagina",
+        "goHome": "🏠 Torna alla Home",
+        "warn": "Se il problema persiste, contatta l'amministratore"
+      }
+    },
+    "auth": {
+      "loginSussess": "Accesso effettuato con successo!",
+      "registerSuccess": "Registrazione completata! Ora puoi effettuare l'accesso.",
+      "invalidCredentials": "Credenziali non valide!",
+      "loginFailed": "Accesso non riuscito!",
+      "registerFailed": "Registrazione non riuscita!",
+      "purchaseFailed": "Acquisto non riuscito!"
+    },
+    "home": {
+      "hero": {
+        "new": "Nuovo: Tutti i corsi ora con sottotitoli in turco!",
+        "title": {
+          "line1": "Codifica",
+          "line2": "il Tuo Futuro"
+        },
+        "description": "Avanza nella tua carriera con corsi di Python, Machine Learning e Informatica. Lezioni in HD, istruttore professionale e progetti pratici.",
+        "browseCourses": "Sfoglia i Corsi",
+        "watchDemo": "Guarda la Demo"
+      },
+      "courses": {
+        "popular": "Corsi Popolari",
+        "title": "Formazioni che Faranno Progredire la Tua Carriera",
+        "description": "Corsi preparati da esperti del settore, ricchi di contenuti pratici e aggiornati"
+      },
+      "stats": {
+        "careerGrowth": "Crescita Professionale",
+        "activeStudents": "Studenti Attivi",
+        "contentHours": "Ore di Contenuti",
+        "averageRating": "Valutazione Media",
+        "satisfaction": "Soddisfazione"
+      },
+      "cards": {
+        "why_choose": "Perché Sceglierci?",
+        "why_choose_desc": "Ridefiniamo l'Esperienza di Apprendimento",
+        "card1_title": "Lezioni Video in HD",
+        "card1_desc": "Tutte le lezioni sono disponibili con contenuti professionali in inglese e sottotitoli in turco.",
+        "card2_title": "Contenuti Completi",
+        "card2_desc": "Spiegazioni dettagliate, esempi di codice e esercizi pratici.",
+        "card3_title": "Certificato",
+        "card3_desc": "Certificato digitale al completamento del corso.",
+        "card4_title": "Accesso a Vita",
+        "card4_desc": "Accesso illimitato e permanente ai corsi acquistati.",
+        "card5_title": "Supporto della Community",
+        "card5_desc": "Supporto continuo tramite la community studenti e il gruppo Discord.",
+        "card6_title": "Contenuti Aggiornati",
+        "card6_desc": "Contenuti costantemente aggiornati per non rimanere indietro nel settore."
+      },
+      "prices": {
+        "subTitle": "Prezzi",
+        "title": "Scegli il Piano Adatto a Te",
+        "description": "Inizia a imparare con le nostre opzioni di abbonamento convenienti che offrono accesso a tutti i corsi.",
+        "single_course": "Corso Singolo",
+        "single_course_desc": "Accesso a un corso a tua scelta",
+        "monthly": "Abbonamento Mensile",
+        "month": "mese",
+        "monthly_desc": "Accesso mensile a tutti i contenuti",
+        "buy": "Acquista",
+        "features": {
+          "one_access": "Accesso Completo a 1 Corso",
+          "full_access": "Accesso a Tutti i Corsi",
+          "video_lessons": "Lezioni Video",
+          "new_content": "Nuovi contenuti ogni mese",
+          "downloadable_resources": "Risorse scaricabili",
+          "certificate": "Certificato",
+          "cancellation": "Annulla quando vuoi"
+        }
+      },
+      "comments": {
+        "subTitle": "Recensioni degli Studenti",
+        "title": "Oltre 2000 Studenti Soddisfatti",
+        "desc": "Alcuni dei nostri studenti che hanno trasformato la loro carriera"
+      },
+      "footer": {
+        "title": {
+          "line1": "Inizia a Trasformare",
+          "line2": "la Tua Carriera Oggi"
+        },
+        "desc": "Unisciti a migliaia di studenti e porta la tua carriera tecnologica al livello successivo. Prova la prima lezione gratuitamente!",
+        "login": "Accedi",
+        "browse_courses": "Inizia i Corsi",
+        "view_prices": "Vedi i Prezzi",
+        "safe_payment": "Pagamento Sicuro",
+        "refund": "Garanzia di Rimborso di 7 Giorni"
+      },
+      "dialog": {
+        "watchDemo": "Guarda la Demo"
+      }
+    },
+    "about": {
+      "hero": {
+        "subTitle": "Informazioni",
+        "title": "Un Nuovo Approccio alla Formazione di Programmazione",
+        "description": "La nostra piattaforma di formazione online mira a trasformare la carriera degli studenti con corsi pratici di Python, Machine Learning e Matematica Discreta.",
+        "goToCourses": "Vai ai Corsi",
+        "watchDemo": "Guarda il Video di Presentazione",
+        "stats": {
+          "activeStudents": "Studenti Attivi",
+          "completedVideos": "Lezioni Completate",
+          "completedCourses": "Corsi Completati",
+          "averageRating": "Tasso di Successo"
+        }
+      },
+      "mission": {
+        "subTitle": "La Nostra Storia",
+        "title": "La Nostra Missione",
+        "description": {
+          "1": "Rendere l'educazione alla programmazione e alla scienza dei dati accessibile, comprensibile e applicabile per tutti. Aiutiamo i nostri studenti a imparare non solo a programmare, ma anche a risolvere problemi e pensare in modo algoritmico.",
+          "2": "Ogni lezione si basa su progetti reali. I nostri studenti consolidano ciò che imparano applicandolo immediatamente e rafforzano il loro portfolio."
+        },
+        "features": {
+          "1": "Formazione pratica e orientata ai progetti",
+          "2": "Possibilità di apprendere al proprio ritmo",
+          "3": "Supporto dal vivo da istruttori professionisti",
+          "4": "Certificato e guida alla carriera",
+          "5": "Portfolio di progetti reali",
+          "6": "Accesso illimitato e possibilità di rivedere le lezioni"
+        },
+        "teamImage": {
+          "title": "Formazione Professionale",
+          "description": "Impara con progetti del mondo reale"
+        }
+      },
+      "teamSection": {
+        "subTitle": "Incontra il Team",
+        "title": "Il Nostro Team",
+        "description": "Il nostro team esperto e appassionato lavora per offrire la migliore esperienza formativa.",
+        "roleDesc": {
+          "founder": "Fondatore e visionario della piattaforma. Esperto in machine learning e intelligenza artificiale, lavora per rendere accessibili le tecnologie educative a tutti.",
+          "frontendDeveloper": "Sviluppa applicazioni web responsive e accessibili. Progetta interfacce utente interattive con moderni framework JavaScript.",
+          "uiDesigner": "Crea design intuitivi mettendo al centro l'esperienza utente. Testa la qualità del prodotto per offrire un'esperienza impeccabile.",
+          "marketingSpecialist": "Organizza professionalmente i contenuti formativi e sviluppa strategie di marketing creative per aumentare la visibilità della piattaforma.",
+          "videoEditor": "Monta video didattici di qualità professionale per arricchire l'esperienza di apprendimento.",
+          "qualityAssurance": "Testa la qualità dei contenuti formativi e garantisce un'esperienza utente impeccabile."
+        }
+      },
+      "values": {
+        "1": {
+          "title": "Qualità & Eccellenza",
+          "desc": "Prepariamo ogni contenuto didattico con cura, seguiamo le tecnologie più recenti e miglioriamo continuamente."
+        },
+        "2": {
+          "title": "Comunità & Collaborazione",
+          "desc": "I nostri studenti imparano gli uni dagli altri, condividono i loro progetti e crescono insieme."
+        },
+        "3": {
+          "title": "Crescita Continua",
+          "desc": "Non insegniamo solo a programmare, ma forniamo anche mentoring per far avanzare la tua carriera."
+        },
+        "4": {
+          "title": "Innovazione & Creatività",
+          "desc": "Rinnoviamo costantemente le nostre metodologie didattiche e applichiamo le tecniche di apprendimento più efficaci."
+        },
+        "5": {
+          "title": "Innovazione & Creatività",
+          "desc": "Rinnoviamo costantemente le nostre metodologie didattiche e applichiamo le tecniche di apprendimento più efficaci."
+        },
+        "6": {
+          "title": "Innovazione & Creatività",
+          "desc": "Rinnoviamo costantemente le nostre metodologie didattiche e applichiamo le tecniche di apprendimento più efficaci."
+        },
+        "subTitle": "I Nostri Principi Fondamentali",
+        "title": "I Nostri Valori",
+        "description": "I valori fondamentali che plasmano la nostra filosofia educativa e guidano ogni nostra decisione"
+      }
+    },
+    "courses": {
+      "desc_not_found": "Descrizione del corso non disponibile.",
+      "time": "ore",
+      "lesson": "lezione",
+      "rating": "valutazione",
+      "one_time_purchase": "pagamento unico",
+      "go_to_course": "Vai al Corso",
+      "backToList": "Torna ai Corsi",
+      "tabs": {
+        "all": "Tutti",
+        "math": "Matematica"
+      },
+      "hero": {
+        "professionalCourses": "{{count}} Corsi Professionali",
+        "title": {
+          "word1": "Catalogo",
+          "word2": "Corsi"
+        },
+        "subtitle": "Corsi preparati da istruttori professionisti per far avanzare la tua carriera",
+        "stats": {
+          "activeCourses": "Corsi Attivi",
+          "students": "Studenti",
+          "averageRating": "Valutazione Media",
+          "hoursContent": "Ore di Contenuti"
+        }
+      },
+      "promotion": {
+        "badge": "Offerta Speciale",
+        "title": {
+          "line1": "Accesso Illimitato",
+          "line2": "a Tutti i Corsi"
+        },
+        "description": "Con il pacchetto corsi ottieni accesso a vita a tutti i corsi attuali e futuri. Un unico pagamento, apprendimento illimitato!",
+        "packageDetails": "Dettagli del Pacchetto",
+        "viewPrices": "Vedi i Prezzi",
+        "features": {
+          "allAccess": "Accesso a Tutti i Corsi",
+          "prioritySupport": "Supporto Prioritario",
+          "certificates": "Certificati Inclusi"
+        }
+      },
+      "card": {
+        "startCourse": "Inizia il Corso",
+        "buyPackage": "Acquista il Pacchetto",
+        "packageCoursesCount": "{{count}} Corsi Inclusi:"
+      },
+      "levels": {
+        "beginner": "Principiante",
+        "beginner_intermediate": "Principiante - Intermedio",
+        "intermediate": "Intermedio",
+        "intermediate_advanced": "Intermedio - Avanzato",
+        "advanced": "Avanzato",
+        "expert": "Esperto"
+      },
+      "toast": {
+        "quizCompleted": "Quiz completato! Il tuo certificato è pronto.",
+        "certificateCreated": "Certificato creato.",
+        "certificateFailed": "Impossibile creare il certificato.",
+        "ratingSubmitted": "La tua valutazione è stata registrata. Grazie!",
+        "ratingFailed": "Impossibile inviare la valutazione.",
+        "loadingError": "Impossibile caricare il corso. Riprova.",
+        "cartAdded": "Corso aggiunto al carrello!",
+        "coupon": {
+          "applied": "Sconto del %{{coupon}} applicato!",
+          "invalidCoupon": "Codice coupon non valido"
+        }
+      },
+      "detail": {
+        "featuresTitle": "Questo corso include:",
+        "content": "{{duration}} di contenuti video",
+        "lesson": "{{totalVideos}} lezioni",
+        "sections": "{{totalSections}} sezioni",
+        "downloadable": "{{content}} risorse scaricabili",
+        "responsive": "Accessibile da mobile e TV",
+        "lifetime": "Accesso a vita",
+        "certificate": "Certificato di completamento",
+        "breadcrumbs": {
+          "home": "Home",
+          "courses": "Corsi"
+        },
+        "comments": {
+          "new": "Nuovo",
+          "reviews": "({{reviews}} valutazioni)",
+          "noRating": "Nessuna valutazione",
+          "noReviews": "Nessuna recensione"
+        },
+        "students": "Studenti Iscritti",
+        "lastUpdate": "Ultimo Aggiornamento",
+        "description": "Descrizione del Corso",
+        "contentTitle": "Contenuto del Corso",
+        "sourceTitle": "Risorse",
+        "aboutInstructor": "Informazioni sull'Istruttore",
+        "instrucatorCategory": "Istruttore di {{category}}",
+        "watchNow": "Guarda Ora",
+        "star": "{{star}} Stelle",
+        "teacher": "Istruttore:",
+        "student": "{{student}} Studenti",
+        "noContent": "Il contenuto del corso non è ancora stato aggiunto.",
+        "buttons": {
+          "goToCourse": "Vai al Corso",
+          "buyNow": "Acquista Ora",
+          "addToCart": "Aggiungi al Carrello",
+          "addedCart": "Nel Carrello",
+          "share": "Condividi",
+          "gift": "Regala",
+          "coupon": "Coupon"
+        },
+        "shareDialog": {
+          "title": "Condividi questo corso",
+          "desc": "Condividilo con i tuoi amici per aiutarli ad accedere alla conoscenza.",
+          "academyName": "Mesut Özdağ Academy",
+          "shareText": "Guarda il corso {{courseTitle}} su Mesut Özdağ Academy: {{link}}",
+          "copiedToClipboard": "Testo copiato negli appunti!"
+        },
+        "giftDialog": {
+          "title": "Regala questo corso",
+          "desc": "Regala conoscenza ai tuoi cari.",
+          "input": {
+            "1": {
+              "label": "Email del Destinatario",
+              "placeholder": "esempio@email.com"
+            },
+            "2": {
+              "label": "Data di Consegna",
+              "placeholder": "gg.mm.aaaa"
+            },
+            "3": {
+              "label": "Messaggio (Opzionale)",
+              "placeholder": "Scrivi il tuo messaggio qui..."
+            }
+          },
+          "recipientEmailRequired": "Inserisci l'email del destinatario",
+          "proceedButton": "Procedi al Pagamento"
+        },
+        "couponDialog": {
+          "title": "Applica Codice Coupon",
+          "inputPlaceholder": "Inserisci il tuo codice coupon",
+          "applyButton": "Applica"
+        }
+      },
+      "video": {
+        "loading": "Caricamento video...",
+        "thumbnailAlt": "Miniatura del video",
+        "madeBy": "Preparato da {{instructor}}",
+        "tabs": {
+          "notes": "Note della Lezione",
+          "noNotes": "Non ci sono note per questo video.",
+          "resources": "Risorse {{length}}",
+          "download": "Scarica",
+          "noResources": "Nessuna risorsa disponibile per questa sezione.",
+          "codeExample": "Esempi di Codice ({{length}})",
+          "noCodeExamples": "Nessun esempio di codice disponibile per questo video.",
+          "codeCopied": "Codice copiato negli appunti!",
+          "copy": "Copia",
+          "copied": "Copiato",
+          "sources": "Fonti ({{length}})",
+          "status": "Stato del Corso",
+          "courseSettings": "Impostazioni del Corso",
+          "courseStatus": {
+            "status": "Progresso del Corso",
+            "percentage": "{{percentage}}% Completato"
+          },
+          "videoStatus": {
+            "status": "Progresso del Video",
+            "percentage": "{{percentage}}% guardato",
+            "completed": "Completato",
+            "complate": "Non Completato"
+          }
+        },
+        "quiz": {
+          "title": "Quiz del Corso",
+          "score": "Il tuo punteggio: {{score}}%",
+          "notCompleted": "Completa il corso",
+          "notStarted": "Non hai ancora iniziato",
+          "success": "Successo",
+          "failed": "Fallito",
+          "button": "Completa il Corso",
+          "start": "Inizia il Quiz",
+          "retake": "Rifai il Quiz",
+          "completed": "Quiz Completato"
+        },
+        "info": {
+          "title": "Suggerimenti",
+          "list": {
+            "1": "Regola la velocità del video per imparare al tuo ritmo",
+            "2": "Consulta le note della lezione e gli esempi di codice",
+            "3": "Per superare il quiz devi ottenere almeno il 70%"
+          }
+        },
+        "toast": {
+          "needLogin": "Devi effettuare l'accesso per accedere a questo corso...",
+          "notEnrolled": "Non sei iscritto a questo corso, verrai reindirizzato alla pagina di pagamento...",
+          "notFound": "Video non trovato, verrai reindirizzato al primo video...",
+          "notAccess": "Non hai accesso a questo video, verrai reindirizzato a un video disponibile..."
+        }
+      }
+    },
+    "login": {
+      "alreadyLogged": "Hai già effettuato l'accesso, verrai reindirizzato alla tua pagina profilo.",
+      "signUp": {
+        "title": "Crea un Account",
+        "subtitle": "Crea un account gratuito e inizia a imparare"
+      },
+      "signIn": {
+        "title": "Benvenuto",
+        "subTitle": "Accedi al tuo account e continua a imparare"
+      },
+      "or": "Oppure",
+      "inputs": {
+        "name": {
+          "label": "Nome e Cognome",
+          "placeholder": "Il tuo nome e cognome",
+          "message": "Per favore inserisci il tuo nome e cognome",
+          "min": "Il nome deve contenere almeno 3 caratteri",
+          "max": "Il nome può contenere al massimo 50 caratteri",
+          "regex": "Il nome deve contenere solo lettere"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "esempio@email.com",
+          "required": "L'indirizzo email è obbligatorio",
+          "message": "Per favore inserisci un indirizzo email valido"
+        },
+        "password": {
+          "label": "Password",
+          "required": "La password è obbligatoria",
+          "min": "La password deve contenere almeno 6 caratteri",
+          "max": "La password può contenere al massimo 50 caratteri",
+          "placeholder": "Scegli una password sicura (minimo 6 caratteri)"
+        },
+        "terms": {
+          "label": "Accetto i termini di utilizzo"
+        },
+        "buttons": {
+          "create": "Crea Account",
+          "created": "Creazione dell'Account...",
+          "login": "Accedi",
+          "logining": "Accesso in corso...",
+          "rememberMe": "Ricordami",
+          "forgotPassword": "Password Dimenticata",
+          "alreadyHaveAccount": "Hai già un account?",
+          "notHaveAccount": "Non hai un account?",
+          "signIn": "Accedi",
+          "signUp": "Registrati"
+        }
+      }
+    },
+    "forgotPassword": {
+      "title": "Password Dimenticata",
+      "desc": "Inserisci il tuo indirizzo email e ti invieremo un link per reimpostare la password.",
+      "submit": "Invia Link di Reimpostazione",
+      "sending": "Invio in corso...",
+      "backToLogin": "Torna alla pagina di accesso",
+      "error": "Impossibile inviare l'email, riprova.",
+      "sent": {
+        "title": "Email Inviata!",
+        "desc": "Abbiamo inviato un link di reimpostazione a:",
+        "note": "Non dimenticare di controllare anche la cartella spam. Il link è valido per 1 ora."
+      }
+    },
+    "resetPassword": {
+      "title": "Reimposta Password",
+      "desc": "Imposta la tua nuova password.",
+      "newPassword": "Nuova Password",
+      "confirmPassword": "Conferma Password",
+      "noMatch": "Le password non corrispondono",
+      "submit": "Reimposta Password",
+      "resetting": "Reimpostazione in corso...",
+      "invalidToken": "Link non valido o scaduto",
+      "error": "Impossibile reimpostare la password",
+      "done": {
+        "title": "Password Reimpostata!",
+        "desc": "La tua password è stata aggiornata con successo. Verrai reindirizzato alla pagina di accesso..."
+      }
+    },
+    "support": {
+      "title": "Come Possiamo Aiutarti?",
+      "description": "Consulta documentazioni, guide e risorse di supporto",
+      "search_placeholder": "Scrivi l’argomento che stai cercando...",
+      "article": "articolo",
+      "sss": {
+        "title": "Domande Frequenti",
+        "description": "Risposte rapide alle domande più comuni su corsi, pagamenti e certificati.",
+        "view_button": "Visualizza le domande"
+      },
+      "blogs": {
+        "title": "Blog",
+        "description": "Leggi articoli e guide del nostro blog",
+        "chat_button": "Avvia Chat"
+      },
+      "request": {
+        "title": "Crea una Richiesta di Supporto",
+        "description": "Apri una richiesta per problemi tecnici",
+        "request_button": "Apri Richiesta"
+      },
+      "alreadyNeedHelp": "Hai ancora bisogno di aiuto?",
+      "stillNeedHelpDesc": "Il nostro team di supporto è qui per aiutarti",
+      "liveSupport": "Supporto Live",
+      "openRequest": "Apri una Richiesta di Supporto"
+    },
+    "supportDetail": {
+      "back_to_all": "Tutti gli Articoli",
+      "searchPlaceholder": "Cerca in questa categoria...",
+      "views": "visualizzazioni",
+      "benefit": "% utile",
+      "benefitDesc": "% lo ha trovato utile",
+      "benefitQuestion": "Questo articolo è stato utile?",
+      "benefitMessage": "Il tuo feedback ci aiuta a migliorare questo articolo",
+      "benefitYes": "Sì, è stato utile",
+      "benefitNo": "No, non è stato utile",
+      "popular": "Articoli Più Popolari",
+      "lastUpdate": "Ultimo Aggiornamento:",
+      "readTime": "lettura",
+      "share": "Condividi",
+      "save": "Salva",
+      "comment": "Commenta"
+    },
+    "faq": {
+      "subTitle": "Domande Frequenti",
+      "title": "Come Possiamo Aiutarti?",
+      "description": "Qui puoi trovare le risposte alle domande più frequenti. Se non trovi ciò che cerchi, contatta il nostro team di supporto.",
+      "inputPlaceholder": "Cerca una domanda o parola chiave...",
+      "categories": {
+        "title": "Categorie",
+        "all": "Tutte",
+        "allCategories": "In tutte le categorie",
+        "beginner": "Principiante",
+        "account": "Account",
+        "courses": "Corsi",
+        "payment": "Pagamento",
+        "certificates": "Certificati",
+        "technical": "Tecnico"
+      },
+      "contact": {
+        "title": "Contatto Rapido",
+        "email": "Email",
+        "phone": "Telefono",
+        "liveSupport": "Supporto Live",
+        "liveSupportDesc": "Risposta immediata 24/7"
+      },
+      "foundedQuestions": "{{count}} domande trovate",
+      "items": [
+        {
+          "id": 1,
+          "category": "beginner",
+          "question": "Come posso registrarmi alla piattaforma?",
+          "answer": "Clicca sul pulsante 'Registrati' nella homepage e crea un account gratuito inserendo email, nome-cognome e password. In alternativa, puoi registrarti rapidamente tramite Google, GitHub o LinkedIn. Dopo la registrazione, devi confermare il tuo indirizzo email tramite il link inviato."
+        },
+        {
+          "id": 2,
+          "category": "beginner",
+          "question": "Come inizio il mio primo corso?",
+          "answer": "Dopo aver effettuato l'accesso, vai al menu 'Corsi' e scegli il corso che ti interessa. Nella pagina del corso, clicca su 'Iscriviti al Corso' o 'Inizia il Corso'. I corsi gratuiti sono accessibili immediatamente, mentre per quelli a pagamento devi completare il processo di acquisto."
+        },
+        {
+          "id": 3,
+          "category": "beginner",
+          "question": "È la mia prima volta sulla piattaforma, da dove dovrei iniziare?",
+          "answer": "Per i principianti consigliamo il corso 'Fondamenti di Python'. Se non hai alcuna esperienza di programmazione, puoi iniziare da zero; se invece hai già esperienza, puoi passare direttamente ai corsi di Machine Learning. Puoi anche fare il test di livello nella tua pagina profilo per trovare il corso più adatto a te."
+        },
+        {
+          "id": 4,
+          "category": "courses",
+          "question": "Per quanto tempo posso accedere ai corsi?",
+          "answer": "Tutti i corsi acquistati sono accessibili a vita. Puoi imparare al tuo ritmo e rivedere le lezioni quando vuoi. Per il modello in abbonamento, invece, l’accesso è valido finché l’abbonamento rimane attivo."
+        },
+        {
+          "id": 5,
+          "category": "courses",
+          "question": "Posso guardare i video offline?",
+          "answer": "Sì! Tramite la nostra app mobile (iOS e Android) puoi scaricare i video sul tuo dispositivo e guardarli senza connessione internet. Questa funzione è disponibile per gli abbonamenti Premium e Pro. I video scaricati richiedono una verifica online ogni 30 giorni."
+        },
+        {
+          "id": 6,
+          "category": "courses",
+          "question": "Ogni quanto vengono aggiornati i corsi?",
+          "answer": "Aggiorniamo regolarmente i nostri corsi. Le lezioni vengono riviste in base alle nuove tecnologie, aggiornamenti delle librerie e cambiamenti nel settore. Quando un corso viene aggiornato, riceverai una notifica e avrai accesso immediato ai nuovi contenuti."
+        },
+        {
+          "id": 7,
+          "category": "courses",
+          "question": "Come posso cambiare la qualità del video?",
+          "answer": "Puoi selezionare la qualità dal pulsante impostazioni nell’angolo in basso a destra del player video. Sono disponibili le opzioni Auto, 360p, 480p, 720p e 1080p. Consigliamo una qualità bassa con dati mobili e una qualità alta con WiFi."
+        },
+        {
+          "id": 8,
+          "category": "courses",
+          "question": "C’è un limite di tempo per completare i corsi?",
+          "answer": "No, non c’è alcun limite di tempo. Puoi procedere al tuo ritmo, fare pause e riprendere quando vuoi. Tuttavia, per ottenere il certificato devi completare il corso e superare i quiz."
+        },
+        {
+          "id": 9,
+          "category": "payment",
+          "question": "Quali metodi di pagamento sono accettati?",
+          "answer": "Accettiamo carte di credito (Visa, Mastercard, American Express), carte di debito, bonifico bancario e portafogli digitali (PayPal, Stripe). Per la Turchia utilizziamo le infrastrutture Iyzico e PayTR. Sono disponibili anche opzioni di pagamento a rate."
+        },
+        {
+          "id": 10,
+          "category": "payment",
+          "question": "Come posso cambiare il mio piano di abbonamento?",
+          "answer": "Vai alla tua pagina profilo e apri la sezione 'I Miei Abbonamenti'. Clicca su 'Cambia Piano'. L’upgrade è immediato e la differenza di prezzo viene addebitata automaticamente."
+        },
+        {
+          "id": 11,
+          "category": "payment",
+          "question": "Posso ottenere un rimborso dopo l'acquisto?",
+          "answer": "Sì. Offriamo una garanzia di rimborso di 7 giorni per tutti i corsi acquistati. Se non sei soddisfatto del contenuto, puoi richiedere un rimborso dalla tua pagina profilo. Le richieste oltre i 7 giorni non possono essere elaborate."
+        },
+        {
+          "id": 12,
+          "category": "payment",
+          "question": "Il pagamento è sicuro?",
+          "answer": "Sì. Tutti i pagamenti vengono elaborati tramite infrastrutture sicure come Stripe, PayPal, Iyzico e PayTR. Le tue informazioni di pagamento non vengono mai salvate sui nostri server."
+        },
+        {
+          "id": 13,
+          "category": "certificates",
+          "question": "Come posso ottenere il certificato?",
+          "answer": "Per ottenere il certificato devi completare tutte le lezioni del corso e superare il quiz finale con almeno il 70%. Il certificato viene generato automaticamente e puoi scaricarlo dalla pagina del corso."
+        },
+        {
+          "id": 14,
+          "category": "certificates",
+          "question": "Il certificato è valido ufficialmente?",
+          "answer": "I nostri certificati non sono equivalenti a certificazioni universitarie, ma sono riconosciuti nel settore come prova delle tue competenze. Molti studenti li usano nei loro CV, LinkedIn e candidature lavorative."
+        },
+        {
+          "id": 15,
+          "category": "certificates",
+          "question": "Posso verificare l'autenticità del certificato?",
+          "answer": "Sì. Ogni certificato ha un codice univoco. Puoi verificare l'autenticità tramite la pagina 'Verifica Certificato' inserendo il codice del certificato."
+        },
+        {
+          "id": 16,
+          "category": "technical",
+          "question": "Il video non si carica, cosa devo fare?",
+          "answer": "Prova a ricaricare la pagina, svuota la cache del browser o cambia rete. Se il problema persiste, prova un altro browser come Chrome o Firefox. Puoi anche contattare il supporto live."
+        },
+        {
+          "id": 17,
+          "category": "technical",
+          "question": "Il mio quiz non si salva, cosa posso fare?",
+          "answer": "Assicurati di avere una connessione stabile. Se il problema continua, esci dal corso e rientra. In casi rari, potrebbe essere necessario cancellare i cookie del browser."
+        },
+        {
+          "id": 18,
+          "category": "technical",
+          "question": "Non riesco ad accedere al mio account.",
+          "answer": "Controlla che l'email e la password siano corrette. Se hai dimenticato la password, usa la funzione 'Password Dimenticata'. Se il problema continua, contatta il supporto."
+        },
+        {
+          "id": 19,
+          "category": "account",
+          "question": "Come posso cambiare la mia email?",
+          "answer": "Vai alla tua pagina profilo e apri la sezione 'Impostazioni Account'. Da lì puoi aggiornare la tua email. Per motivi di sicurezza, potrebbe essere richiesta una verifica."
+        },
+        {
+          "id": 20,
+          "category": "account",
+          "question": "Come posso eliminare il mio account?",
+          "answer": "Puoi inviare una richiesta di eliminazione account dalla sezione 'Privacy e Sicurezza' nel tuo profilo. Una volta eliminato, i tuoi dati non potranno essere recuperati."
+        },
+        {
+          "id": 21,
+          "category": "account",
+          "question": "Posso cambiare la mia password?",
+          "answer": "Sì. Vai alla tua pagina profilo e clicca su 'Cambia Password'. Se hai dimenticato la password, usa la funzione 'Password Dimenticata'."
+        },
+        {
+          "id": 22,
+          "category": "technical",
+          "question": "Il sito è lento, cosa posso fare?",
+          "answer": "Prova a cambiare rete, chiudere altre schede o usare un browser diverso. Se il problema persiste, potrebbe esserci un aggiornamento in corso. Controlla la pagina 'Stato del Sistema'."
+        },
+        {
+          "id": 23,
+          "category": "technical",
+          "question": "Il player video non funziona sul mio dispositivo.",
+          "answer": "Assicurati che il tuo browser sia aggiornato. Il player funziona meglio su Chrome, Firefox e Safari. Se usi un dispositivo molto vecchio, prova la nostra app mobile."
+        },
+        {
+          "id": 24,
+          "category": "courses",
+          "question": "Posso accedere ai corsi da più dispositivi?",
+          "answer": "Sì. Puoi accedere da computer, tablet, telefono e smart TV. Tuttavia, per motivi di sicurezza, l'accesso simultaneo da troppi dispositivi può essere limitato."
+        },
+        {
+          "id": 25,
+          "category": "courses",
+          "question": "Posso ottenere assistenza durante il corso?",
+          "answer": "Sì! Puoi fare domande nella community studenti, partecipare alle sessioni live e contattare il supporto tecnico in qualsiasi momento."
+        }
+      ]
+    },
+    "verifyCertificate": {
+      "printTitle": "Certificato",
+      "hero": {
+        "title": "Sistema di Verifica dei Certificati",
+        "description": "Controlla la validità del tuo certificato. Verifica sicura e veloce."
+      },
+      "search": {
+        "label": "Numero Identificativo del Certificato",
+        "placeholder": "Es: MO-A1B2C3D4",
+        "button": "Verifica",
+        "helper": "Inserisci il numero identificativo del certificato in modo completo e corretto (es: MO-A1B2C3D4)."
+      },
+      "loading": "Ricerca del certificato in corso...",
+      "found": {
+        "title": "Il Certificato è Valido",
+        "description": "Questo certificato è registrato nel nostro sistema ed è valido. Puoi visualizzare i dettagli del certificato qui sotto.",
+        "badge": "Verificato",
+        "cardSubtitle": "Dettagli del Documento Ufficiale",
+        "qrDownloadTitle": "Scarica QR",
+        "printTitle": "Stampa",
+        "success": "Successo",
+        "completionCertificate": "Certificato di Completamento"
+      },
+      "fields": {
+        "studentName": "Nome dello Studente",
+        "completionDate": "Data di Completamento",
+        "certificateId": "ID Certificato",
+        "issueDate": "Data di Emissione",
+        "courseName": "Nome del Corso",
+        "grade": "Voto/Punteggio",
+        "certificateNumber": "Numero Identificativo del Certificato"
+      },
+      "grades": {
+        "completed": "Completato"
+      },
+      "qr": {
+        "title": "Codice QR",
+        "description": "Scansiona con il tuo dispositivo mobile per verificare",
+        "download": "Scarica Codice QR (SVG)"
+      },
+      "security": {
+        "title": "Caratteristiche di Sicurezza",
+        "features": [
+          "Firmato Digitalmente",
+          "Registrato su Blockchain",
+          "Verificabile tramite QR Code",
+          "Con Marca Temporale"
+        ]
+      },
+      "notFound": {
+        "title": "Certificato Non Trovato",
+        "description": "Il numero identificativo inserito non è registrato nel nostro sistema. Controlla il numero e riprova.",
+        "badge": "Non Valido",
+        "attention": "Attenzione",
+        "checklist": {
+          "title": "Certificato non trovato. Controlla quanto segue:",
+          "items": [
+            "Assicurati di aver inserito il numero identificativo completo",
+            "Controlla la distinzione tra lettere maiuscole/minuscole",
+            "Verifica che i trattini (-) siano posizionati correttamente",
+            "Assicurati che il certificato provenga dalla nostra piattaforma ufficiale"
+          ]
+        },
+        "fakeWarning": {
+          "title": "Avviso di Certificato Falso",
+          "description": "Se possiedi un certificato fisico o digitale ma non risulta verificabile nel nostro sistema, potrebbe essere falso. Ti invitiamo a contattarci."
+        }
+      },
+      "error": {
+        "title": "Errore di Connessione",
+        "description": "Si è verificato un errore durante la verifica del certificato. Controlla la tua connessione internet e riprova."
+      },
+      "benefits": {
+        "cards": [
+          {
+            "title": "Verifica Sicura",
+            "text": "Tutti i nostri certificati sono protetti tramite tecnologia blockchain. Ogni certificato ha un numero identificativo unico."
+          },
+          {
+            "title": "Risultati Immediati",
+            "text": "La verifica del certificato viene completata in pochi secondi. Il nostro sistema è accessibile 24/7."
+          },
+          {
+            "title": "Validità Internazionale",
+            "text": "I nostri certificati sono emessi secondo standard internazionali. Garantiscono riconoscimento e credibilità globale."
+          }
+        ]
+      },
+      "help": {
+        "title": "Hai bisogno di aiuto?",
+        "description": "Se riscontri problemi durante la verifica del certificato o hai domande, il nostro team di supporto sarà felice di aiutarti.",
+        "supportCenter": "Centro Assistenza",
+        "faq": "FAQ",
+        "contact": "Contatto"
+      }
+    },
+    "updates": {
+      "title": "Notizie e Aggiornamenti",
+      "description": "Annunci della piattaforma, nuovi corsi, aggiornamenti e articoli di blog educativi.",
+      "announces": "Annunci",
+      "noAnnounces": "Non ci sono ancora annunci.",
+      "importantAnnounce": "Importante",
+      "readMore": "Leggi di più",
+      "blogPosts": "Articoli del Blog",
+      "noBlogs": "Non ci sono ancora articoli del blog.",
+      "readTime": "{{time}} min di lettura",
+      "announceTypes": {
+        "UPDATE": "Aggiornamento",
+        "ANNOUNCEMENT": "Annuncio",
+        "DISCOUNT": "Sconto",
+        "EVENT": "Evento"
+      },
+      "blogTypes": {
+        "TUTORIAL": "Tutorial",
+        "ARTICLE": "Articolo",
+        "NEWS": "Notizia",
+        "INTERVIEW": "Intervista"
+      },
+      "allUpdates": "Tutti gli Annunci",
+      "allBlogs": "Tutti gli Articoli",
+      "unknown": "Sconosciuto",
+      "likes": "{{count}} mi piace",
+      "comments": "{{count}} commenti",
+      "views": "{{count}} visualizzazioni",
+      "tags": "Tag:",
+      "like": "Mi piace",
+      "liked": "Piaciuto",
+      "comment": "Commenta",
+      "share": "Condividi",
+      "quickLinks": "Link Rapidi",
+      "relatedAnnounces": "Ultimi Annunci",
+      "haveQuestion": {
+        "title": "Hai una Domanda?",
+        "desc": "Contattaci se hai domande riguardo questo annuncio",
+        "contactUs": "Contattaci"
+      },
+      "commentDialog": {
+        "reply": "Rispondi",
+        "comment": "Commenta",
+        "replyPlaceholder": "Scrivi qui la tua risposta...",
+        "commentPlaceholder": "Scrivi qui il tuo commento...",
+        "cancel": "Annulla",
+        "submit": "Invia",
+        "submitting": "Invio in corso..."
+      },
+      "blogComments": {
+        "emptyTitle": "Ancora nessun commento",
+        "emptyDescription": "Sii il primo a commentare questo articolo!",
+        "firstComment": "Scrivi il Primo Commento",
+        "user": "Utente",
+        "unknownUser": "Utente Sconosciuto",
+        "title": "Commenti ({{count}})",
+        "repliesToggle": "{{count}} risposte {{action}}",
+        "show": "mostra",
+        "hide": "nascondi"
+      }
+    },
+    "reportBug": {
+      "subTitle": "Segnala un Errore",
+      "title": "Hai Trovato un Problema?",
+      "description": "Aiutaci a migliorare la piattaforma segnalando i problemi tecnici che hai riscontrato",
+      "card": {
+        "title": "Segnalazione di Errore",
+        "description": "Descrivi il problema nel modo piu dettagliato possibile",
+        "type": "Tipo di errore",
+        "typeSelect": "Seleziona un tipo di errore",
+        "typeRequired": "Il tipo di errore è obbligatorio",
+        "pageRequired": "È obbligatorio indicare la pagina/il corso in cui si è verificato il problema",
+        "labels": {
+          "option1": "Vulnerabilita del sistema",
+          "option2": "Errore nei contenuti del corso"
+        },
+        "email": "Email",
+        "emailOptional": "(Opzionale)",
+        "emailPlaceholder": "Inserisci il tuo indirizzo email per permetterci di informarti sull’esito",
+        "page": "Pagina/Corso in cui si è verificato il problema",
+        "pagePlaceholder": "Es: Fondamenti di Python - Lezione 5",
+        "descriptionLabel": "Descrizione del Problema",
+        "descriptionRequired": "La descrizione del problema è obbligatoria",
+        "descriptionMin": "La descrizione deve contenere almeno 20 caratteri",
+        "descriptionMax": "La descrizione può contenere al massimo 1000 caratteri",
+        "emailInvalid": "Inserisci un indirizzo email valido",
+        "descriptionPlaceholder": "Spiega in dettaglio come si è verificato il problema e in quali condizioni lo hai riscontrato...",
+        "screenshot": "Screenshot (Opzionale)",
+        "selectFile": "Seleziona File",
+        "warning": "Il nostro team tecnico esaminerà il tuo rapporto entro 24 ore e ti ricontatterà.",
+        "submit": "Invia Segnalazione",
+        "submitting": "Invio in corso...",
+        "toast": {
+          "success": "La tua segnalazione è stata inviata con successo!",
+          "failed": "Impossibile inviare la segnalazione, per favore riprova."
+        }
+      }
+    },
+    "contact": {
+      "subTitle": "Contatto",
+      "title": "Come Possiamo Aiutarti?",
+      "description": "Contattaci per domande, suggerimenti o proposte di collaborazione. Il nostro team è qui per aiutarti.",
+      "details": {
+        "title": "Informazioni di Contatto",
+        "email": "Email",
+        "emailTime": "Lunedì - Venerdì 09:00 - 18:00",
+        "phone": "Telefono",
+        "address": "Indirizzo",
+        "workingHours": "Orari di Lavoro",
+        "workingDates": "Lunedì - Venerdì",
+        "workingTimes": "09:00 - 18:00"
+      },
+      "socialMedia": {
+        "title": "Social media",
+        "description": "Seguici e rimani aggiornato"
+      },
+      "faq": {
+        "1": {
+          "question": "In quanto tempo riceverò una risposta?",
+          "answer": "Di solito rispondiamo entro 24 ore."
+        },
+        "2": {
+          "question": "Quale metodo devo usare per il supporto tecnico?",
+          "answer": "Per problemi tecnici urgenti puoi utilizzare l’indirizzo {{contactInfo.emailSupport}}."
+        },
+        "3": {
+          "question": "Con chi posso parlare per richieste di formazione aziendale?",
+          "answer": "Puoi contattarci tramite la categoria Collaborazione oppure inviare un’email a iletisim@pythonakademi.com."
+        },
+        "title": "Domande Frequenti"
+      },
+      "form": {
+        "title": "Contattaci",
+        "description": "Compila il modulo e ti risponderemo al più presto",
+        "categories": {
+          "1": {
+            "label": "Domanda Generale",
+            "description": "Per informazioni generali sulla piattaforma"
+          },
+          "2": {
+            "label": "Supporto Tecnico",
+            "description": "Assistenza per problemi tecnici"
+          },
+          "3": {
+            "label": "Corsi",
+            "description": "Domande sui contenuti e sul programma dei corsi"
+          },
+          "4": {
+            "label": "Collaborazione",
+            "description": "Proposte di partnership e collaborazioni"
+          },
+          "title": "Categoria di Contatto"
+        },
+        "name": "Nome e Cognome",
+        "namePlaceholder": "Il tuo nome e cognome",
+        "email": "Email",
+        "emailPlaceholder": "esempio@email.com",
+        "subject": "Oggetto",
+        "subjectPlaceholder": "Oggetto del tuo messaggio",
+        "message": "Messaggio",
+        "messagePlaceholder": "Scrivi qui il tuo messaggio...",
+        "validation": {
+          "nameRequired": "Il nome e cognome è obbligatorio",
+          "nameMin": "Il nome deve contenere almeno 3 caratteri",
+          "nameMax": "Il nome può contenere al massimo 100 caratteri",
+          "nameOnlyLetters": "Il nome deve contenere solo lettere",
+          "emailRequired": "L’indirizzo email è obbligatorio",
+          "emailInvalid": "Inserisci un indirizzo email valido",
+          "subjectRequired": "L’oggetto è obbligatorio",
+          "subjectMin": "L’oggetto deve contenere almeno 5 caratteri",
+          "subjectMax": "L’oggetto può contenere al massimo 200 caratteri",
+          "messageRequired": "Il messaggio è obbligatorio",
+          "messageMin": "Il messaggio deve contenere almeno 20 caratteri",
+          "messageMax": "Il messaggio può contenere al massimo 1000 caratteri"
+        },
+        "submit": "Invia Messaggio",
+        "submitting": "Invio in corso...",
+        "consent": "Inviando il modulo accetti",
+        "privacyPolicy": "la nostra Informativa sulla Privacy",
+        "and": "e",
+        "termsOfService": "i nostri Termini di Servizio",
+        "acceptedTerms": "."
+      },
+      "supportCenter": {
+        "title": "Centro Assistenza",
+        "description": "Consulta documentazioni e guide",
+        "button": "Vai al Centro Assistenza"
+      },
+      "updates": {
+        "title": "Aggiornamenti",
+        "description": "Per le ultime notizie e annunci",
+        "button": "Vedi Aggiornamenti"
+      }
+    },
+    "profile": {
+      "tabs": {
+        "general": "Panoramica",
+        "courses": "I Miei Corsi",
+        "certificates": "Certificati",
+        "linkedAccounts": "Account Collegati",
+        "paymentDetails": "Dettagli di Pagamento"
+      },
+      "buttons": {
+        "settings": "Impostazioni",
+        "logout": "Disconnetti",
+        "changePlan": "Cambia Piano",
+        "continueCourse": "Continua il Corso",
+        "notActive": "(Non Attivo)",
+        "certificate": "Certificato"
+      },
+      "info": {
+        "memberSince": "Membro dal:",
+        "free": "Gratuito",
+        "admin": "Admin"
+      },
+      "activity": {
+        "title": "Attività Recenti",
+        "description": "Avanzamento dei corsi e risultati",
+        "lastAccess": "Ultimo accesso:",
+        "unknownCourse": "Corso Sconosciuto",
+        "unknown": "Sconosciuto"
+      },
+      "courses": {
+        "lessonsCompleted": "{{completed}}/{{total}} lezioni completate",
+        "completed": "Completato",
+        "inProgress": "In Corso",
+        "progress": "Progresso",
+        "noCourses": "Non hai ancora acquistato alcun corso.",
+        "continueCourse": "Continua il Corso",
+        "notLive": "Non Disponibile"
+      },
+      "certificates": {
+        "dateEarned": "Data di Emissione:",
+        "certificateNumber": "Numero Certificato:",
+        "previewing": "Caricamento...",
+        "view": "Visualizza",
+        "download": "Scarica",
+        "downloading": "Download in corso...",
+        "preview": "Anteprima Certificato",
+        "previewAlt": "Anteprima del certificato",
+        "downloadError": "Si è verificato un errore durante il download del certificato.",
+        "viewError": "Errore durante la generazione dell’anteprima del certificato.",
+        "earnCertificate": "Congratulazioni! Il tuo certificato è pronto.",
+        "congratulations": "Hai superato il quiz! Completa tutte le lezioni per ottenere il certificato.",
+        "pastQuiz": "Hai superato il quiz e completato tutte le lezioni del corso. Il tuo certificato è pronto!",
+        "tryAgain": "Quiz fallito. Il tuo punteggio: {{score}}%",
+        "title": {
+          "1": "Quiz Completato!",
+          "2": "Quiz del Corso"
+        },
+        "question": "Domanda",
+        "back": "Indietro",
+        "next": "Avanti",
+        "close": "Chiudi",
+        "complete": "Completa",
+        "noQuestion": "Non ci sono domande quiz per questo corso.",
+        "passed": "Congratulazioni! Promosso!",
+        "failed": "Fallito",
+        "passedNoVideos": "Hai superato il quiz! Completa tutte le lezioni per ottenere il certificato.",
+        "failedQuiz": "Purtroppo non hai superato il quiz. Il punteggio minimo richiesto è il 70%. Puoi riprovare.",
+        "noCertificates": "Non hai ancora completato alcun corso. Completa i corsi per ottenere certificati."
+      },
+      "payment": {
+        "loading": "Caricamento dei dettagli di pagamento..."
+      },
+      "cards": {
+        "activeCourses": "Corsi Attivi",
+        "ongoingCourses": "Corsi in corso",
+        "completed": "Completati",
+        "certificateEarned": "Certificato Ottenuto",
+        "totalTime": "Tempo Totale",
+        "hoursWatched": "Ore di video guardate"
+      },
+      "settings": {
+        "title": "Impostazioni Profilo",
+        "profileInfo": "Informazioni Profilo",
+        "fullName": "Nome e Cognome",
+        "fullNamePlaceholder": "Il tuo nome e cognome",
+        "phone": "Numero di Telefono",
+        "phonePlaceholder": "+905551234567",
+        "profilePhoto": "Foto Profilo",
+        "uploadPhoto": "Carica Foto",
+        "dragAndDrop": "o trascina qui",
+        "maxSize": "PNG, JPG, GIF, WEBP (max. 5MB)",
+        "upload": "Carica",
+        "uploading": "Caricamento...",
+        "remove": "Rimuovi",
+        "photoSelected": "Foto Selezionata",
+        "dontForgetSave": "Non dimenticare di salvare le modifiche",
+        "change": "Modifica",
+        "delete": "Elimina",
+        "deleting": "Eliminazione...",
+        "orAddByURL": "Oppure aggiungi tramite URL",
+        "urlPlaceholder": "https://example.com/photo.jpg",
+        "changePassword": "Cambia Password",
+        "currentPassword": "Password Attuale",
+        "currentPasswordPlaceholder": "Inserisci la password attuale",
+        "newPassword": "Nuova Password",
+        "newPasswordPlaceholder": "Inserisci la nuova password",
+        "confirmPassword": "Nuova Password (Ripeti)",
+        "confirmPasswordPlaceholder": "Ripeti la nuova password",
+        "passwordHint": "* Se non vuoi cambiare la password, lascia questi campi vuoti",
+        "appearanceSettings": "Impostazioni Aspetto",
+        "darkTheme": "Tema Scuro",
+        "darkThemeActive": "Tema scuro attivo",
+        "lightThemeActive": "Tema chiaro attivo",
+        "cancel": "Annulla",
+        "save": "Salva Modifiche",
+        "saving": "Salvataggio...",
+        "fileSizeError": "La dimensione del file deve essere inferiore a 5MB",
+        "fileTypeError": "Sono consentiti solo file immagine (jpeg, jpg, png, webp)",
+        "uploadSuccess": "Foto caricata. Clicca 'Salva Modifiche' per confermare.",
+        "uploadError": "Errore durante il caricamento della foto"
+      },
+      "logout": {
+        "success": "Disconnessione effettuata con successo",
+        "title": "Disconnessione Profilo",
+        "message": "Sei sicuro di voler uscire dal tuo profilo?",
+        "cancel": "Annulla",
+        "confirm": "Confermo"
+      },
+      "validation": {
+        "validPhoneNumber": "Inserisci un numero di telefono valido",
+        "passwordMinLength": "La password deve contenere almeno 6 caratteri",
+        "currentPasswordRequired": "Devi inserire la password attuale",
+        "passwordsNotMatch": "Le password non corrispondono"
+      },
+      "messages": {
+        "passwordUpdated": "La tua password è stata aggiornata con successo.",
+        "passwordUpdateError": "Errore durante l’aggiornamento della password.",
+        "profileUpdated": "Le impostazioni del profilo sono state aggiornate.",
+        "profileUpdateError": "Errore durante l’aggiornamento del profilo."
+      },
+      "linkedAccounts": {
+        "title": "Account Collegati",
+        "description": "Collega i tuoi account social per un accesso rapido",
+        "linked": "Collegato",
+        "unlink": "Scollega",
+        "link": "Collega",
+        "loginFirst": "Per favore accedi prima",
+        "confirmUnlink": "sei sicuro di voler scollegare questo account?",
+        "unlinkSuccess": "Account scollegato con successo",
+        "unlinkError": "Impossibile scollegare l’account",
+        "error": "Si è verificato un errore"
+      },
+      "commentDialog": {
+        "replyPlaceholder": "Scrivi una risposta",
+        "commentPlaceholder": "Scrivi un commento",
+        "reply": "Rispondi",
+        "comment": "Commenta",
+        "cancel": "Annulla"
+      }
+    },
+    "admin": {
+      "notAccess": "Per accedere a questa pagina è necessario avere i permessi admin!",
+      "cards": {
+        "totalStudents": "Totale Studenti",
+        "thisMonth": "questo mese",
+        "activeCourses": "Corsi Attivi",
+        "activeCoursesDesc": "online",
+        "totalRevenue": "Entrate Totali",
+        "averageRating": "Valutazione Media",
+        "allCourses": "Tutti i Corsi",
+        "revenueAndStudentTrend": "Trend Entrate e Studenti",
+        "lastSixMonthsPerformance": "Performance degli ultimi 6 mesi",
+        "courseDistribution": "Distribuzione dei Corsi",
+        "courseDistributionDesc": "Numero studenti per categoria"
+      },
+      "tabs": {
+        "courses": {
+          "title": "Corsi",
+          "desc": "Gestisci tutti i corsi",
+          "button": "Gestione Corsi",
+          "createCourse": "Nuovo Corso",
+          "searchPlaceholder": "Cerca corso...",
+          "table": {
+            "1": "Corso",
+            "2": "Categoria",
+            "3": "Studente",
+            "4": "Entrate",
+            "5": "Punteggio",
+            "6": "Stato",
+            "7": "Azioni",
+            "update": "Aggiornamento: {{date}}",
+            "status": {
+              "active": "Online",
+              "inactive": "Inattivo",
+              "draft": "Bozza"
+            },
+            "view": "Visualizza Corso",
+            "editCourse": "Modifica Corso",
+            "deleteCourse": "Elimina Corso"
+          }
+        },
+        "users": {
+          "title": "Ultimi Utenti Registrati",
+          "desc": "Membri della piattaforma e abbonamenti",
+          "button": "Gestione Utenti",
+          "searchPlaceholder": "Cerca utente...",
+          "searchButton": "Cerca",
+          "table": {
+            "1": "Utente",
+            "2": "Piano",
+            "3": "Data Iscrizione",
+            "4": "Spesa",
+            "5": "Azioni"
+          }
+        },
+        "analytics": {
+          "1": {
+            "title": "Corsi Più Popolari",
+            "desc": "In base al numero di studenti",
+            "charts": {
+              "student": "Numero Studenti"
+            }
+          },
+          "2": {
+            "title": "Corsi con Maggiori Entrate",
+            "desc": "Entrate totali (€)",
+            "charts": {
+              "revenue": "Entrate"
+            }
+          },
+          "button": "Visualizza Analitiche"
+        },
+        "announcements": {
+          "button": "Annunci",
+          "header": "Annunci",
+          "headerDesc": "Gestisci gli annunci della piattaforma",
+          "newButton": "Nuovo Annuncio",
+          "filterAll": "Tutti",
+          "emptyState": "Nessun annuncio presente",
+          "table": {
+            "title": "Titolo",
+            "type": "Tipo",
+            "important": "Importante",
+            "date": "Data",
+            "actions": "Azioni"
+          },
+          "modal": {
+            "createTitle": "Crea Nuovo Annuncio",
+            "editTitle": "Modifica Annuncio",
+            "deleteTitle": "Elimina Annuncio",
+            "deleteConfirm": "sei sicuro di voler eliminare questo annuncio? Questa azione è irreversibile.",
+            "typeLabel": "Tipo *",
+            "teacherLabel": "Docente *",
+            "importantLabel": "Segna come importante",
+            "titleLabel": "Titolo *",
+            "descLabel": "Descrizione *",
+            "excerptLabel": "Riassunto",
+            "imageLabel": "URL Immagine",
+            "contentLabel": "Contenuto *"
+          },
+          "toast": {
+            "loadError": "Impossibile caricare gli annunci.",
+            "fillRequired": "Compila i campi obbligatori.",
+            "created": "Annuncio creato.",
+            "updated": "Annuncio aggiornato.",
+            "actionFailed": "Azione fallita.",
+            "deleted": "Annuncio eliminato.",
+            "deleteFailed": "Impossibile eliminare."
+          }
+        },
+        "blogs": {
+          "button": "Articoli Blog",
+          "header": "Articoli Blog",
+          "headerDesc": "Gestisci i contenuti del blog",
+          "newButton": "Nuovo Articolo",
+          "filterAll": "Tutti",
+          "emptyState": "Nessun articolo presente",
+          "table": {
+            "title": "Titolo",
+            "type": "Tipo",
+            "stats": "Statistiche",
+            "date": "Data",
+            "actions": "Azioni"
+          },
+          "modal": {
+            "createTitle": "Nuovo Articolo",
+            "editTitle": "Modifica Articolo",
+            "deleteTitle": "Elimina Articolo",
+            "deleteConfirm": "sei sicuro di voler eliminare questo articolo?",
+            "typeLabel": "Tipo *",
+            "teacherLabel": "Docente *",
+            "titleLabel": "Titolo *",
+            "descLabel": "Descrizione *",
+            "imageLabel": "URL Immagine *",
+            "readTimeLabel": "Tempo di Lettura",
+            "tagsLabel": "Tag",
+            "tagsHint": "(separa con virgola)",
+            "contentLabel": "Contenuto *"
+          },
+          "toast": {
+            "loadError": "Impossibile caricare gli articoli.",
+            "fillRequired": "Compila i campi obbligatori.",
+            "created": "Articolo creato.",
+            "updated": "Articolo aggiornato.",
+            "actionFailed": "Azione fallita.",
+            "deleted": "Articolo eliminato.",
+            "deleteFailed": "Impossibile eliminare."
+          }
+        },
+        "support": {
+          "button": "Centro Assistenza",
+          "header": "Centro Assistenza",
+          "headerDesc": "Gestisci categorie e articoli",
+          "newCategoryButton": "Nuova Categoria",
+          "newArticleButton": "Nuovo Articolo",
+          "emptyCats": "Nessuna categoria presente",
+          "emptyArticles": "Nessun articolo in questa categoria",
+          "articlesLabel": "Articoli",
+          "articleCountSuffix": "articolo",
+          "viewCount": "visualizzazioni",
+          "modal": {
+            "createCatTitle": "Nuova Categoria",
+            "editCatTitle": "Modifica Categoria",
+            "deleteCatTitle": "Elimina Categoria",
+            "deleteCatConfirm": "sei sicuro di voler eliminare questa categoria e tutti i suoi articoli?",
+            "createArtTitle": "Nuovo Articolo",
+            "editArtTitle": "Modifica Articolo",
+            "deleteArtTitle": "Elimina Articolo",
+            "deleteArtConfirm": "sei sicuro di voler eliminare questo articolo?",
+            "idLabel": "ID Categoria *",
+            "idHint": "(non modificabile)",
+            "idPlaceholder": "es: primi-passi",
+            "iconLabel": "Nome Icona *",
+            "colorLabel": "Colore *",
+            "titleLabel": "Titolo *",
+            "descLabel": "Descrizione *",
+            "orderLabel": "Ordine",
+            "excerptLabel": "Riassunto *",
+            "readTimeLabel": "Tempo di Lettura",
+            "contentLabel": "Contenuto *"
+          },
+          "toast": {
+            "loadError": "Impossibile caricare le categorie.",
+            "fillRequired": "Compila i campi obbligatori.",
+            "idRequired": "L'ID categoria è obbligatorio.",
+            "catCreated": "Categoria creata.",
+            "catUpdated": "Categoria aggiornata.",
+            "catDeleted": "Categoria eliminata.",
+            "artCreated": "Articolo creato.",
+            "artUpdated": "Articolo aggiornato.",
+            "artDeleted": "Articolo eliminato.",
+            "actionFailed": "Azione fallita.",
+            "deleteFailed": "Impossibile eliminare."
+          }
+        },
+        "inbox": {
+          "button": "Messaggi",
+          "header": "Messaggi & Segnalazioni",
+          "headerDesc": "Gestisci messaggi di contatto e segnalazioni",
+          "tabContact": "Messaggi di Contatto",
+          "tabBugs": "Segnalazioni di Errori",
+          "filterAll": "Tutti",
+          "noMessages": "Nessun messaggio",
+          "noBugs": "Nessuna segnalazione",
+          "table": {
+            "sender": "Mittente",
+            "subject": "Oggetto",
+            "category": "Categoria",
+            "status": "Stato",
+            "date": "Data",
+            "actions": "Azioni",
+            "pageType": "Pagina / Tipo",
+            "description": "Descrizione",
+            "email": "Email"
+          },
+          "contactStatus": {
+            "unread": "Non letto",
+            "read": "Letto",
+            "replied": "Risposto"
+          },
+          "bugStatus": {
+            "open": "Aperto",
+            "inProgress": "In corso",
+            "resolved": "Risolto",
+            "closed": "Chiuso"
+          },
+          "categoryLabels": {
+            "general": "Generale",
+            "technical": "Tecnico",
+            "courses": "Corsi",
+            "partnership": "Collaborazione"
+          },
+          "bugTypeLabels": {
+            "option1": "Vulnerabilità di Sistema",
+            "option2": "Errore nel Contenuto del Corso"
+          },
+          "modal": {
+            "viewContact": "Dettaglio Messaggio",
+            "replyContact": "Rispondi al Messaggio",
+            "viewBug": "Dettaglio Segnalazione",
+            "replyBug": "Rispondi alla Segnalazione"
+          },
+          "notSpecified": "Non specificato",
+          "closeButton": "Chiudi",
+          "sending": "Invio in corso...",
+          "sendReply": "Invia Risposta",
+          "replyLabel": "La tua risposta *",
+          "replyPlaceholder": "Scrivi la tua risposta...",
+          "replyEmailNotice": "Dopo l'invio, verrà inviata un'email di notifica all'utente.",
+          "viewContact": {
+            "messageLabel": "Messaggio",
+            "adminReplyLabel": "Risposta Admin"
+          },
+          "viewBug": {
+            "typeLabel": "Tipo",
+            "pageLabel": "Pagina",
+            "descLabel": "Descrizione"
+          },
+          "toast": {
+            "contactLoadError": "Impossibile caricare i messaggi.",
+            "bugLoadError": "Impossibile caricare le segnalazioni.",
+            "replyEmpty": "Il testo della risposta non può essere vuoto.",
+            "contactReplied": "Risposta inviata e email notificata all'utente.",
+            "replySaved": "Risposta salvata.",
+            "replyFailed": "Impossibile inviare la risposta.",
+            "contactDeleted": "Messaggio eliminato.",
+            "deleteFailed": "Impossibile eliminare.",
+            "statusUpdated": "Stato aggiornato.",
+            "statusFailed": "Impossibile aggiornare lo stato.",
+            "bugDeleted": "Segnalazione eliminata."
+          }
+        }
+      },
+      "newsletter": {
+        "dialogTitle": "Invia Newsletter",
+        "targetLabel": "Target",
+        "targetAll": "Tutti gli Utenti",
+        "targetStudents": "Solo Studenti (Acquirenti)",
+        "targetFree": "Utenti Gratuiti",
+        "subjectLabel": "Oggetto Email",
+        "titleLabel": "Titolo Email",
+        "bodyLabel": "Contenuto",
+        "ctaTextLabel": "Testo Pulsante",
+        "ctaUrlLabel": "URL Pulsante",
+        "optional": "(opzionale)",
+        "placeholders": {
+          "subject": "Es: 🎓 Nuovo corso disponibile!",
+          "title": "Titolo all'interno dell'email",
+          "body": "Scrivi qui il contenuto dell'email...",
+          "ctaText": "Es: Vai ai Corsi",
+          "ctaUrl": "https://..."
+        },
+        "cancel": "Annulla",
+        "send": "Invia",
+        "sending": "Invio in corso...",
+        "toast": {
+          "validationError": "Oggetto, titolo e contenuto sono obbligatori",
+          "started": "Invio newsletter avviato",
+          "failed": "Impossibile inviare la newsletter"
+        }
+      },
+      "common": {
+        "cancel": "Annulla",
+        "save": "Salva",
+        "saving": "Salvataggio...",
+        "delete": "Elimina",
+        "deleting": "Eliminazione...",
+        "edit": "Modifica",
+        "view": "Visualizza",
+        "reply": "Rispondi",
+        "fillRequired": "Compila i campi obbligatori.",
+        "actionFailed": "Azione fallita.",
+        "deleteFailed": "Impossibile eliminare."
+      },
+      "header": {
+        "title": "Pannello Amministratore",
+        "description": "Gestione piattaforma e statistiche",
+        "crateCourse": "Nuovo Corso",
+        "reports": "Scarica Report",
+        "newsletter": "Newsletter"
+      },
+      "report": {
+        "title": "Scarica Report",
+        "selectPeriod": "Seleziona Periodo",
+        "periods": {
+          "daily": "Giornaliero",
+          "weekly": "Settimanale",
+          "monthly": "Mensile",
+          "yearly": "Annuale"
+        },
+        "content": {
+          "title": "📊 Contenuto:",
+          "platformStats": "Statistiche Piattaforma",
+          "courseList": "Elenco Corsi",
+          "userInfo": "Informazioni Utenti",
+          "popularCourses": "Corsi Popolari"
+        },
+        "buttons": {
+          "cancel": "Annulla",
+          "download": "Scarica PDF",
+          "generating": "Generazione..."
+        },
+        "messages": {
+          "success": "Report scaricato",
+          "error": "Errore durante la generazione"
+        },
+        "pdf": {
+          "report": "Report",
+          "academyName": "Mesut Ozdag Academy",
+          "platformStats": "Statistiche Piattaforma",
+          "totalStudents": "Totale Studenti",
+          "totalHours": "Ore Totali",
+          "completedVideos": "Video Completati",
+          "completedCourses": "Corsi Completati",
+          "averageRating": "Valutazione Media",
+          "totalRevenue": "Entrate Totali",
+          "revenueGrowth": "Crescita Entrate",
+          "studentGrowth": "Crescita Studenti",
+          "courses": "Corsi",
+          "totalActiveCourses": "Totale Corsi Attivi",
+          "students": "studenti",
+          "rating": "valutazione",
+          "users": "Utenti",
+          "totalUsers": "Totale Utenti",
+          "activeUsers": "Utenti Attivi",
+          "admin": "Admin",
+          "popularCourses": "Corsi Popolari",
+          "page": "Pagina",
+          "platformReport": "Report Piattaforma"
+        }
+      },
+      "dialog": {
+        "create": {
+          "titles": {
+            "dialog": "Crea Nuovo Corso",
+            "title": "Informazioni Corso",
+            "desc": "Inserisci i dettagli del corso"
+          },
+          "toast": {
+            "success": "Corso creato con successo",
+            "error": "Errore durante la creazione del corso"
+          },
+          "input": {
+            "name": {
+              "label": "Nome Corso",
+              "placeholder": "Es: Introduzione a Python"
+            },
+            "category": {
+              "label": "Categoria",
+              "options": {
+                "python": "Python",
+                "mlai": "ML & IA",
+                "math": "Matematica"
+              }
+            },
+            "level": {
+              "label": "Livello"
+            },
+            "price": {
+              "label": "Prezzo"
+            },
+            "status": {
+              "label": "Stato"
+            },
+            "certificateTemplate": {
+              "label": "Tipo Certificato",
+              "options": {
+                "default": "Predefinito",
+                "dark": "Scuro",
+                "gold": "Oro"
+              }
+            },
+            "teacher": {
+              "label": "Docente"
+            },
+            "detail": {
+              "label": "Descrizione",
+              "placeholder": "Breve descrizione del corso..."
+            },
+            "noVideo": "Nessun video aggiunto. Clicca su \"Aggiungi Video\"."
+          },
+          "warn": {
+            "1": "💡 Suggerimento:",
+            "2": "Potrai aggiungere video e sezioni dopo la creazione del corso."
+          },
+          "buttons": {
+            "cancel": "Annulla",
+            "create": "Crea Corso",
+            "creating": "Creazione in corso..."
+          }
+        },
+        "detail": {
+          "title": "Dettagli Corso",
+          "lastUpdate": "Ultimo aggiornamento: {{date}}",
+          "status": {
+            "active": "🟢 Online",
+            "inactive": "🔴 Inattivo",
+            "draft": "📝 Bozza"
+          },
+          "totalStudents": "Totale Studenti",
+          "rating": "Valutazione Media",
+          "totalRevenue": "Entrate Totali",
+          "category": "Categoria",
+          "level": "Livello",
+          "totalVideo": "Totale Video",
+          "video": "Video",
+          "noVideo": "Nessun Video (0)",
+          "duration": "Durata Totale",
+          "noDuration": "Durata non calcolabile",
+          "price": "Prezzo",
+          "updateDate": "Data Aggiornamento",
+          "close": "Chiudi",
+          "edit": "Modifica"
+        },
+        "edit": {
+          "title": "Modifica Corso",
+          "desc": {
+            "1": "Aggiorna Informazioni Corso",
+            "2": "Modifica i campi qui sotto per aggiornare il corso"
+          },
+          "input": {
+            "name": {
+              "label": "Nome Corso",
+              "placeholder": "Titolo corso"
+            },
+            "category": {
+              "label": "Categoria"
+            },
+            "level": {
+              "label": "Livello"
+            },
+            "price": {
+              "label": "Prezzo"
+            },
+            "status": {
+              "label": "Stato"
+            },
+            "certificateTemplate": {
+              "label": "Tipo Certificato"
+            },
+            "teacher": {
+              "label": "Docente"
+            },
+            "duration": {
+              "label": "Durata Totale",
+              "placeholder": "10 Ore"
+            },
+            "lesson": {
+              "label": "Numero Lezioni (Auto)"
+            },
+            "courseImage": {
+              "label": "Immagine Corso",
+              "loading": "Caricamento...",
+              "upload": "Carica Immagine"
+            },
+            "detail": {
+              "label": "Descrizione",
+              "placeholder": "Descrizione..."
+            },
+            "source": {
+              "label": "Risorse (PDF, ZIP, ecc.)",
+              "button": "Aggiungi",
+              "placeholder": "Titolo",
+              "other": "Altro",
+              "sizePlaceholder": "Dimensione",
+              "urlPlaceholder": "URL (opzionale)"
+            },
+            "quiz": {
+              "label": "Domande Quiz",
+              "button": "Aggiungi Domanda",
+              "question": "Domanda",
+              "option": "Opzione",
+              "correctAnswerHint": "Seleziona la risposta corretta"
+            },
+            "sections": {
+              "label": "Sezioni e Video",
+              "add": "Aggiungi Sezione",
+              "sectionTitle": "Titolo Sezione ${index}",
+              "zIndex": "Ordine",
+              "addVideo": "Aggiungi Video",
+              "video": {
+                "titlePlaceholder": "Titolo Video",
+                "durationPlaceholder": "Durata (00:00)",
+                "urlPlaceholder": "URL Video"
+              }
+            },
+            "codeSnippet": {
+              "label": "Frammenti di Codice",
+              "button": "+ Aggiungi Codice",
+              "placeHolder": "Titolo",
+              "codePlaceHolder": "Codice..."
+            },
+            "notes": {
+              "label": "Note Video",
+              "button": "+ Aggiungi Nota",
+              "delete": "Elimina Note",
+              "placeHolder": "Titolo",
+              "notesPlaceHolder": "Contenuto (formato JSON array)...",
+              "notesJsonError": "JSON non valido.",
+              "jsonHint": "Inserisci in formato JSON array"
+            },
+            "noVideo": "Nessun video presente. Clicca su \"Aggiungi Video\"."
+          },
+          "toast": {
+            "imageUploadSuccess": "Immagine caricata",
+            "imageUploadError": "Errore caricamento immagine",
+            "fileUploadSuccess": "File caricato",
+            "fileUploadError": "Errore caricamento file",
+            "editedCourse": "${courseName} aggiornato",
+            "editError": "Errore durante l'aggiornamento"
+          },
+          "buttons": {
+            "cancel": "Annulla",
+            "reset": "Reimposta",
+            "save": "Salva",
+            "saving": "Salvataggio..."
+          }
+        },
+        "delete": {
+          "title": "Elimina Corso",
+          "toast": {
+            "success": "{{title}} eliminato con successo",
+            "error": "Errore durante l'eliminazione del corso"
+          },
+          "confirmation": "Sei sicuro di voler eliminare il corso?",
+          "description": "Questa azione è irreversibile.",
+          "students": "studenti",
+          "rating": "valutazione",
+          "warn": {
+            "1": "⚠️ Attenzione:",
+            "2": "Sono presenti {{studentCount}} studenti iscritti."
+          },
+          "buttons": {
+            "cancel": "Annulla",
+            "delete": "Elimina Corso",
+            "deleting": "Eliminazione..."
+          }
+        },
+        "userDetail": {
+          "title": "Dettagli Utente",
+          "idLabel": "ID:",
+          "adminBadge": "Admin",
+          "status": {
+            "active": "Attivo",
+            "inactive": "Inattivo"
+          },
+          "register": "Registrazione:",
+          "registeredCourses": "Corso Iscritto",
+          "certificate": "Certificato",
+          "completedVideo": "Video Completato",
+          "registeredCoursesList": "Corsi",
+          "unknown": "Sconosciuto",
+          "unknownCourse": "Corso Sconosciuto",
+          "certificates": "Certificati",
+          "buttons": {
+            "close": "Chiudi",
+            "edit": "Modifica"
+          }
+        },
+        "confirmDialog": {
+          "cancel": "Annulla",
+          "submiting": "Elaborazione...",
+          "confirm": "Conferma"
+        },
+        "userEdit": {
+          "title": "Modifica Utente",
+          "infoCard": {
+            "title": "Informazioni",
+            "name": "Nome",
+            "email": "Email",
+            "phone": "Telefono",
+            "status": {
+              "title": "Stato",
+              "active": "Attivo",
+              "inactive": "Inattivo"
+            }
+          },
+          "courseCard": {
+            "title": "Aggiungi Corso",
+            "defaultOption": "Seleziona corso...",
+            "noCourses": "Nessun corso disponibile",
+            "add": "Aggiungi",
+            "userCoursesTitle": "Corsi Utente ({{count}})",
+            "notAddedCourse": "Nessun corso"
+          },
+          "warn": {
+            "1": "Area Pericolosa",
+            "2": "La disattivazione impedirà l'accesso.",
+            "3": "L'attivazione permetterà nuovamente l'accesso.",
+            "button": {
+              "deactivate": "Disattiva Account",
+              "activate": "Attiva Account"
+            }
+          },
+          "toast": {
+            "selectCourse": "Seleziona un corso",
+            "courseAdded": "Corso aggiunto",
+            "errorAdd": "Errore durante l'aggiunta",
+            "courseRemoved": "Corso rimosso",
+            "errorRemove": "Errore durante la rimozione",
+            "accountDeactivated": "Account disattivato",
+            "accountActivated": "Account attivato",
+            "error": "Errore operazione"
+          },
+          "close": "Chiudi"
+        },
+        "addCourse": {
+          "title": "Aggiungi Corso",
+          "message": "Sei sicuro di voler aggiungere questo corso all'utente?",
+          "confirmText": "Aggiungi"
+        },
+        "removeCourse": {
+          "title": "Rimuovi Corso",
+          "message": "Sei sicuro di voler rimuovere il corso {{course}} dall'utente? Questa azione è irreversibile e cancellerà tutti i progressi dell'utente.",
+          "confirmText": "Rimuovi"
+        },
+        "deactivateUser": {
+          "title": {
+            "active": "Disattiva Account",
+            "inactive": "Attiva Account"
+          },
+          "message": {
+            "active": "Sei sicuro di voler disattivare l'account dell'utente {{user}}? Gli account disattivati non possono accedere e vedranno un messaggio di account inattivo.",
+            "inactive": "Sei sicuro di voler riattivare l'account dell'utente {{user}}? L'utente potrà accedere di nuovo."
+          },
+          "button": {
+            "active": "Disattiva",
+            "inactive": "Attiva"
+          }
+        }
+      },
+      "payment": {
+        "pay": "Corso {{detail}}",
+        "free": "Gratuito"
+      }
+    },
+    "courseRating": {
+      "title": "Valuta il Corso",
+      "completed": "hai completato il corso!",
+      "shareExperience": "Condividi la tua esperienza con gli altri studenti",
+      "ratings": {
+        "1": "Migliorabile",
+        "2": "Non Male",
+        "3": "Buono 👌",
+        "4": "Molto Buono! 👍",
+        "5": "Eccellente! ⭐"
+      },
+      "later": "Più Tardi",
+      "submit": "Invia"
+    },
+    "time": {
+      "secondsAgo": "secondi fa",
+      "minutesAgo": "minuti fa",
+      "hoursAgo": "ore fa",
+      "daysAgo": "giorni fa",
+      "monthsAgo": "mesi fa",
+      "yearsAgo": "anni fa"
+    },
+    "legal": {
+      "common": {
+        "pageTitle": "Centro Legale",
+        "pageSubtitle": "Contratti e Politiche"
+      },
+      "tabs": {
+        "salesAgreement": "Contratto di Vendita a Distanza",
+        "kvkk": "Informativa KVKK",
+        "refundPolicy": "Condizioni di Cancellazione e Rimborso",
+        "privacyPolicy": "Informativa sulla Privacy",
+        "termsOfUse": "Termini di Utilizzo"
+      },
+      "distanceSellingAgreement": {
+        "title": "Contratto di Vendita a Distanza",
+        "subtitle": "",
+        "lastUpdated": "Ultimo Aggiornamento: 20 Febbraio 2026",
+        "sections": [
+          {
+            "heading": "1. PARTI",
+            "body": "VENDITORE:\nTitolo: [Nome della Piattaforma] Tecnologie Educative S.p.A.\nIndirizzo: Teknopark Istanbul, Sanayi Mah. Teknoloji Bulvarı, Istanbul\nTelefono: 0850 123 45 67\nE-mail: destek@platform.com\n\nACQUIRENTE:\nUtente registrato alla piattaforma che acquista il servizio."
+          },
+          {
+            "heading": "2. OGGETTO",
+            "body": "Il presente contratto disciplina i diritti e gli obblighi delle parti in conformità alla Legge n. 6502 sulla Protezione dei Consumatori e al Regolamento sui Contratti a Distanza, riguardo alla vendita e consegna del prodotto/servizio ordinato elettronicamente dall’ACQUIRENTE tramite il sito web del VENDITORE."
+          },
+          {
+            "heading": "3. PRODOTTI E SERVIZI OGGETTO DEL CONTRATTO",
+            "body": "Il presente contratto riguarda: video formativi online, materiali digitali, sessioni live e programmi di certificazione. Le caratteristiche principali del servizio (tipo, durata, contenuto) sono indicate sul sito del Venditore.",
+            "list": [
+              "Video Formativi Online (Python, Machine Learning, ecc.)",
+              "Codici sorgente scaricabili e documenti PDF",
+              "Moduli di esame e valutazione",
+              "Servizi di certificazione digitale"
+            ]
+          },
+          {
+            "heading": "4. DISPOSIZIONI GENERALI",
+            "body": "4.1. L’ACQUIRENTE dichiara di aver letto e confermato le informazioni preliminari relative alle caratteristiche del prodotto, al prezzo e alle modalità di pagamento.\n\n4.2. Poiché il servizio è un contenuto digitale, viene reso disponibile immediatamente dopo la conferma del pagamento. Non è prevista alcuna consegna fisica.\n\n4.3. Il VENDITORE è responsabile della consegna del servizio in modo completo e conforme alle caratteristiche indicate.\n\n4.4. I pagamenti vengono elaborati in modo sicuro tramite Iyzico o Lemon Squeezy. I dati della carta non vengono memorizzati dal VENDITORE."
+          },
+          {
+            "heading": "5. DIRITTO DI RECESSO E ECCEZIONI",
+            "body": "Ai sensi dell’art. 15 del Regolamento sui Contratti a Distanza, i servizi digitali forniti istantaneamente non rientrano nel diritto di recesso.\n\nTuttavia, nell’ambito della soddisfazione del cliente, se meno del 10% del corso è stato visualizzato e non sono trascorsi 14 giorni dall’acquisto, la richiesta di rimborso può essere valutata dal VENDITORE. I dettagli sono indicati nella pagina “Condizioni di Cancellazione e Rimborso”."
+          },
+          {
+            "heading": "6. FORO COMPETENTE",
+            "body": "Per eventuali controversie, sono competenti i Comitati per la Tutela dei Consumatori e i Tribunali del luogo di residenza dell’ACQUIRENTE o del VENDITORE."
+          }
+        ]
+      },
+      "kvkk": {
+        "title": "Informativa KVKK",
+        "subtitle": "Legge n. 6698 sulla Protezione dei Dati Personali",
+        "lastUpdated": "",
+        "sections": [
+          {
+            "heading": "TITOLARE DEL TRATTAMENTO",
+            "body": "[Nome della Piattaforma] Tecnologie Educative, in qualità di titolare del trattamento ai sensi della Legge n. 6698 (\"KVKK\"), può trattare, registrare, conservare, classificare e aggiornare i vostri dati personali per le finalità indicate di seguito, e trasferirli a terzi nei casi consentiti dalla legge."
+          },
+          {
+            "heading": "1. FINALITÀ DEL TRATTAMENTO DEI DATI PERSONALI",
+            "body": "I vostri dati personali vengono trattati per le seguenti finalità:",
+            "list": [
+              "Gestione delle procedure di registrazione e creazione dell’account.",
+              "Fornire accesso ai contenuti formativi e monitorarne l’utilizzo.",
+              "Gestione dei processi di certificazione (verifica ID, generazione QR code, ecc.).",
+              "Elaborazione sicura dei pagamenti (tramite Iyzico/Lemon Squeezy).",
+              "Analisi delle statistiche di visualizzazione video (tramite Vimeo/Bunny.net) per migliorare la piattaforma.",
+              "Gestione delle comunicazioni e dei servizi di supporto.",
+              "Adempimento degli obblighi legali (fatturazione, ecc.)."
+            ]
+          },
+          {
+            "heading": "2. DATI PERSONALI TRATTATI",
+            "body": "",
+            "subSections": [
+              {
+                "label": "Dati Identificativi:",
+                "text": "Nome, cognome, numero ID (se richiesto per la certificazione)."
+              },
+              {
+                "label": "Dati di Contatto:",
+                "text": "Indirizzo e-mail, numero di telefono."
+              },
+              {
+                "label": "Dati di Sicurezza:",
+                "text": "Indirizzo IP, registri di accesso, informazioni sul dispositivo."
+              },
+              {
+                "label": "Dati di Utilizzo:",
+                "text": "Progresso nei corsi, risultati degli esami, informazioni di fatturazione."
+              }
+            ]
+          },
+          {
+            "heading": "3. TRASFERIMENTO DEI DATI PERSONALI",
+            "body": "I vostri dati personali possono essere trasferiti a partner commerciali (fornitori di pagamento, servizi di hosting video), enti pubblici autorizzati e soggetti privati, nel rispetto degli articoli 8 e 9 della KVKK."
+          },
+          {
+            "heading": "4. DIRITTI DELL’INTERESSATO",
+            "body": "Ai sensi dell’articolo 11 della KVKK, gli utenti hanno diritto a:",
+            "list": [
+              "Sapere se i dati personali vengono trattati.",
+              "Richiedere informazioni sul trattamento.",
+              "Conoscere le finalità del trattamento e se i dati vengono utilizzati in modo conforme.",
+              "Sapere a chi vengono trasferiti i dati, in Turchia o all’estero.",
+              "Richiedere la rettifica dei dati inesatti o incompleti.",
+              "Richiedere la cancellazione o distruzione dei dati ai sensi dell’articolo 7 della KVKK."
+            ],
+            "highlight": {
+              "title": "METODO DI RICHIESTA:",
+              "text": "Potete inviare le vostre richieste relative ai diritti KVKK all’indirizzo kvkk@platform.com, in conformità al \"Regolamento sulle Procedure e i Principi della Richiesta al Titolare del Trattamento\"."
+            }
+          }
+        ]
+      },
+      "refundPolicy": {
+        "title": "Condizioni di Cancellazione e Rimborso",
+        "subtitle": "Garanzia di Soddisfazione e Procedure",
+        "lastUpdated": "",
+        "sections": [
+          {
+            "heading": "1. RIEPILOGO DELLA POLITICA DI RIMBORSO",
+            "body": "Confidiamo nella qualità dei nostri corsi. Tuttavia, se per qualsiasi motivo non sei soddisfatto, puoi richiedere un rimborso alle condizioni indicate.",
+            "highlight": {
+              "title": "DIRITTO DI RIMBORSO ENTRO 14 GIORNI SENZA SPIEGAZIONI*",
+              "text": "*È necessario soddisfare le condizioni riportate di seguito."
+            }
+          },
+          {
+            "heading": "2. CONDIZIONI DI RIMBORSO",
+            "body": "Perché la richiesta di rimborso venga approvata, devono essere soddisfatte tutte le seguenti condizioni:",
+            "list": [
+              "Non devono essere trascorsi più di 14 giorni dalla data di acquisto.",
+              "Non deve essere stato visualizzato più del 15% del contenuto del corso.",
+              "Non deve essere stato generato o scaricato alcun certificato relativo al corso.",
+              "I materiali scaricabili (codici sorgente, PDF, ecc.) non devono essere stati utilizzati in modo improprio (verificato tramite log di sistema)."
+            ]
+          },
+          {
+            "heading": "3. PROCESSO DI RIMBORSO",
+            "body": "",
+            "subSections": [
+              {
+                "label": "Invio della Richiesta:",
+                "text": "Puoi inviare una richiesta dalla sezione \"I miei ordini\" nel tuo profilo oppure scrivendo a destek@platform.com."
+              },
+              {
+                "label": "Valutazione:",
+                "text": "Il nostro team verificherà se le condizioni sono soddisfatte (percentuale di visualizzazione, stato del certificato, ecc.). Questo processo richiede solitamente 24-48 ore."
+              },
+              {
+                "label": "Approvazione e Rimborso:",
+                "text": "Se la richiesta viene approvata, l’importo verrà rimborsato sulla carta/conto utilizzato per il pagamento. I tempi di accredito dipendono dalla banca (3-7 giorni lavorativi)."
+              },
+              {
+                "label": "Rifiuto:",
+                "text": "Se le condizioni non sono soddisfatte, la richiesta verrà rifiutata e la motivazione sarà comunicata via e-mail."
+              }
+            ]
+          },
+          {
+            "heading": "4. ECCEZIONI",
+            "body": "Non è possibile effettuare rimborsi nei seguenti casi:",
+            "list": [
+              "Corsi acquistati tramite codici promozionali, buoni regalo o campagne (viene rimborsato solo l’importo effettivamente pagato).",
+              "Acquisti aziendali o B2B (si applicano le condizioni contrattuali).",
+              "Acquisti effettuati tramite App Store o Google Play (si applicano le politiche di rimborso del marketplace).",
+              "Eventi live/webinar già svolti."
+            ]
+          },
+          {
+            "heading": "5. CONTATTO",
+            "body": "Per qualsiasi domanda relativa ai rimborsi, puoi contattarci all’indirizzo destek@platform.com."
+          }
+        ]
+      },
+      "privacyPolicy": {
+        "title": "Informativa sulla Privacy",
+        "subtitle": "",
+        "lastUpdated": "Ultimo aggiornamento: 15 Gennaio 2025",
+        "sections": [
+          {
+            "heading": "1. Dati Raccolti",
+            "body": "Durante l’utilizzo della nostra piattaforma raccogliamo i seguenti dati:",
+            "list": [
+              "Nome, cognome e indirizzo e-mail",
+              "Informazioni di pagamento (tramite fornitori di pagamento sicuri)",
+              "Dati relativi ai progressi nei corsi e all’utilizzo della piattaforma",
+              "Informazioni sul dispositivo e sul browser"
+            ]
+          },
+          {
+            "heading": "2. Utilizzo dei Dati",
+            "body": "Utilizziamo i dati raccolti per le seguenti finalità:",
+            "list": [
+              "Creare e gestire il tuo account",
+              "Fornire accesso ai contenuti dei corsi",
+              "Elaborare i pagamenti",
+              "Migliorare e personalizzare la piattaforma",
+              "Inviarti aggiornamenti e comunicazioni importanti"
+            ]
+          },
+          {
+            "heading": "3. Sicurezza dei Dati",
+            "body": "Adottiamo misure di sicurezza conformi agli standard del settore per proteggere i tuoi dati. Tutte le informazioni sensibili vengono archiviate in forma crittografata."
+          },
+          {
+            "heading": "4. Condivisione con Terzi",
+            "body": "Non vendiamo i tuoi dati personali. Possiamo condividerli solo nei seguenti casi:",
+            "list": [
+              "Fornitori di servizi di pagamento (Iyzico, Lemon Squeezy)",
+              "Servizi di hosting video (Vimeo, Bunny.net)",
+              "Obblighi legali o richieste delle autorità competenti"
+            ]
+          },
+          {
+            "heading": "5. Cookie",
+            "body": "La nostra piattaforma utilizza cookie per migliorare l’esperienza utente. Puoi gestire le impostazioni dei cookie dal tuo browser."
+          },
+          {
+            "heading": "6. Diritti dell’Utente",
+            "body": "Ai sensi della normativa sulla protezione dei dati, hai diritto a:",
+            "list": [
+              "Richiedere l’accesso ai tuoi dati personali",
+              "Richiedere la rettifica dei dati",
+              "Richiedere la cancellazione dei dati",
+              "Opporsi al trattamento dei dati"
+            ]
+          },
+          {
+            "heading": "7. Contatto",
+            "body": "Per domande relative alla nostra informativa sulla privacy:\nE-mail: privacy@academy.com"
+          }
+        ]
+      },
+      "termsOfUse": {
+        "title": "Termini di Utilizzo",
+        "subtitle": "",
+        "lastUpdated": "Ultimo aggiornamento: 20 Febbraio 2026",
+        "sections": [
+          {
+            "heading": "1. INTRODUZIONE E ACCETTAZIONE",
+            "body": "Utilizzando questa piattaforma (\"Sito\", \"Applicazione\"), accetti i presenti Termini di Utilizzo (\"Termini\"). Se non accetti tali condizioni, ti preghiamo di non utilizzare la piattaforma."
+          },
+          {
+            "heading": "2. SICUREZZA DELL’ACCOUNT E ISCRIZIONE",
+            "body": "",
+            "list": [
+              "Per registrarti alla piattaforma devi avere almeno 18 anni o il consenso del tutore legale.",
+              "Dichiari che le informazioni fornite durante la registrazione (Nome, Cognome, E-mail) sono corrette e aggiornate.",
+              "Sei interamente responsabile della sicurezza della tua password. Tutte le attività svolte tramite il tuo account sono sotto la tua responsabilità.",
+              "Non puoi trasferire o condividere il tuo account con terzi. In caso di accessi sospetti da IP/dispositivi diversi, il sistema può sospendere temporaneamente l’account."
+            ]
+          },
+          {
+            "heading": "3. DIRITTI DI PROPRIETÀ INTELLETTUALE",
+            "body": "Tutti i contenuti presenti sulla piattaforma (video, codici sorgente, documenti PDF, immagini, domande dei quiz, ecc.) appartengono a [Nome della Piattaforma] e sono protetti dalle leggi internazionali sul copyright.",
+            "list": [
+              "I contenuti possono essere utilizzati esclusivamente per scopi educativi personali.",
+              "È severamente vietata la copia, riproduzione, rivendita, distribuzione pubblica o uso commerciale dei contenuti.",
+              "I codici condivisi nei corsi (Applied Python, progetti Django, ecc.) sono forniti a scopo educativo; l’uso in progetti commerciali è sotto la responsabilità dell’utente."
+            ]
+          },
+          {
+            "heading": "4. PAGAMENTI E ABBONAMENTI",
+            "body": "Alcuni contenuti della piattaforma sono a pagamento. I pagamenti vengono elaborati tramite canali sicuri (Iyzico / Lemon Squeezy).",
+            "list": [
+              "I prezzi indicati al momento dell’acquisto sono validi e includono le tasse, salvo diversa indicazione.",
+              "L’accesso ai contenuti acquistati è a vita o per il periodo specificato.",
+              "La piattaforma si riserva il diritto di modificare i prezzi senza preavviso."
+            ]
+          },
+          {
+            "heading": "5. COMPORTAMENTO DELL’UTENTE",
+            "body": "Durante l’utilizzo della piattaforma, è vietato:",
+            "list": [
+              "Condividere contenuti illegali, offensivi, minacciosi o contrari alla morale pubblica (nelle aree Forum/Community).",
+              "Tentare di danneggiare l’infrastruttura tecnica della piattaforma (DDoS, script injection, ecc.).",
+              "Raccogliere o utilizzare i dati personali di altri utenti senza autorizzazione."
+            ]
+          },
+          {
+            "heading": "6. LIMITAZIONE DI RESPONSABILITÀ",
+            "body": "La piattaforma si impegna a fornire contenuti accurati e aggiornati, ma non garantisce l’assenza di errori. Non è responsabile di eventuali danni diretti o indiretti derivanti dall’utilizzo dei contenuti formativi (perdita di dati, errori software, ecc.). Lo sviluppo software comporta rischi e l’utente è responsabile delle misure adottate nel proprio ambiente."
+          },
+          {
+            "heading": "7. MODIFICHE AI TERMINI",
+            "body": "La piattaforma si riserva il diritto di aggiornare i presenti Termini di Utilizzo in qualsiasi momento. Le modifiche entrano in vigore alla data di pubblicazione sul sito."
+          },
+          {
+            "heading": "8. CONTATTO",
+            "body": "Per qualsiasi domanda relativa ai Termini di Utilizzo, puoi contattarci all’indirizzo: legal@platform.com"
+          }
+        ]
+      }
+    },
+    "cart": {
+      "title": {
+        "title": "Il Mio Carrello",
+        "desc": {
+          "1": "{{cartCount}} corsi nel tuo carrello",
+          "2": "Il tuo carrello è vuoto"
+        }
+      },
+      "empty": {
+        "title": "Il Tuo Carrello è Vuoto",
+        "desc": "Non hai ancora aggiunto alcun corso al carrello. Inizia esplorando i corsi."
+      },
+      "buttons": {
+        "course": "Esplora i Corsi",
+        "remove": "Rimuovi",
+        "checkout": "Acquista",
+        "clean": "Svuota Carrello",
+        "shopping": "Continua lo Shopping",
+        "firstCourse": "Acquista il Primo Corso {{count}}",
+        "goToPayment": "Procedi al Pagamento"
+      },
+      "summary": {
+        "title": "Riepilogo Ordine",
+        "course": "{{count}} corso",
+        "kdv": "IVA {{kdv}}%",
+        "total": "Totale",
+        "warning": " I corsi vengono pagati uno alla volta. Inizia dal primo corso."
+      }
+    },
+    "payment": {
+      "title": {
+        "1": "Pagamento",
+        "2": "Completa il tuo acquisto con un pagamento sicuro",
+        "3": "Informazioni di Contatto",
+        "4": "Metodo di Pagamento"
+      },
+      "cardType": {
+        "title": "Carta di Credito/Debito",
+        "visa": "Visa",
+        "mastercard": "MasterCard",
+        "transfer": "Bonifico Bancario"
+      },
+      "savedCards": "Le Mie Carte Salvate",
+      "savedCardLabel": "Carta salvata",
+      "newCard": "Aggiungi Nuova Carta",
+      "processing": "Elaborazione...",
+      "complete": "Completa il Pagamento",
+      "input": {
+        "name": {
+          "label": "Nome",
+          "placeholder": "Nome sulla carta",
+          "null": "Il nome è obbligatorio"
+        },
+        "surname": {
+          "label": "Cognome",
+          "placeholder": "Cognome sulla carta",
+          "null": "Il cognome è obbligatorio"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Inserisci il tuo indirizzo e-mail",
+          "null": "L’e-mail è obbligatoria",
+          "invalid": "Formato e-mail non valido"
+        },
+        "phone": {
+          "label": "Telefono",
+          "placeholder": "Inserisci il tuo numero di telefono",
+          "null": "Il numero di telefono è obbligatorio",
+          "invalid": "Formato numero di telefono non valido"
+        },
+        "cardNumber": {
+          "label": "Numero Carta",
+          "placeholder": "1234 5678 9012 3456",
+          "null": "Il numero della carta è obbligatorio",
+          "invalid": "Numero carta non valido",
+          "max": "Il numero della carta può contenere massimo 16 cifre"
+        },
+        "lastDate": {
+          "label": "Data di Scadenza",
+          "placeholder": "MM/AA",
+          "null": "La data di scadenza è obbligatoria",
+          "invalid": "Data di scadenza non valida"
+        },
+        "cvv": {
+          "label": "CVV",
+          "placeholder": "123",
+          "null": "Il CVV è obbligatorio",
+          "max": "Il CVV può contenere massimo 3 cifre",
+          "invalid": "CVV non valido"
+        },
+        "cardName": {
+          "label": "Nome Titolare Carta",
+          "placeholder": "Nome riportato sulla carta",
+          "null": "Il nome del titolare è obbligatorio"
+        }
+      },
+      "summary": {
+        "title": "Riepilogo Ordine",
+        "notSelected": "Non selezionato",
+        "package": "Pacchetto",
+        "oneTime": "Pagamento Unico",
+        "subtotal": "Subtotale",
+        "vat": "IVA (%20)",
+        "total": "Totale",
+        "instantAccess": "Accesso immediato",
+        "moneyBack": "Garanzia di rimborso entro 30 giorni",
+        "support": "Supporto 24/7",
+        "securePayment": "Pagamento Sicuro"
+      },
+      "dialog": {
+        "title": "Pagamento Riuscito!",
+        "congrats": "Congratulazioni!",
+        "message": "Il tuo pagamento è stato completato con successo",
+        "courseAdded": "Il corso è stato aggiunto al tuo account",
+        "startCourse": "Inizia il Corso"
+      },
+      "toast": {
+        "notFound": "Informazioni di pagamento non trovate",
+        "success": "Pagamento completato con successo!",
+        "failed": "Pagamento non riuscito",
+        "error": "Si è verificato un errore, riprova"
+      },
+      "footer": {
+        "ssl": "Protetto con sicurezza SSL",
+        "pass": "Pagamento sicuro con crittografia a 256 bit",
+        "privacy": "Informativa sulla Privacy",
+        "userAgreement": "Termini di Utilizzo",
+        "and": "e",
+        "agree": "ho letto e accetto."
+      }
+    }
+  }
+}

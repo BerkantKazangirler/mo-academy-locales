@@ -78,6 +78,7 @@
         "contact": "İletişim",
         "packages": "Paketler",
         "updates": "Duyurular",
+        "cart": "Sepetim",
         "signin": "Giriş Yap",
         "signup": "Kayıt Ol",
         "profile": "Profilim",
@@ -185,7 +186,7 @@
         },
         "desc": "Binlerce öğrencimize katılın ve teknoloji kariyerinizi bir sonraki seviyeye taşıyın. İlk dersinizi ücretsiz deneyin!",
         "browse_courses": "Kurslara Başla",
-        "view_prices": "Fiyatları Gör",
+        "login": "Giriş Yap",
         "safe_payment": "Güvenli Ödeme",
         "refund": "7 Gün İade Garantisi"
       },
@@ -236,7 +237,8 @@
           "frontendDeveloper": "Responsive ve erişilebilir web uygulamaları geliştiriyor. Modern JavaScript framework'leri ile etkileşimli kullanıcı arayüzleri tasarlıyor.",
           "uiDesigner": "Kullanıcı deneyimini ön planda tutarak sezgisel tasarımlar oluşturuyor. Ürün kalitesini test ederek kusursuz bir deneyim sunuyor.",
           "marketingSpecialist": "Eğitim içeriklerini profesyonel şekilde düzenleyerek, platformun görünürlüğünü artırmak için yaratıcı pazarlama stratejileri geliştiriyor.",
-          "videoEditor": "Eğitim videolarını profesyonel kalitede düzenleyerek öğrenme deneyimini zenginleştiriyor."
+          "videoEditor": "Eğitim videolarını profesyonel kalitede düzenleyerek öğrenme deneyimini zenginleştiriyor.",
+          "qualityAssurance": "Eğitim içeriklerinin kalitesini test ederek, kullanıcı deneyimini kusursuz hale getiriyor."
         }
       },
       "values": {
@@ -352,6 +354,7 @@
         "comments": {
           "new": "Yeni",
           "reviews": "({{reviews}} değerlendirme)",
+          "noRating": "Henüz değerlendirme yok",
           "noReviews": "Henüz değerlendirme yok"
         },
         "students": "Kayıtlı Öğrenci",
@@ -378,6 +381,7 @@
         "shareDialog": {
           "title": "Bu kursu paylaş",
           "desc": "Arkadaşlarınla paylaşarak bilgiye erişmelerini sağla.",
+          "academyName": "Mesut Özdağ Academy",
           "shareText": "Mesut Özdağ Academy'de {{courseTitle}} kursuna bak: {{link}}",
           "copiedToClipboard": "Metin panoya kopyalandı!"
         },
@@ -390,7 +394,8 @@
               "placeholder": "ornek@email.com"
             },
             "2": {
-              "label": "Teslim Tarihi"
+              "label": "Teslim Tarihi",
+              "placeholder": "gg.aa.yyyy"
             },
             "3": {
               "label": "Mesajınız (İsteğe Bağlı)",
@@ -404,6 +409,62 @@
           "title": "Kupon Kodu Uygula",
           "inputPlaceholder": "Kupon kodunuzu buraya girin",
           "applyButton": "Uygula"
+        }
+      },
+      "video": {
+        "loading": "Video yükleniyor...",
+        "thumbnailAlt": "Video küçük resmi",
+        "madeBy": "{{instructor}} tarafından hazırlandı",
+        "tabs": {
+          "notes": "Ders Notları",
+          "noNotes": "Bu video için ders notu bulunmamaktadır.",
+          "resources": "Kaynaklar {{length}}",
+          "download": "İndir",
+          "noResources": "Bu bölüm için kaynak bulunmamaktadır.",
+          "codeExample": "Kod Örnekleri ({{length}})",
+          "noCodeExamples": "Bu video için kod örneği bulunmamaktadır.",
+          "codeCopied": "Kod panoya kopyalandı!",
+          "copy": "Kopyala",
+          "copied": "Kopyalandı",
+          "sources": "Kaynaklar ({{length}})",
+          "status": "Kurs Durumu",
+          "courseSettings": "Kurs Ayarları",
+          "courseStatus": {
+            "status": "Kurs İlerlemesi",
+            "percentage": "{{percentage}}% Tamamlandı"
+          },
+          "videoStatus": {
+            "status": "Video İlerlemesi",
+            "percentage": "{{percentage}}% izlendi",
+            "completed": "Tamamlandı",
+            "complate": "Tamamlanmadı"
+          }
+        },
+        "quiz": {
+          "title": "Kurs Quiz'i",
+          "score": "Skorunuz: {{score}}%",
+          "notCompleted": "Kursu tamamlayın",
+          "notStarted": "Henüz başlamadınız",
+          "success": "Başarılı",
+          "failed": "Başarısız",
+          "button": "Kursu Tamamlayın",
+          "start": "Quiz'i Başlat",
+          "retake": "Quiz'i Tekrar Çöz",
+          "completed": "Quiz Tamamlandı"
+        },
+        "info": {
+          "title": "İpuçları",
+          "list": {
+            "1": "Video hızını ayarlayarak kendi temponda öğrenebilirsiniz",
+            "2": "Ders notlarını ve kod örneklerini inceleyin",
+            "3": "Quiz'i geçmek için en az %70 puan almalısınız"
+          }
+        },
+        "toast": {
+          "needLogin": "Bu kursa erişmek için giriş yapmanız gerekiyor...",
+          "notEnrolled": "Bu kursa kayıtlı değilsiniz, ödeme sayfasına yönlendiriliyorsunuz...",
+          "notFound": "Video bulunamadı, ilk videoya yönlendiriliyorsunuz...",
+          "notAccess": "Bu videoya erişim yetkiniz yok, erişilebilir videoya yönlendiriliyorsunuz..."
         }
       }
     },
@@ -490,10 +551,10 @@
       "description": "Dokümantasyonlar, rehberler ve destek kaynaklarına göz atın",
       "search_placeholder": "Aradığınız konuyu yazın...",
       "article": "makale",
-      "blogs": {
-        "title": "Bloglar",
-        "description": "Destek ekibimizle anında iletişime geçin",
-        "chat_button": "Sohbet Başlat"
+      "sss": {
+        "title": "Sıkça Sorulan Sorular",
+        "description": "En sık sorulan soruların cevaplarını burada bulabilirsiniz",
+        "view_button": "SSS'yi Görüntüle"
       },
       "request": {
         "title": "Destek Talebi Oluştur",
@@ -545,7 +606,255 @@
         "liveSupport": "Canlı Destek",
         "liveSupportDesc": "7/24 anında yanıt"
       },
-      "foundedQuestions": "{{count}} soru bulundu"
+      "foundedQuestions": "{{count}} soru bulundu",
+      "items": [
+        {
+          "id": 1,
+          "category": "beginner",
+          "question": "Platforma nasıl kayıt olabilirim?",
+          "answer": "Ana sayfadaki 'Kayıt Ol' butonuna tıklayarak e-posta adresiniz, ad-soyad ve şifre ile ücretsiz hesap oluşturabilirsiniz. Alternatif olarak Google, GitHub veya LinkedIn hesabınızla hızlı kayıt olabilirsiniz. Kayıt sonrası e-posta adresinize gönderilen doğrulama linkine tıklamanız gerekir."
+        },
+        {
+          "id": 2,
+          "category": "beginner",
+          "question": "İlk kursa nasıl başlarım?",
+          "answer": "Hesabınıza giriş yaptıktan sonra 'Kurslar' menüsünden ilginizi çeken kursu seçin. Kurs detay sayfasında 'Kursa Kayıt Ol' veya 'Kursa Başla' butonuna tıklayın. Ücretsiz kurslar için anında erişim sağlanır, ücretli kurslar için ödeme işlemini tamamlamanız gerekir."
+        },
+        {
+          "id": 3,
+          "category": "beginner",
+          "question": "Platformu ilk kez kullanıyorum, nereden başlamalıyım?",
+          "answer": "Yeni başlayanlar için 'Python Temelleri' kursunu öneriyoruz. Hiç programlama deneyiminiz yoksa sıfırdan başlayabilir, deneyimliyseniz direkt Makine Öğrenme kurslarına geçebilirsiniz. Profil sayfanızdan seviye testini yaparak size uygun kursu bulabilirsiniz."
+        },
+        {
+          "id": 4,
+          "category": "courses",
+          "question": "Kurslar ne kadar süreyle erişilebilir?",
+          "answer": "Satın aldığınız tüm kurslar ömür boyu erişime sahiptir. İstediğiniz zaman, istediğiniz hızda öğrenebilir, dersleri tekrar izleyebilirsiniz. Abonelik modeli için ise aboneliğiniz aktif olduğu sürece tüm kurslara erişebilirsiniz."
+        },
+        {
+          "id": 5,
+          "category": "courses",
+          "question": "Videoları offline izleyebilir miyim?",
+          "answer": "Evet! Mobil uygulamamız (iOS ve Android) üzerinden videoları cihazınıza indirebilir ve internet bağlantısı olmadan izleyebilirsiniz. Bu özellik Premium ve Pro abonelikler için mevcuttur. İndirilen videolar 30 günde bir internet ile doğrulanır."
+        },
+        {
+          "id": 6,
+          "category": "courses",
+          "question": "Kurs içeriği ne kadar sıklıkla güncellenir?",
+          "answer": "Kurs içeriklerimizi düzenli olarak güncelliyoruz. Yeni teknolojiler, kütüphane güncellemeleri ve sektör değişikliklerine göre kurslar revize edilir. Güncelleme geldiğinde bildirim alırsınız ve yeni içeriğe otomatik olarak erişebilirsiniz."
+        },
+        {
+          "id": 7,
+          "category": "courses",
+          "question": "Video kalitesi nasıl ayarlanır?",
+          "answer": "Video oynatıcının sağ alt köşesindeki ayarlar butonundan kalite seçebilirsiniz. Otomatik (Auto), 360p, 480p, 720p ve 1080p seçenekleri mevcuttur. Mobil veri kullanıyorsanız düşük kalite, WiFi'de iseniz yüksek kalite önerilir."
+        },
+        {
+          "id": 8,
+          "category": "courses",
+          "question": "Kurs tamamlama süresi var mı?",
+          "answer": "Hayır, kursları tamamlamak için belirli bir süre sınırı yoktur. Kendi hızınızda ilerleyebilir, istediğiniz zaman ara verip devam edebilirsiniz. Ancak sertifika almak için kursu tamamlamanız ve quizleri geçmeniz gerekir."
+        },
+        {
+          "id": 9,
+          "category": "payment",
+          "question": "Hangi ödeme yöntemleri kabul edilir?",
+          "answer": "Kredi kartı (Visa, Mastercard, American Express), banka kartı, havale/EFT ve dijital cüzdanlar (PayPal, Stripe) ile ödeme yapabilirsiniz. Türkiye için İyzico ve PayTR altyapısı kullanılmaktadır. Taksit seçenekleri de mevcuttur."
+        },
+        {
+          "id": 10,
+          "category": "payment",
+          "question": "Abonelik planlarını nasıl değiştirebilirim?",
+          "answer": "Profil sayfanızdan 'Aboneliklerim' bölümüne girin, 'Planı Değiştir' butonuna tıklayın. Yükseltme anında geçerli olur ve fark tutarı tahsil edilir. Düşürme ise mevcut abonelik dönemi bitiminde geçerli olur."
+        },
+        {
+          "id": 11,
+          "category": "payment",
+          "question": "İade talebi nasıl oluşturulur?",
+          "answer": "14 gün içinde ve kursun %20'sinden fazlasını tamamlamadıysanız tam para iadesi alabilirsiniz. Profil sayfasından 'Fatura & Ödemeler' > 'İade Talebi' bölümüne gidin. İade 5-10 iş günü içinde hesabınıza yansır."
+        },
+        {
+          "id": 12,
+          "category": "payment",
+          "question": "Fatura alabilir miyim?",
+          "answer": "Evet, her ödeme sonrası otomatik fatura oluşturulur. Profil sayfanızdan 'Fatura & Ödemeler' bölümünden tüm faturalarınızı görüntüleyebilir ve PDF olarak indirebilirsiniz. Kurumsal fatura için destek ekibiyle iletişime geçin."
+        },
+        {
+          "id": 13,
+          "category": "payment",
+          "question": "Öğrenci indirimi var mı?",
+          "answer": "Evet! Geçerli öğrenci kimliği veya öğrenci belgesi ile %20 öğrenci indirimi alabilirsiniz. Destek ekibimizle iletişime geçip belgenizi gönderin. Onay sonrası indirim hesabınıza tanımlanır."
+        },
+        {
+          "id": 14,
+          "category": "payment",
+          "question": "Kupon kodu nasıl kullanılır?",
+          "answer": "Ödeme sayfasında 'Kupon Kodu' alanına kodunuzu girin ve 'Uygula' butonuna tıklayın. İndirim otomatik olarak fiyattan düşülür. Bir siparişte sadece bir kupon kodu kullanılabilir."
+        },
+        {
+          "id": 15,
+          "category": "account",
+          "question": "Şifremi unuttum, nasıl sıfırlayabilirim?",
+          "answer": "Giriş sayfasındaki 'Şifremi Unuttum' linkine tıklayın, e-posta adresinizi girin. Size şifre sıfırlama linki gönderilir. Link 1 saat geçerlidir. Eğer e-posta gelmezse spam klasörünü kontrol edin."
+        },
+        {
+          "id": 16,
+          "category": "account",
+          "question": "E-posta adresimi değiştirebilir miyim?",
+          "answer": "Evet. Profil sayfasından 'Hesap Ayarları' > 'E-posta Değiştir' bölümüne gidin. Yeni e-posta adresinizi girin ve mevcut şifrenizi doğrulayın. Yeni adrese doğrulama linki gönderilir, onayladıktan sonra değişiklik tamamlanır."
+        },
+        {
+          "id": 17,
+          "category": "account",
+          "question": "Hesabımı nasıl silebilirim?",
+          "answer": "Profil sayfasından 'Hesap Ayarları' > 'Hesabı Sil' bölümüne gidin. Şifrenizi doğrulayın ve silme nedeninizi belirtin. Hesap silme işlemi geri alınamaz ve tüm verileriniz kalıcı olarak silinir. 30 gün içinde tekrar giriş yaparsanız hesap kurtarılabilir."
+        },
+        {
+          "id": 18,
+          "category": "account",
+          "question": "İki faktörlü kimlik doğrulama nasıl aktif edilir?",
+          "answer": "Profil sayfasından 'Güvenlik' > 'İki Faktörlü Doğrulama' bölümüne gidin. QR kodu Google Authenticator veya benzeri bir uygulama ile tarayın. Oluşturulan 6 haneli kodu girerek aktif edin. Bundan sonra her girişte kod gerekecektir."
+        },
+        {
+          "id": 19,
+          "category": "certificates",
+          "question": "Sertifika nasıl alınır?",
+          "answer": "Kursun tüm videolarını izlediğinizde, tüm quizleri başarıyla tamamladığınızda ve final sınavından en az 70 aldığınızda sertifikanız otomatik olarak oluşturulur. Profil sayfanızdan 'Sertifikalarım' bölümünden PDF olarak indirebilirsiniz."
+        },
+        {
+          "id": 20,
+          "category": "certificates",
+          "question": "Sertifikalar geçerli mi?",
+          "answer": "Evet, sertifikalarımız Mesut Özdağ Academy tarafından onaylıdır ve LinkedIn profilinize ekleyebilirsiniz. Her sertifikada benzersiz bir doğrulama kodu bulunur. İşverenler bu kodu web sitemizde kontrol edebilir."
+        },
+        {
+          "id": 21,
+          "category": "certificates",
+          "question": "Sertifikayı LinkedIn'e nasıl eklerim?",
+          "answer": "LinkedIn profilinizde 'Lisanslar ve Sertifikalar' bölümüne gidin. 'Ekle' butonuna tıklayın. Sertifika adını, veren kuruluşu (Mesut Özdağ Academy) ve doğrulama kodunu girin. Sertifika PDF'ini de yükleyebilirsiniz."
+        },
+        {
+          "id": 22,
+          "category": "technical",
+          "question": "Video oynatılmıyor, ne yapmalıyım?",
+          "answer": "İnternet bağlantınızı kontrol edin. Tarayıcınızı güncelleyin veya farklı bir tarayıcı deneyin (Chrome, Firefox önerilir). Reklam engelleyici kullanıyorsanız devre dışı bırakın. Sorun devam ederse 'Hata Bildir' formunu kullanın."
+        },
+        {
+          "id": 23,
+          "category": "technical",
+          "question": "Mobil uygulamanız var mı?",
+          "answer": "Evet! iOS için App Store'dan, Android için Google Play Store'dan 'Mesut Özdağ Academy' uygulamasını indirebilirsiniz. Mobil uygulamada offline video indirme, push bildirimleri ve daha hızlı erişim özellikleri mevcuttur."
+        },
+        {
+          "id": 24,
+          "category": "technical",
+          "question": "Hangi tarayıcılar destekleniyor?",
+          "answer": "Chrome (v90+), Firefox (v88+), Safari (v14+), Edge (v90+) tarayıcıları tam olarak desteklenmektedir. En iyi deneyim için tarayıcınızı güncel tutun. Internet Explorer desteklenmemektedir."
+        },
+        {
+          "id": 25,
+          "category": "technical",
+          "question": "Platform hangi dilleri destekliyor?",
+          "answer": "Şu anda platform arayüzü Türkçe ve İngilizce dillerinde mevcuttur. Kurs içerikleri Türkçe anlatımlıdır. Bazı kurslarda İngilizce altyazı seçeneği bulunur. Profil ayarlarından dil değiştirebilirsiniz."
+        }
+      ]
+    },
+    "verifyCertificate": {
+      "printTitle": "Sertifika",
+      "hero": {
+        "title": "Sertifika Doğrulama Sistemi",
+        "description": "Sertifikanızın geçerliliğini kontrol edin. Güvenli ve hızlı doğrulama."
+      },
+      "search": {
+        "label": "Sertifika Kimlik Numarası",
+        "placeholder": "Örn: MO-A1B2C3D4",
+        "button": "Doğrula",
+        "helper": "Sertifika kimlik numarasını tam ve eksiksiz giriniz (örn: MO-A1B2C3D4)."
+      },
+      "loading": "Sertifika aranıyor...",
+      "found": {
+        "title": "Sertifika Geçerlidir",
+        "description": "Bu sertifika sistemimizde kayıtlıdır ve geçerlidir. Aşağıda sertifika detaylarını inceleyebilirsiniz.",
+        "badge": "Doğrulandı",
+        "cardSubtitle": "Resmi Belge Detayları",
+        "qrDownloadTitle": "QR indir",
+        "printTitle": "Yazdır",
+        "success": "Başarılı",
+        "completionCertificate": "Tamamlama Sertifikası"
+      },
+      "fields": {
+        "studentName": "Öğrenci Adı",
+        "completionDate": "Tamamlanma Tarihi",
+        "certificateId": "Sertifika ID",
+        "issueDate": "Düzenlenme Tarihi",
+        "courseName": "Kurs Adı",
+        "grade": "Not/Puan",
+        "certificateNumber": "Sertifika Kimlik Numarası"
+      },
+      "grades": {
+        "completed": "Tamamlandı"
+      },
+      "qr": {
+        "title": "QR Kod",
+        "description": "Mobil cihazınızla tarayarak doğrulayın",
+        "download": "QR Kodu İndir (SVG)"
+      },
+      "security": {
+        "title": "Güvenlik Özellikleri",
+        "features": [
+          "Dijital İmza Onaylıdır",
+          "Blockchain Kayıtlıdır",
+          "QR Kod Doğrulamalıdır",
+          "Zaman Damgalıdır"
+        ]
+      },
+      "notFound": {
+        "title": "Sertifika Bulunamadı",
+        "description": "Girdiğiniz sertifika kimlik numarası sistemimizde kayıtlı değildir. Lütfen numarayı kontrol edip tekrar deneyiniz.",
+        "badge": "Geçersiz",
+        "attention": "Dikkat",
+        "checklist": {
+          "title": "Sertifika bulunamadı. Kontrol listesi:",
+          "items": [
+            "Sertifika kimlik numarasını tam ve eksiksiz girdiğinizden emin olun",
+            "Büyük/küçük harf duyarlılığını kontrol edin",
+            "Tire (-) işaretlerinin doğru yerleştirildiğinden emin olun",
+            "Sertifikanın gerçek platformumuzdan alındığından emin olun"
+          ]
+        },
+        "fakeWarning": {
+          "title": "Sahte Sertifika Uyarısı",
+          "description": "Elinizde fiziksel veya dijital bir sertifika varsa ancak sistemimizde doğrulama yapılamıyor ise, bu sertifika sahte olabilir. Lütfen bizimle iletişime geçin."
+        }
+      },
+      "error": {
+        "title": "Bağlantı Hatası",
+        "description": "Sertifika sorgulanırken bir hata oluştu. Lütfen internet bağlantınızı kontrol edip tekrar deneyin."
+      },
+      "benefits": {
+        "cards": [
+          {
+            "title": "Güvenli Doğrulama",
+            "text": "Tüm sertifikalarımız blockchain teknolojisi ile güvence altına alınmıştır. Her sertifika benzersiz bir kimlik numarasına sahiptir."
+          },
+          {
+            "title": "Anında Sonuç",
+            "text": "Sertifika doğrulama işleminiz saniyeler içinde tamamlanır. 7/24 erişebilir sistemimiz ile istediğiniz zaman kontrol edebilirsiniz."
+          },
+          {
+            "title": "Uluslararası Geçerlilik",
+            "text": "Sertifikalarımız uluslararası standartlara uygun olarak düzenlenmektedir. Global tanınırlık ve kabul görme garantisi."
+          }
+        ]
+      },
+      "help": {
+        "title": "Yardıma mı ihtiyacınız var?",
+        "description": "Sertifika doğrulama sürecinde herhangi bir sorun yaşıyorsanız veya sorularınız varsa, destek ekibimiz size yardımcı olmaktan mutluluk duyacaktır.",
+        "supportCenter": "Destek Merkezi",
+        "faq": "SSS",
+        "contact": "İletişim"
+      }
     },
     "updates": {
       "title": "Haberler ve Güncellemeler",
@@ -595,6 +904,17 @@
         "cancel": "İptal",
         "submit": "Gönder",
         "submitting": "Gönderiliyor..."
+      },
+      "blogComments": {
+        "emptyTitle": "Henüz yorum yok",
+        "emptyDescription": "Bu yazı hakkında ilk yorumu sen yap!",
+        "firstComment": "İlk Yorumu Yap",
+        "user": "Kullanıcı",
+        "unknownUser": "Bilinmeyen Kullanıcı",
+        "title": "Yorumlar ({{count}})",
+        "repliesToggle": "{{count}} yanıt {{action}}",
+        "show": "göster",
+        "hide": "gizle"
       }
     },
     "reportBug": {
@@ -605,18 +925,33 @@
         "title": "Hata Raporu",
         "description": "Lütfen sorunu detaylı olarak açıklayın",
         "type": "Hata Türü",
+        "typeSelect": "Lütfen bir hata türü seçin",
+        "typeRequired": "Hata türü zorunludur",
+        "pageRequired": "Sorunun yaşandığı sayfa/kurs bilgisi zorunludur",
         "labels": {
           "option1": "Sistem Açığı",
           "option2": "Kurs İçeriği Hatası"
         },
+        "email": "e-Posta",
+        "emailOptional": "(İsteğe Bağlı)",
+        "emailPlaceholder": "Sorunun sonucunu size bildirebilmemiz için e-posta adresinizi girin",
         "page": "Sorunun Yaşandığı Sayfa/Kurs",
         "pagePlaceholder": "Örn: Python Temelleri - Ders 5",
         "descriptionLabel": "Sorun Açıklaması",
+        "descriptionRequired": "Sorun açıklaması zorunludur",
+        "descriptionMin": "Sorun açıklaması en az 20 karakter içermelidir",
+        "descriptionMax": "Sorun açıklaması en fazla 1000 karakter içerebilir",
+        "emailInvalid": "Lütfen geçerli bir e-posta adresi girin",
         "descriptionPlaceholder": "Sorunun nasıl oluştuğunu ve ne yaptığınızda karşılaştığınızı detaylı anlatın...",
         "screenshot": "Ekran Görüntüsü (İsteğe Bağlı)",
+        "selectFile": "Dosya Seç",
         "warning": "Teknik ekibimiz raporunuzu 24 saat içinde inceleyecek ve size geri dönüş yapacaktır.",
         "submit": "Hatayı Bildir",
-        "submitting": "Gönderiliyor..."
+        "submitting": "Gönderiliyor...",
+        "toast": {
+          "success": "Hata raporunuz başarıyla gönderildi!",
+          "failed": "Hata raporu gönderilemedi, lütfen tekrar deneyin."
+        }
       }
     },
     "contact": {
@@ -682,6 +1017,20 @@
         "subjectPlaceholder": "Mesajınızın konusu",
         "message": "Mesajınız",
         "messagePlaceholder": "Mesajınızı buraya yazın...",
+        "validation": {
+          "nameRequired": "Ad soyad zorunludur",
+          "nameMin": "Ad soyad en az 3 karakter olmalıdır",
+          "nameMax": "Ad soyad en fazla 100 karakter olabilir",
+          "nameOnlyLetters": "Ad soyad sadece harflerden oluşmalıdır",
+          "emailRequired": "Email adresi zorunludur",
+          "emailInvalid": "Geçerli bir email adresi giriniz",
+          "subjectRequired": "Konu zorunludur",
+          "subjectMin": "Konu en az 5 karakter olmalıdır",
+          "subjectMax": "Konu en fazla 200 karakter olabilir",
+          "messageRequired": "Mesaj zorunludur",
+          "messageMin": "Mesaj en az 20 karakter olmalıdır",
+          "messageMax": "Mesaj en fazla 1000 karakter olabilir"
+        },
         "submit": "Mesaj Gönder",
         "submitting": "Gönderiliyor...",
         "consent": "Formu göndererek",
@@ -729,12 +1078,6 @@
         "unknownCourse": "Bilinmeyen Kurs",
         "unknown": "Bilinmiyor"
       },
-      "subscription": {
-        "title": "Abonelik Bilgileri",
-        "plan": "Premium Yıllık Plan",
-        "renewalDate": "Yenileme tarihi: 15 Ocak 2025",
-        "active": "Aktif"
-      },
       "courses": {
         "lessonsCompleted": "{{completed}}/{{total}} ders tamamlandı",
         "completed": "Tamamlandı",
@@ -752,6 +1095,7 @@
         "download": "İndir",
         "downloading": "İndiriliyor...",
         "preview": "Sertifika Önizleme",
+        "previewAlt": "Sertifika önizlemesi",
         "downloadError": "Sertifika indirilirken bir hata oluştu.",
         "viewError": "Sertifika önizlemesi oluşturulurken bir hata oluştu.",
         "earnCertificate": "Tebrikler! Sertifikanız hazır.",
@@ -775,7 +1119,7 @@
         "noCertificates": "Henüz tamamlanmış kursunuz bulunmamaktadır. Sertifika almak için kurslarınızı tamamlayın."
       },
       "payment": {
-        "loading": "Ödeme bilgileriniz yükleniyr..."
+        "loading": "Ödeme bilgileriniz yükleniyor..."
       },
       "cards": {
         "activeCourses": "Aktif Kurslar",
@@ -827,6 +1171,7 @@
         "uploadError": "Fotoğraf yüklenirken bir hata oluştu"
       },
       "logout": {
+        "success": "Hesabınızdan başarıyla çıkış yapıldı",
         "title": "Profil Çıkışı",
         "message": "Profilinizden çıkış yapmayı onaylıyormusunuz?",
         "cancel": "İptal",
@@ -1035,6 +1380,7 @@
             "deleteArtConfirm": "makalesini silmek istediğinizden emin misiniz?",
             "idLabel": "Kategori ID *",
             "idHint": "(değiştirilemez)",
+            "idPlaceholder": "örneğin: getting-started",
             "iconLabel": "İkon Adı *",
             "colorLabel": "Renk *",
             "titleLabel": "Başlık *",
@@ -1148,6 +1494,13 @@
         "ctaTextLabel": "Buton Metni",
         "ctaUrlLabel": "Buton URL",
         "optional": "(opsiyonel)",
+        "placeholders": {
+          "subject": "Örn: 🎓 Yeni kurs yayında!",
+          "title": "Mail içindeki başlık metni",
+          "body": "Mail içeriğini buraya yazın...",
+          "ctaText": "Örn: Kurslara Git",
+          "ctaUrl": "https://..."
+        },
         "cancel": "İptal",
         "send": "Gönder",
         "sending": "Gönderiliyor...",
@@ -1223,6 +1576,7 @@
           "admin": "Admin",
           "popularCourses": "En Popüler Kurslar",
           "page": "Sayfa",
+          "academyName": "Mesut Ozdag Academy",
           "platformReport": "Platform Raporu"
         }
       },
@@ -1243,7 +1597,12 @@
               "placeholder": "Örn: Python ile Programlamaya Giriş"
             },
             "category": {
-              "label": "Kategori"
+              "label": "Kategori",
+              "options": {
+                "python": "Python",
+                "mlai": "ML & AI",
+                "math": "Matematik"
+              }
             },
             "level": {
               "label": "Seviye"
@@ -1255,7 +1614,12 @@
               "label": "Durum"
             },
             "certificateTemplate": {
-              "label": "Sertifika Tipi"
+              "label": "Sertifika Tipi",
+              "options": {
+                "default": "Default",
+                "dark": "Dark",
+                "gold": "Gold"
+              }
             },
             "teacher": {
               "label": "Eğitimi Veren"
@@ -1425,6 +1789,8 @@
         },
         "userDetail": {
           "title": "Kullanıcı Detayları",
+          "adminBadge": "Admin",
+          "idLabel": "ID",
           "status": {
             "active": "Aktif",
             "inactive": "İnaktif"
@@ -1509,10 +1875,14 @@
             "inactive": "{{user}} kullanıcısının hesabını tekrar aktif etmek istediğinizden emin misiniz? Kullanıcı tekrar giriş yapabilecektir."
           },
           "button": {
-            "active": "Deaktif Et",
-            "inactive": "Aktif Et"
+            "active": "Aktif Et",
+            "inactive": "Deaktif Et"
           }
         }
+      },
+      "payment": {
+        "pay": "{{detail}} Kurs",
+        "free": "Ücretsiz"
       }
     },
     "courseRating": {
@@ -1882,9 +2252,9 @@
       "complete": "Ödemeyi Tamamla",
       "input": {
         "name": {
-          "label": "Ad Soyad",
+          "label": "Ad",
           "placeholder": "Kart üzerindeki isim",
-          "null": "Ad Soyad bilgisi gereklidir"
+          "null": "Ad bilgisi gereklidir"
         },
         "surname": {
           "label": "Soyad",
@@ -1907,7 +2277,8 @@
           "label": "Kart Numarası",
           "placeholder": "1234 5678 9012 3456",
           "null": "Kart numarası gereklidir",
-          "invalid": "Geçersiz kart numarası"
+          "invalid": "Geçersiz kart numarası",
+          "max": "Kart numarası en fazla 16 haneli olabilir"
         },
         "lastDate": {
           "label": "Son Kullanma Tarihi",

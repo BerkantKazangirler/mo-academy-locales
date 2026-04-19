@@ -77,6 +77,8 @@
         "about": "Sobre nosotros",
         "contact": "Contacto",
         "packages": "Paquetes",
+        "updates": "Anuncios",
+        "cart": "Mi carrito",
         "signin": "Iniciar sesión",
         "signup": "Registrarse",
         "profile": "Mi perfil",
@@ -183,6 +185,7 @@
           "line2": "tu carrera hoy mismo"
         },
         "desc": "Únete a miles de estudiantes. ¡Prueba tu primera lección gratis!",
+        "login": "Iniciar sesión",
         "browse_courses": "Empezar cursos",
         "view_prices": "Ver precios",
         "safe_payment": "Pago seguro",
@@ -235,7 +238,8 @@
           "frontendDeveloper": "Desarrolla aplicaciones web receptivas y accesibles.",
           "uiDesigner": "Crea diseños intuitivos priorizando la experiencia del usuario.",
           "marketingSpecialist": "Desarrolla estrategias de marketing creativas.",
-          "videoEditor": "Edita videos educativos con calidad profesional."
+          "videoEditor": "Edita videos educativos con calidad profesional.",
+          "qualityAssurance": "Asegura la calidad de la plataforma mediante pruebas detalladas."
         }
       },
       "values": {
@@ -351,7 +355,8 @@
         "comments": {
           "new": "Nuevo",
           "reviews": "({{reviews}} reseñas)",
-          "noReviews": "Sin reseñas aún"
+          "noReviews": "Sin reseñas aún",
+          "noRating": "Sin calificación"
         },
         "students": "Estudiantes inscritos",
         "lastUpdate": "Última actualización",
@@ -377,6 +382,7 @@
         "shareDialog": {
           "title": "Compartir este curso",
           "desc": "Comparte con tus amigos para ayudarlos a acceder al conocimiento.",
+          "academyName": "Mesut Özdağ Academy",
           "shareText": "Mira {{courseTitle}} en Mesut Özdağ Academy: {{link}}",
           "copiedToClipboard": "¡Texto copiado al portapapeles!"
         },
@@ -389,7 +395,8 @@
               "placeholder": "ejemplo@email.com"
             },
             "2": {
-              "label": "Fecha de entrega"
+              "label": "Fecha de entrega",
+              "placeholder": "dd.mm.aaaa"
             },
             "3": {
               "label": "Tu mensaje (Opcional)",
@@ -403,6 +410,62 @@
           "title": "Aplicar código de cupón",
           "inputPlaceholder": "Introduce tu código aquí",
           "applyButton": "Aplicar"
+        }
+      },
+      "video": {
+        "loading": "Cargando video...",
+        "thumbnailAlt": "Miniatura del video",
+        "madeBy": "Preparado por {{instructor}}",
+        "tabs": {
+          "notes": "Notas de la lección",
+          "noNotes": "No hay notas disponibles para este video.",
+          "resources": "Recursos {{length}}",
+          "download": "Descargar",
+          "noResources": "No hay recursos disponibles para esta sección.",
+          "codeExample": "Ejemplos de código ({{length}})",
+          "noCodeExamples": "No hay ejemplos de código para este video.",
+          "codeCopied": "¡Código copiado al portapapeles!",
+          "copy": "Copiar",
+          "copied": "Copiado",
+          "sources": "Recursos ({{length}})",
+          "status": "Estado del curso",
+          "courseSettings": "Configuración del curso",
+          "courseStatus": {
+            "status": "Progreso del curso",
+            "percentage": "{{percentage}}% completado"
+          },
+          "videoStatus": {
+            "status": "Progreso del video",
+            "percentage": "{{percentage}}% visto",
+            "completed": "Completado",
+            "complate": "No completado"
+          }
+        },
+        "quiz": {
+          "title": "Quiz del curso",
+          "score": "Tu puntuación: {{score}}%",
+          "notCompleted": "Completa el curso",
+          "notStarted": "Aún no has comenzado",
+          "success": "Exitoso",
+          "failed": "Fallido",
+          "button": "Completa el curso",
+          "start": "Comenzar quiz",
+          "retake": "Retomar quiz",
+          "completed": "Quiz completado"
+        },
+        "info": {
+          "title": "Consejos",
+          "list": {
+            "1": "Puedes ajustar la velocidad del video para aprender a tu propio ritmo",
+            "2": "Revisa las notas de la lección y ejemplos de código",
+            "3": "Necesitas obtener al menos 70% en el quiz para pasar"
+          }
+        },
+        "toast": {
+          "needLogin": "Necesitas iniciar sesión para acceder a este curso...",
+          "notEnrolled": "No estás inscrito en este curso, redirigiendo a la página de pago...",
+          "notFound": "Video no encontrado, redirigiendo al primer video...",
+          "notAccess": "No tienes permiso para acceder a este video, redirigiendo a un video disponible..."
         }
       }
     },
@@ -489,6 +552,11 @@
       "description": "Explora la documentación, guías y recursos de soporte",
       "search_placeholder": "Escribe el tema que buscas...",
       "article": "artículo",
+      "sss": {
+        "title": "Preguntas Frecuentes",
+        "description": "Respuestas rápidas a las dudas más comunes sobre cursos, pagos y certificados.",
+        "view_button": "Ver preguntas"
+      },
       "blogs": {
         "title": "Blogs",
         "description": "Contacta con nuestro equipo al instante",
@@ -544,7 +612,255 @@
         "liveSupport": "Soporte en vivo",
         "liveSupportDesc": "Respuesta inmediata 24/7"
       },
-      "foundedQuestions": "{{count}} preguntas encontradas"
+      "foundedQuestions": "{{count}} preguntas encontradas",
+      "items": [
+        {
+          "id": 1,
+          "category": "beginner",
+          "question": "¿Cómo me registro en la plataforma?",
+          "answer": "Puedes crear una cuenta gratuita haciendo clic en el botón 'Registrarse' en la página de inicio e ingresando tu correo electrónico, nombre y contraseña. También puedes registrarte rápidamente con tu cuenta de Google, GitHub o LinkedIn. Después del registro, deberás hacer clic en el enlace de verificación que se enviará a tu correo electrónico."
+        },
+        {
+          "id": 2,
+          "category": "beginner",
+          "question": "¿Cómo empiezo mi primer curso?",
+          "answer": "Después de iniciar sesión, ve al menú 'Cursos' y elige el curso que te interesa. En la página de detalles del curso, haz clic en 'Comenzar Curso' o 'Comprar Ahora'. Para cursos gratuitos, obtienes acceso inmediato. Para cursos de pago, completa el proceso de compra."
+        },
+        {
+          "id": 3,
+          "category": "beginner",
+          "question": "Soy nuevo en la plataforma, ¿por dónde empiezo?",
+          "answer": "Te recomendamos comenzar con el curso 'Fundamentos de Python'. Si tienes experiencia en programación, puedes ir directamente a los cursos de Machine Learning. Desde tu perfil, puedes hacer una prueba de nivel para encontrar el curso adecuado para ti."
+        },
+        {
+          "id": 4,
+          "category": "courses",
+          "question": "¿Por cuánto tiempo puedo acceder a los cursos?",
+          "answer": "Todos los cursos que compres tienen acceso de por vida. Puedes aprender a tu propio ritmo, volver a ver las lecciones cuando lo desees. Para el modelo de suscripción, tienes acceso mientras tu suscripción esté activa."
+        },
+        {
+          "id": 5,
+          "category": "courses",
+          "question": "¿Puedo ver los videos sin conexión a internet?",
+          "answer": "¡Sí! Nuestra aplicación móvil (iOS y Android) te permite descargar videos en tu dispositivo para verlos sin internet. Esta característica está disponible para suscripciones Premium y Pro. Los videos descargados se verifican con internet cada 30 días."
+        },
+        {
+          "id": 6,
+          "category": "courses",
+          "question": "¿Qué tan frecuentemente se actualiza el contenido?",
+          "answer": "Actualizamos regularmente el contenido de los cursos. Cuando hay nuevas tecnologías, actualizaciones de librerías o cambios en la industria, revisamos y actualizamos nuestros cursos. Recibirás notificaciones sobre las actualizaciones y tendrás acceso automático al nuevo contenido."
+        },
+        {
+          "id": 7,
+          "category": "courses",
+          "question": "¿Cómo ajusto la calidad del video?",
+          "answer": "En el reproductor de video, haz clic en el botón de configuración en la esquina inferior derecha para seleccionar la calidad. Tienes opciones de Automática (Auto), 360p, 480p, 720p y 1080p. Te recomendamos calidad baja si usas datos móviles, y calidad alta si usas WiFi."
+        },
+        {
+          "id": 8,
+          "category": "courses",
+          "question": "¿Hay límite de tiempo para completar un curso?",
+          "answer": "No hay límite de tiempo para completar los cursos. Puedes aprender a tu propio ritmo, puedes pausar y reanudar cuando quieras. Sin embargo, para obtener un certificado, debes completar todos los videos y aprobar los exámenes con al menos 70%."
+        },
+        {
+          "id": 9,
+          "category": "payment",
+          "question": "¿Qué métodos de pago aceptan?",
+          "answer": "Aceptamos tarjetas de crédito (Visa, Mastercard, American Express), tarjetas de débito, transferencias bancarias y billeteras digitales (PayPal, Stripe). Para España usamos iyzico y PayTR. También ofrecemos opciones de pago a plazos."
+        },
+        {
+          "id": 10,
+          "category": "payment",
+          "question": "¿Cómo puedo cambiar mi plan de suscripción?",
+          "answer": "Desde tu página de perfil, ve a 'Mis Suscripciones' y haz clic en 'Cambiar Plan'. Si subes de plan, el cambio es inmediato y se cobra la diferencia. Si bajas de plan, el cambio se aplica al final de tu período de suscripción actual."
+        },
+        {
+          "id": 11,
+          "category": "payment",
+          "question": "¿Cómo solicito una devolución?",
+          "answer": "Puedes solicitar una devolución completa dentro de 14 días de la compra si no has completado más del 20% del curso. Ve a tu perfil en 'Facturación y Pagos' > 'Solicitar Devolución'. La devolución se procesará en 5-10 días hábiles."
+        },
+        {
+          "id": 12,
+          "category": "payment",
+          "question": "¿Puedo recibir una factura?",
+          "answer": "Sí, cada compra genera automáticamente una factura. Desde tu perfil en 'Facturación y Pagos', puedes ver todas tus facturas y descargarlas como PDF. Para facturas corporativas, contacta con nuestro equipo de soporte."
+        },
+        {
+          "id": 13,
+          "category": "payment",
+          "question": "¿Hay descuento para estudiantes?",
+          "answer": "¡Sí! Con un documento válido como estudiante o carnet de estudiante, obtendrás un descuento del 20%. Contacta con nuestro equipo de soporte y envía tu documento. Después de la aprobación, el descuento se aplicará a tu cuenta."
+        },
+        {
+          "id": 14,
+          "category": "payment",
+          "question": "¿Cómo uso un código de cupón?",
+          "answer": "En la página de pago, ingresa tu código de cupón en el campo 'Código de Cupón' y haz clic en 'Aplicar'. El descuento se restarás automáticamente del precio. Solo puedes usar un cupón por compra."
+        },
+        {
+          "id": 15,
+          "category": "account",
+          "question": "Olvidé mi contraseña, ¿cómo la cambio?",
+          "answer": "En la página de inicio de sesión, haz clic en 'Olvidé mi Contraseña', ingresa tu correo electrónico. Te enviaremos un enlace para restablecer la contraseña. El enlace es válido por 1 hora. Si no recibes el correo, verifica tu carpeta de spam."
+        },
+        {
+          "id": 16,
+          "category": "account",
+          "question": "¿Puedo cambiar mi dirección de correo?",
+          "answer": "Sí. Ve a tu perfil en 'Configuración de Cuenta' > 'Cambiar Correo'. Ingresa tu nuevo correo electrónico y verifica tu contraseña actual. Enviaremos un enlace de verificación a tu nuevo correo. Después de confirmarlo, el cambio estará completo."
+        },
+        {
+          "id": 17,
+          "category": "account",
+          "question": "¿Cómo puedo eliminar mi cuenta?",
+          "answer": "Ve a tu perfil en 'Configuración de Cuenta' > 'Eliminar Cuenta'. Verifica tu contraseña e indica la razón de la eliminación. La eliminación es irreversible y todos tus datos se borrarán permanentemente. Tienes 30 días para recuperar tu cuenta si cambias de opinión."
+        },
+        {
+          "id": 18,
+          "category": "account",
+          "question": "¿Cómo activo la autenticación de dos factores?",
+          "answer": "Ve a tu perfil en 'Seguridad' > 'Autenticación de Dos Factores'. Escanea el código QR con Google Authenticator u otra aplicación similar. Ingresa el código de 6 dígitos que se genera para activarlo. A partir de ahora, necesitarás un código en cada inicio de sesión."
+        },
+        {
+          "id": 19,
+          "category": "certificates",
+          "question": "¿Cómo obtengo un certificado?",
+          "answer": "Cuando hayas visto todos los videos del curso, completado todos los quizzes correctamente y obtenido al menos 70% en el examen final, tu certificado se genera automáticamente. Puedes descargarlo en formato PDF desde tu perfil en 'Mis Certificados'."
+        },
+        {
+          "id": 20,
+          "category": "certificates",
+          "question": "¿Son válidos estos certificados?",
+          "answer": "Sí, nuestros certificados son válidos y emitidos por Mesut Özdağ Academy. Puedes agregarlos a tu perfil de LinkedIn. Cada certificado tiene un código de verificación único que los empleadores pueden verificar en nuestro sitio web."
+        },
+        {
+          "id": 21,
+          "category": "certificates",
+          "question": "¿Cómo agrego el certificado a LinkedIn?",
+          "answer": "En tu perfil de LinkedIn, ve a 'Licencias y Certificaciones' > 'Añadir'. Ingresa el nombre del certificado, nuestra organización (Mesut Özdağ Academy) y el código de verificación. También puedes cargar el PDF del certificado."
+        },
+        {
+          "id": 22,
+          "category": "technical",
+          "question": "El video no se reproduce, ¿qué debo hacer?",
+          "answer": "Verifica tu conexión a internet. Actualiza tu navegador o prueba con otro diferente (recomendamos Chrome o Firefox). Si usas un bloqueador de anuncios, desactívalo temporalmente. Si el problema persiste, usa el formulario 'Reportar Error'."
+        },
+        {
+          "id": 23,
+          "category": "technical",
+          "question": "¿Tienes aplicación móvil?",
+          "answer": "¡Sí! Puedes descargar 'Mesut Özdağ Academy' desde App Store (iOS) o Google Play (Android). La aplicación móvil ofrece descarga de videos sin conexión, notificaciones push y acceso más rápido."
+        },
+        {
+          "id": 24,
+          "category": "technical",
+          "question": "¿Qué navegadores son compatibles?",
+          "answer": "Los navegadores Chrome (v90+), Firefox (v88+), Safari (v14+) y Edge (v90+) son totalmente compatibles. Asegúrate de mantener tu navegador actualizado. Internet Explorer no es compatible."
+        },
+        {
+          "id": 25,
+          "category": "technical",
+          "question": "¿En qué idiomas está disponible la plataforma?",
+          "answer": "Actualmente la plataforma está disponible en español e inglés. El contenido de los cursos está en español. Algunos cursos tienen opciones de subtítulos en inglés. Puedes cambiar el idioma desde la configuración de tu perfil."
+        }
+      ]
+    },
+    "verifyCertificate": {
+      "printTitle": "Certificado",
+      "hero": {
+        "title": "Sistema de Verificación de Certificados",
+        "description": "Verifica la autenticidad de tu certificado. Seguro y rápido."
+      },
+      "search": {
+        "label": "Número de ID del Certificado",
+        "placeholder": "Ej: MO-A1B2C3D4",
+        "button": "Verificar",
+        "helper": "Ingresa el número de ID del certificado completo y sin errores (ej: MO-A1B2C3D4)."
+      },
+      "loading": "Buscando certificado...",
+      "found": {
+        "title": "Certificado Válido",
+        "description": "Este certificado está registrado en nuestro sistema y es válido. Puedes ver los detalles del certificado a continuación.",
+        "badge": "Verificado",
+        "cardSubtitle": "Detalles del Documento Oficial",
+        "qrDownloadTitle": "Descargar QR",
+        "printTitle": "Imprimir",
+        "success": "Exitoso",
+        "completionCertificate": "Certificado de Finalización"
+      },
+      "fields": {
+        "studentName": "Nombre del Estudiante",
+        "completionDate": "Fecha de Finalización",
+        "certificateId": "ID del Certificado",
+        "issueDate": "Fecha de Emisión",
+        "courseName": "Nombre del Curso",
+        "grade": "Calificación/Puntuación",
+        "certificateNumber": "Número de ID del Certificado"
+      },
+      "grades": {
+        "completed": "Completado"
+      },
+      "qr": {
+        "title": "Código QR",
+        "description": "Escanea con tu dispositivo móvil para verificar",
+        "download": "Descargar Código QR (SVG)"
+      },
+      "security": {
+        "title": "Características de Seguridad",
+        "features": [
+          "Firma Digital Verificada",
+          "Registro en Blockchain",
+          "Verificación por Código QR",
+          "Marca de Tiempo"
+        ]
+      },
+      "notFound": {
+        "title": "Certificado No Encontrado",
+        "description": "El número de ID del certificado que ingresaste no está registrado en nuestro sistema. Por favor verifica el número e intenta nuevamente.",
+        "badge": "Inválido",
+        "attention": "Atención",
+        "checklist": {
+          "title": "Certificado no encontrado. Lista de verificación:",
+          "items": [
+            "Asegúrate de haber ingresado correctamente el número de ID del certificado",
+            "Verifica que no haya errores de mayúsculas/minúsculas",
+            "Confirma que los guiones (-) estén en la posición correcta",
+            "Verifica que el certificado sea de nuestra plataforma oficial"
+          ]
+        },
+        "fakeWarning": {
+          "title": "Advertencia de Certificado Falso",
+          "description": "Si tienes un certificado físico o digital pero no puedes verificarlo en nuestro sistema, podría ser falsificado. Por favor contáctanos."
+        }
+      },
+      "error": {
+        "title": "Error de Conexión",
+        "description": "Ocurrió un error al verificar el certificado. Por favor verifica tu conexión a internet e intenta nuevamente."
+      },
+      "benefits": {
+        "cards": [
+          {
+            "title": "Verificación Segura",
+            "text": "Todos nuestros certificados están protegidos con tecnología blockchain. Cada certificado tiene un número de ID único."
+          },
+          {
+            "title": "Resultado Instantáneo",
+            "text": "La verificación del certificado se completa en segundos. Nuestro sistema está disponible 24/7 para que verifiques cuando lo necesites."
+          },
+          {
+            "title": "Validez Internacional",
+            "text": "Nuestros certificados se emiten siguiendo estándares internacionales. Garantía de reconocimiento global."
+          }
+        ]
+      },
+      "help": {
+        "title": "¿Necesitas ayuda?",
+        "description": "Si tienes problemas verificando tu certificado o tienes preguntas, nuestro equipo de soporte está aquí para ayudarte.",
+        "supportCenter": "Centro de Soporte",
+        "faq": "Preguntas Frecuentes",
+        "contact": "Contacto"
+      }
     },
     "updates": {
       "title": "Noticias y Actualizaciones",
@@ -594,6 +910,17 @@
         "cancel": "Cancelar",
         "submit": "Enviar",
         "submitting": "Enviando..."
+      },
+      "blogComments": {
+        "emptyTitle": "Aún no hay comentarios",
+        "emptyDescription": "¡Sé el primero en comentar esta publicación!",
+        "firstComment": "Escribir el primer comentario",
+        "user": "Usuario",
+        "unknownUser": "Usuario desconocido",
+        "title": "Comentarios ({{count}})",
+        "repliesToggle": "{{count}} respuestas {{action}}",
+        "show": "mostrar",
+        "hide": "ocultar"
       }
     },
     "reportBug": {
@@ -604,18 +931,33 @@
         "title": "Informe de error",
         "description": "Explica el problema en detalle",
         "type": "Tipo de error",
+        "typeSelect": "Por favor selecciona un tipo de error",
+        "typeRequired": "El tipo de error es obligatorio",
+        "pageRequired": "La página/curso donde ocurrió el error es obligatoria",
         "labels": {
           "option1": "Vulnerabilidad del sistema",
           "option2": "Error en el contenido del curso"
         },
+        "email": "Correo electrónico",
+        "emailOptional": "(Opcional)",
+        "emailPlaceholder": "Introduce tu correo para que podamos informarte del resultado",
         "page": "Página/Curso donde ocurrió",
         "pagePlaceholder": "Ej: Conceptos básicos de Python - Lección 5",
         "descriptionLabel": "Descripción del problema",
+        "descriptionRequired": "La descripción del problema es obligatoria",
+        "descriptionMin": "La descripción del problema debe tener al menos 20 caracteres",
+        "descriptionMax": "La descripción del problema puede tener como máximo 1000 caracteres",
+        "emailInvalid": "Por favor introduce un correo válido",
         "descriptionPlaceholder": "Explica detalladamente qué estabas haciendo cuando ocurrió...",
         "screenshot": "Captura de pantalla (Opcional)",
+        "selectFile": "Seleccionar archivo",
         "warning": "Nuestro equipo revisará tu informe en un plazo de 24 horas.",
         "submit": "Informar de error",
-        "submitting": "Enviando..."
+        "submitting": "Enviando...",
+        "toast": {
+          "success": "¡Tu reporte de error se envió correctamente!",
+          "failed": "No se pudo enviar el reporte de error. Inténtalo de nuevo."
+        }
       }
     },
     "contact": {
@@ -681,6 +1023,20 @@
         "subjectPlaceholder": "Asunto de tu mensaje",
         "message": "Tu mensaje",
         "messagePlaceholder": "Escribe tu mensaje aquí...",
+        "validation": {
+          "nameRequired": "El nombre completo es obligatorio",
+          "nameMin": "El nombre completo debe tener al menos 3 caracteres",
+          "nameMax": "El nombre completo puede tener como máximo 100 caracteres",
+          "nameOnlyLetters": "El nombre completo solo debe contener letras",
+          "emailRequired": "El correo es obligatorio",
+          "emailInvalid": "Introduce un correo válido",
+          "subjectRequired": "El asunto es obligatorio",
+          "subjectMin": "El asunto debe tener al menos 5 caracteres",
+          "subjectMax": "El asunto puede tener como máximo 200 caracteres",
+          "messageRequired": "El mensaje es obligatorio",
+          "messageMin": "El mensaje debe tener al menos 20 caracteres",
+          "messageMax": "El mensaje puede tener como máximo 1000 caracteres"
+        },
         "submit": "Enviar mensaje",
         "submitting": "Enviando...",
         "consent": "Al enviar el formulario, aceptas nuestra",
@@ -728,12 +1084,6 @@
         "unknownCourse": "Curso desconocido",
         "unknown": "Desconocido"
       },
-      "subscription": {
-        "title": "Información de suscripción",
-        "plan": "Plan Anual Premium",
-        "renewalDate": "Fecha de renovación: 15 de enero de 2025",
-        "active": "Activo"
-      },
       "courses": {
         "lessonsCompleted": "{{completed}}/{{total}} lecciones completadas",
         "completed": "Completado",
@@ -751,6 +1101,7 @@
         "download": "Descargar",
         "downloading": "Descargando...",
         "preview": "Vista previa del certificado",
+        "previewAlt": "Vista previa del certificado",
         "downloadError": "Error al descargar el certificado.",
         "viewError": "Error al generar la vista previa.",
         "earnCertificate": "¡Felicidades! Tu certificado está listo.",
@@ -828,6 +1179,7 @@
       "logout": {
         "title": "Cerrar sesión",
         "message": "¿Estás seguro de que quieres cerrar sesión?",
+        "success": "Sesión cerrada correctamente.",
         "cancel": "Cancelar",
         "confirm": "Confirmar"
       },
@@ -1034,6 +1386,7 @@
             "deleteArtConfirm": "¿Eliminar este artículo?",
             "idLabel": "ID Categoría *",
             "idHint": "(no se puede cambiar)",
+            "idPlaceholder": "por ejemplo: primeros-pasos",
             "iconLabel": "Icono *",
             "colorLabel": "Color *",
             "titleLabel": "Título *",
@@ -1146,6 +1499,13 @@
           "ctaTextLabel": "Texto del botón",
           "ctaUrlLabel": "URL del botón",
           "optional": "(opcional)",
+          "placeholders": {
+            "subject": "Ej: 🎓 ¡Nuevo curso disponible!",
+            "title": "Título dentro del correo",
+            "body": "Escribe aquí el contenido del correo...",
+            "ctaText": "Ej: Ir a los cursos",
+            "ctaUrl": "https://..."
+          },
           "cancel": "Cancelar",
           "send": "Enviar",
           "sending": "Enviando...",
@@ -1154,6 +1514,34 @@
             "started": "Envío iniciado",
             "failed": "Error al enviar el boletín"
           }
+        }
+      },
+      "newsletter": {
+        "dialogTitle": "Enviar boletín",
+        "targetLabel": "Público objetivo",
+        "targetAll": "Todos los usuarios",
+        "targetStudents": "Solo estudiantes (compradores)",
+        "targetFree": "Miembros gratuitos",
+        "subjectLabel": "Asunto",
+        "titleLabel": "Título",
+        "bodyLabel": "Contenido",
+        "ctaTextLabel": "Texto del botón",
+        "ctaUrlLabel": "URL del botón",
+        "optional": "(opcional)",
+        "placeholders": {
+          "subject": "Ej: 🎓 ¡Nuevo curso disponible!",
+          "title": "Título dentro del correo",
+          "body": "Escribe aquí el contenido del correo...",
+          "ctaText": "Ej: Ir a los cursos",
+          "ctaUrl": "https://..."
+        },
+        "cancel": "Cancelar",
+        "send": "Enviar",
+        "sending": "Enviando...",
+        "toast": {
+          "validationError": "Asunto, título y contenido obligatorios",
+          "started": "Envío iniciado",
+          "failed": "Error al enviar el boletín"
         }
       },
       "common": {
@@ -1203,6 +1591,7 @@
         },
         "pdf": {
           "report": "Reporte",
+          "academyName": "Mesut Ozdag Academy",
           "platformStats": "Estadísticas de la plataforma",
           "totalStudents": "Total estudiantes",
           "totalHours": "Total horas de curso",
@@ -1242,7 +1631,12 @@
               "placeholder": "Ej: Intro a Python"
             },
             "category": {
-              "label": "Categoría"
+              "label": "Categoría",
+              "options": {
+                "python": "Python",
+                "mlai": "ML & IA",
+                "math": "Matemáticas"
+              }
             },
             "level": {
               "label": "Nivel"
@@ -1254,7 +1648,12 @@
               "label": "Estado"
             },
             "certificateTemplate": {
-              "label": "Tipo de certificado"
+              "label": "Tipo de certificado",
+              "options": {
+                "default": "Predeterminado",
+                "dark": "Oscuro",
+                "gold": "Dorado"
+              }
             },
             "teacher": {
               "label": "Instructor"
@@ -1424,6 +1823,8 @@
         },
         "userDetail": {
           "title": "Detalles del usuario",
+          "idLabel": "ID:",
+          "adminBadge": "Admin",
           "status": {
             "active": "Activo",
             "inactive": "Inactivo"
@@ -1512,6 +1913,10 @@
             "inactive": "Activar"
           }
         }
+      },
+      "payment": {
+        "pay": "Curso {{detail}}",
+        "free": "Gratis"
       }
     },
     "courseRating": {
@@ -1859,6 +2264,7 @@
           "label": "Nº Tarjeta",
           "placeholder": "1234 5678 9012 3456",
           "null": "Nº tarjeta obligatorio",
+          "max": "Nº de tarjeta máximo 16 dígitos",
           "invalid": "Nº inválido"
         },
         "lastDate": {

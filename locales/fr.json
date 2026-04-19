@@ -49,6 +49,7 @@
             "title": "Liens Rapides",
             "home": "Accueil",
             "about": "À propos",
+            "certificate": "Vérifier le Certificat",
             "courses": "Tarifs",
             "updates": "Annonces",
             "contact": "Contact"
@@ -77,6 +78,8 @@
         "about": "À propos",
         "contact": "Contact",
         "packages": "Forfaits",
+        "cart": "Mon Panier",
+        "updates": "Annonces",
         "signin": "Se Connecter",
         "signup": "S'inscrire",
         "profile": "Mon Profil",
@@ -183,6 +186,7 @@
           "line2": "Votre Carrière Aujourd'hui"
         },
         "desc": "Rejoignez des milliers d'étudiants. Essayez votre première leçon gratuitement !",
+        "login": "Se Connecter",
         "browse_courses": "Commencer les Cours",
         "view_prices": "Voir les Prix",
         "safe_payment": "Paiement Sécurisé",
@@ -235,7 +239,8 @@
           "frontendDeveloper": "Développe des applications web réactives.",
           "uiDesigner": "Crée des designs intuitifs axés sur l'expérience utilisateur.",
           "marketingSpecialist": "Développe des stratégies marketing créatives.",
-          "videoEditor": "Monte des vidéos éducatives de qualité professionnelle."
+          "videoEditor": "Monte des vidéos éducatives de qualité professionnelle.",
+          "qualityAssurance": "Assure la qualité des contenus de formation par des tests détaillés et optimise l'expérience utilisateur."
         }
       },
       "values": {
@@ -275,9 +280,44 @@
       "rating": "note",
       "one_time_purchase": "paiement unique",
       "go_to_course": "Aller au Cours",
+      "backToList": "Retour aux cours",
       "tabs": {
         "all": "Tous",
         "math": "Mathématiques"
+      },
+      "hero": {
+        "professionalCourses": "{{count}} Cours Professionnels",
+        "title": {
+          "word1": "Catalogue",
+          "word2": "de Cours"
+        },
+        "subtitle": "Des cours préparés par des instructeurs professionnels pour faire avancer votre carrière",
+        "stats": {
+          "activeCourses": "Cours Actifs",
+          "students": "Étudiants",
+          "averageRating": "Note Moyenne",
+          "hoursContent": "Heures de Contenu"
+        }
+      },
+      "promotion": {
+        "badge": "Offre Spéciale",
+        "title": {
+          "line1": "Accès Illimité",
+          "line2": "à Tous les Cours"
+        },
+        "description": "Avec le forfait cours, obtenez un accès illimité à tous les cours actuels et futurs à vie. Un paiement, apprentissage illimité !",
+        "packageDetails": "Détails du Forfait",
+        "viewPrices": "Voir les Prix",
+        "features": {
+          "allAccess": "Accès à Tous les Cours",
+          "prioritySupport": "Support Prioritaire",
+          "certificates": "Certificats Inclus"
+        }
+      },
+      "card": {
+        "startCourse": "Commencer le Cours",
+        "buyPackage": "Acheter le Forfait",
+        "packageCoursesCount": "{{count}} Cours dans ce Forfait :"
       },
       "levels": {
         "beginner": "Débutant",
@@ -292,7 +332,13 @@
         "certificateCreated": "Certificat créé.",
         "certificateFailed": "Impossible de créer le certificat.",
         "ratingSubmitted": "Note enregistrée. Merci !",
-        "ratingFailed": "Impossible d'envoyer la note."
+        "ratingFailed": "Impossible d'envoyer la note.",
+        "loadingError": "Impossible de charger le cours. Veuillez réessayer.",
+        "cartAdded": "Cours ajouté au panier !",
+        "coupon": {
+          "applied": "%{{coupon}} remise appliquée !",
+          "invalidCoupon": "Code coupon invalide"
+        }
       },
       "detail": {
         "featuresTitle": "Cette formation comprend :",
@@ -307,10 +353,35 @@
           "home": "Accueil",
           "courses": "Cours"
         },
+        "students": "Étudiants Inscrits",
+        "lastUpdate": "Dernière Mise à Jour",
+        "description": "Description du Cours",
+        "contentTitle": "Contenu du Cours",
+        "sourceTitle": "Ressources",
+        "aboutInstructor": "À Propos de l'Instructeur",
+        "instrucatorCategory": "Instructeur {{category}}",
+        "watchNow": "Regarder",
+        "star": "{{star}} Points",
+        "teacher": "Instructeur :",
+        "student": "{{student}} Étudiants",
+        "noContent": "Le contenu du cours n'a pas encore été ajouté.",
         "comments": {
           "new": "Nouveau",
           "reviews": "({{reviews}} avis)",
+          "noRating": "Pas encore d'avis",
           "noReviews": "Pas encore d'avis"
+        },
+        "shareDialog": {
+          "title": "Partager ce cours",
+          "desc": "Partagez avec vos amis pour qu'ils aient accès aux connaissances.",
+          "academyName": "Mesut Ozdag Academy",
+          "shareText": "Regardez le cours {{courseTitle}} sur Mesut Ozdag Academy : {{link}}",
+          "copiedToClipboard": "Texte copié dans le presse-papiers !"
+        },
+        "couponDialog": {
+          "title": "Appliquer le Code Coupon",
+          "inputPlaceholder": "Entrez votre code coupon ici",
+          "applyButton": "Appliquer"
         },
         "buttons": {
           "goToCourse": "Aller au cours",
@@ -330,7 +401,8 @@
               "placeholder": "exemple@email.com"
             },
             "2": {
-              "label": "Date de livraison"
+              "label": "Date de livraison",
+              "placeholder": "gg.aa.yyyy"
             },
             "3": {
               "label": "Votre message (Optionnel)",
@@ -340,6 +412,62 @@
           "recipientEmailRequired": "Entrez l'email du destinataire",
           "proceedButton": "Passer au paiement"
         }
+      },
+      "video": {
+        "loading": "Vidéo en cours de chargement...",
+        "thumbnailAlt": "Vignette vidéo",
+        "madeBy": "Préparé par {{instructor}}",
+        "tabs": {
+          "notes": "Notes de Cours",
+          "noNotes": "Il n'y a pas de notes pour cette vidéo.",
+          "resources": "Ressources {{length}}",
+          "download": "Télécharger",
+          "noResources": "Il n'y a pas de ressources pour cette section.",
+          "codeExample": "Exemples de Code ({{length}})",
+          "noCodeExamples": "Il n'y a pas d'exemples de code pour cette vidéo.",
+          "codeCopied": "Code copié dans le presse-papiers !",
+          "copy": "Copier",
+          "copied": "Copié",
+          "sources": "Ressources ({{length}})",
+          "status": "Statut du Cours",
+          "courseSettings": "Paramètres du Cours",
+          "courseStatus": {
+            "status": "Progression du Cours",
+            "percentage": "{{percentage}}% Complété"
+          },
+          "videoStatus": {
+            "status": "Progression Vidéo",
+            "percentage": "{{percentage}}% regardé",
+            "completed": "Complété",
+            "complate": "Non complété"
+          }
+        },
+        "quiz": {
+          "title": "Quiz du Cours",
+          "score": "Votre Score : {{score}}%",
+          "notCompleted": "Complétez le cours",
+          "notStarted": "Vous n'avez pas encore commencé",
+          "success": "Réussi",
+          "failed": "Échoué",
+          "button": "Complétez le Cours",
+          "start": "Démarrer le Quiz",
+          "retake": "Reprendre le Quiz",
+          "completed": "Quiz Complété"
+        },
+        "info": {
+          "title": "Conseils",
+          "list": {
+            "1": "Vous pouvez apprendre à votre rythme en ajustant la vitesse de la vidéo",
+            "2": "Examinez les notes de cours et les exemples de code",
+            "3": "Vous devez obtenir au moins 70% pour réussir le quiz"
+          }
+        },
+        "toast": {
+          "needLogin": "Vous devez vous connecter pour accéder à ce cours...",
+          "notEnrolled": "Vous n'êtes pas inscrit à ce cours, vous êtes redirigé vers la page de paiement...",
+          "notFound": "Vidéo non trouvée, redirection vers la première vidéo...",
+          "notAccess": "Vous n'avez pas accès à cette vidéo, redirection vers une vidéo accessible..."
+        }
       }
     },
     "support": {
@@ -347,6 +475,11 @@
       "description": "Parcourez la documentation et les guides",
       "search_placeholder": "Tapez le sujet...",
       "article": "article",
+      "sss": {
+        "title": "Questions Fréquentes",
+        "description": "Réponses rapides aux questions les plus courantes sur les cours, paiements et certificats.",
+        "view_button": "Voir les questions"
+      },
       "blogs": {
         "title": "Blogs",
         "description": "Contactez notre équipe de support",
@@ -402,7 +535,255 @@
         "liveSupport": "Support Live",
         "liveSupportDesc": "Réponse 24/7"
       },
-      "foundedQuestions": "{{count}} questions trouvées"
+      "foundedQuestions": "{{count}} questions trouvées",
+      "items": [
+        {
+          "id": 1,
+          "category": "beginner",
+          "question": "Comment puis-je m'inscrire sur la plateforme ?",
+          "answer": "Cliquez sur le bouton 'S'inscrire' sur la page d'accueil et créez un compte gratuit avec votre adresse e-mail, nom et mot de passe. Vous pouvez également vous inscrire rapidement avec votre compte Google, GitHub ou LinkedIn. Après l'inscription, vous devez cliquer sur le lien de vérification envoyé à votre adresse e-mail."
+        },
+        {
+          "id": 2,
+          "category": "beginner",
+          "question": "Comment commencer mon premier cours ?",
+          "answer": "Après vous être connecté à votre compte, sélectionnez un cours qui vous intéresse dans le menu 'Cours'. Sur la page de détail du cours, cliquez sur le bouton 'S'inscrire au cours' ou 'Commencer le cours'. L'accès aux cours gratuits est immédiat, tandis que pour les cours payants, vous devez compléter le processus de paiement."
+        },
+        {
+          "id": 3,
+          "category": "beginner",
+          "question": "J'utilise la plateforme pour la première fois, par où commencer ?",
+          "answer": "Nous recommandons le cours 'Bases de Python' pour les débutants. Si vous n'avez aucune expérience en programmation, vous pouvez commencer de zéro ; si vous êtes expérimenté, vous pouvez passer directement aux cours d'apprentissage automatique. Vous pouvez trouver le cours qui vous convient en passant le test de niveau sur votre page de profil."
+        },
+        {
+          "id": 4,
+          "category": "courses",
+          "question": "Pendant combien de temps puis-je accéder aux cours ?",
+          "answer": "Tous les cours que vous achetez sont accessibles à vie. Vous pouvez apprendre à votre rythme et regarder les leçons autant de fois que vous le souhaitez. Pour les modèles d'abonnement, vous avez accès à tous les cours tant que votre abonnement est actif."
+        },
+        {
+          "id": 5,
+          "category": "courses",
+          "question": "Puis-je regarder les vidéos hors ligne ?",
+          "answer": "Oui ! Via notre application mobile (iOS et Android), vous pouvez télécharger les vidéos sur votre appareil et les regarder sans connexion Internet. Cette fonctionnalité est disponible pour les abonnements Premium et Pro. Les vidéos téléchargées sont vérifiées via Internet tous les 30 jours."
+        },
+        {
+          "id": 6,
+          "category": "courses",
+          "question": "À quelle fréquence le contenu des cours est-il mis à jour ?",
+          "answer": "Nous mettons régulièrement à jour le contenu de nos cours. Les cours sont révisés selon les nouvelles technologies, les mises à jour des bibliothèques et les changements du secteur. Vous recevez une notification lorsqu'une mise à jour arrive et vous avez automatiquement accès au nouveau contenu."
+        },
+        {
+          "id": 7,
+          "category": "courses",
+          "question": "Comment ajuster la qualité de la vidéo ?",
+          "answer": "Vous pouvez sélectionner la qualité via le bouton des paramètres dans le coin inférieur droit du lecteur vidéo. Les options disponibles sont : Automatique, 360p, 480p, 720p et 1080p. Nous recommandons une qualité basse si vous utilisez des données mobiles, et une qualité haute si vous êtes sur WiFi."
+        },
+        {
+          "id": 8,
+          "category": "courses",
+          "question": "Y a-t-il une limite de temps pour terminer un cours ?",
+          "answer": "Non, il n'y a pas de limite de temps pour terminer les cours. Vous pouvez progresser à votre rythme et faire des pauses quand vous le souhaitez. Cependant, pour obtenir un certificat, vous devez terminer le cours et réussir tous les quiz."
+        },
+        {
+          "id": 9,
+          "category": "payment",
+          "question": "Quels modes de paiement sont acceptés ?",
+          "answer": "Vous pouvez payer par carte de crédit (Visa, Mastercard, American Express), carte bancaire, virement bancaire et portefeuilles numériques (PayPal, Stripe). Pour la Turquie, nous utilisons l'infrastructure İyzico et PayTR. Des options de paiement échelonné sont également disponibles."
+        },
+        {
+          "id": 10,
+          "category": "payment",
+          "question": "Comment puis-je modifier mon plan d'abonnement ?",
+          "answer": "Allez à la section 'Mes abonnements' sur votre page de profil et cliquez sur le bouton 'Modifier le plan'. La mise à niveau prend effet immédiatement et la différence de prix est facturée. La rétrogradation prend effet à la fin de la période d'abonnement actuelle."
+        },
+        {
+          "id": 11,
+          "category": "payment",
+          "question": "Comment créer une demande de remboursement ?",
+          "answer": "Vous pouvez obtenir un remboursement complet dans les 14 jours si vous n'avez pas terminé plus de 20% du cours. Allez à la section 'Factures & Paiements' > 'Demande de remboursement' sur votre page de profil. Le remboursement sera crédité sur votre compte dans les 5 à 10 jours ouvrables."
+        },
+        {
+          "id": 12,
+          "category": "payment",
+          "question": "Puis-je obtenir une facture ?",
+          "answer": "Oui, une facture est créée automatiquement après chaque paiement. Vous pouvez consulter toutes vos factures et les télécharger en PDF à partir de la section 'Factures & Paiements' de votre page de profil. Pour les factures d'entreprise, contactez notre équipe d'assistance."
+        },
+        {
+          "id": 13,
+          "category": "payment",
+          "question": "Y a-t-il une réduction pour les étudiants ?",
+          "answer": "Oui ! Vous pouvez bénéficier d'une réduction de 20% sur les tarifs des étudiants avec une carte d'étudiant valide ou un certificat d'étudiant. Contactez notre équipe d'assistance et envoyez votre document. Après vérification, la réduction sera appliquée à votre compte."
+        },
+        {
+          "id": 14,
+          "category": "payment",
+          "question": "Comment utiliser un code coupon ?",
+          "answer": "Entrez votre code dans le champ 'Code coupon' sur la page de paiement et cliquez sur le bouton 'Appliquer'. La réduction est automatiquement déduite du prix. Un seul code coupon peut être utilisé par commande."
+        },
+        {
+          "id": 15,
+          "category": "account",
+          "question": "J'ai oublié mon mot de passe, comment le réinitialiser ?",
+          "answer": "Cliquez sur le lien 'Mot de passe oublié' sur la page de connexion et entrez votre adresse e-mail. Un lien de réinitialisation du mot de passe vous sera envoyé. Le lien est valide pendant 1 heure. Si vous ne recevez pas l'e-mail, vérifiez votre dossier spam."
+        },
+        {
+          "id": 16,
+          "category": "account",
+          "question": "Puis-je changer mon adresse e-mail ?",
+          "answer": "Oui. Allez à la section 'Paramètres du compte' > 'Modifier l'e-mail' sur votre page de profil. Entrez votre nouvelle adresse e-mail et confirmez votre mot de passe actuel. Un lien de vérification sera envoyé à la nouvelle adresse, et après confirmation, le changement sera finalisé."
+        },
+        {
+          "id": 17,
+          "category": "account",
+          "question": "Comment supprimer mon compte ?",
+          "answer": "Allez à la section 'Paramètres du compte' > 'Supprimer le compte' sur votre page de profil. Confirmez votre mot de passe et indiquez la raison de la suppression. La suppression du compte est irréversible et toutes vos données seront supprimées de manière permanente. Si vous vous reconnectez dans les 30 jours, votre compte peut être récupéré."
+        },
+        {
+          "id": 18,
+          "category": "account",
+          "question": "Comment activer l'authentification à deux facteurs ?",
+          "answer": "Allez à la section 'Sécurité' > 'Authentification à deux facteurs' sur votre page de profil. Scannez le code QR avec Google Authenticator ou une application similaire. Entrez le code à 6 chiffres généré pour l'activer. Après cela, un code sera requis à chaque connexion."
+        },
+        {
+          "id": 19,
+          "category": "certificates",
+          "question": "Comment obtenir un certificat ?",
+          "answer": "Votre certificat est créé automatiquement lorsque vous avez regardé toutes les vidéos du cours, complété tous les quiz avec succès et obtenu au moins 70 à l'examen final. Vous pouvez le télécharger au format PDF à partir de la section 'Mes certificats' sur votre page de profil."
+        },
+        {
+          "id": 20,
+          "category": "certificates",
+          "question": "Les certificats sont-ils valides ?",
+          "answer": "Oui, nos certificats sont reconnus par Mesut Özdağ Academy et vous pouvez les ajouter à votre profil LinkedIn. Chaque certificat contient un code de vérification unique. Les employeurs peuvent vérifier ce code sur notre site Web."
+        },
+        {
+          "id": 21,
+          "category": "certificates",
+          "question": "Comment ajouter le certificat à LinkedIn ?",
+          "answer": "Allez à la section 'Licences et certificats' de votre profil LinkedIn. Cliquez sur le bouton 'Ajouter'. Entrez le nom du certificat, l'organisation émettrice (Mesut Özdağ Academy) et le code de vérification. Vous pouvez également télécharger le PDF du certificat."
+        },
+        {
+          "id": 22,
+          "category": "technical",
+          "question": "La vidéo ne joue pas, que dois-je faire ?",
+          "answer": "Vérifiez votre connexion Internet. Mettez à jour votre navigateur ou essayez un navigateur différent (Chrome, Firefox recommandés). Si vous utilisez un bloqueur de publicités, désactivez-le. Si le problème persiste, utilisez le formulaire 'Signaler une erreur'."
+        },
+        {
+          "id": 23,
+          "category": "technical",
+          "question": "Avez-vous une application mobile ?",
+          "answer": "Oui ! Vous pouvez télécharger l'application 'Mesut Özdağ Academy' depuis l'App Store pour iOS et le Google Play Store pour Android. L'application mobile offre le téléchargement de vidéos hors ligne, les notifications push et un accès plus rapide."
+        },
+        {
+          "id": 24,
+          "category": "technical",
+          "question": "Quels navigateurs sont pris en charge ?",
+          "answer": "Les navigateurs Chrome (v90+), Firefox (v88+), Safari (v14+) et Edge (v90+) sont entièrement pris en charge. Pour la meilleure expérience, gardez votre navigateur à jour. Internet Explorer n'est pas pris en charge."
+        },
+        {
+          "id": 25,
+          "category": "technical",
+          "question": "Quelles langues la plateforme supporte-t-elle ?",
+          "answer": "Actuellement, l'interface de la plateforme est disponible en turc et en anglais. Le contenu des cours est en turc. Certains cours ont des sous-titres en anglais. Vous pouvez changer la langue à partir de vos paramètres de profil."
+        }
+      ]
+    },
+    "verifyCertificate": {
+      "printTitle": "Certificat",
+      "hero": {
+        "title": "Système de Vérification de Certificat",
+        "description": "Vérifiez l'authenticité de votre certificat. Rapide et sécurisé."
+      },
+      "search": {
+        "label": "ID du Certificat",
+        "placeholder": "Ex : MO-A1B2C3D4",
+        "button": "Vérifier",
+        "helper": "Saisissez l'ID du certificat complet et sans erreur (ex : MO-A1B2C3D4)."
+      },
+      "loading": "Recherche du certificat...",
+      "found": {
+        "title": "Certificat Valide",
+        "description": "Ce certificat est enregistré dans notre système et est valide. Vous pouvez consulter les détails ci-dessous.",
+        "badge": "Vérifié",
+        "cardSubtitle": "Détails du Document Officiel",
+        "qrDownloadTitle": "Télécharger QR",
+        "printTitle": "Imprimer",
+        "success": "Succès",
+        "completionCertificate": "Certificat d'Achèvement"
+      },
+      "fields": {
+        "studentName": "Nom de l'Étudiant",
+        "completionDate": "Date d'Achèvement",
+        "certificateId": "ID du Certificat",
+        "issueDate": "Date d'Émission",
+        "courseName": "Nom du Cours",
+        "grade": "Note/Score",
+        "certificateNumber": "Numéro d'Identification du Certificat"
+      },
+      "grades": {
+        "completed": "Terminé"
+      },
+      "qr": {
+        "title": "Code QR",
+        "description": "Scannez avec votre appareil mobile pour vérifier",
+        "download": "Télécharger le Code QR (SVG)"
+      },
+      "security": {
+        "title": "Fonctionnalités de Sécurité",
+        "features": [
+          "Signature numérique vérifiée",
+          "Enregistré sur la blockchain",
+          "Vérification par code QR",
+          "Horodatage"
+        ]
+      },
+      "notFound": {
+        "title": "Certificat Introuvable",
+        "description": "L'ID de certificat que vous avez saisi n'est pas enregistré dans notre système. Veuillez vérifier et réessayer.",
+        "badge": "Invalide",
+        "attention": "Attention",
+        "checklist": {
+          "title": "Certificat introuvable. Liste de vérification :",
+          "items": [
+            "Assurez-vous d'avoir saisi correctement l'ID du certificat",
+            "Vérifiez la casse (majuscules/minuscules)",
+            "Vérifiez la position des tirets (-)",
+            "Assurez-vous que le certificat provient de notre plateforme officielle"
+          ]
+        },
+        "fakeWarning": {
+          "title": "Alerte Certificat Falsifié",
+          "description": "Si vous possédez un certificat physique ou numérique mais qu'il est introuvable dans notre système, il peut être falsifié. Veuillez nous contacter."
+        }
+      },
+      "error": {
+        "title": "Erreur de Connexion",
+        "description": "Une erreur s'est produite pendant la vérification du certificat. Vérifiez votre connexion Internet et réessayez."
+      },
+      "benefits": {
+        "cards": [
+          {
+            "title": "Vérification Sécurisée",
+            "text": "Tous nos certificats sont protégés par la technologie blockchain. Chaque certificat possède un identifiant unique."
+          },
+          {
+            "title": "Résultat Instantané",
+            "text": "La vérification du certificat se termine en quelques secondes. Notre système est disponible 24/7."
+          },
+          {
+            "title": "Validité Internationale",
+            "text": "Nos certificats sont délivrés selon des standards internationaux et reconnus globalement."
+          }
+        ]
+      },
+      "help": {
+        "title": "Besoin d'aide ?",
+        "description": "Si vous rencontrez un problème lors de la vérification du certificat, notre équipe de support est là pour vous aider.",
+        "supportCenter": "Centre de Support",
+        "faq": "FAQ",
+        "contact": "Contact"
+      }
     },
     "updates": {
       "title": "Actualités et Mises à jour",
@@ -452,6 +833,17 @@
         "cancel": "Annuler",
         "submit": "Envoyer",
         "submitting": "Envoi..."
+      },
+      "blogComments": {
+        "emptyTitle": "Pas encore de commentaires",
+        "emptyDescription": "Soyez la première personne à commenter cet article !",
+        "firstComment": "Écrire le premier commentaire",
+        "user": "Utilisateur",
+        "unknownUser": "Utilisateur inconnu",
+        "title": "Commentaires ({{count}})",
+        "repliesToggle": "{{count}} réponses {{action}}",
+        "show": "afficher",
+        "hide": "masquer"
       }
     },
     "reportBug": {
@@ -462,18 +854,33 @@
         "title": "Rapport de Bug",
         "description": "Expliquez le problème en détail",
         "type": "Type de Bug",
+        "typeSelect": "Veuillez sélectionner un type de bug",
+        "typeRequired": "Le type de bug est obligatoire",
+        "pageRequired": "Les informations sur la page/cours où le problème s'est produit sont obligatoires",
         "labels": {
           "option1": "Faille Système",
           "option2": "Erreur de Contenu"
         },
+        "email": "e-Posta",
+        "emailOptional": "(Optionnel)",
+        "emailPlaceholder": "Entrez votre adresse e-mail pour que nous puissions vous informer du résultat",
+        "emailInvalid": "Veuillez entrer une adresse e-mail valide",
         "page": "Page/Cours",
         "pagePlaceholder": "Ex : Python Bases - Leçon 5",
         "descriptionLabel": "Description",
-        "descriptionPlaceholder": "Détaillez comment le problème est survenu...",
+        "descriptionRequired": "La description du problème est obligatoire",
+        "descriptionMin": "La description doit contenir au moins 20 caractères",
+        "descriptionMax": "La description peut contenir au maximum 1000 caractères",
+        "descriptionPlaceholder": "Décrivez comment le problème est survenu...",
         "screenshot": "Capture d'écran (Optionnel)",
+        "selectFile": "Choisir un fichier",
         "warning": "Notre équipe technique examinera cela sous 24h.",
         "submit": "Envoyer le Rapport",
-        "submitting": "Envoi..."
+        "submitting": "Envoi...",
+        "toast": {
+          "success": "Votre rapport de bug a été envoyé avec succès !",
+          "failed": "Impossible d'envoyer le rapport de bug, veuillez réessayer."
+        }
       }
     },
     "contact": {
@@ -541,6 +948,20 @@
         "messagePlaceholder": "Écrivez ici...",
         "submit": "Envoyer Message",
         "submitting": "Envoi...",
+        "validation": {
+          "nameRequired": "Le nom complet est obligatoire",
+          "nameMin": "Le nom doit contenir au moins 3 caractères",
+          "nameMax": "Le nom peut contenir au maximum 100 caractères",
+          "nameOnlyLetters": "Le nom ne doit contenir que des lettres",
+          "emailRequired": "L'adresse e-mail est obligatoire",
+          "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+          "subjectRequired": "Le sujet est obligatoire",
+          "subjectMin": "Le sujet doit contenir au moins 5 caractères",
+          "subjectMax": "Le sujet peut contenir au maximum 200 caractères",
+          "messageRequired": "Le message est obligatoire",
+          "messageMin": "Le message doit contenir au moins 20 caractères",
+          "messageMax": "Le message peut contenir au maximum 1000 caractères"
+        },
         "consent": "En envoyant, vous acceptez notre",
         "privacyPolicy": "Politique de Confidentialité",
         "and": "et",
@@ -586,12 +1007,6 @@
         "unknownCourse": "Cours Inconnu",
         "unknown": "Inconnu"
       },
-      "subscription": {
-        "title": "Info Abonnement",
-        "plan": "Plan Annuel Premium",
-        "renewalDate": "Renouvellement : 15 Janvier 2025",
-        "active": "Actif"
-      },
       "courses": {
         "lessonsCompleted": "{{completed}}/{{total}} leçons terminées",
         "completed": "Terminé",
@@ -629,7 +1044,8 @@
         "failed": "Échoué",
         "passedNoVideos": "Quiz réussi ! Terminez toutes les vidéos du cours pour obtenir votre certificat.",
         "failedQuiz": "Malheureusement, vous avez échoué au quiz. Score minimum : 70%. Vous pouvez réessayer.",
-        "noCertificates": "Pas encore de certificats."
+        "noCertificates": "Pas encore de certificats.",
+        "previewAlt": "Aperçu du certificat"
       },
       "payment": {
         "loading": "Chargement détails paiement..."
@@ -686,6 +1102,7 @@
       "logout": {
         "title": "Déconnexion",
         "message": "Êtes-vous sûr de vouloir vous déconnecter ?",
+        "success": "Déconnexion réussie.",
         "cancel": "Annuler",
         "confirm": "Confirmer"
       },
@@ -831,6 +1248,91 @@
             "deleteFailed": "Suppression impossible."
           }
         },
+        "blogs": {
+          "button": "Articles de Blog",
+          "header": "Articles de Blog",
+          "headerDesc": "Gérer le contenu du blog",
+          "newButton": "Nouvel Article",
+          "filterAll": "Tous",
+          "emptyState": "Aucun article de blog pour le moment",
+          "table": {
+            "title": "Titre",
+            "type": "Type",
+            "stats": "Statistiques",
+            "date": "Date",
+            "actions": "Actions"
+          },
+          "modal": {
+            "createTitle": "Nouvel article de blog",
+            "editTitle": "Modifier l'article de blog",
+            "deleteTitle": "Supprimer l'article de blog",
+            "deleteConfirm": "Voulez-vous vraiment supprimer cet article ?",
+            "typeLabel": "Type *",
+            "teacherLabel": "Formateur *",
+            "titleLabel": "Titre *",
+            "descLabel": "Description *",
+            "imageLabel": "URL de l'image *",
+            "readTimeLabel": "Temps de lecture",
+            "tagsLabel": "Tags",
+            "tagsHint": "(séparez avec des virgules)",
+            "contentLabel": "Contenu *"
+          },
+          "toast": {
+            "loadError": "Impossible de charger les articles de blog.",
+            "fillRequired": "Veuillez remplir les champs obligatoires.",
+            "created": "Article créé.",
+            "updated": "Article mis à jour.",
+            "actionFailed": "Opération échouée.",
+            "deleted": "Article supprimé.",
+            "deleteFailed": "Suppression impossible."
+          }
+        },
+        "support": {
+          "button": "Centre d'Aide",
+          "header": "Centre d'Aide",
+          "headerDesc": "Gérer les catégories et articles",
+          "newCategoryButton": "Nouvelle Catégorie",
+          "newArticleButton": "Nouvel Article",
+          "emptyCats": "Aucune catégorie pour le moment",
+          "emptyArticles": "Aucun article dans cette catégorie",
+          "articlesLabel": "Articles",
+          "articleCountSuffix": "articles",
+          "viewCount": "vues",
+          "modal": {
+            "createCatTitle": "Nouvelle catégorie",
+            "editCatTitle": "Modifier la catégorie",
+            "deleteCatTitle": "Supprimer la catégorie",
+            "deleteCatConfirm": "Supprimer la catégorie et tous ses articles ?",
+            "createArtTitle": "Nouvel article",
+            "editArtTitle": "Modifier l'article",
+            "deleteArtTitle": "Supprimer l'article",
+            "deleteArtConfirm": "Supprimer cet article ?",
+            "idLabel": "ID Catégorie *",
+            "idHint": "(non modifiable)",
+            "idPlaceholder": "ex: premiers-pas",
+            "iconLabel": "Nom de l'icône *",
+            "colorLabel": "Couleur *",
+            "titleLabel": "Titre *",
+            "descLabel": "Description *",
+            "orderLabel": "Ordre",
+            "excerptLabel": "Résumé *",
+            "readTimeLabel": "Temps de lecture",
+            "contentLabel": "Contenu *"
+          },
+          "toast": {
+            "loadError": "Impossible de charger les catégories.",
+            "fillRequired": "Veuillez remplir les champs obligatoires.",
+            "idRequired": "L'ID de catégorie est obligatoire.",
+            "catCreated": "Catégorie créée.",
+            "catUpdated": "Catégorie mise à jour.",
+            "catDeleted": "Catégorie supprimée.",
+            "artCreated": "Article créé.",
+            "artUpdated": "Article mis à jour.",
+            "artDeleted": "Article supprimé.",
+            "actionFailed": "Opération échouée.",
+            "deleteFailed": "Suppression impossible."
+          }
+        },
         "inbox": {
           "button": "Boîte de réception",
           "header": "Messages & Rapports",
@@ -934,7 +1436,8 @@
         "title": "Tableau de Bord Admin",
         "description": "Gestion plateforme",
         "crateCourse": "Nouveau Cours",
-        "reports": "Télécharger Rapport"
+        "reports": "Télécharger Rapport",
+        "newsletter": "Newsletter"
       },
       "report": {
         "title": "Télécharger Rapport",
@@ -963,6 +1466,7 @@
         },
         "pdf": {
           "report": "Rapport",
+          "academyName": "Mesut Ozdag Academy",
           "platformStats": "Stats Plateforme",
           "totalStudents": "Total Étudiants",
           "totalHours": "Total Heures",
@@ -1002,7 +1506,12 @@
               "placeholder": "Ex : Intro Python"
             },
             "category": {
-              "label": "Catégorie"
+              "label": "Catégorie",
+              "options": {
+                "python": "Python",
+                "mlai": "ML & IA",
+                "math": "Mathématiques"
+              }
             },
             "level": {
               "label": "Niveau"
@@ -1014,7 +1523,12 @@
               "label": "Statut"
             },
             "certificateTemplate": {
-              "label": "Type Certificat"
+              "label": "Type Certificat",
+              "options": {
+                "default": "Par défaut",
+                "dark": "Sombre",
+                "gold": "Or"
+              }
             },
             "teacher": {
               "label": "Instructeur"
@@ -1184,6 +1698,8 @@
         },
         "userDetail": {
           "title": "Détails Utilisateur",
+          "idLabel": "ID :",
+          "adminBadge": "Admin",
           "status": {
             "active": "Actif",
             "inactive": "Inactif"
@@ -1272,6 +1788,51 @@
             "inactive": "Activer"
           }
         }
+      },
+      "common": {
+        "cancel": "Annuler",
+        "save": "Enregistrer",
+        "saving": "Enregistrement...",
+        "delete": "Supprimer",
+        "deleting": "Suppression...",
+        "edit": "Éditer",
+        "view": "Voir",
+        "reply": "Répondre",
+        "fillRequired": "Veuillez remplir les champs obligatoires.",
+        "actionFailed": "Opération échouée.",
+        "deleteFailed": "Suppression impossible."
+      },
+      "newsletter": {
+        "dialogTitle": "Envoyer la Newsletter",
+        "targetLabel": "Public Cible",
+        "targetAll": "Tous les utilisateurs",
+        "targetStudents": "Étudiants uniquement (acheteurs)",
+        "targetFree": "Membres gratuits",
+        "subjectLabel": "Objet de l'Email",
+        "titleLabel": "Titre de l'Email",
+        "bodyLabel": "Contenu",
+        "ctaTextLabel": "Texte du Bouton",
+        "ctaUrlLabel": "URL du Bouton",
+        "optional": "(optionnel)",
+        "placeholders": {
+          "subject": "Ex : 🎓 Nouveau cours disponible !",
+          "title": "Titre de l'e-mail",
+          "body": "Écrivez ici le contenu de l'e-mail...",
+          "ctaText": "Ex : Voir les cours",
+          "ctaUrl": "https://..."
+        },
+        "cancel": "Annuler",
+        "send": "Envoyer",
+        "sending": "Envoi en cours...",
+        "toast": {
+          "validationError": "L'objet, le titre et le contenu sont obligatoires",
+          "started": "Envoi de la newsletter commencé",
+          "failed": "Échec de l'envoi de la newsletter"
+        }
+      },
+      "payment": {
+        "pay": "Cours {{detail}}",
+        "free": "Gratuit"
       }
     },
     "courseRating": {
@@ -1287,6 +1848,34 @@
       },
       "later": "Plus tard",
       "submit": "Envoyer"
+    },
+    "forgotPassword": {
+      "title": "Mot de Passe Oublié",
+      "desc": "Entrez votre adresse e-mail, nous vous enverrons un lien de réinitialisation de mot de passe.",
+      "submit": "Envoyer le Lien de Réinitialisation",
+      "sending": "Envoi en cours...",
+      "backToLogin": "Retour à la page de connexion",
+      "error": "Impossible d'envoyer l'e-mail, veuillez réessayer",
+      "sent": {
+        "title": "E-mail Envoyé !",
+        "desc": "Nous avons envoyé un lien de réinitialisation à :",
+        "note": "N'oubliez pas de vérifier le dossier Spam. Le lien est valide pendant 1 heure."
+      }
+    },
+    "resetPassword": {
+      "title": "Réinitialiser le Mot de Passe",
+      "desc": "Définissez votre nouveau mot de passe.",
+      "newPassword": "Nouveau Mot de Passe",
+      "confirmPassword": "Confirmer le Mot de Passe",
+      "noMatch": "Les mots de passe ne correspondent pas",
+      "submit": "Réinitialiser le Mot de Passe",
+      "resetting": "Réinitialisation en cours...",
+      "invalidToken": "Lien invalide ou expiré",
+      "error": "Impossible de réinitialiser le mot de passe",
+      "done": {
+        "title": "Mot de Passe Réinitialisé !",
+        "desc": "Votre mot de passe a été mis à jour avec succès. Redirection vers la page de connexion..."
+      }
     },
     "login": {
       "alreadyLogged": "Vous êtes déjà connecté(e), redirection vers votre page de profil.",
@@ -1336,6 +1925,35 @@
           "signIn": "Se connecter",
           "signUp": "S'inscrire"
         }
+      }
+    },
+    "cart": {
+      "title": {
+        "title": "Mon Panier",
+        "desc": {
+          "1": "{{cartCount}} cours dans votre panier",
+          "2": "Votre panier est vide"
+        }
+      },
+      "empty": {
+        "title": "Votre Panier est Vide",
+        "desc": "Vous n'avez pas encore ajouté de cours à votre panier. Vous pouvez commencer par explorer les cours."
+      },
+      "buttons": {
+        "course": "Explorer les Cours",
+        "remove": "Supprimer",
+        "checkout": "Acheter",
+        "clean": "Vider le Panier",
+        "shopping": "Continuer vos Achats",
+        "firstCourse": "Acheter le Premier Cours {{count}}",
+        "goToPayment": "Aller au Paiement"
+      },
+      "summary": {
+        "title": "Résumé de la Commande",
+        "course": "{{count}} cours",
+        "kdv": "TVA {{kdv}}%",
+        "total": "Total",
+        "warning": " Les cours sont payés séquentiellement. Commencez par le premier cours."
       }
     },
     "time": {
@@ -1687,7 +2305,8 @@
           "label": "Numéro de carte",
           "placeholder": "1234 5678 9012 3456",
           "null": "Numéro de carte requis",
-          "invalid": "Numéro de carte invalide"
+          "invalid": "Numéro de carte invalide",
+          "max": "Le numéro de carte peut contenir au maximum 16 chiffres"
         },
         "lastDate": {
           "label": "Date d'expiration",
